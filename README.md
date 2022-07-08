@@ -38,6 +38,5 @@ bash _updatePublisher.sh // Mise à jour du publisher java
 bash _genonce.sh // Génère l'IG
 ```
 
-
 ## Acronymes
 FIG : FHIR Implementation Guide
