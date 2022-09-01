@@ -3,18 +3,17 @@
 Il s'agit d'un exemple d'Implementation Guide de l'ANS, à prendre comme base pour créer de nouveaux IGs. 
 
 Selon la documentation officielle, cette page d'accueil de l'IG doit contenir :
-* What is this IG about (in patient/non-expert friendly terms).
-* Additional detail/context setting for those who have significant background in the domain.  (Try to make as understandable as you can, but set important context).
+* De quoi parle l'IG (En termes non expert, compréhensible par un patient)
+* Des détails techniques sur le contexte et le besoin
 
-The main sections of this IG are:
-* provides business context for the implementation guide and information that implementers should be familiar with before reading the remainder of the IG.  There could be multiple pages for this.
-* The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
-* Allows downloading a copy of this implementation guide and other useful information
+
+Les principales sections de l'IG  sont :
+* Le contexte de l'IG et les points dont les implémenteurs doivent être familier avant dans s'avoir plus sur l'IG
+* Ce que les Implémenteurs doivent mettre en place
+* Un onglet "télécharger"
 
 
 ### Auteurs et contributeurs
-
-
 
 | Role  | Nom | Organisation | Contact |
 | --- | --- | --- | --- |
