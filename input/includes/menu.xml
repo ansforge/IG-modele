@@ -1,31 +1,59 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">IG Home</a></li>
-  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="index.html">Accueil</a></li>
+  
+  <li>
+    <a href="artifacts.html">Ressources</a>
+  </li>
+
+
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Specification
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Spécifications techniques
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="construction_des_flux.html">Construction des flux</a></li>
+      <li><a href="st_flux1.html">Flux 01</a></li>
+      <li><a href="st_flux2.html">...</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-Spécifications">Spécifications fonctionnelles
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="sf_general.html">Spécifications fonctionnelles</a></li>
+      <li><a href="sf_ajout.html">Fonctionnalité 1</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Autres ressources
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="downloads.html">Specs</a>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
       </li>
     </ul>
   </li>
-  <li><a href="artifacts.html">Artifact Index</a></li>
+
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Autres ressources
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources externes
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-      <li>
-        <a href="downloads.html">Téléchargements et usages </a>
-      </li>
+
       <li>
         <a target="_blank" href="{{site.data.fhir.path}}index.html">FHIR Spec </a>
       </li>
       <li>
-        <a target="_blank" href="https://esante.gouv.fr/">Site web de l'ANS </a>
+        <a target="_blank" href="https://esante.gouv.fr/">ANS website </a>
       </li>
     </ul>
   </li>
+
 </ul>      
