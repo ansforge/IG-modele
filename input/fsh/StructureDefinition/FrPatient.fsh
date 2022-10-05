@@ -32,17 +32,3 @@ Description: "Eye color extension"
 * value[x] only CodeableConcept
 * valueCodeableConcept from EyeColorVS (required)
 
- 
-ValueSet: EyeColorVS
-Title: "EyeColor Value Set"
-Description:  "Different eye colors."
-* $SCT#405738005 "Blue color"
-* $SCT#371254008 "Brown color"
-* $SCT#54662009 "Green color"
-
-
-ValueSet: ModifiedAdministrativeGender
-Title: "ModifiedAdministrativeGender"
-Description:  "AdministrativeGender without unknown code"
-* include codes from system http://hl7.org/fhir/administrative-gender
-* exclude http://hl7.org/fhir/administrative-gender#unknown
