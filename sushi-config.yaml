@@ -36,6 +36,9 @@ pages:
             title: Sécurité
         downloads.md:
             title: Téléchargements et usages
+
+    tests.md:
+        title: Tests      
     about.md:
         title: A propos de ce guide
 
@@ -49,7 +52,9 @@ menu:
     #     Spécifications fonctionnelles: specifications_fonctionnelles.html
     #     Fonctionnalité 1: sf_ajout.html
     Ressources de conformance: artifacts.html
+    Tests:   tests.html
     Autres ressources:
+        Sécurité: securite.html
         Téléchargements et usage: downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
