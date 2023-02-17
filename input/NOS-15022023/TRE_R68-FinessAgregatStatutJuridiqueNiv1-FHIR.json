@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R68-FinessAgregatStatutJuridiqueNiv1",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "1979-01-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.63"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R68-FinessAgregatStatutJuridiqueNiv1",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Agrégats de statuts juridiques FINESS niveau 1",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1000",
+      "display": "Organismes et Etablissements Publics",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orga Etab. Publics"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organismes et Etablissements publics"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1994-10-18T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2000",
+      "display": "Organismes Privés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Organismes Privés"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organismes privés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1994-10-18T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3000",
+      "display": "Personne Morale de Droit Etranger",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pers.Moral.Etranger"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne morale de droit étranger"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1994-10-18T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

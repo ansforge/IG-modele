@@ -1,0 +1,128 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R326-SituationSansEmploi",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R326-SituationSansEmploi/FHIR/TRE-R326-SituationSansEmploi",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.81"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R326-SituationSansEmploi",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise la situation de la personne lorsqu'elle est sans emploi",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "A Pôle Emploi",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A Pôle Emploi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "A Pôle Emploi"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est inscrite à Pôle Emploi"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "En formation continue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "En formation continue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "En formation continue"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est en formation continue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Etudiant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etudiant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etudiant"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est étudiant(e)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

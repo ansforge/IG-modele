@@ -1,0 +1,5947 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R35-TypeVoie",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-12-30T00:00:00+01:00",
+        "end": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.44"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "TRE_R35-TypeVoie",
+  "status": "retired",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "Type de voie",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ABE",
+      "display": "Abbaye",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ABE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Abbaye"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ACH",
+      "display": "Ancien chemin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ACH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ancien chemin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AERD",
+      "display": "Aérodrome",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AERD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aérodrome"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AERG",
+      "display": "Aérogare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AERG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aérogare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AERP",
+      "display": "Aéroport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AERP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aéroport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AGL",
+      "display": "Agglomération",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AGL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agglomération"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AIRE",
+      "display": "Aire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AIRE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ALL",
+      "display": "Allée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ALL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Allée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ANGL",
+      "display": "Angle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ANGL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Angle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ANSE",
+      "display": "Anse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ANSE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Anse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARC",
+      "display": "Arcade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arcade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ART",
+      "display": "Ancienne route",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ART"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ancienne route"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUT",
+      "display": "Autoroute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AUT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autoroute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AV",
+      "display": "Avenue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Avenue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BAST",
+      "display": "Bastion",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BAST"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bastion"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BCH",
+      "display": "Bas chemin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BCH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bas chemin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BCLE",
+      "display": "Boucle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BCLE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Boucle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BD",
+      "display": "Boulevard",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Boulevard"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BEGI",
+      "display": "Béguinage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BEGI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Béguinage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BER",
+      "display": "Berge",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BER"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Berge"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BOIS",
+      "display": "Bois",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BOIS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bois"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BRE",
+      "display": "Barrière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BRE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Barrière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BRG",
+      "display": "Bourg",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BRG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bourg"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BSTD",
+      "display": "Bastide",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BSTD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bastide"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BUT",
+      "display": "Butte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "BUT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Butte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CALE",
+      "display": "Cale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CALE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAMP",
+      "display": "Camp",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CAMP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Camp"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAR",
+      "display": "Carrefour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CAR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carrefour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CARE",
+      "display": "Carrière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CARE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carrière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CARR",
+      "display": "Carré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CARR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAU",
+      "display": "Carreau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CAU"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carreau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAV",
+      "display": "Cavée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CAV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cavée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CCAL",
+      "display": "Centre commercial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CCAL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre commercial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CGNE",
+      "display": "Campagne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CGNE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Campagne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHE",
+      "display": "Chemin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chemin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "display": "Chemin, cheminement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHEM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chemin, cheminement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHEZ",
+      "display": "Chez",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHEZ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chez"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHI",
+      "display": "Charmille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Charmille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHL",
+      "display": "Chalet",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chalet"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHP",
+      "display": "Chapelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chapelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHS",
+      "display": "Chaussée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chaussée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHT",
+      "display": "Château",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Château"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHV",
+      "display": "Chemin vicinal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CHV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chemin vicinal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CITE",
+      "display": "Cité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CITE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CLOI",
+      "display": "Cloître",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CLOI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cloître"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CLOS",
+      "display": "Clos",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CLOS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Clos"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COL",
+      "display": "Col",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Col"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COLI",
+      "display": "Colline",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COLI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Colline"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COR",
+      "display": "Corniche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Corniche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COTE",
+      "display": "Cote",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cote"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COTT",
+      "display": "Cottage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COTT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cottage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COUR",
+      "display": "Cour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COUR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CPG",
+      "display": "Camping",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Camping"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CRS",
+      "display": "Cours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CRS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CST",
+      "display": "Castel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CST"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Castel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CTR",
+      "display": "Contour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CTR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Contour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CTRE",
+      "display": "Centre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CTRE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DARS",
+      "display": "Darse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DARS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Darse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEG",
+      "display": "Degré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DEG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Degré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIG",
+      "display": "Digue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Digue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOM",
+      "display": "Domaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DOM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Domaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSC",
+      "display": "Descente",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DSC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Descente"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ECL",
+      "display": "Ecluse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ECL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ecluse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EGL",
+      "display": "Eglise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "EGL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Eglise"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EN",
+      "display": "Enceinte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "EN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enceinte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ENC",
+      "display": "Enclos",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ENC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enclos"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ENV",
+      "display": "Enclave",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ENV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enclave"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ESC",
+      "display": "Escalier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ESC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Escalier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ESP",
+      "display": "Esplanade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ESP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Esplanade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ESPA",
+      "display": "Espace",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ESPA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Espace"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ETNG",
+      "display": "Etang",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ETNG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etang"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FG",
+      "display": "Faubourg",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Faubourg"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FON",
+      "display": "Fontaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FON"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fontaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FORM",
+      "display": "Forum",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FORM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Forum"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FORT",
+      "display": "Fort",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FORT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fort"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FOS",
+      "display": "Fosse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FOS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fosse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FOYR",
+      "display": "Foyer",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FOYR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Foyer"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FRM",
+      "display": "Ferme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FRM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ferme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GAL",
+      "display": "Galerie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GAL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Galerie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GARE",
+      "display": "Gare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GARE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GARN",
+      "display": "Garenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GARN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Garenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GBD",
+      "display": "Grand boulevard",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GBD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grand boulevard"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GDEN",
+      "display": "Grand ensemble",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GDEN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grand ensemble"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GPE",
+      "display": "Groupe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GPE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Groupe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GPT",
+      "display": "Groupement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GPT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Groupement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "display": "Grand rue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grand rue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRI",
+      "display": "Grille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GRI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRIM",
+      "display": "Grimpette",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GRIM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grimpette"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HAM",
+      "display": "Hameau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HAM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hameau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HCH",
+      "display": "Haut chemin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HCH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haut chemin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HIP",
+      "display": "Hippodrome",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HIP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hippodrome"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HLE",
+      "display": "Halle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HLE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Halle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HLM",
+      "display": "HLM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HLM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "HLM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ILE",
+      "display": "Ile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ILE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "IMM",
+      "display": "Immeuble",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IMM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Immeuble"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "IMP",
+      "display": "Impasse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IMP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Impasse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "JARD",
+      "display": "Jardin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "JARD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jardin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "JTE",
+      "display": "Jetée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "JTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jetée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LD",
+      "display": "Lieu dit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lieu dit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LEVE",
+      "display": "Levée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LEVE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Levée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LOT",
+      "display": "Lotissement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LOT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lotissement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MAIL",
+      "display": "Mail",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MAIL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mail"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MAN",
+      "display": "Manoir",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MAN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Manoir"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MAR",
+      "display": "Marche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MAR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Marche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MAS",
+      "display": "Mas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MET",
+      "display": "Métro",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MET"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Métro"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MF",
+      "display": "Maison forestière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maison forestière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MLN",
+      "display": "Moulin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MLN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Moulin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MTE",
+      "display": "Montée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Montée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MUS",
+      "display": "Musée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MUS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Musée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NTE",
+      "display": "Nouvelle route",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "NTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nouvelle route"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAE",
+      "display": "Petite avenue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PAE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petite avenue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAL",
+      "display": "Palais",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PAL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palais"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PARC",
+      "display": "Parc",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PARC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parc"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAS",
+      "display": "Passage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Passage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PASS",
+      "display": "Passe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PASS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Passe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAT",
+      "display": "Patio",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PAT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Patio"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAV",
+      "display": "Pavillon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PAV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pavillon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PCH",
+      "display": "Petit chemin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PCH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petit chemin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PCHE",
+      "display": "Porche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PCHE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Porche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PERI",
+      "display": "Périphérique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PERI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Périphérique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PIM",
+      "display": "Petite impasse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PIM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petite impasse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PKG",
+      "display": "Parking",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PKG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parking"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "display": "Place",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Place"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PLAG",
+      "display": "Plage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PLAG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PLAN",
+      "display": "Plan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PLAN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PLCI",
+      "display": "Placis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PLCI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Placis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PLE",
+      "display": "Passerelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PLE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Passerelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PLN",
+      "display": "Plaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PLN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PLT",
+      "display": "Plateau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PLT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PN",
+      "display": "Passage à niveau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Passage à niveau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PNT",
+      "display": "Pointe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PNT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pointe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PONT",
+      "display": "Pont",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PONT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pont"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PORQ",
+      "display": "Portique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PORQ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Portique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PORT",
+      "display": "Port",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PORT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Port"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "POT",
+      "display": "Poterne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "POT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Poterne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "POUR",
+      "display": "Pourtour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "POUR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pourtour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRE",
+      "display": "Pré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PRE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PROM",
+      "display": "Promenade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PROM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Promenade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRQ",
+      "display": "Presqu'ile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PRQ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Presqu'ile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRT",
+      "display": "Petite route",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PRT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petite route"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRV",
+      "display": "Parvis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PRV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parvis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PSTY",
+      "display": "Péristyle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PSTY"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Péristyle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PTA",
+      "display": "Petite allée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PTA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petite allée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PTE",
+      "display": "Porte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Porte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "QU",
+      "display": "Quai",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "QU"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Quai"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "QUA",
+      "display": "Quartier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "QUA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Quartier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Rue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RAC",
+      "display": "Raccourci",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Raccourci"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RAID",
+      "display": "Raidillon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RAID"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Raidillon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REM",
+      "display": "Rempart",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "REM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rempart"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RES",
+      "display": "Résidence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RES"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Résidence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RLE",
+      "display": "Ruelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RLE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ruelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ROC",
+      "display": "Rocade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ROC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rocade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ROQT",
+      "display": "Roquet",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ROQT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Roquet"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RPE",
+      "display": "Rampe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RPE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rampe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RPT",
+      "display": "Rond point",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RPT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rond point"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RTD",
+      "display": "Rotonde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RTD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rotonde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RTE",
+      "display": "Route",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Route"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RUE",
+      "display": "Rue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RUE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SEN",
+      "display": "Sentier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SEN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sentier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SQ",
+      "display": "Square",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SQ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Square"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STA",
+      "display": "Station",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "STA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Station"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STDE",
+      "display": "Stade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "STDE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Stade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TOUR",
+      "display": "Tour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TOUR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TPL",
+      "display": "Terre plein",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TPL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Terre plein"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TRA",
+      "display": "Traverse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TRA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Traverse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TRN",
+      "display": "Terrain",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TRN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Terrain"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TRT",
+      "display": "Tertre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TRT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tertre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TSSE",
+      "display": "Terrasse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TSSE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Terrasse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VAL",
+      "display": "Vallée, vallon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VAL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vallée, vallon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VCHE",
+      "display": "Vieux chemin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VCHE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vieux chemin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VEN",
+      "display": "Venelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VEN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Venelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VGE",
+      "display": "Village",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VGE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Village"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VIA",
+      "display": "Via",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Via"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VLA",
+      "display": "Villa",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VLA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Villa"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VLGE",
+      "display": "Village",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VLGE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Village"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VOI",
+      "display": "Voie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VOI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Voie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VTE",
+      "display": "Vieille route",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vieille route"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ZA",
+      "display": "Zone d'activité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone d'activité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ZAC",
+      "display": "Zone d'aménagement concerté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone d'aménagement concerté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ZAD",
+      "display": "Zone d'aménagement différé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZAD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone d'aménagement différé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ZI",
+      "display": "Zone industrielle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone industrielle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ZONE",
+      "display": "Zone",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZONE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ZUP",
+      "display": "Zone à urbaniser en priorité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZUP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone à urbaniser en priorité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:45+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

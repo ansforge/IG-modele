@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J38-ModeAcces-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J38_ModeAcces-CISIS/FHIR/JDV-J38-ModeAcces-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.248"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J38_ModeAcces-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R248_ModeAcces/FHIR/TRE-R248-ModeAcces",
+        "concept": [
+          {
+            "code": "normal",
+            "display": "Accès normal",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.336"
+              }
+            ]
+          },
+          {
+            "code": "bris_de_glace",
+            "display": "Accès en bris de glace",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.336"
+              }
+            ]
+          },
+          {
+            "code": "centre_15",
+            "display": "Accès par un centre de régulation médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.336"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

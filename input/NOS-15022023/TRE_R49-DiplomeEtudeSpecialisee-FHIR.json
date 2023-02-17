@@ -1,0 +1,1820 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R49-DiplomeEtudeSpecialisee",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.32"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "TRE_R49-DiplomeEtudeSpecialisee",
+  "status": "active",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "Diplôme d'Etudes Spécialisées",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DSD01",
+      "display": "DES Orthopédie Dento-Faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Ortho Den Fac"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Orthopédie Dento-Faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSD02",
+      "display": "DES Médecine Bucco-Dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Med Bucco Den"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Médecine Bucco-Dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM01",
+      "display": "DES Anatomie et Cytologie pathologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Anatomie, Cytologie patho"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Anatomie et Cytologie pathologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM02",
+      "display": "DES Anesthésie-réanimation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Anesthésie-réanimation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Anesthésie-réanimation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM03",
+      "display": "DES Biologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Biologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Biologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM04",
+      "display": "DES Cardiologie et Maladies vasculaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Cardiologie, Maladies vasc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Cardiologie et Maladies vasculaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM05",
+      "display": "DES Chirurgie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM06",
+      "display": "DES Chirurgie infantile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir infantile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie infantile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM07",
+      "display": "DES Chirurgie maxillo-faciale et Stomatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir maxillo-fac, Stomato"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie maxillo-faciale et Stomatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM08",
+      "display": "DES Chirurgie orthopédique et Traumatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir orthop, Traumatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie orthopédique et Traumatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM09",
+      "display": "DES Chirurgie plastique, reconstructrice et esthétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir plastiq recon esthét"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie plastique, reconstructrice et esthétique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM10",
+      "display": "DES Chirurgie thoracique et cardio-vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir thoraciq, cardio-vasc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie thoracique et cardio-vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM11",
+      "display": "DES Chirurgie urologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir urologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie urologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM12",
+      "display": "DES Chirurgie vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir vasculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM13",
+      "display": "DES Chirurgie viscérale et digestive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chir viscérale, digestive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie viscérale et digestive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM14",
+      "display": "DES Dermatologie et Vénéréologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Dermatologie, Vénéréologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Dermatologie et Vénéréologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM15",
+      "display": "DES Endocrinologie, diabète, maladies métaboliques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Endocrino, diab, mal métab"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Endocrinologie, diabète, maladies métaboliques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM16",
+      "display": "DES Gastro-entérologie et Hépatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Gastro-entéro, Hépatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Gastro-entérologie et Hépatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM17",
+      "display": "DES Génétique médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Génétique médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Génétique médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM18",
+      "display": "DES Gynécologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Gynécologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Gynécologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM19",
+      "display": "DES Gynécologie-obstétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Gynécologie-obstétrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Gynécologie-obstétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM20",
+      "display": "DES Hématologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Hématologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Hématologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM21",
+      "display": "DES Hématologie, option Maladies du sang",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Hématologie, opt Mal sang"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Hématologie, option Maladies du sang"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM22",
+      "display": "DES Hématologie, option Onco-hématologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Hématologie, opt Onco-héma"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Hématologie, option Onco-hématologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM23",
+      "display": "DES Médecine du travail",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Médecine du travail"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Médecine du travail"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM24",
+      "display": "DES Médecine générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Médecine générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Médecine générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM25",
+      "display": "DES Médecine interne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Médecine interne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Médecine interne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM26",
+      "display": "DES Médecine nucléaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Médecine nucléaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Médecine nucléaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM27",
+      "display": "DES Médecine physique et de réadaptation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Médecine physique, réadapt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Médecine physique et de réadaptation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM28",
+      "display": "DES Néphrologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Néphrologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Néphrologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM29",
+      "display": "DES Neuro-chirurgie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Neuro-chirurgie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Neuro-chirurgie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM30",
+      "display": "DES Neurologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Neurologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Neurologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM31",
+      "display": "DES Neuro-psychiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Neuro-psychiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Neuro-psychiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM32",
+      "display": "DES Oncologie, option Hématologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Oncologie, opt Hématologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Oncologie, option Hématologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM33",
+      "display": "DES Oncologie, option Médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Oncologie, option Médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Oncologie, option Médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM34",
+      "display": "DES Oncologie, option Radio-thérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Oncologie, opt Radiothérap"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Oncologie, option Radio-thérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM35",
+      "display": "DES Ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Ophtalmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM36",
+      "display": "DES ORL et Chirurgie cervico-faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES ORL,Chir cervico-faciale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES ORL et Chirurgie cervico-faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM37",
+      "display": "ORL et Chirurgie cervico-faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ORL, Chir cervico-faciale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ORL et Chirurgie cervico-faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM38",
+      "display": "Pathologies cardio-vasculaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pathologies cardio-vasculaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pathologies cardio-vasculaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM39",
+      "display": "DES Pédiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pédiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pédiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM40",
+      "display": "DES Pneumologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pneumologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pneumologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM41",
+      "display": "DES Psychiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Psychiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Psychiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM42",
+      "display": "Psychiatrie infantile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychiatrie infantile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychiatrie infantile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM43",
+      "display": "DES Radio-diagnostic et Imagerie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Radio-diag, Imagerie méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Radio-diagnostic et Imagerie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM44",
+      "display": "DES Radio-thérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Radio-thérapie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Radio-thérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM45",
+      "display": "DES Recherche médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Recherche médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Recherche médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM46",
+      "display": "DES Rhumatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Rhumatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Rhumatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM47",
+      "display": "DES Santé publique et Médecine sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Santé publiq, Méd sociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Santé publique et Médecine sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM48",
+      "display": "DES Stomatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Stomatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Stomatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM49",
+      "display": "DES Gynéco-obs et Gynéco-médicale, option Obstétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Gyn-obs méd, opt Obs"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Gynéco-obs et Gynéco-médicale, option Obstétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM50",
+      "display": "DES Gynéco-obs et Gynéco-médicale, option Gynéco-médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Gyn-obs méd, opt Gyn-méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Gynéco-obs et Gynéco-médicale, option Gynéco-médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSM51",
+      "display": "DES Chirurgie orale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Chirurgie orale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Chirurgie orale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-10-30T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-10-30T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP04",
+      "display": "DES Biologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Biologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Biologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP05",
+      "display": "DES Pharmacie et Santé publique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharmacie et Santé publiq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie et Santé publique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP06",
+      "display": "DES Pharmacie hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharmacie hospitalière"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie hospitalière"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie hospitalière (nouveau régime) sans mention de l'option. Suite au décret n° 2019-1022 du 4 octobre 2019 portant modification du troisième cycle long des études pharmaceutiques, le DES de pharmacie hospitalière remplace le DES de pharmacie à compter de la rentrée universitaire 2019-2020 (premiers diplômés en 2024 pour les options PHG et DSPS, et 2025 pour l'option RPH). Si l'option n'est pas connue, le code du DES de pharmacie hospitalière est DSP06, sinon le code est DSP10, DSP11 ou DSP12."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP07",
+      "display": "DES Pharmacie hospitalière (PHPR)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharmacie PHPR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie hospitalière (PHPR)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie (ancien régime) option pharmacie hospitalière - pratique et recherche (PH-PR)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP08",
+      "display": "DES Pharmacie industrielle et biomédicale (PIBM)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharmacie PIBM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie industrielle et biomédicale (PIBM)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie (ancien régime) option pharmacie industrielle et biomédicale (PIBM)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP09",
+      "display": "DES Pharmacie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharmacie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie (ancien régime) sans mention de l'option. Suite au décret n° 2019-1022 du 4 octobre 2019 portant modification du troisième cycle long des études pharmaceutiques, le DES de pharmacie hospitalière remplace le DES de pharmacie à compter de la rentrée universitaire 2019-2020 (derniers diplômés du DES de pharmacie en 2023). Si l'option n'est pas connue, le code du DES de pharmacie est DSP09, sinon le code est DSP07 ou DSP08."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP10",
+      "display": "DES Pharmacie hospitalière générale (PHG)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharma Hosp PHG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie hospitalière générale (PHG)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie hospitalière (nouveau régime) option Pharmacie Hospitalière Générale (PHG). "
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP11",
+      "display": "DES Pharmacie hospitalière développement-sécurisation des produits santé (DSPS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharma Hosp DSPS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie hospitalière développement-sécurisation des produits santé (DSPS)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie hospitalière (nouveau régime) option Développement et sécurisation des produits de santé (DSPS)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DSP12",
+      "display": "DES Pharmacie hospitalière radiopharmacie (RPH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DES Pharma Hosp RPH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DES Pharmacie hospitalière radiopharmacie (RPH)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "DES de pharmacie hospitalière (nouveau régime) option Radiopharmacie (RPH)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

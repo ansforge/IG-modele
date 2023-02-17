@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J53-TypeRequeteGestionDossier-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-06-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J53-TypeRequeteGestionDossier-CISIS/FHIR/JDV-J53-TypeRequeteGestionDossier-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.132"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J53-TypeRequeteGestionDossier-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Code de requêtes de gestion de dossier CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R271-TypeRequete/FHIR/TRE-R271-TypeRequete",
+        "concept": [
+          {
+            "code": "TEST_EXST",
+            "display": "Test d'existence de dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+              }
+            ]
+          },
+          {
+            "code": "CREA_RD",
+            "display": "Création de dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+              }
+            ]
+          },
+          {
+            "code": "CNSLT_DATA",
+            "display": "Consultation des données de gestion de dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+              }
+            ]
+          },
+          {
+            "code": "MODIF_DATA",
+            "display": "Modification des données de gestion du dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+              }
+            ]
+          },
+          {
+            "code": "FERM",
+            "display": "Fermeture de dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+              }
+            ]
+          },
+          {
+            "code": "REAC",
+            "display": "Réactivation de dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

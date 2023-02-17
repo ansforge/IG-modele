@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R334-TypeLitSupplementaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-05-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R334-TypeLitSupplementaire/FHIR/TRE-R334-TypeLitSupplementaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.217"
+    }
+  ],
+  "version": "20220527120000",
+  "name": "TRE_R334-TypeLitSupplementaire",
+  "status": "active",
+  "date": "2022-05-27T12:00:00+01:00",
+  "description": "Permet d'indiquer le statut de lits supplémentaires, pour identifier le nombre de lits supplémentaires déjà mobilisés et, par typologie de mobilisation possible, le nombre de lits qui ne le sont pas encore",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Mobilisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mobilisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mobilisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Mobilisable sans ressources humaines",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mobilisable sans RH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mobilisable sans ressources humaines"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Mobilisable avec ressources humaines",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mobilisable avec RH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mobilisable avec ressources humaines"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

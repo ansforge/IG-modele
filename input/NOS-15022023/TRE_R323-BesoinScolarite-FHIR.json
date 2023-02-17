@@ -1,0 +1,230 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R323-BesoinScolarite",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R323-BesoinScolarite/FHIR/TRE-R323-BesoinScolarite",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.78"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R323-BesoinScolarite",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Pour lire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour lire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour lire"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour lire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Pour écrire, prendre des notes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour écrire, prendre des notes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour écrire, prendre des notes"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour écrire, prendre des notes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Pour calculer",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour calculer"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour calculer"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour calculer"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Pour comprendre, suivre les consignes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour comprendre les consignes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour comprendre, suivre les consignes"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour comprendre, suivre les consignes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Pour organiser, contrôler son travail",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour organiser son travail"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour organiser, contrôler son travail"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour organiser, contrôler son travail"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Pour l'utilisation du matériel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour l'utilisation du matériel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour l'utilisation du matériel"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour l'utilisation du matériel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

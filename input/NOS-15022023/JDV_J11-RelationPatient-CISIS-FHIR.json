@@ -1,0 +1,481 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J11-RelationPatient-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.16"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J11-RelationPatient-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Relation par rapport au patient - CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
+        "concept": [
+          {
+            "code": "MTH",
+            "display": "Mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "FTH",
+            "display": "Père",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "NMTH",
+            "display": "Mère biologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "NFTH",
+            "display": "Père biologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "STPMTH",
+            "display": "Belle-mère - épouse du père ou de la mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "STPFTH",
+            "display": "Beau-père - époux du père ou de la mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "GRMTH",
+            "display": "Grand-mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "GRFTH",
+            "display": "Grand-père",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "GGRMTH",
+            "display": "Arrière-grand-mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "GGRFTH",
+            "display": "Arrière-grand-père",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "DAU",
+            "display": "Fille biologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "SON",
+            "display": "Fils biologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "BRO",
+            "display": "Frère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "SIS",
+            "display": "Soeur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "HBRO",
+            "display": "Demi-frère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "HSIS",
+            "display": "Demi-soeur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "GRNDDAU",
+            "display": "Petite-fille",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "GRNDSO",
+            "display": "Petit-fils",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "UNCLE",
+            "display": "Oncle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "AUNT",
+            "display": "Tante",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "NEPHEW",
+            "display": "Neveu",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "NIECE",
+            "display": "Nièce",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "HUSB",
+            "display": "Epoux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "WIFE",
+            "display": "Epouse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "DOMPART",
+            "display": "Concubin(e) ou partenaire PACS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "ROOM",
+            "display": "Personne vivant sous le même toit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "FRND",
+            "display": "Autre proche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "NBOR",
+            "display": "Voisin(e)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "FAMMEMB",
+            "display": "Autre membre de la famille",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "CHILD",
+            "display": "Enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "COUSN",
+            "display": "Cousin(e)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "SIGOTHR",
+            "display": "Conjoint",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "DAUC",
+            "display": "Fille",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          },
+          {
+            "code": "SONC",
+            "display": "Fils",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.111"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique",
+        "concept": [
+          {
+            "code": "TUTEUR",
+            "display": "Tuteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.327"
+              }
+            ]
+          },
+          {
+            "code": "CURATEUR",
+            "display": "Curateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.327"
+              }
+            ]
+          },
+          {
+            "code": "MSVG",
+            "display": "Mandataire de sauvegarde",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.327"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

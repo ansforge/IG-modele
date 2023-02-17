@@ -1,0 +1,920 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R278-FinessConvention",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-10-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.131"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_R278-FinessConvention",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Convention du domaine social FINESS",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ACI",
+      "display": "Contrat tripartie CPTS/AM/ARS pour rémunération ACI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Contrat ACI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Contrat tripartie CPTS/AM/ARS pour rémunération ACI"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "ACI pour Accord Conventionnel Interprofessionnel. Cette convention est associée aux établissements Communauté Professionnelle Territoriale de Santé (CPTS) ayant signé un contrat tripartite avec l'Assurance Maladie (AM) et l'Agence Régionale de Santé (ARS)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APL",
+      "display": "Aide Personalisée au Logement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "APL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide Personalisée au Logement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ASD",
+      "display": "Convention aide sociale départementale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide sociale Dépt."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention aide sociale départementale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ASE",
+      "display": "Convention aide sociale Etat",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide sociale Etat"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention aide sociale Etat"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CPM",
+      "display": "Signature d'une Convention d'Objectifs et de Moyens (CPOM)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPOM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Signature d'une Convention d'Objectifs et de Moyens (CPOM)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CPP",
+      "display": "PFR Plateforme de répit financée par plusieurs financeurs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PFR financée multi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PFR Plateforme de répit financée par plusieurs financeurs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CPU",
+      "display": "PFR Plateforme de répit financée par l'ARS uniquement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PFR financée ARS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PFR Plateforme de répit financée par l'ARS uniquement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEA",
+      "display": "Dispositif d'emploi accompagné",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emploi accompagné"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif d'emploi accompagné"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIT",
+      "display": "Dispositif intégré ITEP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DITEP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif intégré ITEP"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EMA",
+      "display": "Equipe mobile d'appui pour la scolarisation jeunes handicap",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "EMA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe mobile d'appui pour la scolarisation jeunes handicap"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EX1",
+      "display": "Entrée dans l expérimentation de SPASAD seul",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expé SPASAD seul"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Entrée dans l expérimentation de SPASAD seul"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EX2",
+      "display": "Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expé Soins Aide GSMS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EX3",
+      "display": "Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé.",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exp Soins Aide Ccoop"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HPR",
+      "display": "Hôpitaux de proximité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hôpitaux de prox."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hôpitaux de proximité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "JUS",
+      "display": "Habilitation justice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Habilitation Justice"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Habilitation justice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MIL",
+      "display": "Conv hôpitaux militaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conv. Hôp. militaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conv hôpitaux militaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PCO",
+      "display": "Plateforme coord. & orientation pour enfants atteints de TND",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PCO TND"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateforme coord. & orientation pour enfants atteints de TND"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAD",
+      "display": "Convention tripartite étab personnes âgées dépendantes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "conv.EHPAD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention tripartite étab personnes âgées dépendantes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAP",
+      "display": "Convention tripartie partielle étab pers âgées dépendantes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "conv.EHPAD part."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention tripartie partielle étab pers âgées dépendantes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PCP",
+      "display": "Pôle de compétences et de prestations externalisées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PCPE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pôle de compétences et de prestations externalisées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PEN",
+      "display": "Convention établissement pénitentiaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab. Pénitentiaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention établissement pénitentiaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "QAL",
+      "display": "Agrément Qualité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Agrément Qualité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agrément Qualité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REL",
+      "display": "Equipe relais",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe relais"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe relais"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RSE",
+      "display": "SAAD intervenant uniquement au sein de la résidence services",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Résidences services"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SAAD intervenant uniquement au sein de la résidence services"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RUR",
+      "display": "Maison d'Accueil Rurale pour Personnes Âgées (MARPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MARPA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maison d'Accueil Rurale pour Personnes Âgées (MARPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SID",
+      "display": "Signature d'une convention de médicalisation avec un SSIAD",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Convention SSIAD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Signature d'une convention de médicalisation avec un SSIAD"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "UEA",
+      "display": "Unité d'enseignement élémentaire autisme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "UEEA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité d'enseignement élémentaire autisme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "UEE",
+      "display": "Unité d'enseignement externe hors UEM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "UEE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité d'enseignement externe hors UEM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "UEM",
+      "display": "Unité d'enseignement en maternelle plan autisme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "UEM Plan Autisme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité d'enseignement en maternelle plan autisme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "UNI",
+      "display": "Convention d'un CHR avec une Université",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conv. CHR-Université"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention d'un CHR avec une Université"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIS",
+      "display": "Dispositif Article 51",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispositif Art. 51"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif Article 51"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

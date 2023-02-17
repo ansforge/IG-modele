@@ -1,0 +1,306 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R04-TypeSavoirFaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.16"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R04-TypeSavoirFaire",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de savoir-faire",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "C",
+      "display": "Compétence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Compétence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compétence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA",
+      "display": "Capacité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Capacité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Capacité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CEX",
+      "display": "Compétence exclusive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Compétence exclusive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compétence exclusive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEC",
+      "display": "Droit d'exercice complémentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Droit d'exercice complément"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Droit d'exercice complémentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DNQ",
+      "display": "DESC non qualifiant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DESC non qualifiant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DESC non qualifiant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FQ",
+      "display": "Fonction qualifiée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fonction qualifiée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fonction qualifiée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "OP",
+      "display": "Orientation particulière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orientation particulière"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orientation particulière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PAC",
+      "display": "Qualification PAC",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Qualification Praticien adjoint contractuel (PAC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Spécialité ordinale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Spécialité ordinale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Spécialité ordinale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SH",
+      "display": "Spécialité de concours hospitalier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Spéc de concours hospitalier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Spécialité de concours hospitalier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1770 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R245-SpecialisationDePriseEnCharge",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.41"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "TRE_R245-SpecialisationDePriseEnCharge",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "Spécialisation de prise en charge",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Troubles des conduites alimentaires (TCA) (anorexie, boulimie)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "01"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles des conduites alimentaires (TCA) (anorexie, boulimie)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Troubles du spectre de l'autisme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "02"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles du spectre de l'autisme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Troubles hyperkinétiques, hyperactivité (déficit de l'attention, TDAH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "03"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles hyperkinétiques, hyperactivité (déficit de l'attention, TDAH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Troubles psychiques des victimes de violences sexuelles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "04"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles psychiques des victimes de violences sexuelles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Troubles psychiques des auteurs de violences sexuelles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "05"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles psychiques des auteurs de violences sexuelles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Schizophrénie émergente",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "06"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Schizophrénie émergente"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Troubles psychotiques (schizophrénie, délires)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "07"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles psychotiques (schizophrénie, délires)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Troubles de l'humeur (épisode maniaque, bipolaire, dépression...)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "08"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles de l'humeur (épisode maniaque, bipolaire, dépression...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Troubles Obsessionnels Compulsifs (TOC)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "09"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles Obsessionnels Compulsifs (TOC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Conduites addictives",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "10"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conduites addictives"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Troubles spécifiques du langage et des apprentissages (troubles dys)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "11"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles spécifiques du langage et des apprentissages (troubles dys)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "12"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "Démence dégénérative",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "13"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Démence dégénérative"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Déficience intellectuelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "14"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Déficience intellectuelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Personnes présentant des troubles du spectre de l'autisme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "15"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personnes présentant des troubles du spectre de l'autisme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Handicap psychique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "16"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Handicap psychique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Polyhandicap",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "17"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Polyhandicap"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Déficience auditive grave",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "18"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Déficience auditive grave"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Déficience visuelle grave",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "19"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Déficience visuelle grave"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Personnes présentant trouble spécif langage, apprentissages et moteurs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "20"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personnes présentant un trouble spécifique du langage et des apprentissages (TSLA) (trouble dys)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Handicap rare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "21"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Handicap rare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Déficience à prédominance motrice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "22"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Déficience à prédominance motrice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Handicap à prédominance cognitive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "23"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Handicap à prédominance cognitive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "Handicap à prédominance cognitive avec trouble du comportement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "24"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "Surdi-cécité avec ou sans troubles associés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "25"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Surdi-cécité avec ou sans troubles associés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Difficulté psychologique avec troubles du comportement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "26"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Difficulté psychologique avec troubles du comportement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "27"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Maladies d'Alzheimer et apparentée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "28"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies d'Alzheimer et apparentées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "Maladies rares liées à une anomalie du développement embryonnaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "29"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares liées à une anomalie du développement embryonnaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "Maladies rares de l'infertilité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "30"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares de l'infertilité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Maladies rares allergiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "31"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares allergiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Maladies rares cardiaques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "32"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares cardiaques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Maladies rares chirurgicales abdominales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "33"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares chirurgicales abdominales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "Maladies rares endocriniennes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "34"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares endocriniennes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Maladies rares gastro-entérologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "35"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares gastro-entérologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Maladies rares génétiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "36"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares génétiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Maladies rares gynécologiques et obstétriques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "37"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares gynécologiques et obstétriques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Maladies rares hématologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "38"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares hématologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Maladies rares hépatiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "39"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares hépatiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Maladies rares immunologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "40"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares immunologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Maladies rares infectieuses",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "41"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares infectieuses"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "Maladies rares métaboliques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "42"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares métaboliques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Maladies rares néoplasiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "43"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares néoplasiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "Maladies rares neurologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "44"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares neurologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "Maladies rares odontologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "45"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares odontologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "Maladies rares ophtalmiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "46"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares ophtalmiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Maladies rares osseuses",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "47"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares osseuses"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "Maladies rares oto-rhino-laryngologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "48"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares oto-rhino-laryngologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "Maladies rares de la peau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "49"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares de la peau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Maladies rares du système circulatoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "50"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares du système circulatoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "Maladies rares dues à des effets toxiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "51"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares dues à des effets toxiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "Maladies rares liées à la transplantation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "52"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares liées à la transplantation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "Maladies rares rénales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "53"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares rénales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Maladies rares respiratoires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "54"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares respiratoires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "Maladies rares systémiques et rhumatologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "55"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares systémiques et rhumatologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "Maladies rares systémiques ou rhumatologiques de l'enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "56"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares systémiques ou rhumatologiques de l'enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "Maladies rares thoraciques chirurgicales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "57"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares thoraciques chirurgicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "Maladies rares urogénitales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "58"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares urogénitales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "display": "Maladies rares liées à une malformation cardiaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "59"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares liées à une malformation cardiaque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "60",
+      "display": "Maladies rares chirurgicales maxillo-faciales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "60"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares chirurgicales maxillo-faciales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "61",
+      "display": "Maladies rares liées à un trouble tératologique rare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "61"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies rares liées à un trouble tératologique rare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "62",
+      "display": "Suicidant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "62"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Suicidant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

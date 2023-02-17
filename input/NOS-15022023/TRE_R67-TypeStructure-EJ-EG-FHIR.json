@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R67-TypeStructure-EJ-EG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-04-30T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R67-TypeStructure-EJ-EG/FHIR/TRE-R67-TypeStructure-EJ-EG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.62"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R67-TypeStructure-EJ-EG",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de structure",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "EJ",
+      "display": "Entité juridique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Entité juridique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Entité juridique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-04-30T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-04-30T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EG",
+      "display": "Etablissement géographique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etablissement géographique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement géographique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-04-30T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-04-30T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

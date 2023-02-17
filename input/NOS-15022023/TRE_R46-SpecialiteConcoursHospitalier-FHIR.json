@@ -1,0 +1,1947 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R46-SpecialiteConcoursHospitalier",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00",
+        "end": "2019-02-22T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R46-SpecialiteConcoursHospitalier/FHIR/TRE-R46-SpecialiteConcoursHospitalier",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.36"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R46-SpecialiteConcoursHospitalier",
+  "status": "retired",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Spécialité de concours hospitalier",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "SCH01",
+      "display": "Anatomie et Cytologie pathologiques (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Anatomie, Cytologie pathologiq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Anatomie et Cytologie pathologiques (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH02",
+      "display": "Anesthésie-réanimation (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Anesthésie-réanimation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Anesthésie-réanimation (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH03",
+      "display": "Bactériologie-Virologie, Hygiène hospitalière (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bactériologie-Virol, Hyg hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bactériologie-Virologie, Hygiène hospitalière (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH04",
+      "display": "Biochimie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Biochimie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Biochimie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH05",
+      "display": "Biologie cellulaire, Histologie, Biologie du développement (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bio cell, Histo, Bio dévt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Biologie cellulaire, Histologie, Biologie du développement (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH06",
+      "display": "Biologie médicale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Biologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Biologie médicale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH07",
+      "display": "Biophysique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Biophysique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Biophysique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH08",
+      "display": "Oncologie médicale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oncologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oncologie médicale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH09",
+      "display": "Cardiologie et Maladies vasculaires (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cardio, Maladies vasculaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cardiologie et Maladies vasculaires (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH10",
+      "display": "Chirurgie générale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie générale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH11",
+      "display": "Chirurgie viscérale et digestive (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir viscérale et digestive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie viscérale et digestive (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH12",
+      "display": "Chirurgie infantile (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie infantile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie infantile (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH13",
+      "display": "Chirurgie maxillo-faciale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie maxillo-faciale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie maxillo-faciale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH14",
+      "display": "Chirurgie orthopédique et traumatologique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir orthopédique, traumatolog"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie orthopédique et traumatologique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH15",
+      "display": "Chirurgie plastique reconstructrice et esthétique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir plast reconstr, esthétiq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie plastique reconstructrice et esthétique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH16",
+      "display": "Chirurgie thoracique et cardio-vasculaire (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir thoraciq, cardio-vascul"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie thoracique et cardio-vasculaire (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH17",
+      "display": "Chirurgie urologique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie urologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie urologique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH18",
+      "display": "Chirurgie vasculaire (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie vasculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie vasculaire (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH19",
+      "display": "Dermatologie et Vénéréologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dermatologie, Vénéréologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dermatologie et Vénéréologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH20",
+      "display": "Endocrinologie et Métabolisme (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Endocrino, Métabolisme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Endocrinologie et Métabolisme (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH21",
+      "display": "Santé publique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Santé publique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Santé publique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH22",
+      "display": "Explorations fonctionnelles (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Explorations fonctionnelles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Explorations fonctionnelles (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH23",
+      "display": "Gastro-entérologie et Hépatologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gastro-entéro, Hépatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gastro-entérologie et Hépatologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH24",
+      "display": "Génétique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Génétique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Génétique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH25",
+      "display": "Génétique médicale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Génétique médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Génétique médicale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH26",
+      "display": "Gynécologie et Obstétrique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gynécologie, Obstétrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gynécologie et Obstétrique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH27",
+      "display": "Hématologie biologique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hématologie biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hématologie biologique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH28",
+      "display": "Hématologie clinique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hématologie clinique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hématologie clinique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH29",
+      "display": "Hémobiologie-transfusion (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hémobiologie-transfusion"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hémobiologie-transfusion (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH30",
+      "display": "Hygiène hospitalière (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hygiène hospitalière"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hygiène hospitalière (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH31",
+      "display": "Immunologie biologique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Immunologie biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Immunologie biologique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH32",
+      "display": "Immunologie clinique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Immunologie clinique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Immunologie clinique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH33",
+      "display": "Maladies infectieuses, maladies tropicales (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maladies infect, tropicales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maladies infectieuses, maladies tropicales (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH34",
+      "display": "Médecine de la reproduction et Gynécologie médicale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine reproduction, Gyn-méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine de la reproduction et Gynécologie médicale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH35",
+      "display": "Médecine du travail (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine du travail"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine du travail (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH36",
+      "display": "Médecine d'urgence (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine d'urgence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine d'urgence (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH37",
+      "display": "Médecine générale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine générale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH38",
+      "display": "Gériatrie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gériatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gériatrie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH39",
+      "display": "Médecine interne (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine interne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine interne (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH40",
+      "display": "Médecine légale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine légale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine légale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH41",
+      "display": "Médecine nucléaire (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine nucléaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine nucléaire (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH42",
+      "display": "Médecine physique et de réadaptation (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine physique, réadapt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine physique et de réadaptation (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH43",
+      "display": "Néphrologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Néphrologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Néphrologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH44",
+      "display": "Neuro-chirurgie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neuro-chirurgie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neuro-chirurgie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH45",
+      "display": "Neurologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neurologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neurologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH46",
+      "display": "Odontologie polyvalente (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Odontologie polyvalente"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Odontologie polyvalente (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH47",
+      "display": "Ophtalmologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ophtalmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ophtalmologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH48",
+      "display": "Oto-rhino-laryngologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ORL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oto-rhino-laryngologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH49",
+      "display": "Parasitologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Parasitologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parasitologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH50",
+      "display": "Pédiatrie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pédiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pédiatrie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH51",
+      "display": "Pharmacie polyvalente et Pharmacie hospitalière (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacie poly, Pharmacie hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacie polyvalente et Pharmacie hospitalière (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH52",
+      "display": "Pharmacologie clinique et Toxicologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacol cliniq, Toxicologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacologie clinique et Toxicologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH53",
+      "display": "Pneumologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pneumologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pneumologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH54",
+      "display": "Psychiatrie polyvalente (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychiatrie polyvalente"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychiatrie polyvalente (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH55",
+      "display": "Radiologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Radiologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Radiologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH56",
+      "display": "Oncologie radiothérapique (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oncologie radiothérapique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oncologie radiothérapique (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH57",
+      "display": "Réanimation médicale (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Réanimation médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réanimation médicale (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH58",
+      "display": "Rhumatologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rhumatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rhumatologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH59",
+      "display": "Stomatologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Stomatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Stomatologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SCH60",
+      "display": "Toxicologie et Pharmacologie (SCH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Toxicologie et Pharmacologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Toxicologie et Pharmacologie (SCH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T16:49:16+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

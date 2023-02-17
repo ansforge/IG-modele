@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R204-DirectionLongitude",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-03-25T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R204-DirectionLongitude/FHIR/TRE-R204-DirectionLongitude",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.5"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R204-DirectionLongitude",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Direction longitude",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "W",
+      "display": "Ouest (ou +)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "W ou +"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ouest (ou +)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Est (ou -)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "E ou -"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Est (ou -)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

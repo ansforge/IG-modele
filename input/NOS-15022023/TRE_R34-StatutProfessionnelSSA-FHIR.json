@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R34-StatutProfessionnelSSA",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.23"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R34-StatutProfessionnelSSA",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Statut du professionnel au SSA",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "STA-SSA-01",
+      "display": "Praticien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Praticien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Praticien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STA-SSA-02",
+      "display": "Praticien confirmé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Praticien confirmé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Praticien confirmé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STA-SSA-03",
+      "display": "Praticien certifié",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Praticien certifié"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Praticien certifié"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STA-SSA-04",
+      "display": "Praticien agrégé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Praticien agrégé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Praticien agrégé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J12-CiviliteTitre-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-05-18T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.24"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J12-CiviliteTitre-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Titre civilité - CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
+        "concept": [
+          {
+            "code": "M",
+            "display": "Monsieur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.69"
+              }
+            ]
+          },
+          {
+            "code": "MME",
+            "display": "Madame",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.69"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
+        "concept": [
+          {
+            "code": "DR",
+            "display": "Docteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.11"
+              }
+            ]
+          },
+          {
+            "code": "PR",
+            "display": "Professeur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.11"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

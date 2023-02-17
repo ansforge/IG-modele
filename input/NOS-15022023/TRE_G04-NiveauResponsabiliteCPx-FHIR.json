@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G04-NiveauResponsabiliteCPx",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G04-NiveauResponsabiliteCPx/FHIR/TRE-G04-NiveauResponsabiliteCPx",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.12"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_G04-NiveauResponsabiliteCPx",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Niveau de responsabilité (CPx)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "00",
+      "display": "Sans objet",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sans objet"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sans objet"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "01",
+      "display": "Responsable de la structure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Responsable de la structure"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable de la structure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Assistant ou adjoint au responsable de la structure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant, adjoint resp struct"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant ou adjoint au responsable de la structure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

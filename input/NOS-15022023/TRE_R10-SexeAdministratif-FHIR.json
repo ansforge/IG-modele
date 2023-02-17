@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R10-SexeAdministratif",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.27"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R10-SexeAdministratif",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Sexe administratif",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "F",
+      "display": "Féminin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Féminin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Féminin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-06-28T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-06-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Masculin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masculin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masculin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-06-28T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-06-28T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

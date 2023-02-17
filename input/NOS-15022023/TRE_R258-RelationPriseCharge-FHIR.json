@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R258-RelationPriseCharge",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+    }
+  ],
+  "version": "20201217120000",
+  "name": "TRE_R258-RelationPriseCharge",
+  "status": "active",
+  "date": "2020-12-17T12:00:00+01:00",
+  "description": "Relation dans la prise en charge du patient",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "CORRE",
+      "display": "Correspondant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Correspondant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Correspondant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MES",
+      "display": "Membre de l'équipe de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Membre de l'équipe de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Membre de l'équipe de soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NUM",
+      "display": "Numérisateur du document de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Numérisateur document santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Numérisateur du document de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRELV",
+      "display": "Préleveur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Préleveur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préleveur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

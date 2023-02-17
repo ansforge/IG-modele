@@ -1,0 +1,250 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R208-ClasseAge",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-04-08T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.9"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R208-ClasseAge",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Classe d'âge",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Nouveau né, jusqu'à 28 jours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nouveau né, <= 28 jr"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nouveau né, jusqu'à 28 jours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Nourrisson, avant 2 ans",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nourrisson, < 2 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nourrisson, avant 2 ans"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Enfant, avant 12 ans",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant, < 12 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant, avant 12 ans"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Adolescent, avant 16 ans",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Adolescent, < 16 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Adolescent, avant 16 ans"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Jeune adulte, 16-21 ans",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Adulte, 16-21 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jeune adulte, 16-21 ans"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Adulte, avant 65 ans",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Adulte, < 65 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Adulte, avant 65 ans"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Sénior, 65-75 ans",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sénior, 65-75 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sénior, 65-75 ans"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Sénior, 75 ans et plus",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sénior, > 75 ans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sénior, 75 ans et plus"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

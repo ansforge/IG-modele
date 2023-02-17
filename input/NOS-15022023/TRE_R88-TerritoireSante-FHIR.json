@@ -1,0 +1,3814 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R88-TerritoireSante",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.104"
+    }
+  ],
+  "version": "20210625120000",
+  "name": "TRE_R88-TerritoireSante",
+  "status": "active",
+  "date": "2021-06-25T12:00:00+01:00",
+  "description": "Territoire de Santé (au sens ARS) en France",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "001",
+      "display": "Sud Yonne Haut-Nivernais",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sud Yonne Haut-Nivernais"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sud Yonne Haut-Nivernais"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "002",
+      "display": "Bourgogne méridionale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bourgogne méridionale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bourgogne méridionale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "011",
+      "display": "Centre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "012",
+      "display": "Sud Basse-Terre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sud Basse-Terre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sud Basse-Terre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "013",
+      "display": "Iles du nord",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Iles du nord"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Iles du nord"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "021",
+      "display": "Nord Caraïbe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nord Caraïbe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nord Caraïbe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "022",
+      "display": "Nord Atlantique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nord Atlantique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nord Atlantique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "023",
+      "display": "Centre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "024",
+      "display": "Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "031",
+      "display": "Guyane",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Guyane"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guyane"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "041",
+      "display": "Territoire Ouest",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Ouest"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Ouest"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "042",
+      "display": "Territoire Nord-Est",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Nord-Est"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Nord-Est"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "043",
+      "display": "Territoire Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "061",
+      "display": "Mayotte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mayotte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mayotte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "111",
+      "display": "Essonne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Essonne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Essonne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "112",
+      "display": "Hauts-de-Seine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hauts-de-Seine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hauts-de-Seine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "113",
+      "display": "Paris",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Paris"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Paris"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "114",
+      "display": "Seine-et-Marne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Seine-et-Marne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Seine-et-Marne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "115",
+      "display": "Seine-Saint-Denis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Seine-Saint-Denis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Seine-Saint-Denis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "116",
+      "display": "Val-de-Marne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Val-de-Marne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Val-de-Marne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "117",
+      "display": "Val-d'Oise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Val-d'Oise"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Val-d'Oise"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "118",
+      "display": "Yvelines",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Yvelines"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Yvelines"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "211",
+      "display": "Nord (51-08)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nord (51-08)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nord (51-08)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "212",
+      "display": "Sud (52-10)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sud (52-10)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sud (52-10)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "221",
+      "display": "Oise Est",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oise Est"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oise Est"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "222",
+      "display": "Oise Ouest",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oise Ouest"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oise Ouest"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "223",
+      "display": "Aisne Nord Haute Somme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aisne Nord Haute Somme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aisne Nord Haute Somme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "224",
+      "display": "Somme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Somme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Somme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "225",
+      "display": "Aisne Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aisne Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aisne Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "231",
+      "display": "Rouen-Elbeuf",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rouen-Elbeuf"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rouen-Elbeuf"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "232",
+      "display": "Dieppe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dieppe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dieppe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "233",
+      "display": "Le Havre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Le Havre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Le Havre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "234",
+      "display": "Evreux-Vernon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Evreux-Vernon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Evreux-Vernon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "241",
+      "display": "Territoire Cher (18)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Cher (18)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Cher (18)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "242",
+      "display": "Territoire Eure et Loir (28)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Eure et Loir (28)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Eure et Loir (28)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "243",
+      "display": "Territoire Indre (36)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Indre (36)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Indre (36)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "244",
+      "display": "territoire Indre et Loire (37)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Indre et Loire (37)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Indre et Loire (37)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "245",
+      "display": "Territoire Loir et Cher (41)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Loir et Cher (41)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Loir et Cher (41)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "246",
+      "display": "Territoire Loiret (45)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire Loiret (45)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire Loiret (45)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "251",
+      "display": "Calvados",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Calvados"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Calvados"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "252",
+      "display": "Manche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Manche"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Manche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "253",
+      "display": "Orne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "261",
+      "display": "Côte d'Or",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Côte d'Or"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Côte d'Or"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "262",
+      "display": "Nièvre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nièvre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nièvre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "263",
+      "display": "Saône et Loire Bresse-Morvan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Saône et Loire Bresse-Morvan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Saône et Loire Bresse-Morvan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "264",
+      "display": "Nord Yonne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nord Yonne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nord Yonne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "311",
+      "display": "Artois",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Artois"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Artois"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "312",
+      "display": "Hainaut",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hainaut"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hainaut"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "313",
+      "display": "Littoral",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Littoral"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Littoral"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "314",
+      "display": "Métropole",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Métropole"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Métropole"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "321",
+      "display": "Aisne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aisne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aisne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "322",
+      "display": "Métropole Flandre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Métropole Flandre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Métropole Flandre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "323",
+      "display": "Hainaut",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hainaut"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hainaut"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "324",
+      "display": "Oise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oise"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oise"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "325",
+      "display": "Pas de Calais",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pas de Calais"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pas de Calais"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "326",
+      "display": "Somme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Somme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Somme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "411",
+      "display": "Meuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Meuse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Meuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "412",
+      "display": "Meurthe-et-Moselle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Meurthe-et-Moselle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Meurthe-et-Moselle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "413",
+      "display": "Moselle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Moselle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Moselle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "414",
+      "display": "Vosges",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vosges"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vosges"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "421",
+      "display": "Haguenau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Haguenau"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haguenau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "422",
+      "display": "Strasbourg",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Strasbourg"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Strasbourg"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "423",
+      "display": "Colmar",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Colmar"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Colmar"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "424",
+      "display": "Mulhouse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mulhouse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mulhouse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "431",
+      "display": "Centre Franche-Comté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre Franche-Comté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre Franche-Comté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "432",
+      "display": "Jura",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Jura"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jura"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "433",
+      "display": "Haute-Saône",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Haute-Saône"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haute-Saône"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "434",
+      "display": "Nord Franche-Comté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nord Franche-Comté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nord Franche-Comté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "521",
+      "display": "Territoire 1 Loire-Atlantique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire 1 Loire-Atlantique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire 1 Loire-Atlantique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "522",
+      "display": "Territoire 2 Maine et Loire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire 2 Maine et Loire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire 2 Maine et Loire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "523",
+      "display": "Territoire 3 Mayenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire 3 Mayenne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire 3 Mayenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "524",
+      "display": "Territoire 4 Sarthe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire 4 Sarthe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire 4 Sarthe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "525",
+      "display": "Territoire 5 Vendée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire 5 Vendée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire 5 Vendée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "531",
+      "display": "Brest/Carhaix/Morlaix",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Brest/Carhaix/Morlaix"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Brest/Carhaix/Morlaix"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "532",
+      "display": "Quimper/Douarnenez/Pont l'Abbé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Quimper/Douarnenez/Pont l'Abbé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Quimper/Douarnenez/Pont l'Abbé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "533",
+      "display": "Lorient/Quimperlé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lorient/Quimperlé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lorient/Quimperlé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "534",
+      "display": "Vannes/Ploërmel/Malestroit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vannes/Ploërmel/Malestroit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vannes/Ploërmel/Malestroit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "535",
+      "display": "Rennes/Fougères/Vitré/Redon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rennes/Fougères/Vitré/Redon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rennes/Fougères/Vitré/Redon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "536",
+      "display": "Saint-Malo/Dinan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Saint-Malo/Dinan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Saint-Malo/Dinan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "537",
+      "display": "Saint-Brieuc/Guingamp/Lannion",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Saint-Brieuc/Guingamp/Lannion"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Saint-Brieuc/Guingamp/Lannion"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "538",
+      "display": "Pontivy/Loudéac",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pontivy/Loudéac"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pontivy/Loudéac"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "541",
+      "display": "Charente",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Charente"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Charente"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "543",
+      "display": "Charente Maritime",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Charente Maritime"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Charente Maritime"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "544",
+      "display": "Deux-Sèvres",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Deux-Sèvres"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Deux-Sèvres"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "545",
+      "display": "Vienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vienne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vienne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "721",
+      "display": "Dordogne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dordogne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dordogne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "722",
+      "display": "Gironde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gironde"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gironde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "723",
+      "display": "Landes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Landes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Landes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "724",
+      "display": "Lot et Garonne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lot et Garonne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lot et Garonne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "725",
+      "display": "Navarre Côte Basque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Navarre Côte Basque"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Navarre Côte Basque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "726",
+      "display": "Béarn et Soule",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Béarn et Soule"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Béarn et Soule"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "727",
+      "display": "Pyrénées Atlantiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pyrénées Atlantiques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pyrénées Atlantiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "731",
+      "display": "Ariège",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ariège"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ariège"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "732",
+      "display": "Aveyron",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aveyron"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aveyron"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "733",
+      "display": "Hte Garonne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hte Garonne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hte Garonne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "734",
+      "display": "Gers",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gers"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gers"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "735",
+      "display": "Lot",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lot"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lot"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "736",
+      "display": "Htes-Pyrénées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Htes-Pyrénées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Htes-Pyrénées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "737",
+      "display": "Tarn",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tarn"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tarn"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "738",
+      "display": "Tarn et Garonne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tarn et Garonne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tarn et Garonne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "741",
+      "display": "Corrèze",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Corrèze"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Corrèze"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "742",
+      "display": "Creuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Creuse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Creuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "743",
+      "display": "Haute Vienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Haute Vienne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haute Vienne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "821",
+      "display": "TS01 - Centre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TS01 - Centre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "TS01 - Centre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "822",
+      "display": "TS02 - Est",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TS02 - Est"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "TS02 - Est"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "823",
+      "display": "TS03 - Nord",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TS03 - Nord"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "TS03 - Nord"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "824",
+      "display": "TS04 - Ouest",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TS04 - Ouest"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "TS04 - Ouest"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "825",
+      "display": "TS05 - Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TS05 - Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "TS05 - Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "831",
+      "display": "Allier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Allier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Allier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "832",
+      "display": "Cantal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cantal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cantal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "833",
+      "display": "Haute-Loire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Haute-Loire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haute-Loire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "834",
+      "display": "Puy de Dôme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Puy de Dôme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Puy de Dôme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "835",
+      "display": "Ain",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ain"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ain"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "836",
+      "display": "Allier-Puy-de-Dôme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Allier-Puy-de-Dôme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Allier-Puy-de-Dôme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "837",
+      "display": "Drôme-Ardèche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Drôme-Ardèche"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Drôme-Ardèche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "838",
+      "display": "Haute-Savoie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Haute-Savoie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haute-Savoie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "839",
+      "display": "Isère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Isère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Isère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "840",
+      "display": "Loire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Loire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Loire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "841",
+      "display": "Rhône",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rhône"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rhône"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "842",
+      "display": "Savoie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Savoie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Savoie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "911",
+      "display": "Aude",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aude"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aude"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "912",
+      "display": "Gard",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gard"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gard"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "913",
+      "display": "Hérault",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hérault"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hérault"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "914",
+      "display": "Lozère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lozère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lozère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "915",
+      "display": "Pyrénées Orientales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pyrénées Orientales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pyrénées Orientales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "931",
+      "display": "Alpes de Haute Provence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Alpes de Haute Provence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Alpes de Haute Provence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "932",
+      "display": "Alpes Maritimes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Alpes Maritimes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Alpes Maritimes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "933",
+      "display": "Bouches du Rhône",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bouches du Rhône"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bouches du Rhône"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "934",
+      "display": "Hautes Alpes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hautes Alpes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hautes Alpes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "935",
+      "display": "Var",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Var"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Var"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "936",
+      "display": "Vaucluse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vaucluse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vaucluse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "941",
+      "display": "Corse Nord",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Corse Nord"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Corse Nord"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "942",
+      "display": "Corse Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Corse Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Corse Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

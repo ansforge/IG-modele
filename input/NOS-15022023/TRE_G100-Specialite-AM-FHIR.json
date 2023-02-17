@@ -1,0 +1,1986 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G100-Specialite-AM",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-03-22T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G100-Specialite-AM/FHIR/TRE-G100-Specialite-AM",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.38"
+    }
+  ],
+  "version": "20220128120000",
+  "name": "TRE_G100-Specialite-AM",
+  "status": "active",
+  "date": "2022-01-28T12:00:00+01:00",
+  "description": "Spécialité Assurance Maladie",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Médecine générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Anesthésiologie-réanimation chirurgicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Anesthésiolog-réa chirurgicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Anesthésiologie-réanimation chirurgicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Pathologie cardio-vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pathologie cardio-vasculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pathologie cardio-vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Chirurgie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Dermatologie et Vénéréologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dermatologie et Vénéréologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dermatologie et Vénéréologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Radiodiagnostic et Imagerie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Radiodiagnostic, Imagerie méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Radiodiagnostic et Imagerie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Gynécologie obstétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gynécologie obstétrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gynécologie obstétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Gastro-Entérologie et Hépathologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gastro-Entérologie, Hépatholog"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gastro-Entérologie et Hépathologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Médecine interne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine interne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine interne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Neuro-chirurgien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neuro-chirurgien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neuro-chirurgien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Oto-Rhino-Laryngologiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oto-Rhino-Laryngologiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oto-Rhino-Laryngologiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Pédiatre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pédiatre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pédiatre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "Pneumologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pneumologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pneumologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Rhumatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rhumatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rhumatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ophtalmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Chirurgie urologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie urologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie urologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Neuro-psychiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neuro-psychiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neuro-psychiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Stomatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Stomatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Stomatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Chirurgie dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie dentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Réanimation médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Réanimation médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réanimation médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Sage-Femme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sage-Femme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sage-Femme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "Infirmier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Infirmier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Infirmier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "Psychologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Masseur-Kinésithérapeute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masseur-Kinésithérapeute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masseur-Kinésithérapeute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Pédicure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pédicure"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pédicure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Orthophoniste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orthophoniste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orthophoniste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "Orthoptiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orthoptiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orthoptiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "Laboratoire d'analyses médicales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Labo d'analyses médicales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire d'analyses médicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Médecine physique et de réadaptation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine physique et réadapt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine physique et de réadaptation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Neurologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neurologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neurologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Psychiatrie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychiatrie générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychiatrie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "Gériatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gériatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gériatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Néphrologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Néphrologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Néphrologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Chirurgie dentaire (spéc. O.D.F.)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie dentaire (spéc ODF)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie dentaire (spéc. O.D.F.)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Anatomie-cytologie-pathologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Anatomie-cytolog-pathologiques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Anatomie-cytologie-pathologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Médecin biologiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin biologiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin biologiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Laboratoire polyvalent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Laboratoire polyvalent"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire polyvalent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Laboratoire anatomo-pathologiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Labo anatomo-pathologiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire anatomo-pathologiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Chirurgie orthopédique et Traumatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir orthopédique, Traumatolog"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie orthopédique et Traumatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "Endocrinologie et métabolismes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Endocrinologie et métabolismes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Endocrinologie et métabolismes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Chirurgie infantile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie infantile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie infantile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "Chirurgie maxillo-faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie maxillo-faciale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie maxillo-faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "Chirurgie maxillo-faciale et Stomatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir max-faciale, Stomatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie maxillo-faciale et Stomatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "Chirurgie plastique reconstructrice et esthétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir plast recon, esthétique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie plastique reconstructrice et esthétique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Chirurgie thoracique et cardio-vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir thoracique, cardio-vasc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie thoracique et cardio-vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "Chirurgie vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie vasculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "Chirurgie viscérale et digestive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir viscérale et digestive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie viscérale et digestive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Pharmacien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "Pharmacien mutualiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacien mutualiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacien mutualiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "Chirurgien dentiste spécialité Chirurgie orale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir dentiste, spéc Chir orale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgien dentiste spécialité Chirurgie orale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Chirurgien dentiste spécialité Médecine bucco-dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chir dent spéc Méd bucco-dent"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgien dentiste spécialité Médecine bucco-dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "69",
+      "display": "Chirurgie orale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie orale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie orale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "70",
+      "display": "Gynécologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gynécologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gynécologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "71",
+      "display": "Hématologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hématologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hématologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "72",
+      "display": "Médecine nucléaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine nucléaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine nucléaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "73",
+      "display": "Oncologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oncologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oncologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "74",
+      "display": "Oncologie radiothérapique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oncologie radiothérapique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oncologie radiothérapique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "75",
+      "display": "Psychiatrie de l'enfant et de l'adolescent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychiatrie de l'enfant et ado"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychiatrie de l'enfant et de l'adolescent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "76",
+      "display": "Radiothérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Radiothérapie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Radiothérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "77",
+      "display": "Obstétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Obstétrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Obstétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "78",
+      "display": "Génétique médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Génétique médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Génétique médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "79",
+      "display": "Gynécologie obstétrique et gynécologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gynéco obst et gynécologie méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gynécologie obstétrique et gynécologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80",
+      "display": "Santé publique et médecine sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Santé publ et médecine sociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Santé publique et médecine sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "81",
+      "display": "Médecine des Maladies infectieuses et tropicales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine maladies tropicales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine des Maladies infectieuses et tropicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "82",
+      "display": "Médecine légale et expertises médicales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine légale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine légale et expertises médicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83",
+      "display": "Médecine d'urgence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine d'urgence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine d'urgence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "84",
+      "display": "Médecine vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine vasculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "85",
+      "display": "Allergologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Allergologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Allergologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-02-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "86",
+      "display": "Infirmier exerçant en pratiques avancées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IPA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Infirmier exerçant en pratiques avancées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-08-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-08-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99",
+      "display": "Non définie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non définie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non définie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

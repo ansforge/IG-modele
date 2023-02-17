@@ -1,0 +1,313 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J24-ProfessionAuteurNote-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-07-07T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J24-ProfessionAuteurNote-CISIS/FHIR/JDV-J24-ProfessionAuteurNote-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.99"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J24-ProfessionAuteurNote-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Profession de l'auteur de la note du cahier de liaison - CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "10",
+            "display": "Médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Audioprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Chirurgien-Dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Sage-Femme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Infirmier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "69",
+            "display": "Infirmier psychiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Masseur-Kinésithérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Pédicure-Podologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Oculariste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Epithésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Technicien de laboratoire médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Diététicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "96",
+            "display": "Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "98",
+            "display": "Manipulateur ERM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R37-TypeProfessionFonction/FHIR/TRE-R37-TypeProfessionFonction",
+        "concept": [
+          {
+            "code": "08",
+            "display": "Professionnel du domaine social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

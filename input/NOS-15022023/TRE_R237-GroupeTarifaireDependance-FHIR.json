@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R237-GroupeTarifaireDependance",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R237-GroupeTarifaireDependance/FHIR/TRE-R237-GroupeTarifaireDependance",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.25"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R237-GroupeTarifaireDependance",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Niveau de dépendance associé à un tarif",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "GIR 1-2",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GIR 1-2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "GIR 1-2"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "GIR 3-4",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GIR 3-4"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "GIR 3-4"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "GIR 5-6",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "GIR 5-6"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "GIR 5-6"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

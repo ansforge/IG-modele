@@ -1,0 +1,1112 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J136-DisciplineEquipementSocial-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.222"
+    }
+  ],
+  "version": "20220930120000",
+  "name": "JDV_J136-DisciplineEquipementSocial-RASS",
+  "status": "active",
+  "date": "2022-09-30T12:00:00+01:00",
+  "description": "Disciplines d'équipement pour le social dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
+        "concept": [
+          {
+            "code": "177",
+            "display": "Section Cure Médicale (dont)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "246",
+            "display": "Hébergement Accueil Mère Enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "247",
+            "display": "Hébergement en centre parental",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "257",
+            "display": "Aide éducative à Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "258",
+            "display": "Action Éducative en Milieu Ouvert",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "259",
+            "display": "Activ.Club et Équipe de Prévention",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "278",
+            "display": "Aide Psychologique Universitaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "320",
+            "display": "Activité C.M.P.P.",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "354",
+            "display": "Restaurant pour Personnes Âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "357",
+            "display": "Activité soins d'accompagnement et de réhabilitation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "358",
+            "display": "Soins infirmiers à Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "359",
+            "display": "Repas à Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "360",
+            "display": "Blanchisserie à Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "365",
+            "display": "Alarme Médico-Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "377",
+            "display": "Stationnement Pour Nomades",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "380",
+            "display": "Mesure judiciaire aide gestion budget familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "381",
+            "display": "Héberg. non médicalisé de patients, accompagnants, aidants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "382",
+            "display": "Tutelle aux Prestations Sociales",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "399",
+            "display": "Préorientation pour Adultes handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "410",
+            "display": "Information,conseil, expertise, coordination",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "411",
+            "display": "Evaluation des situations des personnes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "412",
+            "display": "Centre de ressources territorial pour les personnes âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "442",
+            "display": "Veille sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "443",
+            "display": "Soutien et accompagnement social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "445",
+            "display": "Aide Psychopédagogique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "469",
+            "display": "Aide à Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "506",
+            "display": "Evaluat réentraînem orientat soc. et socioprof cérébro-lésés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "507",
+            "display": "Hébergement médico soc personnes en difficultés spécifiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "508",
+            "display": "Accueil orientation soins accompagnement diff spécifiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "511",
+            "display": "Equipe mobile santé précarité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "512",
+            "display": "Equipe spécialisée de soins infirmiers précarité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "520",
+            "display": "Tutelle curatelle mandat spécial sauvegarde justice pers maj",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "521",
+            "display": "Mesure d'accompagnement judiciaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "522",
+            "display": "Mesure d'accompagnement social personnalisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "523",
+            "display": "Information des tuteurs familiaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "633",
+            "display": "Services expérimentaux en faveur des personnes âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "655",
+            "display": "Prestation de Service Pr Association",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "657",
+            "display": "Accueil temporaire pour Personnes Âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "660",
+            "display": "Réalisation d'Enquêtes sociales",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "661",
+            "display": "Permanence des Assistants de Service Social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "697",
+            "display": "Intermédiaire de placement Social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "714",
+            "display": "Recherche dans Domaine Social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "840",
+            "display": "Accompagnement précoce de jeunes enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "841",
+            "display": "Acc. dans l'acquisition de l'autonomie et la scolarisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "842",
+            "display": "Préparation à la vie professionnelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "843",
+            "display": "Accompagnement enseignement supérieur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "844",
+            "display": "Tous projets éducatifs thérapeutiques et pédagogiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "900",
+            "display": "Action Médico-Sociale Précoce",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "906",
+            "display": "Réadaptation Professionnelle pour Adultes Handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "907",
+            "display": "Adaptation à la vie active",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "908",
+            "display": "Aide par le travail pour Adultes Handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "909",
+            "display": "Travail protégé pour Adultes Handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "912",
+            "display": "Accueil au titre de la protection de l'enfance",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "913",
+            "display": "Accueil d'urgence protection de l'enfance",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "914",
+            "display": "Accueil temporaire saisonnier ou week-end protection de l'enfance",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "916",
+            "display": "Hébergement Réadapt. Sociale Pers.Familles en Difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "920",
+            "display": "Hébergement Ouvert en Ets Pr Adultes & Familles",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "921",
+            "display": "Séjours de rupture/distanciation/apaisement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "922",
+            "display": "Accueil Temporaire d'Urgence Pr Adultes & Familles",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "923",
+            "display": "Accueil Temp.Saisonnier ou W E Adultes & Familles",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "924",
+            "display": "Accueil pour Personnes Âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "925",
+            "display": "Hébergement résidence autonomie personnes âgées seules F1",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "926",
+            "display": "Hébergement résidence autonomie personnes âgées couple F2",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "927",
+            "display": "Hébergement résidence autonomie personnes âgées F1BIS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "928",
+            "display": "Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "929",
+            "display": "Consultation d'Orientation Pour Mineurs Justice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "930",
+            "display": "Observation Orientation Pour Mineurs Justice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "931",
+            "display": "Suivi Social en Milieu Ouvert",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "932",
+            "display": "Animation de la Vie Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "935",
+            "display": "Activités des Établissements Expérimentaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "937",
+            "display": "Réinsertion Par l'Économie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "939",
+            "display": "Accueil médicalisé pour adultes handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "941",
+            "display": "Maisons Relais - Résidence Accueil",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "942",
+            "display": "Maisons Relais pour Personnes Vieillissantes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "943",
+            "display": "Maisons Relais \"Classique\"",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "944",
+            "display": "Résidences Sociales ex Foyer Jeunes Travailleurs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "945",
+            "display": "Résidences Sociales ex Foyers Travailleurs Migrants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "946",
+            "display": "Résidences Sociales créées ex Nihilo",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "947",
+            "display": "Résidence sociale FJT",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "948",
+            "display": "C.H.R.S. Hors les murs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "957",
+            "display": "Hébergement d'insertion Adultes,Familles Difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "958",
+            "display": "Hébergement de Stabilisation Adultes,familles Difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "959",
+            "display": "Hébergement d'Urgence Adultes, Familles Difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "960",
+            "display": "Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "961",
+            "display": "Pôles d'activité et de soins adaptés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "962",
+            "display": "Unités d'hébergement renforcées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "963",
+            "display": "Plateforme d'accompagnement et de répit des aidants (PFR)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "964",
+            "display": "Accueil et accompagnement spécialisé personnes handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "965",
+            "display": "Accueil et accompagnement non médical. personnes handicapées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          },
+          {
+            "code": "966",
+            "display": "Accueil et accompagnement médicalisé personnes handicapées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.133"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

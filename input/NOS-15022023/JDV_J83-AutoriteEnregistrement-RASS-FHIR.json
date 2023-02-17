@@ -1,0 +1,356 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J83-AutoriteEnregistrement-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.151"
+    }
+  ],
+  "version": "20220429120000",
+  "name": "JDV_J83-AutoriteEnregistrement-RASS",
+  "status": "active",
+  "date": "2022-04-29T12:00:00+01:00",
+  "description": "Autorités d'enregistrement des acteurs de santé du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
+        "concept": [
+          {
+            "code": "ARS-01",
+            "display": "ARS-01 : Guadeloupe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-02",
+            "display": "ARS-02 : Martinique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-03",
+            "display": "ARS-03 : Guyane",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-04",
+            "display": "ARS-04 : Océan Indien (La Réunion et Mayotte)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-11",
+            "display": "ARS-11 : Ile-de-France",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-24",
+            "display": "ARS-24 : Centre-Val-de-Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-27",
+            "display": "ARS-27 : Bourgogne-Franche-Comté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-28",
+            "display": "ARS-28 : Normandie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-32",
+            "display": "ARS-32 : Hauts-de-France",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-44",
+            "display": "ARS-44 : Grand-Est",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-52",
+            "display": "ARS-52 : Pays de la Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-53",
+            "display": "ARS-53 : Bretagne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-75",
+            "display": "ARS-75 : Nouvelle-Aquitaine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-76",
+            "display": "ARS-76 : Occitanie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-84",
+            "display": "ARS-84 : Auvergne-Rhône-Alpes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-93",
+            "display": "ARS-93 : Provence-Alpes-Côte d'Azur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ARS-94",
+            "display": "ARS-94 : Corse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "AT-975",
+            "display": "Agence territoriale de santé (ATS) de Saint-Pierre-Et-Miquelon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "CNOM",
+            "display": "Ordre des médecins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "CNOMK",
+            "display": "Ordre des masseurs-kinésithérapeutes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "CNOP",
+            "display": "Ordre des pharmaciens",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "CNOPP",
+            "display": "Ordre des pédicures-podologues",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "CNOSF",
+            "display": "Ordre des sages-femmes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ENREG",
+            "display": "Enregistrement par les AE locales (Structures)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ONCD",
+            "display": "Ordre des chirurgiens-dentistes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "ONI",
+            "display": "Ordre des infirmiers",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          },
+          {
+            "code": "SSA",
+            "display": "Service de santé des armées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J165-TypeCreneau-SAS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-05-28T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J165-TypeCreneau-SAS/FHIR/JDV-J165-TypeCreneau-SAS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.10"
+    }
+  ],
+  "version": "20210528120000",
+  "name": "JDV_J165-TypeCreneau-SAS",
+  "status": "active",
+  "date": "2021-05-28T12:00:00+01:00",
+  "description": "Type de Créneaux SAS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R314-TypeCreneau/FHIR/TRE-R314-TypeCreneau",
+        "concept": [
+          {
+            "code": "PUBLIC",
+            "display": "Créneau accessible par le grand public",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.71"
+              }
+            ]
+          },
+          {
+            "code": "PRO",
+            "display": "Créneau accessible par les professionnels",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.71"
+              }
+            ]
+          },
+          {
+            "code": "SNP",
+            "display": "Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.71"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

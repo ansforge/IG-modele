@@ -1,0 +1,575 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-X02-TranscoSectActADELI-SectAct",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2007-07-25T15:04:44+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": false
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_X02-TranscoSectActADELI-SectAct/FHIR/ASS-X02-TranscoSectActADELI-SectAct",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.12.26"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "ASS_X02-TranscoSectActADELI-SectAct",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Transco Secteur d'activité ADELI vers Secteur d'activité",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "element": [
+        {
+          "code": "10",
+          "target": [
+            {
+              "code": "SA01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11",
+          "target": [
+            {
+              "code": "SA02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "16",
+          "target": [
+            {
+              "code": "SA03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "17",
+          "target": [
+            {
+              "code": "SA04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "25",
+          "target": [
+            {
+              "code": "SA05",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "26",
+          "target": [
+            {
+              "code": "SA06",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "31",
+          "target": [
+            {
+              "code": "SA07",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "32",
+          "target": [
+            {
+              "code": "SA08",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "33",
+          "target": [
+            {
+              "code": "SA09",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34",
+          "target": [
+            {
+              "code": "SA40",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "35",
+          "target": [
+            {
+              "code": "SA10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "37",
+          "target": [
+            {
+              "code": "SA11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "41",
+          "target": [
+            {
+              "code": "SA12",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "42",
+          "target": [
+            {
+              "code": "SA13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "43",
+          "target": [
+            {
+              "code": "SA14",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "44",
+          "target": [
+            {
+              "code": "SA44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "45",
+          "target": [
+            {
+              "code": "SA15",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "51",
+          "target": [
+            {
+              "code": "SA16",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "52",
+          "target": [
+            {
+              "code": "SA45",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "53",
+          "target": [
+            {
+              "code": "SA17",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "54",
+          "target": [
+            {
+              "code": "SA18",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "55",
+          "target": [
+            {
+              "code": "SA19",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "56",
+          "target": [
+            {
+              "code": "SA20",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "57",
+          "target": [
+            {
+              "code": "SA21",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "58",
+          "target": [
+            {
+              "code": "SA22",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "61",
+          "target": [
+            {
+              "code": "SA23",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "62",
+          "target": [
+            {
+              "code": "SA24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "65",
+          "target": [
+            {
+              "code": "SA26",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "66",
+          "target": [
+            {
+              "code": "SA27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "68",
+          "target": [
+            {
+              "code": "SA28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "71",
+          "target": [
+            {
+              "code": "SA29",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "75",
+          "target": [
+            {
+              "code": "SA30",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "81",
+          "target": [
+            {
+              "code": "SA31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "85",
+          "target": [
+            {
+              "code": "SA42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "86",
+          "target": [
+            {
+              "code": "SA33",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "87",
+          "target": [
+            {
+              "code": "SA34",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "88",
+          "target": [
+            {
+              "code": "SA35",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91",
+          "target": [
+            {
+              "code": "SA41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "92",
+          "target": [
+            {
+              "code": "SA43",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "93",
+          "target": [
+            {
+              "code": "SA36",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "94",
+          "target": [
+            {
+              "code": "SA37",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "95",
+          "target": [
+            {
+              "code": "SA46",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "96",
+          "target": [
+            {
+              "code": "SA47",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "97",
+          "target": [
+            {
+              "code": "SA48",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "98",
+          "target": [
+            {
+              "code": "SA49",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "99",
+          "target": [
+            {
+              "code": "SA32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "100",
+          "target": [
+            {
+              "code": "SA50",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "101",
+          "target": [
+            {
+              "code": "SA51",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "102",
+          "target": [
+            {
+              "code": "SA52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "103",
+          "target": [
+            {
+              "code": "SA53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "104",
+          "target": [
+            {
+              "code": "SA54",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "105",
+          "target": [
+            {
+              "code": "SA55",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "106",
+          "target": [
+            {
+              "code": "SA56",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "107",
+          "target": [
+            {
+              "code": "SA57",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "108",
+          "target": [
+            {
+              "code": "SA58",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "109",
+          "target": [
+            {
+              "code": "SA59",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "110",
+          "target": [
+            {
+              "code": "SA60",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "111",
+          "target": [
+            {
+              "code": "SA61",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "112",
+          "target": [
+            {
+              "code": "SA62",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "113",
+          "target": [
+            {
+              "code": "SA63",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

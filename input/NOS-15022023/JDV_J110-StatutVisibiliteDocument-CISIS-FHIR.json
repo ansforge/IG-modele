@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J110-StatutVisibiliteDocument-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-01-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J110-StatutVisibiliteDocument-CISIS/FHIR/JDV-J110-StatutVisibiliteDocument-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.480"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J110-StatutVisibiliteDocument-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Restriction d'audience applicable aux objets référencés liste - CISIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A07-StatutVisibiliteDocument/FHIR/TRE-A07-StatutVisibiliteDocument",
+        "concept": [
+          {
+            "code": "INVISIBLE_PATIENT",
+            "display": "Non visible par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.13"
+              }
+            ]
+          },
+          {
+            "code": "INVISIBLE_REPRESENTANTS_LEGAUX",
+            "display": "Non visible par les représentants légaux du patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.13"
+              }
+            ]
+          },
+          {
+            "code": "MASQUE_PS",
+            "display": "Masqué aux professionnels de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.13"
+              }
+            ]
+          },
+          {
+            "code": "MASQUE_PSOCIAL",
+            "display": "Masqué aux professionnels du domaine social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.13"
+              }
+            ]
+          },
+          {
+            "code": "MASQUE_PT",
+            "display": "Masqué aux personnes tierces",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.13"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

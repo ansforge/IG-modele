@@ -1,0 +1,2568 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A04-Loinc",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-05-19T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.6.1"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_A04-Loinc",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Termes LOINC utilisés",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "10213-7",
+      "display": "CR d'anesthésie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'anesthésie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'anesthésie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Surgical operation note anesthesia Document réalisé par un anesthésiste ou une infirmière anesthésiste diplômée d'état au cours ou au décours d'une anesthésie, décrivant son déroulement et son issue."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11369-6",
+      "display": "Historique des vaccinations",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Historique des vaccinations"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Historique des vaccinations"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-09-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11488-4",
+      "display": "CR ou fiche de consultation ou de visite",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR, fiche consultation, visite"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR ou fiche de consultation ou de visite"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Consultation note {Provider} Document réalisé à l'issue d'une consultation médicale ou chirurgicale indiquant le motif de la consultation, les principales observations, le résultat de consultation et la conduite à tenir."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11490-0",
+      "display": "Lettre de liaison à la sortie d'un établissement de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LDL sortie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lettre de liaison à la sortie d'un établissement de soins"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Physician hospital discharge summary La lettre de sortie synthétise le cas d'un patient à l'occasion d'un séjour dans un hôpital ou dans un centre de soins. Elle comprend en principe l'ensemble des diagnostics qui ont été posés durant ce séjour. Les diagnostics actifs sont étayés par d'autres éléments du dossier dont les conclusions sont citées. La lettre de sortie contient aussi des commentaires, ou une discussion si nécessaire, et le traitement à suivre après le départ de l'hôpital. Enfin, la lettre de sortie donne des recommandations pour le suivi médical. Le but premier d'une lettre de sortie est par conséquent d'informer le médecin traitant qui suivra le patient après sa sortie."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11493-4",
+      "display": "CR hospitalier (séjour)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR hospitalier (séjour)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR hospitalier (séjour)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Hospital discharge studies Summary"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11502-2",
+      "display": "CR d'examens biologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'examens biologiques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'examens biologiques"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "LABORATORY REPORT TOTAL Compte rendu d'analyses de biologie médicale."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11505-5",
+      "display": "CR d'acte thérapeutique (autre)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR acte thérapeutique (autre)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte thérapeutique (autre)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Physician procedure note Document rendant compte d'un acte thérapeutique."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11506-3",
+      "display": "CR ou fiche de suivi de soins par auxil médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR, fiche suivi soins auxil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR ou fiche de suivi de soins par auxiliaire médical"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Provider-unspecified Progress Note Document rédigé par une sage-femme, un infirmier ou un auxiliaire médical rendant compte des soins réalisés et des résultats obtenus."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11526-1",
+      "display": "CR d'anatomie et de cytologie pathologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR anatomo-cyto-pathologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'anatomie et de cytologie pathologiques"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "PATHOLOGY STUDY Document réalisé par un pathologiste rendant compte de l'examen d'un ou plusieurs échantillons biologiques de type pièce opératoire ou prélèvement par biopsie ou échantillon cytologique ou bien rendant compte d'une autopsie. Différents modèles de comptes rendus peuvent exister, adaptés au type de prélèvement et à l'organe concerné."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11528-7",
+      "display": "CR d'imagerie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'imagerie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'imagerie médicale"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Radiology Unspecified site and modality Study Document réalisé par un médecin radiologue qui interprète les images obtenues au cours d'un examen utilisant une technique d'imagerie médicale."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15507-7",
+      "display": "CR de passage aux urgences",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR de passage aux urgences"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de passage aux urgences"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Provider-unspecified ED Progress note RPU."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15508-5",
+      "display": "CR d'accouchement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'accouchement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'accouchement"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Labor and delivery records Document réalisé par un gynécologue obstétricien ou par une sage-femme, décrivant le déroulement d'un accouchement, le mode de délivrance et l'état de l'enfant à la naissance."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18748-4",
+      "display": "CR d'imagerie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'imagerie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'imagerie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18761-7",
+      "display": "Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Note transf (dont LDL entrée)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18776-5",
+      "display": "Plan personnalisé de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Plan personnalisé de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plan personnalisé de soins"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Plan of treatment Document rédigé par un professionnel de santé identifiant le(s) problème(s) du patient et le plan de prise en charge prévu pour une période déterminée."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "24611-6",
+      "display": "CR de télé-médecine (télé-consultation)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR télé-médecine, télé-consult"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de télé-médecine (télé-consultation)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Outpatient Consultation 2nd opinion Conclusion d'une activité médicale de consultation réalisée à distance."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "27899-4",
+      "display": "CR d'acte diagnostique (autre)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'acte diagnostique (autre)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte diagnostique (autre)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Diagnostic studies.non lab Document réalisé par le médecin ayant pratiqué l'acte qui décrit la technique utilisée, les principales observations et la conclusion de l'examen."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29274-8",
+      "display": "Mesures de signes vitaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mesures de signes vitaux"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mesures de signes vitaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29550-1",
+      "display": "Dispensation médicamenteuse (non codée)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispensation médic (non codée)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispensation médicamenteuse (non codée)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Medication dispensed Document rédigé par un pharmacien, listant les médicaments dispensés au patient."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29551-9",
+      "display": "Prescription de médicaments (non codée)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription médic (non codée)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription de médicaments (non codée)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Medication prescribed Document médico-légal rédigé par un médecin ou une sage-femme indiquant les médicaments prescrits, la posologie, la durée du traitement et le cas échéant des consignes d'administration ou de surveillance."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29554-3",
+      "display": "CR d'acte thérapeutique à visée préventive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR acte thérap visée préventiv"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte thérapeutique à visée préventive"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Procedure Document réalisé par le médecin ayant pratiqué l'acte thérapeutique dans le but de prévenir une pathologie à un stade infra clinique, Il décrit la technique utilisée, les principales observations et la conclusion de l'intervention."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34112-3",
+      "display": "CR hospitalier (séjour)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR hospitalier (séjour)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR hospitalier (séjour)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34133-9",
+      "display": "Synthèse d'épisode de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Synthèse d'épisode de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Synthèse d'épisode de soins"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Summarization of episode note Document réalisé par un professionnel de santé résumant l'état clinique et l'état de la prise en charge médicale d'un(e) patient(e) à l'issue d'un épisode de soins."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34749-2",
+      "display": "CR de consultation pré-anesthésique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR consult pré-anesthésique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de consultation pré-anesthésique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Consultation note {Anesthesia} Document réalisé par un anesthésiste, rendant compte de sa consultation, en vue d'une anesthésie à venir."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34794-8",
+      "display": "CR de réunion de concertation pluridisciplinaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR réunion concert pluridiscip"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de réunion de concertation pluridisciplinaire"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Multidisciplinary evaluation and management note Document rédigé par un PS à l'issue d'une réunion réunissant plusieurs PS autour de la prise en charge d'un patient, et décrivant les décisions prises à son sujet."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34842-5",
+      "display": "Grille d'évaluation médico-social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Grille évaluation médic social"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grille d'évaluation médico-social"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34874-8",
+      "display": "CR opératoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR opératoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR opératoire"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Surgery Surgical operation note Document réalisé par un chirurgien décrivant la technique employé, le déroulement de l'intervention chirurgicale, les pièces éventuellement prélevée, et les dispositifs médicaux éventuellement administrés."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "39256-3",
+      "display": "CR d'acte diag à visée prév ou de dépistage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR acte diag visée prév/dépist"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte diagnostique à visée préventive ou de dépistage"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "History and physical screen assessment Document réalisé par le médecin ayant pratiqué l'acte à visée diagnostique dans le but de prévenir une pathologie à un stade infra clinique, ou de dépister une pathologie. Il décrit la technique utilisée, les principales observations et la conclusion de l'examen."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "46241-6",
+      "display": "CR d'admission",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'admission"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'admission"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Hospital admission Dx Document réalisé à l'issue de l'admission d'un patient dans un établissement de santé résumant l'état initial du patient, et la prise en charge prévue."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "47420-5",
+      "display": "CR de bilan fonctionnel (par auxiliaire médical)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR de bilan fonctionnel, auxil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de bilan fonctionnel (par auxiliaire médical)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Functional status assessment Document Document réalisé par un auxiliaire médical décrivant l'état d'une fonction d'un patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51969-4",
+      "display": "CR de génétique moléculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR de génétique moléculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de génétique moléculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52040-3",
+      "display": "Document encapsulant une image d'illustration non DICOM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Document avec image non DICOM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document encapsulant une image d'illustration non DICOM"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Dental X-rays and other images (not DICOM) attachment Images acquises au cours d'un acte diagnostique ou thérapeutique, conservées dans un dossier partagé sous un format autre que DICOM (ex : TIFF, JPEG, PNG …)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52063-5",
+      "display": "Prescription (autre)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription (autre)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription (autre)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription for durable medical equipment attachment Document indiquant le dispositif médical prescrit, les consignes de pose et de surveillance."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52521-2",
+      "display": "Presccription de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription de soins"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Overall Plan of Care &or Advance Care Directives Document rédigé par un médecin prescrivant les soins à réaliser."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "55115-0",
+      "display": "Demande d'actes d'imagerie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demande d'actes d'imagerie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demande d'actes d'imagerie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Demande d'acte d'imagerie."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "56445-0",
+      "display": "Bilan médicamenteux (Officine)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bilan médicamenteux (Officine)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bilan médicamenteux (Officine)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Bilan médicamenteux réalisé dans le cadre d'une conciliation des traitements médicamenteux ou d'un bilan partagé de médication."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57828-6",
+      "display": "Prescription (autre)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription (autre)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription (autre)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57832-8",
+      "display": "Prescription de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription de soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57833-6",
+      "display": "Prescription de produits de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription produits de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription de produits de santé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription de produits de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "59283-2",
+      "display": "CR d'examen de l'enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'examen de l'enfant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'examen de l'enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "60591-5",
+      "display": "Synthèse du dossier médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Synthèse du dossier médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Synthèse du dossier médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "60593-1",
+      "display": "Dispensation médicamenteuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispensation médicamenteuse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispensation médicamenteuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "61357-0",
+      "display": "Intervention pharmaceutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Intervention pharmaceutique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Intervention pharmaceutique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Intervention du pharmacien auprès du prescripteur sur une ligne de prescription."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "61358-8",
+      "display": "Consentement chirurgical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Consentement chirurgical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Consentement chirurgical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "61359-6",
+      "display": "Consentement anesthésique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Consentement anesthésique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Consentement anesthésique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "67851-6",
+      "display": "CR d'admission",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'admission"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'admission"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "68599-0",
+      "display": "Synthèse psychiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Synthèse psychiatrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Synthèse psychiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "68817-6",
+      "display": "Bilan de santé et de prévention de l'enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bilan santé/prévention enfant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bilan de santé et de prévention de l'enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "70004-7",
+      "display": "CR d'acte diagnostique (autre)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'acte diagnostique (autre)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte diagnostique (autre)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "74207-2",
+      "display": "Dossier de liaison d'urgence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dossier de liaison d'urgence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dossier de liaison d'urgence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "75468-9",
+      "display": "Renouvellement ordonnance par pharmacien correspondant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Renouv. ordon. par pharm corr."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Renouvellement ordonnance par pharmacien correspondant"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Renouvellement et adaptation des posologies par le pharmacien correspondant. Dans le cadre d'un renouvellement périodique des traitements chroniques."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "75482-0",
+      "display": "CR d'acte thérapeutique à visée préventive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR acte thérap visée préventiv"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte thérapeutique à visée préventive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "75492-9",
+      "display": "CR d'acte diagnostique à visée préventive ou de dépistage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR acte diag visée prév/dépist"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'acte diagnostique à visée préventive ou de dépistage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "75496-0",
+      "display": "Demande d'acte de télémédecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demande d'acte de télémédecine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demande d'acte de télémédecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "75497-8",
+      "display": "CR de télé-médecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR de télé-médecine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de télé-médecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "77436-4",
+      "display": "CR d'anesthésie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'anesthésie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'anesthésie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "77604-7",
+      "display": "Planification thérapeutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Planification thérapeutique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Planification thérapeutique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Plan de prise associé à la dispensation des traitements."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "78513-9",
+      "display": "CR de consultation en ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR consultation ophtalmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de consultation en ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "78601-2",
+      "display": "CR d'entretien pharmaceutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR d'entretien pharmaceutique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'entretien pharmaceutique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80565-5",
+      "display": "CR d'administration de médicaments",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR administration médicaments"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR d'administration de médicaments"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80788-3",
+      "display": "Projet personnalisé d'accompagnement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Projet perso accompagnement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Projet personnalisé d'accompagnement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80820-4",
+      "display": "Formulaire de conciliation médicamenteuse (Hôpital)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Form. conciliation médicament."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Formulaire de conciliation médicamenteuse (Hôpital)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Formulaire permettant l'analyse des divergences entre le bilan médicamenteux et la prescription en cours dans le cadre de la conciliation médicamenteuse."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83836-7",
+      "display": "Schéma dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Schéma dentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Schéma dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83901-9",
+      "display": "Bilan psychologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bilan psychologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bilan psychologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83981-1",
+      "display": "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LDL Sortie (médico-social)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "85208-7",
+      "display": "CR de télémédecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR de télémédecine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de télémédecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "86531-1",
+      "display": "Attestation de sortie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation de sortie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation de sortie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "87273-9",
+      "display": "Note de vaccination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Note de vaccination"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Note de vaccination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "88348-8",
+      "display": "Lettre de liaison d'entrée en structure sociale ou médico-sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LDL Entrée (médico-social)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lettre de liaison d'entrée en structure sociale ou médico-sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "88365-2",
+      "display": "Glucose avant repas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Avant repas"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Avant repas"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Glucose [Mass/volume] in Blood --pre-meal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "89601-9",
+      "display": "Certificat médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certificat médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certificat médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "93024-8",
+      "display": "CR de consultation pharmaceutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR consultation pharmaceutique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de consultation pharmaceutique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Réalisation d'un bilan de médication et/ou d'un plan pharmaceutique personnalisé dans le cadre d'une consultation pharmaceutique."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "96173-0",
+      "display": "Attestation de dépistage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation de dépistage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation de dépistage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-08-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-08-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "96874-3",
+      "display": "COVID-19 Attestation de vaccination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "COVID-19 Attest. vaccination"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "COVID-19 Attestation de vaccination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2345-7",
+      "display": "Glucose sanguin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Glucose sanguin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Glucose sanguin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4548-4",
+      "display": "Hémoglobine glyquée (HbA1c)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hémoglobine glyquée (HbA1c)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hémoglobine glyquée (HbA1c)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "L'hémoglobine glyquée (HbA1C) est la part de l'hémoglobine qui capte le sucre dans le sang."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53049-3",
+      "display": "Glucose à jeun",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Glucose à jeun"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Glucose à jeun"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16915-1",
+      "display": "Glucose post prandial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Glucose post prandial"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Glucose post prandial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LA11865-5",
+      "display": "Après exercice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Après exercice"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Après exercice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LA15173-0",
+      "display": "Femme enceinte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Femme enceinte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Femme enceinte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LA46-8",
+      "display": "Autre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A10-NomenclatureURN",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",
+  "identifier": [
+    {
+      "value": "urn:oid:URN"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_A10-NomenclatureURN",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Nomenclature identifiée par URN",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "http://www.w3.org/2000/09/xmldsig#",
+      "display": "Default signature style",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Default signature style"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Default signature style"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1",
+      "display": "Digital Signature",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Digital Signature"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Digital Signature"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

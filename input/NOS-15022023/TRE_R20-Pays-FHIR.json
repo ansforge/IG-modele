@@ -1,0 +1,6794 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R20-Pays",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-02-09T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.24"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "TRE_R20-Pays",
+  "status": "active",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "Référentiel des codes pays provenant du COG INSEE",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "99000",
+      "display": "République française",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "France"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "France"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99100",
+      "display": "République française",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "France"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "France"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99101",
+      "display": "Royaume du Danemark",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Danemark"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Danemark"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99102",
+      "display": "République d'Islande",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Islande"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Islande"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99103",
+      "display": "Royaume de Norvège",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Norvège"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Norvège"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99104",
+      "display": "Royaume de Suède",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Suède"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Suède"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99105",
+      "display": "République de Finlande",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Finlande"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Finlande"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99106",
+      "display": "République d'Estonie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Estonie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Estonie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99107",
+      "display": "République de Lettonie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lettonie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lettonie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99108",
+      "display": "République de Lituanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lituanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lituanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99109",
+      "display": "République fédérale d'Allemagne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Allemagne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Allemagne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99110",
+      "display": "République d'Autriche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autriche"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autriche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99111",
+      "display": "République de Bulgarie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bulgarie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bulgarie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99112",
+      "display": "République de Hongrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hongrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hongrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99113",
+      "display": "Principauté de Liechtenstein",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Liechtenstein"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Liechtenstein"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99114",
+      "display": "Roumanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Roumanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Roumanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99115",
+      "display": "Tchécoslovaquie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tchécoslovaquie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tchécoslovaquie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99116",
+      "display": "République tchèque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tchèquie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République tchèque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99117",
+      "display": "République slovaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Slovaquie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Slovaquie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99118",
+      "display": "République de Bosnie-Herzégovine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bosnie-Herzégovine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bosnie-Herzégovine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99119",
+      "display": "République de Croatie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Croatie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Croatie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99120",
+      "display": "République du Monténégro",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Monténégro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Monténégro"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99121",
+      "display": "République de Serbie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Serbie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Serbie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99122",
+      "display": "République de Pologne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pologne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pologne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99123",
+      "display": "Fédération de Russie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Russie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Russie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99124",
+      "display": "Turquie d'Europe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Turquie d'Europe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Turquie d'Europe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99125",
+      "display": "République d'Albanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Albanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Albanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99126",
+      "display": "République Hellénique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Grèce"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grèce"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99127",
+      "display": "République italienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Italie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Italie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99128",
+      "display": "République de Saint-Marin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Saint-Marin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Saint-Marin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99129",
+      "display": "État de la cité du Vatican",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vatican"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vatican"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99130",
+      "display": "Principauté d'Andorre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Andorre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Andorre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99131",
+      "display": "Royaume de Belgique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Belgique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Belgique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99132",
+      "display": "Royaume-Uni de Grande-Bretagne et Irlande du Nord",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Royaume-Uni"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Royaume-Uni"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99133",
+      "display": "Gibraltar",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gibraltar"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gibraltar"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99134",
+      "display": "Royaume d'Espagne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Espagne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Espagne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99135",
+      "display": "Royaume des Pays-Bas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pays-Bas"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pays-Bas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99136",
+      "display": "Irlande (Eire)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Irlande"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Irlande"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99137",
+      "display": "Grand-Duché de Luxembourg",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Luxembourg"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Luxembourg"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99138",
+      "display": "Principauté de Monaco",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Monaco"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Monaco"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99139",
+      "display": "République portugaise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Portugal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Portugal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99140",
+      "display": "Confédération suisse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Suisse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Suisse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99141",
+      "display": "République démocratique allemande",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rép. dém. allemande"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République démocratique allemande"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99142",
+      "display": "République fédérale d'Allemagne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rép. féd. Allemagne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République fédérale d'Allemagne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99144",
+      "display": "République de Malte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Malte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Malte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99145",
+      "display": "République de Slovénie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Slovénie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Slovénie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99148",
+      "display": "République de Biélorussie (Bélarus)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Biélorussie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Biélorussie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99151",
+      "display": "République de Moldavie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Moldavie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Moldavie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99155",
+      "display": "Ukraine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ukraine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ukraine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99156",
+      "display": "République de Macédoine du nord",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Macédoine du nord"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Macédoine du nord"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99157",
+      "display": "République du Kosovo",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Kosovo"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Kosovo"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99201",
+      "display": "Royaume d'Arabie saoudite",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arabie saoudite"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arabie saoudite"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99202",
+      "display": "Yémen, république arabe du",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Yémen, rép. arabe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Yémen, république arabe du"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99203",
+      "display": "République d'Iraq",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Iraq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Iraq"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99204",
+      "display": "République islamique d'Iran",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Iran"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Iran"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99205",
+      "display": "République libanaise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Liban"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Liban"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99206",
+      "display": "République arabe syrienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Syrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Syrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99207",
+      "display": "Etat d'Israël",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Israël"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Israël"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99208",
+      "display": "République turque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Turquie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Turquie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99209",
+      "display": "Sibérie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sibérie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sibérie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99210",
+      "display": "Turkestan russe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Turkestan russe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Turkestan russe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99211",
+      "display": "Kamtchatka",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Kamtchatka"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Kamtchatka"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99212",
+      "display": "Etat islamique d'Afghanistan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Afghanistan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Afghanistan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99213",
+      "display": "République islamique du Pakistan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pakistan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pakistan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99214",
+      "display": "Royaume du Bhoutan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bhoutan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bhoutan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99215",
+      "display": "Royaume du Népal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Népal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Népal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99216",
+      "display": "République populaire de Chine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99217",
+      "display": "Japon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Japon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Japon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99218",
+      "display": "Mandchourie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mandchourie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mandchourie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99219",
+      "display": "Royaume de Thaïlande",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Thaïlande"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Thaïlande"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99220",
+      "display": "République des Philippines",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Philippines"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Philippines"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99221",
+      "display": "Possessions britanniques au Proche-Orient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pos.brit. Proche-Orient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Possessions britanniques au Proche-Orient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99222",
+      "display": "Royaume hachémite de Jordanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Jordanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jordanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99223",
+      "display": "République de l'Inde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Inde"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Inde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99224",
+      "display": "Union de Birmanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Birmanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Birmanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99225",
+      "display": "Negara Brunei Darussalam",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Brunei"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Brunei"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99226",
+      "display": "République de Singapour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Singapour"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Singapour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99227",
+      "display": "Malaisie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Malaisie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Malaisie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99228",
+      "display": "États malais non fédérés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etats malais non féd."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "États malais non fédérés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99229",
+      "display": "République des Maldives",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maldives"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maldives"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99230",
+      "display": "Hong-Kong",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hong-Kong"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hong-Kong"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99231",
+      "display": "République d'Indonésie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Indonésie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Indonésie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99232",
+      "display": "Macao",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Macao"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Macao"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99233",
+      "display": "Yémen démocratique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Yémen démocratique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Yémen démocratique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99234",
+      "display": "Royaume du Cambodge",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cambodge"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cambodge"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99235",
+      "display": "République démocratique socialiste de Sri Lanka",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sri Lanka"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sri Lanka"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99236",
+      "display": "Taïwan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Taïwan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Taïwan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99237",
+      "display": "Corée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Corée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Corée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99238",
+      "display": "République populaire démocratique de Corée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Corée du Nord"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République populaire démocratique de Corée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99239",
+      "display": "République de Corée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Corée du Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République de Corée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99240",
+      "display": "État du Koweït",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Koweït"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Koweït"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99241",
+      "display": "République démocratique populaire lao",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Laos"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laos"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99242",
+      "display": "Mongolie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mongolie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mongolie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99243",
+      "display": "République socialiste du Viêt Nam",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Viêt Nam"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Viêt Nam"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99244",
+      "display": "Viêt Nam du nord",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Viêt Nam du nord"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Viêt Nam du nord"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99245",
+      "display": "Viêt Nam du sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Viêt Nam du sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Viêt Nam du sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99246",
+      "display": "République populaire du Bangladesh",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bangladesh"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bangladesh"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99247",
+      "display": "Émirats arabes unis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emirats arabes unis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Émirats arabes unis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99248",
+      "display": "État du Qatar",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Qatar"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Qatar"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99249",
+      "display": "État de Bahreïn",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bahreïn"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bahreïn"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99250",
+      "display": "Sultanat d'Oman",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oman"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oman"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99251",
+      "display": "Yémen",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Yémen"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Yémen"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99252",
+      "display": "République d'Arménie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arménie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arménie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99253",
+      "display": "République azerbaïdjanaise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Azerbaïdjan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Azerbaïdjan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99254",
+      "display": "République de Chypre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chypre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chypre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99255",
+      "display": "République de Géorgie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Géorgie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Géorgie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99256",
+      "display": "République du Kazakhstan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Kazakhstan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Kazakhstan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99257",
+      "display": "République Kirghize",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Kirghizistan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Kirghizistan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99258",
+      "display": "République d'Ouzbékistan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ouzbékistan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ouzbékistan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99259",
+      "display": "République du Tadjikistan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tadjikistan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tadjikistan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99260",
+      "display": "Turkménistan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Turkménistan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Turkménistan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99261",
+      "display": "Etat de Palestine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Palestine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etat de Palestine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99262",
+      "display": "République démocratique du Timor oriental",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Timor oriental"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Timor oriental"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99301",
+      "display": "République arabe d'Egypte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Egypte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Egypte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99302",
+      "display": "République du Liberia",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Liberia"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Liberia"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99303",
+      "display": "République d'Afrique du Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Afrique du Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Afrique du Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99304",
+      "display": "République de Gambie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gambie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gambie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99305",
+      "display": "Cameroun et Togo",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cameroun et Togo"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cameroun et Togo"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99306",
+      "display": "Sainte-Hélène, Ascension et Tristan de Cunha",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sainte-Hélène"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sainte-Hélène"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99307",
+      "display": "Soudan anglo-égyptien, Kenya, Ouganda",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soudan, Kenya, Ouganda"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soudan, Kenya, Ouganda"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99308",
+      "display": "Territoire britannique de l'océan Indien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Terr. brit. océan Indien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire britannique de l'océan Indien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99309",
+      "display": "République unie de Tanzanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tanzanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tanzanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99310",
+      "display": "République du Zimbabwe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Zimbabwe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zimbabwe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99311",
+      "display": "République de Namibie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Namibie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Namibie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99312",
+      "display": "République démocratique du Congo",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Congo"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République démocratique du Congo"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99313",
+      "display": "Provinces espagnoles d'Afrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prov. esp. Afrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Provinces espagnoles d'Afrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99314",
+      "display": "République de Guinée équatoriale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Guinée équatoriale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guinée équatoriale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99315",
+      "display": "République démocratique fédérale d'Ethiopie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ethiopie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ethiopie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99316",
+      "display": "Jamahiriya arabe libyenne populaire et socialiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Libye"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Libye"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99317",
+      "display": "Etat d'Erythrée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Erythrée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Erythrée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99318",
+      "display": "Somalie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Somalie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Somalie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99319",
+      "display": "Açores, Madère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Açores, Madère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Açores, Madère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99320",
+      "display": "Iles portugaises de l'océan Indien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Iles port. océan Indien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Iles portugaises de l'océan Indien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99321",
+      "display": "République du Burundi",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Burundi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Burundi"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99322",
+      "display": "République du Cameroun",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cameroun"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cameroun"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99323",
+      "display": "République Centrafricaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centrafrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République Centrafricaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99324",
+      "display": "République du Congo",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Congo"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Congo"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99325",
+      "display": "Tanger",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tanger"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tanger"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99326",
+      "display": "République de Côte d'Ivoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Côte d'Ivoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Côte d'Ivoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99327",
+      "display": "République du Bénin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bénin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bénin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99328",
+      "display": "République gabonaise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gabon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gabon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99329",
+      "display": "République du Ghana",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ghana"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ghana"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99330",
+      "display": "République de Guinée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Guinée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guinée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99331",
+      "display": "Burkina Faso",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Burkina"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Burkina"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99332",
+      "display": "République du Kenya",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Kenya"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Kenya"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99333",
+      "display": "République de Madagascar",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Madagascar"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Madagascar"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99334",
+      "display": "République du Malawi",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Malawi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Malawi"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99335",
+      "display": "République du Mali",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mali"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mali"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99336",
+      "display": "République islamique de Mauritanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mauritanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mauritanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99337",
+      "display": "République du Niger",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Niger"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Niger"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99338",
+      "display": "République fédérale du Nigeria",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nigeria"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nigeria"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99339",
+      "display": "République de l'Ouganda",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ouganda"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ouganda"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99340",
+      "display": "République du Rwanda",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rwanda"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rwanda"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99341",
+      "display": "République du Sénégal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sénégal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sénégal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99342",
+      "display": "République de Sierra Leone",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sierra Leone"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sierra Leone"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99343",
+      "display": "République du Soudan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soudan"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soudan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99344",
+      "display": "République du Tchad",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tchad"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tchad"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99345",
+      "display": "République togolaise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Togo"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Togo"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99346",
+      "display": "République de Zambie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Zambie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zambie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99347",
+      "display": "République du Botswana",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Botswana"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Botswana"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99348",
+      "display": "Royaume du Lesotho",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lesotho"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lesotho"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99349",
+      "display": "République du Soudan du Sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soudan du Sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soudan du Sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99350",
+      "display": "Royaume du Maroc",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maroc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maroc"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99351",
+      "display": "République tunisienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tunisie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tunisie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99352",
+      "display": "République algérienne démocratique et populaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Algérie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Algérie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99389",
+      "display": "Sahara occidental",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sahara occidental"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sahara occidental"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99390",
+      "display": "République de Maurice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maurice"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maurice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99391",
+      "display": "Royaume d'Eswatini",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Eswatini"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Eswatini"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99392",
+      "display": "République de Guinée-Bissau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Guinée-Bissau"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guinée-Bissau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99393",
+      "display": "République du Mozambique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mozambique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mozambique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99394",
+      "display": "République démocratique de Sao Tomé-et-Principe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sao Tomé-et-Principe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sao Tomé-et-Principe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99395",
+      "display": "République d'Angola",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Angola"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Angola"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99396",
+      "display": "République du Cap-Vert",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cap-Vert"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cap-Vert"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99397",
+      "display": "République fédérale islamique des Comores",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Comores"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Comores"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99398",
+      "display": "République des Seychelles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Seychelles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Seychelles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99399",
+      "display": "République de Djibouti",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Djibouti"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Djibouti"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99401",
+      "display": "Canada",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Canada"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Canada"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99402",
+      "display": "Terre-Neuve",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Terre-neuve"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Terre-Neuve"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99403",
+      "display": "Labrador",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Labrador"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Labrador"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99404",
+      "display": "États-Unis d'Amérique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etats-Unis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "États-Unis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99405",
+      "display": "États-Unis du Mexique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mexique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mexique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99406",
+      "display": "République du Costa Rica",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Costa Rica"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Costa Rica"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99407",
+      "display": "République de Cuba",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cuba"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cuba"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99408",
+      "display": "République dominicaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rép. dominicaine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "République dominicaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99409",
+      "display": "République du Guatemala",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Guatemala"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guatemala"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99410",
+      "display": "République d'Haïti",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Haïti"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Haïti"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99411",
+      "display": "République du Honduras",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Honduras"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Honduras"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99412",
+      "display": "République du Nicaragua",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nicaragua"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nicaragua"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99413",
+      "display": "République du Panama",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Panama"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Panama"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99414",
+      "display": "République du Salvador",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "El Salvador"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "El Salvador"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99415",
+      "display": "République argentine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Argentine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Argentine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99416",
+      "display": "République fédérative du Brésil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Brésil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Brésil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99417",
+      "display": "République du Chili",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chili"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chili"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99418",
+      "display": "Etat plurinational de Bolivie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bolivie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bolivie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99419",
+      "display": "République de Colombie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Colombie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Colombie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99420",
+      "display": "République de l'Equateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equateur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99421",
+      "display": "République du Paraguay",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Paraguay"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Paraguay"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99422",
+      "display": "République du Pérou",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pérou"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pérou"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99423",
+      "display": "République orientale de l'Uruguay",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Uruguay"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Uruguay"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99424",
+      "display": "République du Venezuela",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Venezuela"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Venezuela"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99425",
+      "display": "Territoires du Royaume-Uni aux Antilles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Terr. Roy-Uni Antilles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoires du Royaume-Uni aux Antilles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99426",
+      "display": "Jamaïque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Jamaïque"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jamaïque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99427",
+      "display": "Terr. du Royaume-Uni dans l'Atlantique sud",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Terr. Roy-Uni Atl.sud"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoires du Royaume-Uni dans l'Atlantique sud"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99428",
+      "display": "République coopérative du Guyana",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Guyana"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guyana"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99429",
+      "display": "Belize",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Belize"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Belize"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99430",
+      "display": "Groenland",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Groenland"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Groenland"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99431",
+      "display": "Antilles néerlandaises",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Antilles néerlandaises"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Antilles néerlandaises"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99432",
+      "display": "Terr. des Etats-Unis d'Amérique en Amérique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Terr. USA en Amérique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoires des Etats-Unis en Amérique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99433",
+      "display": "République de Trinité-et-Tobago",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Trinite-et-Tobago"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Trinite-et-Tobago"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99434",
+      "display": "Barbade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Barbade"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Barbade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99435",
+      "display": "Grenade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Grenade"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grenade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99436",
+      "display": "Commonwealth des Bahamas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bahamas"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bahamas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99437",
+      "display": "République du Suriname",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Suriname"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Suriname"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99438",
+      "display": "Commonwealth de Dominique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dominique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dominique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99439",
+      "display": "Sainte-Lucie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sainte-Lucie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sainte-Lucie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99440",
+      "display": "Saint-Vincent-et-les-Grenadines",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Saint-Vincent-Grenadines"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Saint-Vincent-et-les-Grenadines"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99441",
+      "display": "Antigua-et-Barbuda",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Antigua-et-Barbuda"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Antigua-et-Barbuda"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99442",
+      "display": "Fédération de Saint-Christophe-et-Niévès",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "St-Christophe-et-Niévès"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "St-Christophe-et-Niévès"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99443",
+      "display": "Bonaire, Saint Eustache et Saba",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bonaire, St Eustache et Saba"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bonaire, Saint Eustache et Saba"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99444",
+      "display": "Curaçao",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Curaçao"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Curaçao"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99445",
+      "display": "Saint-Martin (partie néerlandaise)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "St-Martin (partie NL)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Saint-Martin (partie néerlandaise)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99501",
+      "display": "Australie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Australie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Australie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99502",
+      "display": "Nouvelle-Zélande",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nouvelle-Zélande"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nouvelle-Zélande"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99503",
+      "display": "Pitcairn, île",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pitcairn, île"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pitcairn, île"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99504",
+      "display": "Hawaii, îles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hawaii, îles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hawaii, îles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99505",
+      "display": "Territoires des Etats-Unis en Océanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Terr. USA en Océanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoires des Etats-Unis en Océanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99506",
+      "display": "État indépendant des Samoa occidentales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Samoa occidentales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Samoa occidentales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99507",
+      "display": "République de Nauru",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nauru"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nauru"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99508",
+      "display": "République des Fidji",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fidji"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fidji"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99509",
+      "display": "Royaume des Tonga",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tonga"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tonga"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99510",
+      "display": "Papouasie-Nouvelle-Guinée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Papouasie-Nouv-Guinée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Papouasie-Nouvelle-Guinée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99511",
+      "display": "Tuvalu",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tuvalu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tuvalu"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99512",
+      "display": "Salomon, îles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Salomon, îles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salomon, îles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99513",
+      "display": "République de Kiribati",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Kiribati"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Kiribati"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99514",
+      "display": "République de Vanuatu",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vanuatu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vanuatu"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99515",
+      "display": "République des îles Marshall",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Marshall, îles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Marshall, îles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99516",
+      "display": "Etats fédérés de Micronésie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Micronésie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Micronésie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99517",
+      "display": "République des îles Palaos",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Palaos, îles"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palaos, îles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-09T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R321-BesoinEntretienPersonnel",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R321-BesoinEntretienPersonnel/FHIR/TRE-R321-BesoinEntretienPersonnel",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.76"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R321-BesoinEntretienPersonnel",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Pour l'hygiène corporelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour l'hygiène corporelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour l'hygiène corporelle"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour l'hygiène corporelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Pour s'habiller",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour s'habiller"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour s'habiller"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour s'habiller"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Pour les repas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour les repas"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour les repas"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour les repas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Pour prendre soin de sa santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pour prendre soin de sa santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pour prendre soin de sa santé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour prendre soin de sa santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,971 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J60-FormatCode-DMP",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-01-18T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J60-FormatCode-DMP/FHIR/JDV-J60-FormatCode-DMP",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.8"
+    }
+  ],
+  "version": "20220930120000",
+  "name": "JDV_J60-FormatCode-DMP",
+  "status": "active",
+  "date": "2022-09-30T12:00:00+01:00",
+  "description": "Jeu de valeurs pour métadonnée formatCode",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire",
+        "concept": [
+          {
+            "code": "urn:ans:ci-sis:bio-ep-bio:2022",
+            "display": "Prescription d'actes de biologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:ans:ci-sis:img-da:2022",
+            "display": "Demande d'actes d'imagerie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:aunv:2013",
+            "display": "Fiche d'admission en unité neuro-vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:avk:2009",
+            "display": "Fiche patient à risque en cardiologie - Traitement AVK",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:crgm:2018",
+            "display": "Compte rendu de génétique moléculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:crrtn:2013",
+            "display": "Compte-rendu de rétinographie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:cse-cs24:2017",
+            "display": "Certificat de santé du 24ème mois de l'enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:cse-cs8:2017",
+            "display": "Certificat de santé du 8ème jour de l'enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:cse-cs9:2017",
+            "display": "Certificat de santé du 9ème mois de l'enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:d2lm-fidd:2017",
+            "display": "Seconde lecture de mammographie - Fiche d'interprétation du bilan de diagnostic différé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:d2lm-fin:2017",
+            "display": "Seconde lecture de mammographie - Fiche d'interprétation nationale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:dci:2009",
+            "display": "Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:dlu:2015",
+            "display": "Document de liaison d'urgence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:dlu-dlu-dom:2022",
+            "display": "Document de liaison d'urgence DOM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:dlu-fludr-dom:2022",
+            "display": "Fiche de liaison d'urgence - Retour des urgences vers le domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:dlu-fludt-dom:2022",
+            "display": "Fiche de liaison d'urgence - Transfert du domicile vers les urgences",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:eunv:2013",
+            "display": "Fiche d'épisode de soin en unité neuro-vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:fludr:2017",
+            "display": "Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:fludt:2017",
+            "display": "Fiche de liaison d'urgence - Transfert de l'EHPAD vers les urgences",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:frcp:2011",
+            "display": "Fiche de réunion de concertation pluridisciplinaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:hr:2019",
+            "display": "Données de remboursement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:idap:2011",
+            "display": "Information et directives anticipées du patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:ldl-ees:2017",
+            "display": "Lettre de Liaison à l'entrée d'un établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:ldl-ses:2017",
+            "display": "Lettre de Liaison à la sortie de l'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:pavc:2016",
+            "display": "Compte-rendu de consultation d'évaluation pluri-professionnelle post AVC",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:pps-cancer:2017",
+            "display": "Programme Personnalisé de Soins - Cancer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:pps-paerpa:2017",
+            "display": "Plan Personnalisé de Santé - PAERPA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:ppv:2009",
+            "display": "Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:psc:2009",
+            "display": "Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:sap:2012",
+            "display": "Synthèse antepartum",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:sce:2012",
+            "display": "Synthèse Suites de Couches Enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:scm:2012",
+            "display": "Synthèse Suites de Couches Mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:sdm-mr:2017",
+            "display": "Set de Données Minimum - Maladies Rares",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:sne:2012",
+            "display": "Synthèse Salle de Naissance Enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:snm:2012",
+            "display": "Synthèse Salle de Naissance Mère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:sunv:2013",
+            "display": "Fiche de sortie d'unité neuro-vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:tap:2009",
+            "display": "Fiche patient à risque en cardiologie - Traitement antiagrégant plaquettaire, stent",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:vac:2019",
+            "display": "Historique des vaccinations",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:vsm:2012",
+            "display": "Synthèse médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asipSante:modelesHorsProfils:2011",
+            "display": "Document non référencé IHE ou CI-SIS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:cr-cpa:2020",
+            "display": "Compte rendu de consultation pré-anesthésique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:cr-anest:2020",
+            "display": "Compte rendu d'anesthésie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:vac-note:2021",
+            "display": "Note de vaccination",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
+        "concept": [
+          {
+            "code": "urn:ihe:iti:dsg:detached:2014",
+            "display": "Signature détachée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xds-sd:pdf:2008",
+            "display": "Document à corps non structuré en Pdf/A-1",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xds-sd:text:2008",
+            "display": "Document à corps non structuré en texte brut",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti-fr:xds-sd:jpeg:2010",
+            "display": "Document à corps non structuré en format jpeg",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti-fr:xds-sd:rtf:2010",
+            "display": "Document à corps non structuré en format rtf",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti-fr:xds-sd:tiff:2010",
+            "display": "Document à corps non structuré en format tiff",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:lab:xd-lab:2008",
+            "display": "Compte rendu structuré d'examens de biologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:all:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:breast:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Sein",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:cervix:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:colon:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Côlon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:endometrium:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:esophagus:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:kidney:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Rein",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:larynx:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Larynx",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:lip_oral_cavity:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:liver:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Foie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:lung:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Poumon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:ovary:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:pancreas:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:pharynx:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:prostate:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Prostate",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:salivary_gland:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:skin:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:stomach:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Estomac",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:testis:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Testicule",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:thyroid:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pat:apsr:urinary_bladder:2010",
+            "display": "Compte rendu d'anatomie et de cytologie pathologiques - Vessie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ips:2020",
+            "display": "Synthèse du dossier médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pharm:pre:2010",
+            "display": "Prescription de médicaments",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:eyecare:geneyeevalcn:2014",
+            "display": "CR de consultation en ophtalmologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013",
+            "display": "Compte-rendu d'imagerie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
+        "concept": [
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.59",
+            "display": "Document de Référence d'Objets d'un Examen d'imagerie selon profil IHE RAD XDS-I",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.840.10008.2.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",
+        "concept": [
+          {
+            "code": "http://www.w3.org/2000/09/xmldsig#",
+            "display": "Default Signature Style",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:URN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

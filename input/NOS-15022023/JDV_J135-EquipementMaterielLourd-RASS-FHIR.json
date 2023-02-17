@@ -1,0 +1,128 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J135-EquipementMaterielLourd-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J135-EquipementMaterielLourd-RASS/FHIR/JDV-J135-EquipementMaterielLourd-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.221"
+    }
+  ],
+  "version": "20201127120000",
+  "name": "JDV_J135-EquipementMaterielLourd-RASS",
+  "status": "active",
+  "date": "2020-11-27T12:00:00+01:00",
+  "description": "Equipements Matériels Lourds dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd",
+        "concept": [
+          {
+            "code": "05602",
+            "display": "Scanographe à utilisation médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "05701",
+            "display": "Caméra à scintillation sans détecteur d'émission de positons",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "05702",
+            "display": "Caméra à scintillation avec détecteur d'émission de positons",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "05705",
+            "display": "Tomographe à émissions",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "05706",
+            "display": "Caméra à positons",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "06201",
+            "display": "Appareil d'IRM à utilisation clinique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "06301",
+            "display": "Cyclotron à utilisation médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          },
+          {
+            "code": "44901",
+            "display": "Caisson hyperbare",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

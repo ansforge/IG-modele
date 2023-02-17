@@ -1,0 +1,1454 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R55-CertificatEtudeSpeciale",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.52"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R55-CertificatEtudeSpeciale",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Certificat d'Etude Spéciale",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "CESC01",
+      "display": "CES Biologie de la bouche, option Histo-embryologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Bio bouche, opt Histo-embr"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Biologie de la bouche, option Histo-embryologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC02",
+      "display": "CES Biologie de la bouche, option Anatomo-physiologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Bio bouche, opt Ana-physio"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Biologie de la bouche, option Anatomo-physiologue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC03",
+      "display": "CES Technologie des matériaux employés art dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Techno matér art dentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Technologie des matériaux employés art dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC04",
+      "display": "CES Odontologie chirurgicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Odontologie chirurgicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Odontologie chirurgicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC05",
+      "display": "CES Odontologie conservatrice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Odontologie conservatrice"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Odontologie conservatrice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC06",
+      "display": "CES Odontologie légale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Odontologie légale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Odontologie légale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC07",
+      "display": "CES Orthopédie dento-faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Orthopédie dento-faciale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Orthopédie dento-faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC08",
+      "display": "CES Pédodontie-prévention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Pédodontie-prévention"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Pédodontie-prévention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC09",
+      "display": "CES Prothèse adjointe partielle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Prothèse adj partielle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Prothèse adjointe partielle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC10",
+      "display": "CES Prothèse adjointe complète",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Prothèse adj complète"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Prothèse adjointe complète"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC11",
+      "display": "CES Prothèse adjointe maxillo-faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Prothèse adj maxillo-fac"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Prothèse adjointe maxillo-faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESC12",
+      "display": "CES Prothèse scellée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Prothèse scellée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Prothèse scellée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM01",
+      "display": "CES Médecine aéronautique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Médecine aéronautique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Médecine aéronautique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM02",
+      "display": "CES Anatomie et Cytologie pathologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Anatomie, Cytologie patho"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Anatomie et Cytologie pathologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM03",
+      "display": "CES Anesthésie-réanimation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Anesthésie-réanimation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Anesthésie-réanimation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM04",
+      "display": "CES Cardiologie et Maladies vasculaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Cardiologie, Mal vascul"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Cardiologie et Maladies vasculaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM05",
+      "display": "CES Chirurgie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Chirurgie générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Chirurgie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM06",
+      "display": "CES Dermato-vénéréologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Dermato-vénéréologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Dermato-vénéréologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM07",
+      "display": "CES Electro-radiologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Electro-radiologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Electro-radiologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM09",
+      "display": "CES Gynécologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Gynécologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Gynécologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM10",
+      "display": "CES Maladies de l'appareil digestif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Maladies appareil digestif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Maladies de l'appareil digestif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM13",
+      "display": "CES Néphrologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Néphrologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Néphrologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM14",
+      "display": "CES Neuro-chirurgie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Neuro-chirurgie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Neuro-chirurgie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM15",
+      "display": "CES Neurologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Neurologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Neurologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM16",
+      "display": "CES Pédiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Pédiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Pédiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM17",
+      "display": "CES Pneumologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Pneumologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Pneumologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM18",
+      "display": "CES Psychiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Psychiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Psychiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM19",
+      "display": "CES Psychiatrie, option enfant et adolescent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Psychiatrie opt enfant ado"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Psychiatrie, option enfant et adolescent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM20",
+      "display": "CES Radio-diagnostic",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Radio-diagnostic"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Radio-diagnostic"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM21",
+      "display": "CES Radio-thérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Radio-thérapie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Radio-thérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM22",
+      "display": "CES Médecine physique et réadaptation fonctionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Médecine phys, réadap fonc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Médecine physique et réadaptation fonctionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM23",
+      "display": "CES Rhumatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Rhumatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Rhumatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM24",
+      "display": "CES Médecine Nucléaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Médecine Nucléaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Médecine Nucléaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM25",
+      "display": "CES Endocrinologie, diabète, Maladies métaboliques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Endocrin, diab, Mal métab"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Endocrinologie, diabète, Maladies métaboliques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM26",
+      "display": "CES Gynécologie médicale et Obstétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Gynéco-méd, Obstétrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Gynécologie médicale et Obstétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM27",
+      "display": "CES Médecine appliquée aux sports",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Médecine appliquée sports"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Médecine appliquée aux sports"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM28",
+      "display": "CES Médecine légale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Médecine légale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Médecine légale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM29",
+      "display": "CES Maladies du sang",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Maladies du sang"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Maladies du sang"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM30",
+      "display": "CES Obstétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Obstétrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Obstétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM31",
+      "display": "CES Ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Ophtalmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM32",
+      "display": "CES Otho-rhino-laryngologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES ORL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Otho-rhino-laryngologie (ORL)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM33",
+      "display": "CES Stomatologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Stomatologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Stomatologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM34",
+      "display": "CES Médecine du travail",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Médecine du travail"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Médecine du travail"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-01-17T11:47:08+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM35",
+      "display": "CES Orthopédie dento-maxillo-faciale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Orthopédie dento-maxil-fac"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Orthopédie dento-maxillo-faciale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM36",
+      "display": "CES Neuro psychiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Neuro psychiatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Neuro psychiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESM37",
+      "display": "CES Radio-diagnostic et thérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CES Radio-diagnosti, thérapie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CES Radio-diagnostic et thérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESP01",
+      "display": "Bactérologie et Virologie clinique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bactérologie, Virologie cliniq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bactérologie et Virologie clinique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESP02",
+      "display": "Biochimie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Biochimie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Biochimie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESP06",
+      "display": "Diagnostic biologiste parasitaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diag biologiste parasitaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diagnostic biologiste parasitaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESP07",
+      "display": "Hématologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hématologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hématologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CESP08",
+      "display": "Immunologie générale et appliquée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Immunologie géné, appliquée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Immunologie générale et appliquée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

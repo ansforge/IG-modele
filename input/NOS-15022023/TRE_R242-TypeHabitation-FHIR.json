@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R242-TypeHabitation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.35"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R242-TypeHabitation",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type habitation",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Chambre double",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chambre double"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre double"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Chambre simple",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chambre simple"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre simple"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "F1",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "F1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "F1"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "F2",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "F2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "F2"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "F1bis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "F1bis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "F1bis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "F3",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "F3"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "F3"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "F4",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "F4"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "F4"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A01-CadreExercice",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-05-19T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_A01-CadreExercice",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Cadre d'exercice",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "AMBULATOIRE",
+      "display": "Ambulatoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ambulatoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ambulatoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AMO",
+      "display": "Organisme d'assurance maladie obligatoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Organisme AMO"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organisme d'assurance maladie obligatoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEPISTAGE",
+      "display": "Dépistage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dépistage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dépistage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ETABLISSEMENT",
+      "display": "Etablissement de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HAD",
+      "display": "Hospitalisation à domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hosp à domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation à domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MAD",
+      "display": "Maintien à domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maintien à domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maintien à domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PALLIATIF",
+      "display": "Soins palliatifs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soins palliatifs"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins palliatifs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SAD",
+      "display": "Soins à domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soins à domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins à domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SAMU_SMUR",
+      "display": "SAMU/SMUR",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SAMU/SMUR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SAMU/SMUR"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

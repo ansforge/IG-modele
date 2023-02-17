@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J234-GenreActivite-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-09-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J234-GenreActivite-EPARS/FHIR/JDV-J234-GenreActivite-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.245"
+    }
+  ],
+  "version": "20220930120000",
+  "name": "JDV_J234-GenreActivite-EPARS",
+  "status": "active",
+  "date": "2022-09-30T12:00:00+01:00",
+  "description": "Genre d'activité pour EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
+        "concept": [
+          {
+            "code": "GENR01",
+            "display": "Activité de soin et de pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR02",
+            "display": "Activité de soins ou de pharmacien en tant que remplaçant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J141-RoleClass-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-03-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.588"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "JDV_J141-RoleClass-CISIS",
+  "status": "active",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "RoleClassAssociative CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
+        "concept": [
+          {
+            "code": "PROV",
+            "display": "Professionnel de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.110"
+              }
+            ]
+          },
+          {
+            "code": "AGNT",
+            "display": "Professionnel caractérisé par son rôle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.110"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R252-TypeHoraire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-01-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.50"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R252-TypeHoraire",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type horaire",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Horaire d'ouverture",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire d'ouverture"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire d'ouverture"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Horaire de fonctionnement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire de fonctionnement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de fonctionnement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Horaire de garde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire de garde"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de garde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Horaire d'ouverture du secrétariat",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire secrétariat"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire d'ouverture du secrétariat"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Horaire de visite d'un acteur de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire visite"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de visite d'un acteur de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Horaire de consultation sans RDV",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire consult sans RDV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de consultation sans RDV"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Horaire de consultation sur RDV",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire consult sur RDV"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de consultation sur RDV"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Horaire de fermeture",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire de fermeture"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de fermeture"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

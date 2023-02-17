@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R234-TypeNote",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R234-TypeNote/FHIR/TRE-R234-TypeNote",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.334"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R234-TypeNote",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de note",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DEM-AVIS",
+      "display": "Demande d'avis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demande d'avis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demande d'avis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GEN",
+      "display": "Note générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Note générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Note générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "Instruction",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Instruction"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Instruction"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "INTERV",
+      "display": "Note d'intervention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Note d'intervention"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Note d'intervention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "OBS",
+      "display": "Note d'observation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Note d'observation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Note d'observation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

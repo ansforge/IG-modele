@@ -1,0 +1,474 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R43-CapaciteSavoirFaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.33"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R43-CapaciteSavoirFaire",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Capacité (savoir-faire)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "CAPA01",
+      "display": "Addictologie clinique (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Addictologie clinique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Addictologie clinique (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:46+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA02",
+      "display": "Aide médicale urgente (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide médicale urgente"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide médicale urgente (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA03",
+      "display": "Allergologie (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Allergologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Allergologie (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA04",
+      "display": "Angéiologie (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Angéiologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Angéiologie (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA05",
+      "display": "Evaluation et Traitement de la douleur (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Eval, Traitement de la douleur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Evaluation et Traitement de la douleur (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA06",
+      "display": "Gérontologie (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gérontologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gérontologie (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA07",
+      "display": "Hydrologie et Climatologie médicales (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hydrologie, Climatologie méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hydrologie et Climatologie médicales (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA08",
+      "display": "Médecine aérospatiale (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine aérospatiale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine aérospatiale (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA09",
+      "display": "Médecine de catastrophe (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine catastrophe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine de catastrophe (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA10",
+      "display": "Médecine et Biologie du sport (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine, Biologie du sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine et Biologie du sport (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA11",
+      "display": "Médecine de santé au travail et Prévention des risques professionnels (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Méd santé trav, Prév risq pro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine de santé au travail et Prévention des risques professionnels (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA12",
+      "display": "Médecine pénitentiaire (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine pénitentiaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine pénitentiaire (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA13",
+      "display": "Médecine tropicale (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine tropicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine tropicale (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA14",
+      "display": "Pratiques médico-judiciaires (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pratiques médico-judiciaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pratiques médico-judiciaires (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:46+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA15",
+      "display": "Technologie transfusionnelle (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Technologie transfusionnelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Technologie transfusionnelle (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:46+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA16",
+      "display": "Toxicomanies et Alcoologies (CAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Toxicomanies et Alcoologies"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Toxicomanies et Alcoologies (CAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T15:08:46+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

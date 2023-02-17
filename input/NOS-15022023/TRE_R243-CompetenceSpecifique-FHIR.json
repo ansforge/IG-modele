@@ -1,0 +1,1618 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R243-CompetenceSpecifique",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.37"
+    }
+  ],
+  "version": "20221028120000",
+  "name": "TRE_R243-CompetenceSpecifique",
+  "status": "active",
+  "date": "2022-10-28T12:00:00+01:00",
+  "description": "Compétence spécifique",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Maîtrise de la Langue des Signes Française (LSF)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Langue Signes Française (LSF)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la Langue des Signes Française (LSF)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Maîtrise de la Langue Parlé Complété (LPC)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Langue Parlé Complété (LPC)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la Langue Parlé Complété (LPC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Maîtrise de la lecture et de l'écriture du Braille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maît lecture écriture Braille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la lecture et de l'écriture du Braille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Art-thérapeute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Art-thérapeute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Art-thérapeute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Neuropsychologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neuropsychologue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neuropsychologue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Maîtrise de langue étrangère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise de lang. Étrangère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de langue étrangère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Maîtrise de langue régionale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise de lang. Régionale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de langue régionale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Médiateur de santé pair",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médiateur de santé pair"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médiateur de santé pair"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Maîtrise de la communication augmentative alternative",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise com augment altern"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la communication augmentative alternative"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Socio-esthéticienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Socio-esthéticienne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Socio-esthéticienne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Enseignant du 1er degré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enseignant du 1er degré"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enseignant du 1er degré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Enseignant du 2nd degré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enseignant du 2nd degré"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enseignant du 2nd degré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "Enseignant du supérieur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enseignant du supérieur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enseignant du supérieur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Puéricultrice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Puéricultrice"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Puéricultrice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Auxiliaire de puériculture",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auxiliaire de puériculture"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Auxiliaire de puériculture"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Accompagnant des élèves en situation de handicap",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accompagnant élèves handicap"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accompagnant des élèves en situation de handicap"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Aide humaine en milieu scolaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide humaine en milieu sco"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide humaine en milieu scolaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Maitrise de prog d'interv globaux à réf compor (ABA,...) ou dév (TEACCH,...)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prog interv glob comport dév"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maitrise de programmes d'intervention globaux à référence comportementale (ABA,...) ou développementale (TEACCH, DENVER,...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Médecin coordonnateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin coordonnateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin coordonnateur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Infirmier coordonnateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Infirmier coordonnateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Infirmier coordonnateur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Phoniatre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Phoniatre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Phoniatre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Audio phonologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Audio phonologue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Audio phonologue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Ingénieur en analyse du mouvement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ingénieur en analyse du mvt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ingénieur en analyse du mouvement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "Psychologue clinicien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychologue clinicien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychologue clinicien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "Animateur socio-culturel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Animateur socio-culturel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Animateur socio-culturel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Moniteur d'atelier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Moniteur d'atelier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Moniteur d'atelier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Maîtrise de la Méthode verbo-tonale : aide à l'apprentissage de la parole",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide apprentissage parole"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la Méthode verbo-tonale : aide à l'apprentissage de la parole"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Maîtrise du Braille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise du Braille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise du Braille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "Maîtrise du PECS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise du PECS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise du PECS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "Maîtrise de la Méthode ABA",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise de la Méthode ABA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la Méthode ABA"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Maîtrise du MAKATON",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise du MAKATON"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise du MAKATON"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Maîtrise des Gestes Borel-Maisonny",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise des Borel-Maisonny"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise des Gestes Borel-Maisonny"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Maîtrise de la COGHAMO",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise de la COGHAMO"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de la COGHAMO"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "Maîtrise des Codes de communication pictographiques (classeurs, planches)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maît des Codes de com picto"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise des Codes de communication pictographiques (classeurs, planches)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maît des out info avc syn voc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maît des log d'aide à la trans"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Ostéopathe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ostéopathe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ostéopathe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Enseignant en Activité Physique Adaptée (EAPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "EAPA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enseignant en Activité Physique Adaptée (EAPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Accompagnant des Élèves en Situation de Handicap (AESH)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AESH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accompagnant des Élèves en Situation de Handicap (AESH)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maîtrise de prog d'interv glob"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Psychiatre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychiatre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychiatre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "Gériatre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gériatre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gériatre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Pédopsychiatre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pédopsychiatre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pédopsychiatre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "Veilleur de nuit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Veilleur de nuit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Veilleur de nuit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "Assistant(e) de soins en gérontologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant(e) de soins géronto"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant(e) de soins en gérontologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "Conseillère en économie sociale et familiale (CESF)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CESF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conseillère en économie sociale et familiale (CESF)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Aide médico psychologique (AMP)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AMP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide médico psychologique (AMP)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "Auxiliaire de vie sociale (AVS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AVS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Auxiliaire de vie sociale (AVS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "Accompagnant Educatif et Social (AES)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AES"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accompagnant Educatif et Social (AES)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Avéjiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Avéjiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Avéjiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "Instructeur en locomotion",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Instructeur en locomotion"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Instructeur en locomotion"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "Educateur sportif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Educateur sportif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Educateur sportif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "Conseiller en insertion professionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conseiller en insertion pro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conseiller en insertion professionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Coordonnateur et gestionnaire de parcours handicap",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Coord parcours handicap"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Coordonnateur et gestionnaire de parcours handicap"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "Neuropédiatre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neuropédiatre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neuropédiatre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "Psychopédagogue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychopédagogue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychopédagogue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

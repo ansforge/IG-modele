@@ -1,0 +1,1622 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A13-HL7ParticipationType",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-01-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A13-HL7ParticipationType/FHIR/TRE-A13-HL7ParticipationType",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.5.90"
+    }
+  ],
+  "version": "20210129120000",
+  "name": "TRE_A13-HL7ParticipationType",
+  "status": "active",
+  "date": "2021-01-29T12:00:00+01:00",
+  "description": "HL7 Type de participation",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ADM",
+      "display": "Responsable de l'admission",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Responsable de l'admission"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable de l'admission"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ALY",
+      "display": "Cible d'une observation (substance ou composant le plus spécifique)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cible d'une observation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cible d'une observation (substance ou composant le plus spécifique)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATND",
+      "display": "Superviseur / Responsable des soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Superviseur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Superviseur / Responsable des soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUT",
+      "display": "Auteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Auteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUTHEN",
+      "display": "Valideur des résultats (ex : un biologiste ou un système expert)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Valideur des résultats"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Valideur des résultats (ex : un biologiste ou un système expert)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BBY",
+      "display": "Nouveau né",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nouveau né"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nouveau né"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BEN",
+      "display": "Bénéficiaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bénéficiaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bénéficiaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAGNT",
+      "display": "Agent causal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Agent causal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agent causal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CALLBCK",
+      "display": "Contact à rappeler",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Contact à rappeler"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Contact à rappeler"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAT",
+      "display": "Catalyseur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Catalyseur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Catalyseur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CON",
+      "display": "Consultant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Consultant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Consultant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COV",
+      "display": "Partie couverte (titulaire ou bénéficiaire)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Partie couverte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Partie couverte (titulaire ou bénéficiaire)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CSM",
+      "display": "Consommable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Consommable"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Consommable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CST",
+      "display": "Responsable de l'information",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Responsable de l'information"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable de l'information"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEV",
+      "display": "Dispositif automatique impliqué dans la production des résultats",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispositif automatique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif automatique impliqué dans la production des résultats (ex : un analyseur)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIR",
+      "display": "Participant direct",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Participant direct"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Participant direct"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIS",
+      "display": "Responsable de la sortie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Responsable de la sortie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable de la sortie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIST",
+      "display": "Distributeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Distributeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Distributeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DON",
+      "display": "Donneur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Donneur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Donneur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DST",
+      "display": "Destination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Destination"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Destination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ELOC",
+      "display": "Emplacement où les données sont saisies",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emplacement données saisies"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Emplacement où les données sont saisies"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ENT",
+      "display": "Transcripteur du contenu à partir d'une autre forme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Transcripteur du contenu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Transcripteur du contenu à partir d'une autre forme (par exemple dictée vocale ou numérique)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ESC",
+      "display": "Accompagnateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accompagnateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accompagnateur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPAGNT",
+      "display": "Agent de l'exposition",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Agent de l'exposition"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agent de l'exposition"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPART",
+      "display": "Partie de l'exposition",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Partie de l'exposition"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Partie de l'exposition"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXSRC",
+      "display": "Source de l'exposition",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Source de l'exposition"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Source de l'exposition"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPTRGT",
+      "display": "Cible de l'exposition",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cible de l'exposition"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cible de l'exposition"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GUAR",
+      "display": "Garant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Garant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Garant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HLD",
+      "display": "Souscripteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Souscripteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Souscripteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "IND",
+      "display": "Cible indirecte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cible indirecte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cible indirecte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "INF",
+      "display": "Informateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Informateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Informateur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "IRCP",
+      "display": "Destinataire de l'information",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Destinataire de l'information"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Destinataire de l'information"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "display": "Responsable légal de l'acte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Responsable légal de l'acte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable légal de l'acte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "LOC",
+      "display": "Emplacement principal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emplacement principal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Emplacement principal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NRD",
+      "display": "Dispositif non réutilisable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispositif non réutilisable"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif non réutilisable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NOT",
+      "display": "Personne à prévenir en cas d'urgence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Personne à prévenir si urgence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne à prévenir en cas d'urgence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ORG",
+      "display": "Lieu d'origine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lieu d'origine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lieu d'origine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PART",
+      "display": "Participant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Participant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Participant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PPRF",
+      "display": "Exécutant principal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exécutant principal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Exécutant principal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRCP",
+      "display": "Destinataire principal de l'information",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Destinataire principal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Destinataire principal de l'information"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRD",
+      "display": "Produit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Produit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Produit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRF",
+      "display": "Exécutant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exécutant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Exécutant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RCT",
+      "display": "Dossier médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dossier médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dossier médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RDV",
+      "display": "Dispositif réutilisable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispositif réutilisable"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif réutilisable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REF",
+      "display": "Référent / Prescripteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Référent / Prescripteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Référent / Prescripteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REFB",
+      "display": "Personne ayant adressé le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Personne ayant adressé patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne ayant adressé le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REFT",
+      "display": "Personne recevant le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Personne recevant le patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne recevant le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RESP",
+      "display": "Responsable de l'acte",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Responsable de l'acte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable de l'acte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RML",
+      "display": "Emplacement distant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emplacement distant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Emplacement distant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SBJ",
+      "display": "Sujet",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sujet"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sujet"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SPC",
+      "display": "Echantillon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Echantillon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echantillon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SPRF",
+      "display": "Exécutant secondaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exécutant secondaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Exécutant secondaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TRANS",
+      "display": "Transcripteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Transcripteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Transcripteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TRC",
+      "display": "Personne recevant une copie de l'information",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Personne recevant une copie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne recevant une copie de l'information"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VIA",
+      "display": "Emplacement intermédiaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emplacement intermédiaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Emplacement intermédiaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VRF",
+      "display": "Vérificateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Vérificateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vérificateur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "WIT",
+      "display": "Témoin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Témoin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Témoin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-01-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

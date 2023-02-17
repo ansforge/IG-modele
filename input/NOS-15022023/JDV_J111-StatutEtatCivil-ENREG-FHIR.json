@@ -1,0 +1,116 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J111-StatutEtatCivil-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-05-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J111-StatutEtatCivil-ENREG/FHIR/JDV-J111-StatutEtatCivil-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.182"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "JDV_J111-StatutEtatCivil-ENREG",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Statut de l'état civil pour ENREG",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R31-StatutEtatCivil/FHIR/TRE-R31-StatutEtatCivil",
+        "concept": [
+          {
+            "code": "AC",
+            "display": "Demande de certification forcée par le guichet",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "AN",
+            "display": "Demande annulée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "C",
+            "display": "Certifié INSEE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "DI",
+            "display": "Demande de certification normale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "FC",
+            "display": "Certifié par FranceConnect",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "NC",
+            "display": "Non certifiable",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "NCI",
+            "display": "Non certifié INSEE, Immatriculation en cours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

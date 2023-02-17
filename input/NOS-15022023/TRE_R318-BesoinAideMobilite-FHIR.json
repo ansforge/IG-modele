@@ -1,0 +1,230 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R318-BesoinAideMobilite",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R318-BesoinAideMobilite/FHIR/TRE-R318-BesoinAideMobilite",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.73"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R318-BesoinAideMobilite",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise les besoins d'aide de la personne en matière de mobilité",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Se déplacer dans le domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Se déplacer dans le domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Se déplacer dans le domicile"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour se déplacer à l'intérieur de son domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Sortir du domicile ou y entrer",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sortir du domicile ou y entrer"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sortir du domicile ou y entrer"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour sortir de son domicile ou pour y entrer"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Se déplacer à l'extérieur du domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Se déplacer hors du domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Se déplacer à l'extérieur du domicile"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour se déplacer à l'extérieur de son domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Utiliser un véhicule",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Utiliser un véhicule"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Utiliser un véhicule"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour utiliser un véhicule"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Utiliser les transports en commun",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Utiliser les tr en commun"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Utiliser les transports en commun"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour utiliser les transports en commun"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Partir en vacances",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Partir en vacances"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Partir en vacances"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a besoin d'aide pour partir en vacances"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

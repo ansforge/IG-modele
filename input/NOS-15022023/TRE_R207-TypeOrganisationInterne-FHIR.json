@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R207-TypeOrganisationInterne",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-03-25T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R207-TypeOrganisationInterne/FHIR/TRE-R207-TypeOrganisationInterne",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.8"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R207-TypeOrganisationInterne",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type organisation interne",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Pôle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pôle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pôle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Structure interne ou Service",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Structure interne ou Service"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Structure interne ou Service"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Unité fonctionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "UF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité fonctionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Unité élémentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "UE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité élémentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

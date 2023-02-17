@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J140-EncounterParticipationType-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-01-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J140-EncounterParticipationType-CISIS/FHIR/JDV-J140-EncounterParticipationType-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.528"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "JDV_J140-EncounterParticipationType-CISIS",
+  "status": "active",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "JDV_J140-EncounterParticipationType-CISIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A13-HL7ParticipationType/FHIR/TRE-A13-HL7ParticipationType",
+        "concept": [
+          {
+            "code": "ADM",
+            "display": "Responsable de l'admission",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.90"
+              }
+            ]
+          },
+          {
+            "code": "ATND",
+            "display": "Superviseur / Responsable des soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.90"
+              }
+            ]
+          },
+          {
+            "code": "CON",
+            "display": "Consultant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.90"
+              }
+            ]
+          },
+          {
+            "code": "DIS",
+            "display": "Responsable de la sortie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.90"
+              }
+            ]
+          },
+          {
+            "code": "REF",
+            "display": "Référent / Prescripteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.90"
+              }
+            ]
+          },
+          {
+            "code": "RESP",
+            "display": "Responsable de l'acte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.90"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

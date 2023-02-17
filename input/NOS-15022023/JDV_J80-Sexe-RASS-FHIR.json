@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J80-Sexe-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J80-Sexe-RASS/FHIR/JDV-J80-Sexe-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.148"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J80-Sexe-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Sexe des professionnels du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+        "concept": [
+          {
+            "code": "U",
+            "display": "Inconnu",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.53"
+              }
+            ]
+          },
+          {
+            "code": "F",
+            "display": "Féminin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.53"
+              }
+            ]
+          },
+          {
+            "code": "M",
+            "display": "Masculin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.53"
+              }
+            ]
+          },
+          {
+            "code": "O",
+            "display": "Autre sexe (ni masculin, ni féminin)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.53"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

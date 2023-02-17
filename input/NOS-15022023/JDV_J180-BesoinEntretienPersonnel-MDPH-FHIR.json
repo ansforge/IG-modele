@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J180-BesoinEntretienPersonnel-MDPH",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J180-BesoinEntretienPersonnel-MDPH/FHIR/JDV-J180-BesoinEntretienPersonnel-MDPH",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.15"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "JDV_J180-BesoinEntretienPersonnel-MDPH",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R321-BesoinEntretienPersonnel/FHIR/TRE-R321-BesoinEntretienPersonnel",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Pour l'hygiène corporelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.76"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Pour s'habiller",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.76"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Pour les repas",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.76"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Pour prendre soin de sa santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+        "concept": [
+          {
+            "code": "02",
+            "display": "Autre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

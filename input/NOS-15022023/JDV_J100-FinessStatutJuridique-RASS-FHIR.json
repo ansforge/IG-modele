@@ -1,0 +1,980 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J100-FinessStatutJuridique-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.168"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J100-FinessStatutJuridique-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Statut juridique FINESS dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique",
+        "concept": [
+          {
+            "code": "000",
+            "display": "En cours de vérification",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "01",
+            "display": "Etat",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Département",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Commune",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Région",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Territoire d'Outre Mer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "06",
+            "display": "Autre Collectivité Territoriale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "07",
+            "display": "Métropole ou pôle métropolitain",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "08",
+            "display": "Centre Intercommunal d'Action Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Etablissement Public National d'Hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Etablissement Public Départemental d'Hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Etablissement Public Interdépartemental d'Hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Etablissement Public Communal d'Hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "Etablissement Public Intercommunal d'Hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "15",
+            "display": "Etablissement Public Régional d'Hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "16",
+            "display": "Syndicat Inter Hospitalier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "17",
+            "display": "Centre Communal d'Action Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "18",
+            "display": "Etablissement Social et Médico-Social National",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "19",
+            "display": "Etablissement Social et Médico-Social Départemental",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "20",
+            "display": "Etablissement Social et Médico-Social Interdépartemental",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Etablissement Social et Médico-Social Communal",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "Etablissement Social et Médico-Social Intercommunal",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "23",
+            "display": "Etablissement Social et Médico-Social Régional",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "Office Public d'H.L.M.",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "25",
+            "display": "Caisse des Ecoles",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Autre Etablissement Public à Caractère Administratif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "27",
+            "display": "Etablissement Public à Caractère Industriel ou Commercial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Groupement d'Intérêt Public (G.I.P.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "29",
+            "display": "Groupement de Coopération Sanitaire public",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "30",
+            "display": "Groupement de Coopération Sociale ou Médico-Sociale public",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Régime Général de Sécurité Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "41",
+            "display": "Régime Spécial de Sécurité Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Institution de Prévoyance",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Mutualité Sociale Agricole (M.S.A.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Régime Maladie des non Salariés non Agricole",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Régime Vieillesse Particulier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "46",
+            "display": "Autre Régime de Prévoyance Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Société Mutualiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "Assurance Mutuelle Agricole",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "49",
+            "display": "Autre Organisme Mutualiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Comité d'Entreprise ou Comité d'Etablissement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Syndicat",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Syndicat de Propriétaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Association Loi 1901 non Reconnue d'Utilité Publique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "61",
+            "display": "Association Loi 1901 Reconnue d'Utilité Publique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "62",
+            "display": "Association de Droit Local",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "63",
+            "display": "Fondation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "64",
+            "display": "Congrégation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "65",
+            "display": "Autre Organisme Privé à But non Lucratif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "66",
+            "display": "Groupement de Coopération Sociale ou Médico-Sociale privé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Personne Physique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "71",
+            "display": "Société en Nom Collectif (S.N.C.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Société A Responsabilité Limitée (S.A.R.L.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "Société Anonyme (S.A.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "74",
+            "display": "Société Civile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "75",
+            "display": "Autre Société",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "76",
+            "display": "Groupement d'Intérêt Economique (G.I.E.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "77",
+            "display": "Autre Organisme Privé à Caractère Commercial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "78",
+            "display": "Entreprise Unipersonnelle Responsabilité Limitée (E.U.R.L.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "79",
+            "display": "Société Civile de Moyens (S.C.M.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Société Interprofessionnelle Soins Ambulatoires (S.I.S.A.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Soc. Exercice Libéral Responsabilité Limitée (S.E.L.A.R.L.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Société d'Exercice Libéral à Forme Anonyme (S.E.L.A.F.A.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "87",
+            "display": "Société Exercice Libéral Commandite par Actions (S.E.L.C.A.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "88",
+            "display": "Société Civile Professionnelle (S.C.P.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "89",
+            "display": "Groupement de Coopération Sanitaire Privé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "90",
+            "display": "Organisme de Droit Etranger",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Société Exercice Libéral par Actions Simplifiée (S.E.L.A.S.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Société en commandite",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Société par Actions Simplifiée (S.A.S.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "100",
+            "display": "Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "101",
+            "display": "Société d'exercice libéral par actions simplifiée (SELAS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "102",
+            "display": "Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "103",
+            "display": "Société en commandite simple (SCS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "104",
+            "display": "Société en commandite par actions (SCA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "105",
+            "display": "Société par actions simplifiée (SAS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "106",
+            "display": "Société anonyme à directoire (SADI)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "107",
+            "display": "Société Anonyme à conseil d'administration (SACA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          },
+          {
+            "code": "110",
+            "display": "Société en participation (SEP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.44"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

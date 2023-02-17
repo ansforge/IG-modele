@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R333-TypeFermetureCapacite",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-05-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R333-TypeFermetureCapacite/FHIR/TRE-R333-TypeFermetureCapacite",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.216"
+    }
+  ],
+  "version": "20220527120000",
+  "name": "TRE_R333-TypeFermetureCapacite",
+  "status": "active",
+  "date": "2022-05-27T12:00:00+01:00",
+  "description": "Permet d'indiquer le statut de lits fermés, afin d'identifier le nombre de lits fermés qui peuvent être réactivés en cas de besoin et le nombre de ceux qui ne peuvent pas l'être",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Réactivable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Réactivable"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réactivable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Non réactivable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non réactivable"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non réactivable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Indéterminé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Indéterminé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Indéterminé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

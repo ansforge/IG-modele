@@ -1,0 +1,1052 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A11-IheFormatCode",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
+  "identifier": [
+    {
+      "value": "urn:oid:1.3.6.1.4.1.19376.1.2.3"
+    }
+  ],
+  "version": "20220429120000",
+  "name": "TRE_A11-IheFormatCode",
+  "status": "active",
+  "date": "2022-04-29T12:00:00+01:00",
+  "description": "IHE formatCode",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "urn:ihe:iti:dsg:detached:2014",
+      "display": "Signature détachée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Signature détachée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Signature détachée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:dsg:enveloping:2014",
+      "display": "Document signé avec une signature enveloppante",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Signature enveloppante"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document signé avec une signature enveloppante"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds-sd:pdf:2008",
+      "display": "Document à corps non structuré en Pdf/A-1",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "xds-sd:pdf"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document à corps non structuré en Pdf/A-1"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds-sd:text:2008",
+      "display": "Document à corps non structuré en texte brut",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "xds-sd:text"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document à corps non structuré en texte brut"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti-fr:xds-sd:jpeg:2010",
+      "display": "Document à corps non structuré en format jpeg",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "xds-sd:jpeg"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document à corps non structuré en format jpeg"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti-fr:xds-sd:rtf:2010",
+      "display": "Document à corps non structuré en format rtf",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "xds-sd:rtf"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document à corps non structuré en format rtf"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti-fr:xds-sd:tiff:2010",
+      "display": "Document à corps non structuré en format tiff",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "xds-sd:tiff"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document à corps non structuré en format tiff"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:lab:xd-lab:2008",
+      "display": "Compte rendu structuré d'examens de biologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-BIO"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu structuré d'examens de biologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:all:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Générique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:breast:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Sein",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Sein"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Sein"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:cervix:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Col de l'utérus"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:colon:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Côlon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Côlon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Côlon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:endometrium:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Corps utérin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:esophagus:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Oesophage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:kidney:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Rein",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Rein"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Rein"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:larynx:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Larynx",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Larynx"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Larynx"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:lip_oral_cavity:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Cavité buccale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:liver:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Foie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Foie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Foie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:lung:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Poumon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Poumon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Poumon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:ovary:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Ovaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:pancreas:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Pancréas"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:pharynx:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Pharynx"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:prostate:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Prostate",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Prostate"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Prostate"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:salivary_gland:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Glandes salivaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:skin:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Mélanome cutané"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:stomach:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Estomac",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Estomac"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Estomac"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:testis:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Testicule",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Testicule"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Testicule"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:thyroid:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Thyroïde"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pat:apsr:urinary_bladder:2010",
+      "display": "Compte rendu d'anatomie et de cytologie pathologiques - Vessie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR-ACP - Vessie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte rendu d'anatomie et de cytologie pathologiques - Vessie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pcc:ic:2009",
+      "display": "Carnet de vaccination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ic"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carnet de vaccination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pcc:ips:2020",
+      "display": "Synthèse du dossier médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IPS-FR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Synthèse du dossier médical"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Synthèse du dossier médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pcc:xds-ms:2007",
+      "display": "Format profil IHE PCC XDS-MS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "xds-ms"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Format profil IHE PCC XDS-MS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:qrph:hbs:2009",
+      "display": "Certificat de santé du 8ème jour de l'enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "hbs"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certificat de santé du 8ème jour de l'enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:pharm:pre:2010",
+      "display": "Prescription de médicaments",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "eP-MED"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription de médicaments"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:eyecare:geneyeevalcn:2014",
+      "display": "Compte-rendu de consultation en ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "OPH-CR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de consultation en ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013",
+      "display": "Compte-rendu d'imagerie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IMG-CR-IMG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Compte-rendu d'imagerie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

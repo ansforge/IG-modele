@@ -1,0 +1,6140 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R212-Equipement",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-03-25T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.10"
+    }
+  ],
+  "version": "20221028120000",
+  "name": "TRE_R212-Equipement",
+  "status": "active",
+  "date": "2022-10-28T12:00:00+01:00",
+  "description": "Equipement",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "001",
+      "display": "Angiographie biplan rotationnelle (reconstruction scanner integrée)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "001"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Angiographie biplan rotationnelle (reconstruction scanner integrée)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "002",
+      "display": "Angiographie monoplan",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "002"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Angiographie monoplan"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "003",
+      "display": "Angioscope",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "003"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Angioscope"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "004",
+      "display": "Arthroscope",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "004"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arthroscope"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "005",
+      "display": "Autotransfuseur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "005"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autotransfuseur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "006",
+      "display": "Baignoire stationnaire pour grands brûlés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "006"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Baignoire stationnaire pour grands brûlés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "007",
+      "display": "Bili-IRM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "007"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bili-IRM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "008",
+      "display": "Caisson hyperbare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "008"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caisson hyperbare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "009",
+      "display": "Chambre à pression négative",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "009"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre à pression négative"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "010",
+      "display": "Chambre à pression positive (chambre stérile)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "010"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre à pression positive (chambre stérile)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "011",
+      "display": "Chambre d'isolement avec sas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "011"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre d'isolement avec sas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "012",
+      "display": "Chambre stérile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "012"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre stérile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "013",
+      "display": "CEC assist circul-respiration (ECMO)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "013"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "014",
+      "display": "CEC assist circul-respiration (ECMO) pédiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "014"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "015",
+      "display": "Coloscanner (TDM)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "015"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Coloscanner (TDM)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "016",
+      "display": "Colposcopie - laser",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "016"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Colposcopie - laser"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "017",
+      "display": "Coronaroscanner",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "017"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Coronaroscanner"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "018",
+      "display": "Cystographie pédiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "018"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cystographie pédiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "019",
+      "display": "Dacryoscanner",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "019"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dacryoscanner"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "020",
+      "display": "Défécographe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "020"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Défécographe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "021",
+      "display": "Echographe transportable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "021"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographe transportable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "022",
+      "display": "Echo-doppler artériel des membres",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "022"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-doppler artériel des membres"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "023",
+      "display": "Echo-doppler troncs supra-aortiq (vaisseaux cou)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "023"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-doppler des troncs supra-aortiques (vaisseaux du cou)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "024",
+      "display": "Echo-doppler ostéoarticulaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "024"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-doppler ostéoarticulaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "025",
+      "display": "Echo-doppler transcrânien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "025"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-doppler transcrânien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "026",
+      "display": "Echo-doppler vasculaire d'effort",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "026"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-doppler vasculaire d'effort"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "027",
+      "display": "Echo-doppler veineux des membres",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "027"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-doppler veineux des membres"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "028",
+      "display": "Echo-endoscopie biliaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "028"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-endoscopie biliaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "029",
+      "display": "Echo-endoscopie pulmonaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "029"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echo-endoscopie pulmonaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "030",
+      "display": "Echographe 3D",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "030"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographe 3D"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "031",
+      "display": "Echographe de contraste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "031"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographe de contraste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "032",
+      "display": "Echo artères cervicocéphaliques (tête et cou)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "032"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographie des artères cervicocéphaliques (artères de la tête et du cou)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "033",
+      "display": "Echographie obstétricale 1er trimestre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "033"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographie obstétricale 1er trimestre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "034",
+      "display": "Echographie obstétricale 2nd et 3ème trimestres",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "034"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographie obstétricale 2nd et 3ème trimestres"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "035",
+      "display": "Electroencéphalographe (EEG)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "035"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Electroencéphalographe (EEG)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "036",
+      "display": "Electromyographe (EMG)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "036"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Electromyographe (EMG)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "037",
+      "display": "Endoscopie urologique (fibroscopie urétro-vésicale)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "037"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Endoscopie urologique (fibroscopie urétro-vésicale)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "038",
+      "display": "Entéro-IRM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "038"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Entéro-IRM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "039",
+      "display": "Entéroscopie du grêle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "039"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Entéroscopie du grêle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "040",
+      "display": "Ergocycle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "040"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ergocycle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "041",
+      "display": "Ergorameur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "041"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ergorameur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "042",
+      "display": "Explorations électrophysiologiques visuelles (PEV, ERG, EOG)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "042"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Explorations électrophysiologiques visuelles (Potentiels évoqués visuels PEV, électro-rétinogramme ERG, électro-oculogramme EOG)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "043",
+      "display": "Fibroscopie broncho-pulmonaire (endoscopie bronchique)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "043"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fibroscopie broncho-pulmonaire (endoscopie bronchique)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "044",
+      "display": "Fibroscopie oeso-gastro-duodénale (FOGD) (endoscopie digestive haute)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "044"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fibroscopie oeso-gastro-duodénale (FOGD) (endoscopie digestive haute)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "045",
+      "display": "Guidage échographique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "045"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Guidage échographique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "046",
+      "display": "Holter ECG",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "046"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Holter ECG"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "047",
+      "display": "Holter tensionnel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "047"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Holter tensionnel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "048",
+      "display": "Hystérographie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "048"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hystérographie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "049",
+      "display": "Imagerie pédiatrique sans sédation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "049"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Imagerie pédiatrique sans sédation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "050",
+      "display": "Imagerie vasculaire diagnostique et interventionnelle : artériographie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "050"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Imagerie vasculaire diagnostique et interventionnelle : artériographie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "051",
+      "display": "Impédance masse graisseuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "051"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Impédance masse graisseuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "052",
+      "display": "IRM obésité diamètre de 70 cm - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "052"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "IRM obésité diamètre de 70 cm - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "053",
+      "display": "IRM cardiaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "053"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "IRM cardiaque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "054",
+      "display": "IRM corps entier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "054"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "IRM corps entier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "055",
+      "display": "IRM foetale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "055"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "IRM foetale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "056",
+      "display": "Laboratoire du sommeil (polysomnographe)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "056"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire du sommeil (polysomnographe)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "057",
+      "display": "Laser",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "057"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laser"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "058",
+      "display": "Lithotripsie des glandes salivaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "058"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lithotripsie des glandes salivaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "059",
+      "display": "Lithotriptie extracorporelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "059"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lithotriptie extracorporelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "060",
+      "display": "Mesure pression loges musculaires (syndrome loges)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "060"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mesure de la pression des loges musculaires (syndrome des loges)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "061",
+      "display": "Neuro-imagerie fonctionnelle, spectroscopie, tractographie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "061"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neuro-imagerie fonctionnelle, spectroscopie, tractographie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "062",
+      "display": "Ostéodensitométrie (densitométrie osseuse)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "062"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ostéodensitométrie (densitométrie osseuse)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "063",
+      "display": "Pachymètrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "063"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pachymètrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "064",
+      "display": "Planche à massage cardiaque automatique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "064"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Planche à massage cardiaque automatique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "065",
+      "display": "Polysomnographe portatif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "065"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Polysomnographe portatif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "066",
+      "display": "Potentiels évoqués auditifs (PEA) et vestibulaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "066"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Potentiels évoqués auditifs (PEA) et vestibulaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "067",
+      "display": "Potentiels évoqués somesthésiques cérébraux (PESc)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "067"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Potentiels évoqués somesthésiques cérébraux (PESc)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "068",
+      "display": "Réaction en chaîne par polymérase (PCR)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "068"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réaction en chaîne par polymérase (PCR)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "069",
+      "display": "Robot opératoire pour chirurgie robot assistée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "069"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Robot opératoire pour chirurgie robot assistée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "070",
+      "display": "Scanner dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "070"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Scanner dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "071",
+      "display": "Spectromètre de masse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "071"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Spectromètre de masse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "072",
+      "display": "Table de bloc opératoire obésité (poids > 250 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "072"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "073",
+      "display": "Tomographie en cohérence optique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "073"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tomographie en cohérence optique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "074",
+      "display": "Tomographie par émissions de positons (TEP ou PET SCAN)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "074"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tomographie par émissions de positons (TEP ou PET SCAN)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "075",
+      "display": "Tomographie par scinigraphie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "075"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tomographie par scinigraphie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "076",
+      "display": "Topographie cornéenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "076"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Topographie cornéenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "077",
+      "display": "Ventilation non invasive (VNI)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "077"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ventilation non invasive (VNI)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "078",
+      "display": "Ventilat non invasive à pression positive continue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "078"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ventilation non invasive (VNI) à pression positive continue (CPAP)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "079",
+      "display": "PEA et vestibulaires sous anesthésie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "079"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Potentiels évoqués auditifs (PEA) et vestibulaires sous anesthésie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-06-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "080",
+      "display": "Générateur d'hémodialyse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "080"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Générateur d'hémodialyse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "081",
+      "display": "Echocardiographe 3D",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "081"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echocardiographe 3D"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "082",
+      "display": "Unité fixe de décontamination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "082"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité fixe de décontamination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "083",
+      "display": "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "083"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "084",
+      "display": "Table de radiologie obésité (poids > 250 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "084"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "085",
+      "display": "Scanner (TDM) obésité diamètre de 80 cm - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "085"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Scanner (TDM) obésité diamètre de 80 cm - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "086",
+      "display": "Scanner (TDM) obésité champ ouvert - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "086"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Scanner (TDM) obésité champ ouvert - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "087",
+      "display": "IRM à champ ouvert",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "087"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "IRM à champ ouvert"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "088",
+      "display": "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "088"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "089",
+      "display": "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "089"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "090",
+      "display": "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "090"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "091",
+      "display": "Brancard obésité (poids entre 180 et 250 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "091"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Brancard obésité (poids entre 180 et 250 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "092",
+      "display": "Brancard obésité (poids entre 250 et 350 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "092"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Brancard obésité (poids entre 250 et 350 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "093",
+      "display": "ECMO transportable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "093"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ECMO transportable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-12-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "094",
+      "display": "Mammographe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "094"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mammographe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "095",
+      "display": "Laboratoire microbiologie P3",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "095"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire microbiologie P3"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "096",
+      "display": "Laboratoire microbiologie P4",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "096"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire microbiologie P4"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "097",
+      "display": "Chambre d'isolement et de contention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "097"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre d'isolement et de contention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "098",
+      "display": "Bassin thérapeutique pour balnéothérapie (<20m2)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "098"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bassin thérapeutique pour balnéothérapie (<20m2)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "099",
+      "display": "Piscine pour balnéothérapie (>20m2)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "099"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Piscine pour balnéothérapie (>20m2)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "100",
+      "display": "Salle aménagée pour la thérapie systémique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "100"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salle aménagée pour la thérapie systémique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "101",
+      "display": "Salle de stimulation multi-sensorielle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "101"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salle de stimulation multi-sensorielle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "102",
+      "display": "Appareil d'isocinétisme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "102"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil d'isocinétisme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "103",
+      "display": "Assistant robotisé à la marche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "103"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant robotisé à la marche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "104",
+      "display": "Assistant robotisé des membres supérieurs et de la préhension",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "104"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant robotisé des membres supérieurs et de la préhension"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "105",
+      "display": "Atelier d'appareillage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "105"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Atelier d'appareillage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "106",
+      "display": "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "106"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "107",
+      "display": "Salle réa avec scopes, défibrillateur, matériel d'intub et ventil assistée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "107"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "108",
+      "display": "Hotte à flux laminaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "108"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hotte à flux laminaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "109",
+      "display": "Equipement de rééducation pour obésité massive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "109"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipement de rééducation pour obésité massive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "110",
+      "display": "Studio pré-greffe et post-greffe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "110"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Studio pré-greffe et post-greffe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "111",
+      "display": "Douche filiforme pour brûlés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "111"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Douche filiforme pour brûlés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "112",
+      "display": "Equipement pour monitorage par télémétrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "112"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipement pour monitorage par télémétrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "113",
+      "display": "Prises d'oxygène en salle de rééducation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "113"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prises d'oxygène en salle de rééducation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "114",
+      "display": "Locaux adaptés à la désorientation temporo-spatiale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "114"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Locaux adaptés à la désorientation temporo-spatiale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "115",
+      "display": "Prises d'oxygène dans les chambres",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "115"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prises d'oxygène dans les chambres"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "116",
+      "display": "Appartement pour mise en situation d'autonomie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "116"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appartement pour mise en situation d'autonomie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "117",
+      "display": "Echographe cardiaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "117"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echographe cardiaque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "118",
+      "display": "Monitoring cardiaque portatif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "118"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Monitoring cardiaque portatif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "119",
+      "display": "Plateau technique neuropsycho cognitif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "119"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau technique neuropsycho cognitif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "120",
+      "display": "Plateau de simulation de conduite automobile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "120"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau de simulation de conduite automobile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "121",
+      "display": "Véhicules adaptés à la conduite en situation de handicap",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "121"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Véhicules adaptés à la conduite en situation de handicap"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "122",
+      "display": "Mur d'escalade",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "122"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mur d'escalade"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "123",
+      "display": "Chambre domotisée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "123"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre domotisée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "124",
+      "display": "Atelier de confection de prothèses",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "124"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Atelier de confection de prothèses"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "125",
+      "display": "Gymnase",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "125"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gymnase"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "126",
+      "display": "Cuisine thérapeutique et éducative",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "126"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cuisine thérapeutique et éducative"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "127",
+      "display": "Système de traction halo-crânienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "127"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Système de traction halo-crânienne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "128",
+      "display": "Plateforme multitest équilibre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "128"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateforme multitest équilibre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "129",
+      "display": "Plateau d'analyse informatisée du rachis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "129"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau d'analyse informatisée du rachis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "130",
+      "display": "Chambre et locaux sécurisés permettant la PEC des personnes à risque suicidaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "130"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "131",
+      "display": "Module fixe de décontamination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "131"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Module fixe de décontamination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "132",
+      "display": "Module transportable de décontamination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "132"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Module transportable de décontamination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "133",
+      "display": "Planche à masser cardiaque automatique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "133"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Planche à masser cardiaque automatique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "134",
+      "display": "Appareil de biologie délocalisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "134"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil de biologie délocalisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "135",
+      "display": "Incubateur de transport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "135"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Incubateur de transport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "136",
+      "display": "Respirateur néonatal et pédiatrique de transport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "136"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Respirateur néonatal et pédiatrique de transport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "137",
+      "display": "Chambre carcérale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "137"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre carcérale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "138",
+      "display": "PSM1 (Poste Sanitaire Mobile niveau 1)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "138"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSM1 (Poste Sanitaire Mobile niveau 1)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "139",
+      "display": "PSM2 (Poste Sanitaire Mobile niveau 2)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "139"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSM2 (Poste Sanitaire Mobile niveau 2)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "140",
+      "display": "PSM3 (Poste Sanitaire Mobile niveau 3)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "140"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSM3 (Poste Sanitaire Mobile niveau 3)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "141",
+      "display": "Poste médical avancé (PMA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "141"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Poste médical avancé (PMA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "142",
+      "display": "Appareil de mesure de la glycémie capillaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "142"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil de mesure de la glycémie capillaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "143",
+      "display": "Oxymètre de pouls (SpO2)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "143"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oxymètre de pouls (SpO2)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "144",
+      "display": "Système EOS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "144"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Système EOS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "145",
+      "display": "Salle physiologique (salle nature accouchement)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "145"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salle physiologique (salle nature accouchement)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "146",
+      "display": "Cabine d'audiologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "146"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cabine d'audiologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "147",
+      "display": "Espace de calme-retrait, apaisement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "147"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Espace de calme-retrait, d'apaisement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "148",
+      "display": "Jardin pédagogique et-ou thérapeutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "148"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Jardin pédagogique et-ou thérapeutique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Courbe débit volume (CDV)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "149",
+      "display": "Ferme pédagogique et-ou thérapeutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "149"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ferme pédagogique et-ou thérapeutique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "150",
+      "display": "Plateau ou salle de rééducation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "150"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau ou salle de rééducation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "151",
+      "display": "Salle d'activité physique adaptée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "151"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salle d'activité physique adaptée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "152",
+      "display": "Equipement de géolocalisation des personnes vulnérables",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "152"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipement de géolocalisation des personnes vulnérables"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "153",
+      "display": "Equipement de télémédecine (chariot, cabine)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "153"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipement de télémédecine (chariot, cabine)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "154",
+      "display": "Chambre à double flux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "154"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chambre à double flux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "155",
+      "display": "Rails de transfert",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "155"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rails de transfert"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "156",
+      "display": "Moniteur multiparamétrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "156"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Moniteur multiparamétrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "157",
+      "display": "Systèmes corporels d'alerte sans fil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "157"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Systèmes corporels d'alerte sans fil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "158",
+      "display": "Fauteuil rotatoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "158"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fauteuil rotatoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "159",
+      "display": "Plateforme verticale subjective",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "159"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateforme verticale subjective"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "160",
+      "display": "Appartement domotisé pour mise en situation d'autonomie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "160"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appartement domotisé pour mise en situation d'autonomie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "161",
+      "display": "Caisson hyperbare occupation simple",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "161"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caisson hyperbare occupation simple"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "162",
+      "display": "Caisson hyperbare occupation multiple patient intubé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "162"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caisson hyperbare occupation multiple patient intubé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "163",
+      "display": "Caisson hyperbare occupation multiple patient non intubé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "163"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caisson hyperbare occupation multiple patient non intubé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "164",
+      "display": "Cabine de cryothérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "164"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cabine de cryothérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "165",
+      "display": "PCA ou autre injecteur automatique d'antalgiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "165"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PCA ou autre injecteur automatique d'antalgiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "166",
+      "display": "PCR multiplex (Film array)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "166"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PCR multiplex (Film array)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "167",
+      "display": "Séquenceurs haut débit (NGS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "167"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Séquenceurs haut débit (NGS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "168",
+      "display": "Cytomètre de flux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "168"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cytomètre de flux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "169",
+      "display": "Atelier de confection d'orthèse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "169"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Atelier de confection d'orthèse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "170",
+      "display": "Atelier de confection aide technique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "170"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Atelier de confection aide technique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "171",
+      "display": "Séquençage du génome viral",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "171"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Séquençage du génome viral"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "172",
+      "display": "Analyse automatique du sperme (CASA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "172"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Analyse automatique du sperme (CASA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "173",
+      "display": "SNP Array",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "173"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SNP Array"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "174",
+      "display": "CGH Array",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "174"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CGH Array"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "175",
+      "display": "Spectromètre de masse haute résolution",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "175"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Spectromètre de masse haute résolution"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "176",
+      "display": "Chromatographe haute performance en phase liquide",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "176"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chromatographe haute performance en phase liquide"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "177",
+      "display": "Chromatographe en phase gazeuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "177"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chromatographe en phase gazeuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "178",
+      "display": "Agrégomètre optique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "178"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agrégomètre optique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "179",
+      "display": "Véhicules adaptés au transport de personnes à mobilité réduite",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "179"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Véhicules adaptés au transport de personnes à mobilité réduite"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "180",
+      "display": "Pupillomètre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "180"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pupillomètre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "181",
+      "display": "Accélérateur réchauffeur de sang",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "181"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accélérateur réchauffeur de sang"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "182",
+      "display": "Défibrillateur automatisé externe (DAE)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "182"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Défibrillateur automatisé externe (DAE)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "183",
+      "display": "Equipement d'oxygénothérapie de déambulation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "183"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipement d'oxygénothérapie de déambulation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "184",
+      "display": "Dispositif de réadaptation à la marche par allègement du poids du corps",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "184"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "185",
+      "display": "PSM pédiatriques (Poste Sanitaire Mobile)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "185"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSM pédiatriques (Poste Sanitaire Mobile)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "186",
+      "display": "Lit fluidisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "186"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lit fluidisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "187",
+      "display": "Table réfrigérée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "187"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table réfrigérée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "188",
+      "display": "Case réfrigérée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "188"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Case réfrigérée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "189",
+      "display": "Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "189"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "190",
+      "display": "Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "190"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "191",
+      "display": "Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "191"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "192",
+      "display": "Arthromoteurs (genoux, épaules, coudes)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "192"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arthromoteurs (genoux, épaules, coudes)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Attelles motorisées de mobilisation passive continue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "193",
+      "display": "Appareils de renforcement musculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "193"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareils de renforcement musculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "194",
+      "display": "Appareil d'ondes de choc pour traitement non invasif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "194"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil d'ondes de choc pour traitement non invasif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "195",
+      "display": "Appareil de massage par vacuo-aspiration",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "195"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil de massage par vacuo-aspiration"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "196",
+      "display": "Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "196"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "197",
+      "display": "Fauteuil obésité (poids entre 250 et 350 kg) bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "197"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fauteuil obésité (poids entre 250 et 350 kg) bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "198",
+      "display": "Holter tensionnel bariatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "198"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Holter tensionnel bariatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "199",
+      "display": "Appareil d'imagerie volumétrique par faisceau conique (CBCT)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "199"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil d'imagerie volumétrique par faisceau conique (CBCT)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Reconstruction volumique (« Cone Beam »)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "200",
+      "display": "Fauteuil dentaire adapté au handicap moteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "200"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fauteuil dentaire adapté au handicap moteur"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Fauteuil permettant à un handicapé moteur de s'installer afin de bénéficier de soins dentaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "201",
+      "display": "Laser rétinien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "201"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laser rétinien"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Laser qui émet une lumière de longueur d'onde spécifique qui a un effet de photocoagulation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "202",
+      "display": "Laser Yag ophtalmologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "202"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laser Yag ophtalmologique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Laser qui émet une lumière de longueur d'onde spécifique, dont l'effet photodisruptif va permettre la découpe de tissus essentiellement dans le segment antérieur de l'oeil (capsulotomie, iridotomie)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "203",
+      "display": "Atelier intégré d'appareillage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "203"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Atelier intégré d'appareillage"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Atelier dédié qui permet la réalisation personnalisée de prothèses et d'orthèses rééducation complexe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "204",
+      "display": "Imagerie par fluorescence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "204"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Imagerie par fluorescence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "205",
+      "display": "Ultrason de haute intensité (HIFU)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "205"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ultrason de haute intensité (HIFU)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "206",
+      "display": "Dispositif mobile de traitement d'air",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "206"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif mobile de traitement d'air"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "207",
+      "display": "Défibrillateur semi-automatique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "207"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Défibrillateur semi-automatique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-10-28T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

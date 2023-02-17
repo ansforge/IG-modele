@@ -1,0 +1,94 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R340-TypeCaracteristiqueEquipement",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-09-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R340-TypeCaracteristiqueEquipement.tabs/FHIR/TRE-R340-TypeCaracteristiqueEquipement",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.223"
+    }
+  ],
+  "version": "20220930120000",
+  "name": "TRE_R340-TypeCaracteristiqueEquipement",
+  "status": "active",
+  "date": "2022-09-30T12:00:00+01:00",
+  "description": "Type de caractéristique de l'équipement",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "001",
+      "display": "Poids maximum",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Poids max"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Poids maximum"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Poids maximum supporté par l'équipement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-09-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-09-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "002",
+      "display": "Diamètre maximum",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diamètre max"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diamètre maximum"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Diamètre maximum autorisé par l'équipement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-09-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-09-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

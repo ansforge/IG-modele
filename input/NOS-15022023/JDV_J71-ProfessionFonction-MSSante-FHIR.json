@@ -1,0 +1,637 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J71-ProfessionFonction-MSSante",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-05-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J71-ProfessionFonction-MSSante/FHIR/JDV-J71-ProfessionFonction-MSSante",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.9.1.2"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "JDV_J71-ProfessionFonction-MSSante",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "Professions et fonctions MSSanté",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "10",
+            "display": "Médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Audioprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Chirurgien-Dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Sage-Femme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Infirmier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Masseur-Kinésithérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Pédicure-Podologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Oculariste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Epithésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Technicien de laboratoire médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Diététicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "96",
+            "display": "Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "98",
+            "display": "Manipulateur ERM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "concept": [
+          {
+            "code": "300",
+            "display": "Assistant de service social (PAERPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "301",
+            "display": "Coordination territoriale d'appui (PAERPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "302",
+            "display": "Aide et accompagnement à domicile (PAERPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "304",
+            "display": "Assistant de service social (Expérimentation MAIA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "305",
+            "display": "Psychologue (Expérimentation MAIA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "306",
+            "display": "Psychothérapeute (Expérimentation MAIA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "307",
+            "display": "Mandataire judiciaire à la protection des majeurs (MJPM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "308",
+            "display": "Pilote MAIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "309",
+            "display": "Gestionnaire de cas MAIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "310",
+            "display": "Equipe médico-social APA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "311",
+            "display": "Autre acteur mettant en oeuvre la méthode MAIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "312",
+            "display": "Autre professionnel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "313",
+            "display": "Aide-soignant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "314",
+            "display": "Ambulancier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "315",
+            "display": "Auxiliaire de puériculture",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "316",
+            "display": "Préparateur en pharmacie hospitalière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "317",
+            "display": "Préparateur en pharmacie (officine)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "318",
+            "display": "Auxiliaire de vie sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "319",
+            "display": "Technicien de l'intervention sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "320",
+            "display": "Conseiller en économie sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "321",
+            "display": "Médiateur familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "322",
+            "display": "Assistant familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "323",
+            "display": "Aide médico-psychologique (AMP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "324",
+            "display": "Moniteur éducateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "325",
+            "display": "Educateur de jeunes enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "326",
+            "display": "Educateur spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "327",
+            "display": "Educateur technique spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "328",
+            "display": "Accompagnant éducatif et social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "329",
+            "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

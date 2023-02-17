@@ -1,0 +1,1796 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R213-ModePriseEnCharge",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-04-08T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.13"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_R213-ModePriseEnCharge",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Mode de la prise en charge",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Accueil Permanence des soins en établissement de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil PDSES"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil Permanence des soins en établissement de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Accueil spécialisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil spécialisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil spécialisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Centre autre (médecine du travail,...)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre autre (méd travail,...)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre autre (médecine du travail,...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Centre d'analyse et-ou prélèvement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre d'analyse, prélèvement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre d'analyse et-ou prélèvement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Centre de dépistage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre de dépistage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre de dépistage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Centre de référence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre de référence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre de référence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Centre de vaccination",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre de vaccination"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre de vaccination"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Centre de vaccination internationale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre vaccinat internationale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre de vaccination internationale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Chirurgie ambulatoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgie ambulatoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie ambulatoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Equipe de liaison et de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe de liaison et de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe de liaison et de soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Equipe mobile extra-hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe mobile extra-hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe mobile extra-hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Exploration fonctionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exploration fonctionnelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Exploration fonctionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "Hospitalisation courte durée (UHCD)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hosp courte durée (UHCD)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation courte durée (UHCD)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Hospitalisation kangourou",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hosp kangourou"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation kangourou"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Hospitalisation très courte durée (ZHTCD et UHTCD)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ZHTCD et UHTCD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation très courte durée (ZHTCD et UHTCD)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Lieu d'écoute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lieu d'écoute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lieu d'écoute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Précarité, permanence d'accès aux soins de santé (PASS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Précarité, PASS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Précarité, permanence d'accès aux soins de santé (PASS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Régulation médicale hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Régulation méd hospitalière"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Régulation médicale hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Régulation médicale libérale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Régulation méd libérale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Régulation médicale libérale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Soins externes et traitements ambulatoires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soins externes et ttt ambulat"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins externes et traitements ambulatoires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Surveillance post interventionnelle (réveil)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Surveil post interventionnelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Surveillance post interventionnelle (réveil)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Unité de soins intensifs (USI)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "USI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité de soins intensifs (USI)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Unité de surveillance continue (USC)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "USC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité de surveillance continue (USC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "Unité hospitalière sécurisée interrégionale (UHSI)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "UHSI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité hospitalière sécurisée interrégionale (UHSI)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "Unité sanitaire (ex UCSA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Unité sanitaire (ex UCSA)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité sanitaire (ex UCSA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Téléconsultation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Téléconsultation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Téléconsultation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Télémédecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Télémédecine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Télémédecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-05-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Hospitalisation complète (HC)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation complète (HC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "Hospitalisation de jour (HJ)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HJ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation de jour (HJ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "Hospitalisation de nuit (HN)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation de nuit (HN)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Hospitalisation à domicile (HAD)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HAD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation à domicile (HAD)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Consultation (CS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Consultation (CS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Accueil des urgences",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil des urgences"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil des urgences"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "Hospitalisation de semaine (HS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation de semaine (HS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Téléexpertise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Téléexpertise"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Téléexpertise"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Téléassistance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Téléassistance"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Téléassistance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Télésurveillance médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Télésurveillance médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Télésurveillance médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-11-02T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Isolement de secteur (unité de cohorting)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Isolement de secteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Isolement de secteur (unité de cohorting)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Réunion de Concertation Pluridisciplinaire (RCP)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RCP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réunion de Concertation Pluridisciplinaire (RCP)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Réunion de Concertation Pluridisciplinaire (RCP) de recours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RCP recours"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réunion de Concertation Pluridisciplinaire (RCP) de recours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Accueil familial thérapeutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil familial thérapeutique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil familial thérapeutique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "Prise en charge de groupe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prise en charge de groupe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise en charge de groupe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Equipe de liaison et de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe de liaison et de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe de liaison et de soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "Equipe mobile intra-hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe mobile intra-hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe mobile intra-hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "Equipe mobile extra-hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe mobile extra-hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe mobile extra-hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "Hébergement (accueil jour et nuit)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hébergement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hébergement (accueil jour et nuit)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "L'hébergement est un mode de prise en charge permettant aux personnes d'y être accueillies et accompagnées le jour et la nuit. Cet accueil peut inclure une offre de restauration, décrite dans le ROR par une activité opérationnelle, et prendre en charge une offre de transport, l'autonomie et les soins."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Accueil de jour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil de jour"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil de jour"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "L'accueil de jour est un mode de prise en charge permettant à des personnes vivant à domicile d'être accueillies et accompagnées en journée sur une courte période (d'une demi-journée à plusieurs jours par semaine). Cet accueil peut inclure une offre de restauration, décrite dans le ROR par une activité opérationnelle, et prendre en charge une offre de transport, l'autonomie et les soins."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "Accueil de nuit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil de nuit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil de nuit"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "L'accueil de nuit est un mode de prise en charge permettant aux personnes d'y être accueillies et accompagnées la nuit. Cet accueil peut inclure une offre de restauration, décrite dans le ROR par une activité opérationnelle, et prendre en charge une offre de transport, l'autonomie et les soins."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "Sur les lieux de vie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sur les lieux de vie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sur les lieux de vie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Placement famille d'accueil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Placement famille d'accueil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Placement famille d'accueil"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le placement en famille d'accueil est un dispositif permettant à un enfant, une personne âgée et/ou handicapée d'être accueillie au domicile d'un accueillant familial agréé et rémunéré pour cette prestation."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "Relayage (type baluchonnage)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Relayage (type baluchonnage)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Relayage (type baluchonnage)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "Equipe mobile intra-hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe mobile intra-hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe mobile intra-hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "Equipe mobile extra et intra-hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe mob extra et intra-hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe mobile extra et intra-hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Accueil individuel ou collectif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil individuel/collectif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil individuel ou collectif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "Plateau technique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Plateau technique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau technique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "Accueil non programmé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil non programmé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil non programmé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "Centre spécialisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Centre spécialisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre spécialisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "Coordination de parcours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Coordination de parcours"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Coordination de parcours"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La coordination de parcours est un mode de prise en charge correspondant à l'appui à l'organisation des parcours complexes ou des parcours spécifiques à certaines pathologies.  Elle a pour objectif d'améliorer la fluidité des échanges entre les différents acteurs."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "display": "Equipe d'intervention mobile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe d'intervention mobile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe d'intervention mobile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

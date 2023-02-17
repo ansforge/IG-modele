@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R271-TypeRequete",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-06-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R271-TypeRequete/FHIR/TRE-R271-TypeRequete",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.11"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R271-TypeRequete",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Code de type requêtes",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "TEST_EXST",
+      "display": "Test d'existence de dossier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "TEST_EXST"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Test d'existence de dossier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CREA_RD",
+      "display": "Création de dossier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CREA_RD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Création de dossier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNSLT_DATA",
+      "display": "Consultation des données de gestion de dossier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNSLT_DATA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Consultation des données de gestion de dossier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MODIF_DATA",
+      "display": "Modification des données de gestion du dossier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MODIF_DATA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Modification des données de gestion du dossier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FERM",
+      "display": "Fermeture de dossier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FERM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fermeture de dossier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REAC",
+      "display": "Réactivation de dossier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "REAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réactivation de dossier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

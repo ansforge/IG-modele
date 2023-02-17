@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R249-Sexe",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-01-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.53"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R249-Sexe",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Sexe",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "U",
+      "display": "Inconnu",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Inconnu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Inconnu"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Féminin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Féminin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Féminin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Masculin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masculin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masculin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Autre sexe (ni masculin, ni féminin)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre sexe ni M, ni F"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre sexe (ni masculin, ni féminin)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

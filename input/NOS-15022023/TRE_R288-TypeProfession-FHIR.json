@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R288-TypeProfession",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-03-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R288-TypeProfession/FHIR/TRE-R288-TypeProfession",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.137"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R288-TypeProfession",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de profession",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "P01",
+      "display": "Professionnel de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professionnel de santé (PS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "P02",
+      "display": "Usager de titre professionnel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Usager de titre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Usager de titre professionnel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "P03",
+      "display": "Professionnel soumis à agrément",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prof soumis à agrément"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professionnel soumis à agrément"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "P04",
+      "display": "Professionnel en formation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professionnel en formation (PF)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "P05",
+      "display": "Professionnel du social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Professionnel du social"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professionnel du social"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "P06",
+      "display": "Autre profession",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre profession"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre profession"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

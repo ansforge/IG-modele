@@ -1,0 +1,1300 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R60-AutoriteEnregistrement",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-02-02T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.57"
+    }
+  ],
+  "version": "20220429120000",
+  "name": "TRE_R60-AutoriteEnregistrement",
+  "status": "active",
+  "date": "2022-04-29T12:00:00+01:00",
+  "description": "Autorité d'enregistrement",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ARS-01",
+      "display": "ARS-01 : Guadeloupe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Guadeloupe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-01 : Guadeloupe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-02",
+      "display": "ARS-02 : Martinique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Martinique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-02 : Martinique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-03",
+      "display": "ARS-03 : Guyane",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Guyane"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-03 : Guyane"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-04",
+      "display": "ARS-04 : Océan Indien (La Réunion et Mayotte)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Océan Indien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-04 : Océan Indien (La Réunion et Mayotte)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-11",
+      "display": "ARS-11 : Ile-de-France",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Ile-de-France"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-11 : Ile-de-France"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-21",
+      "display": "ARS-21 : Champagne-Ardenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Champagne-Ardenne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-21 : Champagne-Ardenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-22",
+      "display": "ARS-22 : Picardie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Picardie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-22 : Picardie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-23",
+      "display": "ARS-23 : Haute-Normandie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Haute-Normandie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-23 : Haute-Normandie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-24",
+      "display": "ARS-24 : Centre-Val-de-Loire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Centre-Val-de-Loire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-24 : Centre-Val-de-Loire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-25",
+      "display": "ARS-25 : Basse-Normandie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Basse-Normandie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-25 : Basse-Normandie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-26",
+      "display": "ARS-26 : Bourgogne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Bourgogne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-26 : Bourgogne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-27",
+      "display": "ARS-27 : Bourgogne-Franche-Comté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Bourgogne-Franche-Comté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-27 : Bourgogne-Franche-Comté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-28",
+      "display": "ARS-28 : Normandie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Normandie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-28 : Normandie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-31",
+      "display": "ARS-31 : Nord-Pas-de-Calais",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Nord-Pas-de-Calais"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-31 : Nord-Pas-de-Calais"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-32",
+      "display": "ARS-32 : Hauts-de-France",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Hauts-de-France"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-32 : Hauts-de-France"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-41",
+      "display": "ARS-41 : Lorraine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Lorraine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-41 : Lorraine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-42",
+      "display": "ARS-42 : Alsace",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Alsace"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-42 : Alsace"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-43",
+      "display": "ARS-43 : Franche-Comté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Franche-Comté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-43 : Franche-Comté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-44",
+      "display": "ARS-44 : Grand-Est",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Grand-Est"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-44 : Grand-Est"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-52",
+      "display": "ARS-52 : Pays de la Loire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Pays de la Loire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-52 : Pays de la Loire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-53",
+      "display": "ARS-53 : Bretagne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Bretagne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-53 : Bretagne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-54",
+      "display": "ARS-54 : Poitou-Charentes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Poitou-Charentes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-54 : Poitou-Charentes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-72",
+      "display": "ARS-72 : Aquitaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Aquitaine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-72 : Aquitaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-73",
+      "display": "ARS-73 : Midi-Pyrénées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Midi-Pyrénées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-73 : Midi-Pyrénées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-74",
+      "display": "ARS-74 : Limousin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Limousin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-74 : Limousin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-75",
+      "display": "ARS-75 : Nouvelle-Aquitaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Nouvelle-Aquitaine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-75 : Nouvelle-Aquitaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-76",
+      "display": "ARS-76 : Occitanie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Occitanie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-76 : Occitanie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-82",
+      "display": "ARS-82 : Rhône-Alpes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Rhône-Alpes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-82 : Rhône-Alpes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-83",
+      "display": "ARS-83 : Auvergne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Auvergne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-83 : Auvergne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-84",
+      "display": "ARS-84 : Auvergne-Rhône-Alpes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Auvergne-Rhône-Alpes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-84 : Auvergne-Rhône-Alpes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-91",
+      "display": "ARS-91 : Languedoc-Roussillon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Languedoc-Roussillon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-91 : Languedoc-Roussillon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-93",
+      "display": "ARS-93 : Provence-Alpes-Côte d'Azur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PACA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-93 : Provence-Alpes-Côte d'Azur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARS-94",
+      "display": "ARS-94 : Corse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS Corse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-94 : Corse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AT-975",
+      "display": "ATS de Saint-Pierre-Et-Miquelon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ATS Saint-Pierre-Et-Miquelon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agence territoriale de santé (ATS) de Saint-Pierre-Et-Miquelon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOM",
+      "display": "Ordre des médecins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des médecins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOMK",
+      "display": "Ordre des masseurs-kinésithérapeutes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOMK"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des masseurs-kinésithérapeutes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOP",
+      "display": "Ordre des pharmaciens",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des pharmaciens"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOPP",
+      "display": "Ordre des pédicures-podologues",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOPP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des pédicures-podologues"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOSF",
+      "display": "Ordre des sages-femmes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOSF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des sages-femmes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ENREG",
+      "display": "Enregistrement par les AE locales (Structures)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ENREG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enregistrement par les AE locales (Structures)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Code et libellé pour l'application ENREG en tant que application  déléguée pour l'enregistrement des professionnels à rôle par les  autorités d'enregistrement locales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ONCD",
+      "display": "Ordre des chirurgiens-dentistes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ONCD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des chirurgiens-dentistes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ONI",
+      "display": "Ordre des infirmiers",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ONI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des infirmiers"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SSA",
+      "display": "Service de santé des armées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SSA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Service de santé des armées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-08-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-08-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

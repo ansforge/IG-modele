@@ -1,0 +1,1146 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J07-XdsTypeCode-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-01-23T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.471"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "JDV_J07-XdsTypeCode-CISIS",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "XDS typeCode CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
+        "concept": [
+          {
+            "code": "ATTEST-ASS-COMPL",
+            "display": "Attestation assurance complémentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "ATTEST-RESID",
+            "display": "Attestation de résidence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "ATTEST-HEBGT",
+            "display": "Attestation d'hébergement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "ATTEST-VITALE",
+            "display": "Attestation de carte vitale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "AUTORIS-SOINS",
+            "display": "Autorisation de soins et actes non usuels sanitaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "BIL_AUTO",
+            "display": "CR de bilan d'évaluation de la perte d'autonomie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "CERT_DECL",
+            "display": "Certificat, déclaration",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DISP_AUT",
+            "display": "Dispensation (autre)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "EXPPAT_1",
+            "display": "Volontés et droits du patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "EXPPAT_2",
+            "display": "Autre document du patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "EXPPAT_3",
+            "display": "Directives anticipées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "IMG-KOS",
+            "display": "Reference d'objets d'un examen d'imagerie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PROT_ALD",
+            "display": "Protocole de soins ALD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "REMB",
+            "display": "Données de remboursement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "SYNTH",
+            "display": "Synthèse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT01",
+            "display": "Synthèse déposée par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT02",
+            "display": "Traitement ou document de soins déposé par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT03",
+            "display": "CR déposé par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT04",
+            "display": "Imagerie déposée par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT05",
+            "display": "CR de biologie déposé par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT06",
+            "display": "CR de prévention déposé par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT07",
+            "display": "Certificat déposé par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT08",
+            "display": "Profil médical Mon espace santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "DOCPAT09",
+            "display": "Document administratif déposé par le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PIECE-IDENTITE",
+            "display": "Copie pièce d'identité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PRESC-BIO",
+            "display": "Prescription d'actes de biologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PRESC-KINE",
+            "display": "Prescription d'actes de kinésithérapie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PRESC-INF",
+            "display": "Prescription d'actes infirmiers",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PRESC-PEDI",
+            "display": "Prescription d'actes de pédicurie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PRESC-ORTHOPHO",
+            "display": "Prescription d'actes d'orthophonie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "PRESC-ORTHOPTIE",
+            "display": "Prescription d'actes d'orthoptie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+        "concept": [
+          {
+            "code": "11369-6",
+            "display": "Historique des vaccinations",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "11488-4",
+            "display": "CR ou fiche de consultation ou de visite",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "11490-0",
+            "display": "Lettre de liaison à la sortie d'un établissement de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "34112-3",
+            "display": "CR hospitalier (séjour)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "11502-2",
+            "display": "CR d'examens biologiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "11505-5",
+            "display": "CR d'acte thérapeutique (autre)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "11506-3",
+            "display": "CR ou fiche de suivi de soins par auxiliaire médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "11526-1",
+            "display": "CR d'anatomie et de cytologie pathologiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "15507-7",
+            "display": "CR de passage aux urgences",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "15508-5",
+            "display": "CR d'accouchement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "18776-5",
+            "display": "Plan personnalisé de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "18748-4",
+            "display": "CR d'imagerie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "18761-7",
+            "display": "Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "29274-8",
+            "display": "Mesures de signes vitaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "34133-9",
+            "display": "Synthèse d'épisode de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "34749-2",
+            "display": "CR de consultation pré-anesthésique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "34794-8",
+            "display": "CR de réunion de concertation pluridisciplinaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "34842-5",
+            "display": "Grille d'évaluation médico-social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "34874-8",
+            "display": "CR opératoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "47420-5",
+            "display": "CR de bilan fonctionnel (par auxiliaire médical)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "51969-4",
+            "display": "CR de génétique moléculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "52040-3",
+            "display": "Document encapsulant une image d'illustration non DICOM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "55115-0",
+            "display": "Demande d'actes d'imagerie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "56445-0",
+            "display": "Bilan médicamenteux (Officine)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "57828-6",
+            "display": "Prescription (autre)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "57832-8",
+            "display": "Prescription de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "57833-6",
+            "display": "Prescription de produits de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "59283-2",
+            "display": "CR d'examen de l'enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "60591-5",
+            "display": "Synthèse du dossier médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "60593-1",
+            "display": "Dispensation médicamenteuse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "61357-0",
+            "display": "Intervention pharmaceutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "61358-8",
+            "display": "Consentement chirurgical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "61359-6",
+            "display": "Consentement anesthésique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "67851-6",
+            "display": "CR d'admission",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "68599-0",
+            "display": "Synthèse psychiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "68817-6",
+            "display": "Bilan de santé et de prévention de l'enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "70004-7",
+            "display": "CR d'acte diagnostique (autre)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "74207-2",
+            "display": "Dossier de liaison d'urgence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "75468-9",
+            "display": "Renouvellement ordonnance par pharmacien correspondant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "75482-0",
+            "display": "CR d'acte thérapeutique à visée préventive",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "75492-9",
+            "display": "CR d'acte diagnostique à visée préventive ou de dépistage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "75496-0",
+            "display": "Demande d'acte de télémédecine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "77436-4",
+            "display": "CR d'anesthésie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "77604-7",
+            "display": "Planification thérapeutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "78513-9",
+            "display": "CR de consultation en ophtalmologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "78601-2",
+            "display": "CR d'entretien pharmaceutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "80565-5",
+            "display": "CR d'administration de médicaments",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "80788-3",
+            "display": "Projet personnalisé d'accompagnement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "80820-4",
+            "display": "Formulaire de conciliation médicamenteuse (Hôpital)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "83836-7",
+            "display": "Schéma dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "83901-9",
+            "display": "Bilan psychologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "83981-1",
+            "display": "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "85208-7",
+            "display": "CR de télémédecine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "86531-1",
+            "display": "Attestation de sortie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "87273-9",
+            "display": "Note de vaccination",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "88348-8",
+            "display": "Lettre de liaison d'entrée en structure sociale ou médico-sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "89601-9",
+            "display": "Certificat médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "93024-8",
+            "display": "CR de consultation pharmaceutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "96874-3",
+            "display": "COVID-19 Attestation de vaccination",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "96173-0",
+            "display": "Attestation de dépistage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
+        "concept": [
+          {
+            "code": "E1762",
+            "display": "Full Document",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:ASTM"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

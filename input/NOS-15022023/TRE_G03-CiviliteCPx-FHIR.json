@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G03-CiviliteCPx",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2000-12-13T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G03-CiviliteCPx/FHIR/TRE-G03-CiviliteCPx",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.11"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_G03-CiviliteCPx",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Civilité (CPx)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "22",
+      "display": "Madame",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MME"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Madame"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Mademoiselle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MLLE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mademoiselle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Monsieur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "M"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Monsieur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

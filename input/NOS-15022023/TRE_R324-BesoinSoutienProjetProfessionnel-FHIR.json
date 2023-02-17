@@ -1,0 +1,196 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R324-BesoinSoutienProjetProfessionnel",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R324-BesoinSoutienProjetProfessionnel/FHIR/TRE-R324-BesoinSoutienProjetProfessionnel",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.79"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R324-BesoinSoutienProjetProfessionnel",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Cette nomenclature permet de préciser le besoin du demandeur quant à l'établissement de son ou ses projet(s) professionnel(s)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Faire un bilan des capacités professionnelles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Faire bilan capa pro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Faire un bilan des capacités professionnelles"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le demandeur sollicite un soutien pour réaliser un bilan de ses capacités professionnelles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Préciser le projet professionnel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Préciser projet pro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préciser le projet professionnel"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le demandeur sollicite un soutien pour détailler/préciser son projet professionnel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Adapter l'environnement de travail",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Adapter env. travail"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Adapter l'environnement de travail"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le demandeur sollicite un soutien pour adapter son environnement de travail"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Accéder à un emploi",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accéder à un emploi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accéder à un emploi"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le demandeur sollicite un soutien pour accéder à un emploi"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Accéder à une formation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accéder à une formation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accéder à une formation"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le demandeur sollicite un soutien pour accéder à une formation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

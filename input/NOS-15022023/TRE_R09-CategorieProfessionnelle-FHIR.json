@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R09-CategorieProfessionnelle",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2008-03-20T09:24:55+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R09-CategorieProfessionnelle",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Catégorie professionnelle",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "C",
+      "display": "Civil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Civil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Civil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Etudiant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etudiant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etudiant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-12-21T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-12-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Fonctionnaire d'Etat ou de collectivité locale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fonctionnaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fonctionnaire d'Etat ou de collectivité locale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Militaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Militaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Militaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        }
+      ]
+    }
+  ]
+}

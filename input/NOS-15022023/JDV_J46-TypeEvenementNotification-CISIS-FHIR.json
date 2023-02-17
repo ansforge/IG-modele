@@ -1,0 +1,260 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J46-TypeEvenementNotification-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J46-TypeEvenementNotification-CISIS/FHIR/JDV-J46-TypeEvenementNotification-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.101"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "JDV_J46-TypeEvenementNotification-CISIS",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "Liste de types d'évènement pour lesquels une notification est possible",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement/FHIR/TRE-R254-TypeEvenement",
+        "concept": [
+          {
+            "code": "ADM",
+            "display": "Admission d'un patient dans un établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "AUT",
+            "display": "Autorisation de paiement de la facture des dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "CDM",
+            "display": "Commande de dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "DEM",
+            "display": "Demande de dispositifs médicaux à la pharmacie de l'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "DEL",
+            "display": "Délivrance des dispositifs médicaux au service en charge de la pose chez le patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "DOC",
+            "display": "Dépôt de document pour un patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "ECH",
+            "display": "Echec de pose du dispositif médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "ESD",
+            "display": "Entrée de stock des dispositifs médicaux au sein de l'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "NCO",
+            "display": "Dispositif médical non-conforme, présentant un risque inacceptable pour la santé et la sécurité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "NOT",
+            "display": "Création d'une note pour un patient dans le cahier de liaison",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "PER",
+            "display": "Dispositif médical périmé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "POS",
+            "display": "Pose du dispositif médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "REA",
+            "display": "Demande de réassort en dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "REC",
+            "display": "Réception valide du dispositif médical par l'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "REP",
+            "display": "Réponse de la pharmacie de l'établissement de santé au service responsable de la demande",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "SDM",
+            "display": "Suppression de la demande de dispositif médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "SOR",
+            "display": "Sortie d'un patient de l'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "SSD",
+            "display": "Sortie de stock des dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          },
+          {
+            "code": "TRA",
+            "display": "Transport des dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.337"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

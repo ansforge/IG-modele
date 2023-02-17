@@ -1,0 +1,334 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R264-PrestationNonObligatoireIncluse",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-05-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R264-PrestationNonObligatoireIncluse/FHIR/TRE-R264-PrestationNonObligatoireIncluse",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.59"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R264-PrestationNonObligatoireIncluse",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Prestations non obligatoire incluses",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Entretien du linge du résident non délicat",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "01"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Entretien du linge du résident non délicat"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Marquage du linge",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "02"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Marquage du linge"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Fourniture de produits d'hygiène corporelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "03"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fourniture de produits d'hygiène corporelle (savon, gel douche, shampoing, dentifrice...)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Mise à disposition d'un poste de téléphonie dans la chambre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "04"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mise à disposition d'un poste de téléphonie dans la chambre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Appels téléphoniques entrants non facturés en sus",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "05"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appels téléphoniques entrants non facturés en sus"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Appels téléphoniques sortants non facturés en sus",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "06"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appels téléphoniques sortants non facturés en sus"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Mise à disposition d'un poste de télévision dans la chambre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "07"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mise à disposition d'un poste de télévision dans la chambre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Internet dans la chambre (abonnement/accès au réseau Wifi)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "08"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Internet dans la chambre (abonnement/accès au réseau Wifi)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Prestation de coiffure (shampoing, coupe)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "09"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prestation de coiffure (shampoing, coupe)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Prestation esthétique de base",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "10"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prestation esthétique de base"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Prestation de pédicurie-podologie (hors prescription médicale)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "11"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prestation de pédicurie-podologie (hors prescription médicale)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-05-31T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

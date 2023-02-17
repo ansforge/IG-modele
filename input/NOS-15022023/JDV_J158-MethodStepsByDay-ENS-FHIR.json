@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J158-MethodStepsByDay-ENS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J158-MethodStepsByDay-ENS/FHIR/JDV-J158-MethodStepsByDay-ENS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.613"
+    }
+  ],
+  "version": "20210528120000",
+  "name": "JDV_J158-MethodStepsByDay-ENS",
+  "status": "active",
+  "date": "2021-05-28T12:00:00+01:00",
+  "description": "JDV pour la méthode de la mesure de nombre de pas par jour",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+        "concept": [
+          {
+            "code": "C88165",
+            "display": "Podomètre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C153216",
+            "display": "Objet connecté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C156877",
+            "display": "Application smartphone",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

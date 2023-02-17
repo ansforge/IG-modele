@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R304-HL7v3ActCode",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-03-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.5.4"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "TRE_R304-HL7v3ActCode",
+  "status": "active",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "Type de prise en charge repris de la terminologie HL7 v3 ActCode (https://www.hl7.org/fhir/v3/ActCode/cs.html)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "IMP",
+      "display": "Hospitalisation (établissement, y compris HAD)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IMP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hospitalisation (établissement, y compris HAD)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EMER",
+      "display": "Passage aux urgences (établissement)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "EMER"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Passage aux urgences (établissement)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AMB",
+      "display": "Ambulatoire (hors établissement)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AMB"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ambulatoire (hors établissement)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FLD",
+      "display": "Terrain (voie publique, hélicoptère, ambulance, etc.)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FLD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Terrain (voie publique, hélicoptère, ambulance, etc.)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HH",
+      "display": "Soins à domicile (hors établissement)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "HH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins à domicile (hors établissement)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "VR",
+      "display": "Virtuelle (exemple : RCP en l'absence du patient)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "VR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Virtuelle (exemple : RCP en l'absence du patient)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

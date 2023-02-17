@@ -1,0 +1,143 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J29-PublicPrisEnCharge-ROR",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.30"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "JDV_J29-PublicPrisEnCharge-ROR",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Public pris en charge - ROR",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Personnes âgées en perte d'autonomie (PA) et aidants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.29"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Personnes en situation de handicap (PH) et aidants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.29"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Personnes âgées autonomes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.29"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Personnes souffrant d'addictions",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.29"
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Personnes handicapées vieillissantes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
+        "concept": [
+          {
+            "code": "06",
+            "display": "Personnes en situation de précarité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R240-TemporaliteAccueil/FHIR/TRE-R240-TemporaliteAccueil",
+        "concept": [
+          {
+            "code": "07",
+            "display": "Tout public",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.31"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/JDV_J30-TemporaliteAccueil-ROR/FHIR/JDV-J30-TemporaliteAccueil-ROR",
+        "concept": [
+          {
+            "code": "08",
+            "display": "Etudiants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.32"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

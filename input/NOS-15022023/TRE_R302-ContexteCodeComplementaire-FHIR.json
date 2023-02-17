@@ -1,0 +1,172 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R302-ContexteCodeComplementaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-08-28T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.70"
+    }
+  ],
+  "version": "20201127120000",
+  "name": "TRE_R302-ContexteCodeComplementaire",
+  "status": "active",
+  "date": "2020-11-27T12:00:00+01:00",
+  "description": "Liste des codes complémentaires utilisables dans un contexte particulier",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Non renseigné",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non renseigné"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non renseigné"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-08-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-08-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Autre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Tout ce qui n'est pas listé de façon exhaustive dans la liste de codes "
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-08-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-08-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUT",
+      "display": "Autre motif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre motif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre motif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-11-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-11-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHA",
+      "display": "Changement d'activité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Changement d'activité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Changement d'activité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-11-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-11-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "def",
+      "display": "Rejet par votre gestionnaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rejet par votre gestionnaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rejet par votre gestionnaire d'autorité d'enregistrement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-11-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-11-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J23-TypeNoteCahierLiaison-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J23-TypeNoteCahierLiaison-CISIS/FHIR/JDV-J23-TypeNoteCahierLiaison-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.98"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J23-TypeNoteCahierLiaison-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de note du cahier de liaison - CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R234-TypeNote/FHIR/TRE-R234-TypeNote",
+        "concept": [
+          {
+            "code": "DEM-AVIS",
+            "display": "Demande d'avis",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.334"
+              }
+            ]
+          },
+          {
+            "code": "GEN",
+            "display": "Note générale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.334"
+              }
+            ]
+          },
+          {
+            "code": "INST",
+            "display": "Instruction",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.334"
+              }
+            ]
+          },
+          {
+            "code": "INTERV",
+            "display": "Note d'intervention",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.334"
+              }
+            ]
+          },
+          {
+            "code": "OBS",
+            "display": "Note d'observation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.334"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

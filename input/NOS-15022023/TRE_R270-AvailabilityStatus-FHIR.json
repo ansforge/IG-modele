@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R270-AvailabilityStatus",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-06-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.342"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R270-AvailabilityStatus",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Statut de l'objet",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "urn:asip:ci-sis:2010:StatusType:Archived",
+      "display": "Version archivée et à jour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Archivé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Version archivée et à jour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:asip:ci-sis:2010:StatusType:Deleted",
+      "display": "Version dépubliée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Supprimé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Version dépubliée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

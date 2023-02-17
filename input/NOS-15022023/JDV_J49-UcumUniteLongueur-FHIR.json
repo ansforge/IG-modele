@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J49-UcumUniteLongueur",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J49-UcumUniteLongueur/FHIR/JDV-J49-UcumUniteLongueur",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.56"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J49-UcumUniteLongueur",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "JDV contenant les unités de longueurs référencées dans la TRE _R247",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R247-UcumUniteMesure/FHIR/TRE-R247-UcumUniteMesure",
+        "concept": [
+          {
+            "code": "m",
+            "display": "mètre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

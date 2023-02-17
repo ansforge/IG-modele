@@ -1,0 +1,250 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R262-CategorieSocioProfessionnelle",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-04-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R262-CategorieSocioProfessionnelle/FHIR/TRE-R262-CategorieSocioProfessionnelle",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.123"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R262-CategorieSocioProfessionnelle",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Catégories socio-professionnelles",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "AGRIC",
+      "display": "Agriculteurs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Agriculteurs"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agriculteurs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ARTISAN",
+      "display": "Artisans, commerçants et chefs d'entreprises",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Artisans, chefs d'entreprises"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Artisans, commerçants et chefs d'entreprises"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CPIS",
+      "display": "Cadres et professions intellectuelles supérieures",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPIS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cadres et professions intellectuelles supérieures"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PROF-INT",
+      "display": "Professions intermédiaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Professions intermédiaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professions intermédiaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EMPLOYE",
+      "display": "Employés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Employés"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Employés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "OUVRIER",
+      "display": "Ouvriers",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ouvriers"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ouvriers"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RETRAITE",
+      "display": "Retraités",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Retraités"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Retraités"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUTRE",
+      "display": "Autres personnes sans activité professionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sans activité professionnelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autres personnes sans activité professionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

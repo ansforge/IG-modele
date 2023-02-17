@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R231-PalierAuthentification",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-07-07T10:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R231-PalierAuthentification/FHIR/TRE-R231-PalierAuthentification",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.5.1.1.1"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R231-PalierAuthentification",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Paliers des référentiels d'authentification de la PGSSI-S",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "APMPUBP2",
+      "display": "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P2 auth pub act smss PM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes morales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APMPUBP3",
+      "display": "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P3 auth pub act smss PM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes morales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APPPRIP1",
+      "display": "Palier 1 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P1 auth pri act smss PP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 1 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APPPRIP2",
+      "display": "Palier 2 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P2 auth pri act smss PP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 2 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APPPRIP3",
+      "display": "Palier 3 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P3 auth pri act smss PP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 3 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APPPUBP2",
+      "display": "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P2 auth pub act smss PP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APPPUBP3",
+      "display": "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "P3 auth pub act smss PP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

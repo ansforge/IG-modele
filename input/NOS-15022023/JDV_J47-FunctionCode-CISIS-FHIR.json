@@ -1,0 +1,109 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J47-FunctionCode-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.124"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "JDV_J47-FunctionCode-CISIS",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
+        "concept": [
+          {
+            "code": "CORRE",
+            "display": "Correspondant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          },
+          {
+            "code": "PRELV",
+            "display": "Préleveur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction",
+        "concept": [
+          {
+            "code": "ADMPHYS",
+            "display": "Responsable de l'admission",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.88"
+              }
+            ]
+          },
+          {
+            "code": "ATTPHYS",
+            "display": "Référent - Responsable du patient dans la structure de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.88"
+              }
+            ]
+          },
+          {
+            "code": "DISPHYS",
+            "display": "Responsable de la sortie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.88"
+              }
+            ]
+          },
+          {
+            "code": "PCP",
+            "display": "Médecin traitant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.5.88"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

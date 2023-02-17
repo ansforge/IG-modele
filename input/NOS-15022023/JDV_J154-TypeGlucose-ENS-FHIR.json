@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J154-TypeGlucose-ENS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.609"
+    }
+  ],
+  "version": "20210625120000",
+  "name": "JDV_J154-TypeGlucose-ENS",
+  "status": "active",
+  "date": "2021-06-25T12:00:00+01:00",
+  "description": "JDV pour caractériser le type de glucose",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+        "concept": [
+          {
+            "code": "2345-7",
+            "display": "Glucose sanguin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "4548-4",
+            "display": "Hémoglobine glyquée (HbA1c)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
+        "concept": [
+          {
+            "code": "MED-969",
+            "display": "Glucose interstitiel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
+              }
+            ]
+          },
+          {
+            "code": "MED-972",
+            "display": "Index de gestion de glycémie (IGG)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

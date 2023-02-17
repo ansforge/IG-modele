@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R82-Ordre",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R82-Ordre/FHIR/TRE-R82-Ordre",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.70"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R82-Ordre",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Ordre",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "CNOM",
+      "display": "Ordre des médecins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des médecins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ONCD",
+      "display": "Ordre des chirurgiens-dentistes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ONCD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des chirurgiens-dentistes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOP",
+      "display": "Ordre des pharmaciens",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des pharmaciens"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOSF",
+      "display": "Ordre des sages-femmes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOSF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des sages-femmes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:41+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOMK",
+      "display": "Ordre des masseurs-kinésithérapeutes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOMK"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des masseurs-kinésithérapeutes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-03-21T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CNOPP",
+      "display": "Ordre des pédicures-podologues",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CNOPP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des pédicures-podologues"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-03-21T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ONI",
+      "display": "Ordre des infirmiers",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ONI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ordre des infirmiers"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

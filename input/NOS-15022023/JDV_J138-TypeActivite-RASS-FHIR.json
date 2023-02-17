@@ -1,0 +1,536 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J138-TypeActivite-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.224"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "JDV_J138-TypeActivite-RASS",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Type d'activité dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Administration",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Hospitalisation Complète",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Hospitalisation de Jour",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "07",
+            "display": "Consultation Soins Externes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "08",
+            "display": "Bloc Opératoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "09",
+            "display": "Unité Médico-Technique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Hébergement Complet Internat",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Hébergement de Nuit Regroupé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Semi-Internat",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "Externat",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "15",
+            "display": "Placement Famille d'Accueil",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "16",
+            "display": "Prestation en milieu ordinaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "17",
+            "display": "Internat de Semaine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "18",
+            "display": "Hébergement de Nuit Eclaté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "19",
+            "display": "Traitement et Cure Ambulatoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "20",
+            "display": "Hospitalisation de Semaine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Accueil de Jour (sans distinction entre semi-internat et externat)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "Accueil de Nuit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "25",
+            "display": "Accueil Temporaire Week-End Vacances",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Examens de Biologie Médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "27",
+            "display": "Accueil modulable/séquentiel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Consultation Soins Dentaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "30",
+            "display": "Stockage Organes et Produits Humains",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "31",
+            "display": "Transport de Malades",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "33",
+            "display": "Recherche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "34",
+            "display": "Enseignement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "37",
+            "display": "Accueil et prise en charge en appartement thérapeutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Accueil temporaire avec hébergement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "41",
+            "display": "Permanence téléphonique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Equipe mobile de rue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Tous modes d'accueil avec hébergement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Accueil temporaire de jour",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Accueil temporaire (avec et sans hébergement)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "46",
+            "display": "Tous modes d'accueil (avec et sans hébergement)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Accueil de jour et accompagnement en milieu ordinaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "Tous modes d'accueil et d'accompagnement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Protection Juridique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Aide Judiciaire à la Gestion du Budget Familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Accompagnement Social Personnalisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "Information des Tuteurs Familiaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Consultations et actes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          },
+          {
+            "code": "97",
+            "display": "Type d'activité indifferencié",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

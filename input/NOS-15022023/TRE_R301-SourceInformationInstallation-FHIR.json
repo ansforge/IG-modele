@@ -1,0 +1,310 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R301-SourceInformationInstallation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-07-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.208"
+    }
+  ],
+  "version": "20220826120000",
+  "name": "TRE_R301-SourceInformationInstallation",
+  "status": "active",
+  "date": "2022-08-26T12:00:00+01:00",
+  "description": "Sources d'information possible concernant l'installation de l'activité sociale",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "V",
+      "display": "Visite de conformité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Visite de conformité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Visite de conformité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Enquête statistique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enquête statistique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enquête statistique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Interrogation de l'ET",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Interrogation de l'ET"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Interrogation de l'ET"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Document de tarification",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Document de tarification"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document de tarification"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Inspection",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Inspection"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Inspection"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Convention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Convention"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Convention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Labellisation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Labellisation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Labellisation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Autre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Arrêté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arrêté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arrêté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "display": "Indéterminée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Indéterminée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Indéterminée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-08-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

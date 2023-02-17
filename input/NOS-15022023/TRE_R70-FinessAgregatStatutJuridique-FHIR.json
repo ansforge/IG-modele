@@ -1,0 +1,642 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R70-FinessAgregatStatutJuridique",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "1979-01-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.65"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R70-FinessAgregatStatutJuridique",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Agrégat de statuts juridiques FINESS",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1110",
+      "display": "Etat",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etat"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etat"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1120",
+      "display": "Collectivité Territoriale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Col. Territoriale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Collectivité territoriale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1210",
+      "display": "Etablissement Public à Caractère Administratif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etb.Pub. Administr."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement public à caractère administratif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1220",
+      "display": "Etablissement Public à Caractère Industriel et Commercial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etb.Pub. Indus. Com."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement public à caractère industriel et commercial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2110",
+      "display": "Organisme Gérant un Régime de Protection Sociale à Adhésion",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Org.Régime Prot.Soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organisme gérant un régime de protection sociale à adhésion"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2120",
+      "display": "Organisme Mutualiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Org. Mutualiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organisme mutualiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2130",
+      "display": "Comité d'Entreprise et Comité d'Etablissement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Comité d'Entreprise"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Comité d'entreprise ou Comité d'établissement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2140",
+      "display": "Organisme Professionnel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Org. professionnel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organisme professionnel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2150",
+      "display": "Syndicat de Propriétaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Synd. Propriétaires"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Syndicat de propriétaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2160",
+      "display": "Association",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Association"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Association"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2170",
+      "display": "Fondation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fondation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fondation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2180",
+      "display": "Congrégation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Congrégation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Congrégation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2190",
+      "display": "Autre Organisme Privé à But non Lucratif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre Org. Privé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre organisme privé à but non lucratif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2210",
+      "display": "Personne Physique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Personne Physique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne physique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2220",
+      "display": "Société en Nom Collectif (S.N.C.)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soc.en Nom Collectif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Société en nom collectif (SNC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2230",
+      "display": "Société A Responsabilité Limitée (S.A.R.L.)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S.A.R.L."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Société à responsabilité limitée (SARL)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2240",
+      "display": "Société Anonyme (S.A.)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Société Anonyme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Société anonyme (SA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2250",
+      "display": "Société Civile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Société Civile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Société civile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2260",
+      "display": "Autre Société",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre Société"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre société"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2270",
+      "display": "Groupement Privé à Caractère Commercial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gr.Privé.Caract.Com."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Groupement privé à caractère commercial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2280",
+      "display": "Autre Organisme Privé à Caractère Commercial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre Org.Priv.Com."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre organisme privé à caractère commercial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3110",
+      "display": "Personne Morale de Droit Etranger",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pers.Moral.Etranger"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne morale de droit étranger"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

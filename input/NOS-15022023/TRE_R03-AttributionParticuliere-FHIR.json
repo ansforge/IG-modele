@@ -1,0 +1,306 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R03-AttributionParticuliere",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R03-AttributionParticuliere/FHIR/TRE-R03-AttributionParticuliere",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.27"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R03-AttributionParticuliere",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Attribution particulière",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ATTR-01",
+      "display": "Expert auprès des tribunaux (expertise judiciaire)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expertise judiciaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expert auprès des tribunaux (expertise judiciaire)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-02",
+      "display": "Médecine légale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecine légale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine légale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-03",
+      "display": "Médecin agréé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin agréé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin agréé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-04",
+      "display": "Expert auprès des assurances",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expert auprès des assurances"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expert auprès des assurances"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-05",
+      "display": "Expertises de Sécurité Sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expertises de Sécurité Sociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expertises de Sécurité Sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-06",
+      "display": "Expertise pour le Ministère des anciens combattants",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expert Ministère anc combat"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expertise pour le Ministère des anciens combattants"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-07",
+      "display": "Collège des 3G",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Collège des 3G"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Collège des 3G"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-08",
+      "display": "Expert auprès des Comités médicaux et commissions de réforme (CMCR)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expert CMCR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expert auprès des Comités médicaux et commissions de réforme (CMCR)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-09",
+      "display": "Activité libérale de contrôle d'absentéisme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Contrôle absentéisme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Activité libérale de contrôle d'absentéisme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTR-10",
+      "display": "Médecin de recours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin de recours"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin de recours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-23T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

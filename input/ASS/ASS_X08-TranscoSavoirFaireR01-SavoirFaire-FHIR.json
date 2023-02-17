@@ -1,0 +1,2276 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-X08-TranscoSavoirFaireR01-SavoirFaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-04-14T00:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": false
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_X08-TranscoSavoirFaireR01-SavoirFaire/FHIR/ASS-X08-TranscoSavoirFaireR01-SavoirFaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.37"
+    }
+  ],
+  "version": "20220826120000",
+  "name": "ASS_X08-TranscoSavoirFaireR01-SavoirFaire",
+  "status": "active",
+  "date": "2022-08-26T12:00:00+01:00",
+  "description": "Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
+      "element": [
+        {
+          "code": "SCD01",
+          "target": [
+            {
+              "code": "SCD01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCD02",
+          "target": [
+            {
+              "code": "SCD02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCD03",
+          "target": [
+            {
+              "code": "SCD03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SI01",
+          "target": [
+            {
+              "code": "SI01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SI02",
+          "target": [
+            {
+              "code": "SI02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SI03",
+          "target": [
+            {
+              "code": "SI03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SI04",
+          "target": [
+            {
+              "code": "SI04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SI05",
+          "target": [
+            {
+              "code": "SI05",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM01",
+          "target": [
+            {
+              "code": "SM01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM02",
+          "target": [
+            {
+              "code": "SM02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM03",
+          "target": [
+            {
+              "code": "SM03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM04",
+          "target": [
+            {
+              "code": "SM04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM05",
+          "target": [
+            {
+              "code": "SM05",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM06",
+          "target": [
+            {
+              "code": "SM06",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM07",
+          "target": [
+            {
+              "code": "SM07",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM08",
+          "target": [
+            {
+              "code": "SM08",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM09",
+          "target": [
+            {
+              "code": "SM09",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM10",
+          "target": [
+            {
+              "code": "SM10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM11",
+          "target": [
+            {
+              "code": "SM11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM12",
+          "target": [
+            {
+              "code": "SM12",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM13",
+          "target": [
+            {
+              "code": "SM13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM14",
+          "target": [
+            {
+              "code": "SM14",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM15",
+          "target": [
+            {
+              "code": "SM15",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM16",
+          "target": [
+            {
+              "code": "SM16",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM17",
+          "target": [
+            {
+              "code": "SM17",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM18",
+          "target": [
+            {
+              "code": "SM18",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM19",
+          "target": [
+            {
+              "code": "SM19",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM20",
+          "target": [
+            {
+              "code": "SM20",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM21",
+          "target": [
+            {
+              "code": "SM21",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM22",
+          "target": [
+            {
+              "code": "SM22",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM23",
+          "target": [
+            {
+              "code": "SM23",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM24",
+          "target": [
+            {
+              "code": "SM24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM25",
+          "target": [
+            {
+              "code": "SM25",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM26",
+          "target": [
+            {
+              "code": "SM26",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM27",
+          "target": [
+            {
+              "code": "SM27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM28",
+          "target": [
+            {
+              "code": "SM28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM29",
+          "target": [
+            {
+              "code": "SM29",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM30",
+          "target": [
+            {
+              "code": "SM30",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM31",
+          "target": [
+            {
+              "code": "SM31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM32",
+          "target": [
+            {
+              "code": "SM32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM33",
+          "target": [
+            {
+              "code": "SM33",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM34",
+          "target": [
+            {
+              "code": "SM34",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM35",
+          "target": [
+            {
+              "code": "SM35",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM36",
+          "target": [
+            {
+              "code": "SM36",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM37",
+          "target": [
+            {
+              "code": "SM37",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM38",
+          "target": [
+            {
+              "code": "SM38",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM39",
+          "target": [
+            {
+              "code": "SM39",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM40",
+          "target": [
+            {
+              "code": "SM40",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM41",
+          "target": [
+            {
+              "code": "SM41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM42",
+          "target": [
+            {
+              "code": "SM42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM43",
+          "target": [
+            {
+              "code": "SM43",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM44",
+          "target": [
+            {
+              "code": "SM44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM45",
+          "target": [
+            {
+              "code": "SM45",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM46",
+          "target": [
+            {
+              "code": "SM46",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM47",
+          "target": [
+            {
+              "code": "SM47",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM48",
+          "target": [
+            {
+              "code": "SM48",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM49",
+          "target": [
+            {
+              "code": "SM49",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM50",
+          "target": [
+            {
+              "code": "SM50",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM51",
+          "target": [
+            {
+              "code": "SM51",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM52",
+          "target": [
+            {
+              "code": "SM52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM53",
+          "target": [
+            {
+              "code": "SM53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM54",
+          "target": [
+            {
+              "code": "SM54",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM55",
+          "target": [
+            {
+              "code": "SM55",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM56",
+          "target": [
+            {
+              "code": "SM56",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM57",
+          "target": [
+            {
+              "code": "SM57",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM58",
+          "target": [
+            {
+              "code": "SM58",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM59",
+          "target": [
+            {
+              "code": "SM59",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM60",
+          "target": [
+            {
+              "code": "SM60",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM61",
+          "target": [
+            {
+              "code": "SM61",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM62",
+          "target": [
+            {
+              "code": "SM62",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM63",
+          "target": [
+            {
+              "code": "SM63",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM64",
+          "target": [
+            {
+              "code": "SM64",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM65",
+          "target": [
+            {
+              "code": "SM65",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM66",
+          "target": [
+            {
+              "code": "SM66",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM67",
+          "target": [
+            {
+              "code": "SM67",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM68",
+          "target": [
+            {
+              "code": "SM68",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM69",
+          "target": [
+            {
+              "code": "SM69",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM70",
+          "target": [
+            {
+              "code": "SM70",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM71",
+          "target": [
+            {
+              "code": "SM71",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SM72",
+          "target": [
+            {
+              "code": "SM72",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence",
+      "element": [
+        {
+          "code": "C01",
+          "target": [
+            {
+              "code": "C01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C03",
+          "target": [
+            {
+              "code": "C03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C05",
+          "target": [
+            {
+              "code": "C05",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C07",
+          "target": [
+            {
+              "code": "C07",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C09",
+          "target": [
+            {
+              "code": "C09",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C10",
+          "target": [
+            {
+              "code": "C10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C11",
+          "target": [
+            {
+              "code": "C11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C12",
+          "target": [
+            {
+              "code": "C12",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C13",
+          "target": [
+            {
+              "code": "C13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C15",
+          "target": [
+            {
+              "code": "C15",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C20",
+          "target": [
+            {
+              "code": "C20",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C23",
+          "target": [
+            {
+              "code": "C23",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C25",
+          "target": [
+            {
+              "code": "C25",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C27",
+          "target": [
+            {
+              "code": "C27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C29",
+          "target": [
+            {
+              "code": "C29",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C30",
+          "target": [
+            {
+              "code": "C30",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C31",
+          "target": [
+            {
+              "code": "C31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C33",
+          "target": [
+            {
+              "code": "C33",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C34",
+          "target": [
+            {
+              "code": "C34",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C35",
+          "target": [
+            {
+              "code": "C35",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C36",
+          "target": [
+            {
+              "code": "C36",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C37",
+          "target": [
+            {
+              "code": "C37",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C38",
+          "target": [
+            {
+              "code": "C38",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C39",
+          "target": [
+            {
+              "code": "C39",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C40",
+          "target": [
+            {
+              "code": "C40",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C41",
+          "target": [
+            {
+              "code": "C41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C43",
+          "target": [
+            {
+              "code": "C43",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C45",
+          "target": [
+            {
+              "code": "C45",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C47",
+          "target": [
+            {
+              "code": "C47",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C51",
+          "target": [
+            {
+              "code": "C51",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C52",
+          "target": [
+            {
+              "code": "C52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C54",
+          "target": [
+            {
+              "code": "C54",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C57",
+          "target": [
+            {
+              "code": "C57",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C58",
+          "target": [
+            {
+              "code": "C58",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C60",
+          "target": [
+            {
+              "code": "C60",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C62",
+          "target": [
+            {
+              "code": "C62",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C68",
+          "target": [
+            {
+              "code": "C68",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C69",
+          "target": [
+            {
+              "code": "C69",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C71",
+          "target": [
+            {
+              "code": "C71",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C72",
+          "target": [
+            {
+              "code": "C72",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C75",
+          "target": [
+            {
+              "code": "C75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C76",
+          "target": [
+            {
+              "code": "C76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C83",
+          "target": [
+            {
+              "code": "C83",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]  
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
+      "element": [
+        {
+          "code": "CEX22",
+          "target": [
+            {
+              "code": "CEX22",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CEX24",
+          "target": [
+            {
+              "code": "CEX24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CEX26",
+          "target": [
+            {
+              "code": "CEX26",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CEX64",
+          "target": [
+            {
+              "code": "CEX64",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant",
+      "element": [
+        {
+          "code": "DSM200",
+          "target": [
+            {
+              "code": "DSM200",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM201",
+          "target": [
+            {
+              "code": "DSM201",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM202",
+          "target": [
+            {
+              "code": "DSM202",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM203",
+          "target": [
+            {
+              "code": "DSM203",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM204",
+          "target": [
+            {
+              "code": "DSM204",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM205",
+          "target": [
+            {
+              "code": "DSM205",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM206",
+          "target": [
+            {
+              "code": "DSM206",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM207",
+          "target": [
+            {
+              "code": "DSM207",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM208",
+          "target": [
+            {
+              "code": "DSM208",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM209",
+          "target": [
+            {
+              "code": "DSM209",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM210",
+          "target": [
+            {
+              "code": "DSM210",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM211",
+          "target": [
+            {
+              "code": "DSM211",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM212",
+          "target": [
+            {
+              "code": "DSM212",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM213",
+          "target": [
+            {
+              "code": "DSM213",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM214",
+          "target": [
+            {
+              "code": "DSM214",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM215",
+          "target": [
+            {
+              "code": "DSM215",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM216",
+          "target": [
+            {
+              "code": "DSM216",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM217",
+          "target": [
+            {
+              "code": "DSM217",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM218",
+          "target": [
+            {
+              "code": "DSM218",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM219",
+          "target": [
+            {
+              "code": "DSM219",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM220",
+          "target": [
+            {
+              "code": "DSM220",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM221",
+          "target": [
+            {
+              "code": "DSM221",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM222",
+          "target": [
+            {
+              "code": "DSM222",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM223",
+          "target": [
+            {
+              "code": "DSM223",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM224",
+          "target": [
+            {
+              "code": "DSM224",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM225",
+          "target": [
+            {
+              "code": "DSM225",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM226",
+          "target": [
+            {
+              "code": "DSM226",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM227",
+          "target": [
+            {
+              "code": "DSM227",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM228",
+          "target": [
+            {
+              "code": "DSM228",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM229",
+          "target": [
+            {
+              "code": "DSM229",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM230",
+          "target": [
+            {
+              "code": "DSM230",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM231",
+          "target": [
+            {
+              "code": "DSM231",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM232",
+          "target": [
+            {
+              "code": "DSM232",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM233",
+          "target": [
+            {
+              "code": "DSM233",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM234",
+          "target": [
+            {
+              "code": "DSM234",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM235",
+          "target": [
+            {
+              "code": "DSM235",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM236",
+          "target": [
+            {
+              "code": "DSM236",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM237",
+          "target": [
+            {
+              "code": "DSM237",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM238",
+          "target": [
+            {
+              "code": "DSM238",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM239",
+          "target": [
+            {
+              "code": "DSM239",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DSM240",
+          "target": [
+            {
+              "code": "DSM240",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire",
+      "element": [
+        {
+          "code": "CAPA01",
+          "target": [
+            {
+              "code": "CAPA01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA02",
+          "target": [
+            {
+              "code": "CAPA02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA03",
+          "target": [
+            {
+              "code": "CAPA03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA04",
+          "target": [
+            {
+              "code": "CAPA04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA05",
+          "target": [
+            {
+              "code": "CAPA05",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA06",
+          "target": [
+            {
+              "code": "CAPA06",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA07",
+          "target": [
+            {
+              "code": "CAPA07",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA08",
+          "target": [
+            {
+              "code": "CAPA08",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA09",
+          "target": [
+            {
+              "code": "CAPA09",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA10",
+          "target": [
+            {
+              "code": "CAPA10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA11",
+          "target": [
+            {
+              "code": "CAPA11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA12",
+          "target": [
+            {
+              "code": "CAPA12",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA13",
+          "target": [
+            {
+              "code": "CAPA13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA14",
+          "target": [
+            {
+              "code": "CAPA14",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA15",
+          "target": [
+            {
+              "code": "CAPA15",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAPA16",
+          "target": [
+            {
+              "code": "CAPA16",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC",
+      "element": [
+        {
+          "code": "PAC00",
+          "target": [
+            {
+              "code": "PAC00",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R46-SpecialiteConcoursHospitalier/FHIR/TRE-R46-SpecialiteConcoursHospitalier",
+      "element": [
+        {
+          "code": "SCH01",
+          "target": [
+            {
+              "code": "SCH01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH02",
+          "target": [
+            {
+              "code": "SCH02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH03",
+          "target": [
+            {
+              "code": "SCH03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH04",
+          "target": [
+            {
+              "code": "SCH04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH05",
+          "target": [
+            {
+              "code": "SCH05",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH06",
+          "target": [
+            {
+              "code": "SCH06",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH07",
+          "target": [
+            {
+              "code": "SCH07",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH08",
+          "target": [
+            {
+              "code": "SCH08",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH09",
+          "target": [
+            {
+              "code": "SCH09",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH10",
+          "target": [
+            {
+              "code": "SCH10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH11",
+          "target": [
+            {
+              "code": "SCH11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH12",
+          "target": [
+            {
+              "code": "SCH12",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH13",
+          "target": [
+            {
+              "code": "SCH13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH14",
+          "target": [
+            {
+              "code": "SCH14",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH15",
+          "target": [
+            {
+              "code": "SCH15",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH16",
+          "target": [
+            {
+              "code": "SCH16",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH17",
+          "target": [
+            {
+              "code": "SCH17",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH18",
+          "target": [
+            {
+              "code": "SCH18",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH19",
+          "target": [
+            {
+              "code": "SCH19",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH20",
+          "target": [
+            {
+              "code": "SCH20",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH21",
+          "target": [
+            {
+              "code": "SCH21",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH22",
+          "target": [
+            {
+              "code": "SCH22",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH23",
+          "target": [
+            {
+              "code": "SCH23",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH24",
+          "target": [
+            {
+              "code": "SCH24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH25",
+          "target": [
+            {
+              "code": "SCH25",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH26",
+          "target": [
+            {
+              "code": "SCH26",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH27",
+          "target": [
+            {
+              "code": "SCH27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH28",
+          "target": [
+            {
+              "code": "SCH28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH29",
+          "target": [
+            {
+              "code": "SCH29",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH30",
+          "target": [
+            {
+              "code": "SCH30",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH31",
+          "target": [
+            {
+              "code": "SCH31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH32",
+          "target": [
+            {
+              "code": "SCH32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH33",
+          "target": [
+            {
+              "code": "SCH33",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH34",
+          "target": [
+            {
+              "code": "SCH34",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH35",
+          "target": [
+            {
+              "code": "SCH35",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH36",
+          "target": [
+            {
+              "code": "SCH36",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH37",
+          "target": [
+            {
+              "code": "SCH37",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH38",
+          "target": [
+            {
+              "code": "SCH38",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH39",
+          "target": [
+            {
+              "code": "SCH39",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH40",
+          "target": [
+            {
+              "code": "SCH40",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH41",
+          "target": [
+            {
+              "code": "SCH41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH42",
+          "target": [
+            {
+              "code": "SCH42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH43",
+          "target": [
+            {
+              "code": "SCH43",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH44",
+          "target": [
+            {
+              "code": "SCH44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH45",
+          "target": [
+            {
+              "code": "SCH45",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH46",
+          "target": [
+            {
+              "code": "SCH46",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH47",
+          "target": [
+            {
+              "code": "SCH47",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH48",
+          "target": [
+            {
+              "code": "SCH48",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH49",
+          "target": [
+            {
+              "code": "SCH49",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH50",
+          "target": [
+            {
+              "code": "SCH50",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH51",
+          "target": [
+            {
+              "code": "SCH51",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH52",
+          "target": [
+            {
+              "code": "SCH52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH53",
+          "target": [
+            {
+              "code": "SCH53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH54",
+          "target": [
+            {
+              "code": "SCH54",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH55",
+          "target": [
+            {
+              "code": "SCH55",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH56",
+          "target": [
+            {
+              "code": "SCH56",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH57",
+          "target": [
+            {
+              "code": "SCH57",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH58",
+          "target": [
+            {
+              "code": "SCH58",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH59",
+          "target": [
+            {
+              "code": "SCH59",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SCH60",
+          "target": [
+            {
+              "code": "SCH60",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

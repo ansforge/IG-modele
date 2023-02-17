@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R286-TypeFermeture",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-01-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.136"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R286-TypeFermeture",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de fermeture, codes provenant du FINESS pour les EJ et EG",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DEF",
+      "display": "Définitive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Définitive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Définitive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ERR",
+      "display": "Erreur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Erreur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Erreur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NDI",
+      "display": "Non défini",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non défini"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non défini"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHP",
+      "display": "Sortie du champ FINESS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sortie du champ FINESS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sortie du champ FINESS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EML",
+      "display": "Ancienne autorisation fonctionnement EML",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Anc autor fonct EML"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ancienne autorisation fonctionnement EML"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRO",
+      "display": "Provisoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Provisoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Provisoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

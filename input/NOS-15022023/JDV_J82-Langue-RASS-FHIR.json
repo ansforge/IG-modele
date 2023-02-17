@@ -1,0 +1,2288 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J82-Langue-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J82-Langue-RASS/FHIR/JDV-J82-Langue-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.150"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J82-Langue-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Langues (codes ISO-639) des professionnels du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue",
+        "concept": [
+          {
+            "code": "aa",
+            "display": "afar",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ab",
+            "display": "abkhaze, abkhazien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ae",
+            "display": "avestique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "af",
+            "display": "afrikaans",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ak",
+            "display": "akan",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "am",
+            "display": "amharique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "an",
+            "display": "aragonais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ar",
+            "display": "arabe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "as",
+            "display": "assamais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "av",
+            "display": "avar",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ay",
+            "display": "aymara",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "az",
+            "display": "azéri, azerbaïdjanais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ba",
+            "display": "bachkir, bashkir",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "be",
+            "display": "biélorusse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bg",
+            "display": "bulgare",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bh",
+            "display": "bihari",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bi",
+            "display": "bichlamar, bislama",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bm",
+            "display": "bambara",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bn",
+            "display": "bengali",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bo",
+            "display": "tibétain",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "br",
+            "display": "breton",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "bs",
+            "display": "bosniaque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ca",
+            "display": "catalan, valencien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ce",
+            "display": "tchétchène",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ch",
+            "display": "chamorro",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "co",
+            "display": "corse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "cr",
+            "display": "cree",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "cs",
+            "display": "tchèque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "cu",
+            "display": "slavon d'église, slavon liturgique, vieux slave, vieux bulgare",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "cv",
+            "display": "tchouvache",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "cy",
+            "display": "gallois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "da",
+            "display": "danois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "de",
+            "display": "allemand",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "dv",
+            "display": "maldivien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "dz",
+            "display": "dzongkha, bhoutani",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ee",
+            "display": "éwé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "el",
+            "display": "grec moderne (après 1453)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "en",
+            "display": "anglais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "eo",
+            "display": "espéranto",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "es",
+            "display": "espagnol, castillan",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "et",
+            "display": "estonien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "eu",
+            "display": "basque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "fa",
+            "display": "farsi, persan",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ff",
+            "display": "peul",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "fi",
+            "display": "finnois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "fj",
+            "display": "fidjien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "fo",
+            "display": "féroïen",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "fr",
+            "display": "français",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "fy",
+            "display": "frison",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ga",
+            "display": "irlandais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "gd",
+            "display": "gaélique, gaélique écossais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "gl",
+            "display": "galicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "gn",
+            "display": "guarani",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "gu",
+            "display": "gujarati, goudjrati",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "gv",
+            "display": "manx, mannois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ha",
+            "display": "haoussa",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "he",
+            "display": "hébreu",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "hi",
+            "display": "hindi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ho",
+            "display": "hiri motu",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "hr",
+            "display": "croate",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ht",
+            "display": "créole haïtien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "hu",
+            "display": "hongrois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "hy",
+            "display": "arménien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "hz",
+            "display": "herero",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ia",
+            "display": "interlingua (langue auxiliaire internationale)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "id",
+            "display": "indonésien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ie",
+            "display": "interlingue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ig",
+            "display": "igbo",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ii",
+            "display": "Sichuan Yi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ik",
+            "display": "inupiaq",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "io",
+            "display": "ido",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "is",
+            "display": "islandais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "it",
+            "display": "italien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "iu",
+            "display": "inuktitut",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ja",
+            "display": "japonais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "jv",
+            "display": "javanais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ka",
+            "display": "géorgien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kg",
+            "display": "kongo",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ki",
+            "display": "kikuyu",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kj",
+            "display": "kwanyama, kuanyama",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kk",
+            "display": "kazakh",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kl",
+            "display": "groenlandais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "km",
+            "display": "khmer, cambodgien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kn",
+            "display": "kannada",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ko",
+            "display": "coréen",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kr",
+            "display": "kanouri",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ks",
+            "display": "kashmiri",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ku",
+            "display": "kurde",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kv",
+            "display": "komi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "kw",
+            "display": "cornique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ky",
+            "display": "kirghize",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "la",
+            "display": "latin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "lb",
+            "display": "luxembourgeois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "lg",
+            "display": "louganda, ganda",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "li",
+            "display": "limbourgeois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ln",
+            "display": "lingala",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "lo",
+            "display": "laotien, lao",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ls",
+            "display": "langage de signes français",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "lt",
+            "display": "lituanien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "lu",
+            "display": "luba-katanga",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "lv",
+            "display": "letton",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mg",
+            "display": "malgache",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mh",
+            "display": "marshall",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mi",
+            "display": "maori",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mk",
+            "display": "macédonien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ml",
+            "display": "malayalam",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mn",
+            "display": "mongol",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mo",
+            "display": "moldave",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mr",
+            "display": "marathe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ms",
+            "display": "malais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "mt",
+            "display": "maltais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "my",
+            "display": "birman",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "na",
+            "display": "nauri",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "nb",
+            "display": "norvégien bokmål",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "nd",
+            "display": "ndébélé du Nord",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ne",
+            "display": "népalais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ng",
+            "display": "ndonga",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "nl",
+            "display": "néerlandais, flamand",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "nn",
+            "display": "norvégien nynorsk, nynorsk, norvégien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "no",
+            "display": "norvégien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "nr",
+            "display": "ndébélé du Sud",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "nv",
+            "display": "navaho",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ny",
+            "display": "nyanja, chewa, chichewa",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "oc",
+            "display": "occitan, provençal (après 1500)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "oj",
+            "display": "ojibwa",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "om",
+            "display": "oromo, afan oromo, galla",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "or",
+            "display": "oriya",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "os",
+            "display": "ossète",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "pa",
+            "display": "punjabi, panjabi, pendjabi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "pi",
+            "display": "pali",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "pl",
+            "display": "polonais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ps",
+            "display": "pachto, pashto, pushto",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "pt",
+            "display": "portugais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "qu",
+            "display": "quechua, quichua",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "rc",
+            "display": "créole réunionnais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "rm",
+            "display": "rhéto-roman",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "rn",
+            "display": "kirundi, rundi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ro",
+            "display": "roumain",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ru",
+            "display": "russe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "rw",
+            "display": "kinyarwanda, rwanda",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sa",
+            "display": "sanskrit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sc",
+            "display": "sarde",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sd",
+            "display": "sindhi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "se",
+            "display": "sami du Nord",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sg",
+            "display": "sango",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sh",
+            "display": "serbo-croate",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "si",
+            "display": "singhalais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sk",
+            "display": "slovaque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sl",
+            "display": "slovène",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sm",
+            "display": "samoan",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sn",
+            "display": "shona",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "so",
+            "display": "somali",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sq",
+            "display": "albanais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sr",
+            "display": "serbe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ss",
+            "display": "swazi, swati, siswati",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "st",
+            "display": "sesotho, sotho du Sud",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "su",
+            "display": "soundanais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sv",
+            "display": "suédois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "sw",
+            "display": "swahili",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ta",
+            "display": "tamoul, tamil",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "te",
+            "display": "télougou",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tg",
+            "display": "tadjik",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "th",
+            "display": "thaï",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ti",
+            "display": "tigrigna",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tk",
+            "display": "turkmène",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tl",
+            "display": "tagal, tagalog",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tn",
+            "display": "setchwana, tswana",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "to",
+            "display": "tonga (îles Tonga)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tr",
+            "display": "turc",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ts",
+            "display": "tsonga",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tt",
+            "display": "tatar",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "tw",
+            "display": "twi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ty",
+            "display": "tahitien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ug",
+            "display": "ouïgour",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "uk",
+            "display": "ukrainien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ur",
+            "display": "ourdou",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "uz",
+            "display": "ouszbek",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "ve",
+            "display": "venda",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "vi",
+            "display": "vietnamien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "vo",
+            "display": "volapük",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "wa",
+            "display": "wallon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "wo",
+            "display": "wolof",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "xh",
+            "display": "xhosa",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "yi",
+            "display": "yiddish",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "yo",
+            "display": "yorouba, yoruba",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "za",
+            "display": "zhuang, chuang",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "zh",
+            "display": "chinois",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          },
+          {
+            "code": "zu",
+            "display": "zoulou",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.2.10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

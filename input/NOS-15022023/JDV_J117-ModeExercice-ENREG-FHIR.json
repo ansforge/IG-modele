@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J117-ModeExercice-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-05-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.188"
+    }
+  ],
+  "version": "20210827120000",
+  "name": "JDV_J117-ModeExercice-ENREG",
+  "status": "active",
+  "date": "2021-08-27T12:00:00+01:00",
+  "description": "Mode d'exercice pour ENREG",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+        "concept": [
+          {
+            "code": "S",
+            "display": "Salarié",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+              }
+            ]
+          },
+          {
+            "code": "L",
+            "display": "Libéral, indépendant, artisan, commerçant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+              }
+            ]
+          },
+          {
+            "code": "B",
+            "display": "Bénévole",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

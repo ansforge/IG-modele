@@ -1,0 +1,128 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R328-TypeScolarisation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R328-TypeScolarisation/FHIR/TRE-R328-TypeScolarisation",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.83"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R328-TypeScolarisation",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise la situation scolaire de la personne",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Etudiant/Apprenti",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etudiant/Apprenti"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etudiant/Apprenti"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est étudiant(e) ou apprenti(e)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Enfant scolarisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant scolarisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant scolarisé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est un enfant scolarisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Enfant non scolarisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant non scolarisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant non scolarisé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est un enfant non scolarisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

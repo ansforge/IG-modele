@@ -1,0 +1,776 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-X16-CorrespondanceType-Classe-DMP",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-03-26T12:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": true
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.587"
+    }
+  ],
+  "version": "20220930120000",
+  "name": "ASS_X16-CorrespondanceType-Classe-DMP",
+  "status": "active",
+  "date": "2022-09-30T12:00:00+01:00",
+  "description": "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument",
+      "element": [
+        {
+          "code": "11369-6",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11488-4",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11490-0",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11502-2",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11505-5",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11506-3",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11526-1",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "15507-7",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "15508-5",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "18748-4",
+          "target": [
+            {
+              "code": "31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "18761-7",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "18776-5",
+          "target": [
+            {
+              "code": "44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34112-3",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34133-9",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34749-2",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34794-8",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34842-5",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34874-8",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "47420-5",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "51969-4",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "52040-3",
+          "target": [
+            {
+              "code": "31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "55115-0",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "56445-0",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "57828-6",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "57832-8",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "57833-6",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "60591-5",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "60593-1",
+          "target": [
+            {
+              "code": "43",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "61357-0",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "67851-6",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "68599-0",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "68817-6",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "70004-7",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "74207-2",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "75468-9",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "75482-0",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "75492-9",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "75496-0",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "77436-4",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "77604-7",
+          "target": [
+            {
+              "code": "44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "78513-9",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "78601-2",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "80565-5",
+          "target": [
+            {
+              "code": "45",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "80788-3",
+          "target": [
+            {
+              "code": "44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "80820-4",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "83901-9",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "83836-7",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "83981-1",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "85208-7",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "87273-9",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "88348-8",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "89601-9",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "93024-8",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "96173-0",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "96874-3",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument",
+      "element": [
+        {
+          "code": "BIL_AUTO",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CERT_DECL",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DISP_AUT",
+          "target": [
+            {
+              "code": "43",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EXPPAT_1",
+          "target": [
+            {
+              "code": "90",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EXPPAT_2",
+          "target": [
+            {
+              "code": "90",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EXPPAT_3",
+          "target": [
+            {
+              "code": "90",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT01",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT02",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT03",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT04",
+          "target": [
+            {
+              "code": "31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT05",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT06",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT07",
+          "target": [
+            {
+              "code": "52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT08",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DOCPAT09",
+          "target": [
+            {
+              "code": "90",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "IMG-KOS",
+          "target": [
+            {
+              "code": "31",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PROT_ALD",
+          "target": [
+            {
+              "code": "44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "REMB",
+          "target": [
+            {
+              "code": "60",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SYNTH",
+          "target": [
+            {
+              "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PRESC-BIO",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PRESC-KINE",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PRESC-INF",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PRESC-PEDI",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PRESC-ORTHOPHO",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PRESC-ORTHOPTIE",
+          "target": [
+            {
+              "code": "42",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",
+      "element": [
+        {
+          "code": "E1762",
+          "target": [
+            {
+              "code": "urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

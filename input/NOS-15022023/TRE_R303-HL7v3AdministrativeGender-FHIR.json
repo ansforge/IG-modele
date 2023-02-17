@@ -1,0 +1,142 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R303-HL7v3AdministrativeGender",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-03-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R303-HL7v3AdministrativeGender/FHIR/TRE-R303-HL7v3AdministrativeGender",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.5.1"
+    }
+  ],
+  "version": "20210326120000",
+  "name": "TRE_R303-HL7v3AdministrativeGender",
+  "status": "active",
+  "date": "2021-03-26T12:00:00+01:00",
+  "description": "Sexe d'une personne utilisée à des fins administratives (par opposition au sexe clinique) repris de la terminologie HL7 v3 AdministrativeGender (https://www.hl7.org/fhir/v3/AdministrativeGender/cs.html)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "F",
+      "display": "Féminin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Féminin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Féminin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Masculin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masculin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masculin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "UN",
+      "display": "Inconnu",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Inconnu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Inconnu"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Inconnu",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Inconnu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Inconnu"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

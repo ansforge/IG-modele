@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R221-ModeleDocumentCDANonStructure",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.329"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R221-ModeleDocumentCDANonStructure",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Identifiant des modèles de CDA non structurés",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1.3.6.1.4.1.19376.1.2.20",
+      "display": "Modèle de document CDA non structuré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA non structuré"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Modèle de document CDA non structuré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R14-TypeDiplome",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R14-TypeDiplome",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de diplôme",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ATT",
+      "display": "Attestation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "display": "Autre type de diplôme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre type de diplôme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre type de diplôme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CAPA",
+      "display": "Capacité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Capacité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Capacité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CES",
+      "display": "Certficat d'études spéciales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certficat d'études spéciales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certficat d'études spéciales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CQ",
+      "display": "Commission de qualification",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Commission de qualification"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Commission de qualification"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "D2C",
+      "display": "Diplôme de 2ième cycle non qualifiant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diplôme 2ième cycle NQ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme de 2ième cycle non qualifiant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DAU",
+      "display": "Diplôme d'un pays hors UE et hors EEE",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diplôme pays hors EU, hors EEE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'un pays hors UE et hors EEE"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "display": "Diplôme d'Etat français",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diplôme Etat français"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'Etat français"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEEE",
+      "display": "Diplôme d'un pays de l'UE ou de l'EEE",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diplôme pays EU ou EEE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'un pays de l'UE ou de l'EEE"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEES",
+      "display": "Diplôme européen d'études spécialisées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dip européen études spé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme européen d'études spécialisées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DES",
+      "display": "Diplôme d'études spécialisées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dip études spécialisées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'études spécialisées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DESC1",
+      "display": "Diplôme d'études spécialisées complémentaire groupe 1",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dip études spé complém grpe 1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'études spécialisées complémentaire groupe 1"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DESC2",
+      "display": "Diplôme d'études spécialisées complémentaire groupe 2",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dip études spé complém grpe 2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'études spécialisées complémentaire groupe 2"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DU",
+      "display": "Diplôme d'université (DU) ou inter-universitaire (DIU)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dip univ (DU) inter-univ (DIU)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'université (DU) ou inter-universitaire (DIU)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

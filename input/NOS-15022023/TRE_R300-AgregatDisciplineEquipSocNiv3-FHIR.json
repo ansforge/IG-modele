@@ -1,0 +1,670 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R300-AgregatDisciplineEquipSocNiv3",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-06-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.204"
+    }
+  ],
+  "version": "20200626120000",
+  "name": "TRE_R300-AgregatDisciplineEquipSocNiv3",
+  "status": "active",
+  "date": "2020-06-26T12:00:00+01:00",
+  "description": "Agrégats de disciplines d'équipement pour le social niveau 3",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "4310",
+      "display": "Insertion professionnelle et sociale des adultes handicapés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Inser.prof.soc.adultes hand."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Insertion professionnelle et sociale des adultes handicapés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4320",
+      "display": "Hébergement des adultes handicapés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hébergement adultes hand."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hébergement des adultes handicapés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4330",
+      "display": "Accueil et accompagnement pour personnes handicapées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accueil acc.pers.hand."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil et accompagnement pour personnes handicapées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4410",
+      "display": "Soins médico sociaux aux personnes âgées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soins médico soc.pers.âgées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins médico sociaux aux personnes âgées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4420",
+      "display": "Hébergement personnes âgées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hébergement personnes âgées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hébergement personnes âgées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4510",
+      "display": "Accueil au titre de la protection de l'enfance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Acc.Protec.Enfance"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accueil au titre de la protection de l'enfance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4520",
+      "display": "Observation orientation mineurs en difficulté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Obs.orient.min.difficulté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Observation orientation mineurs en difficulté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4530",
+      "display": "Soutien personnalisé enfants et ado en difficulté sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soutien pers.enf.ado.dif.soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soutien personnalisé enfants et ado en difficulté sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4610",
+      "display": "Réinsertion professionnelle et sociale adultes en difficulté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Réins.prof.soc.adlts.dif."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réinsertion professionnelle et sociale adultes en difficulté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4620",
+      "display": "Hébergement des adultes en difficulté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hébergement adultes difficulté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hébergement des adultes en difficulté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4630",
+      "display": "Hébergement des autres adultes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hébergement autres adultes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hébergement des autres adultes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4640",
+      "display": "Prise en charge des personnes en difficultés spécifiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prise charge pers.dif.spéc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise en charge des personnes en difficultés spécifiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4650",
+      "display": "Mesures de protection des majeurs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mesures protection majeurs"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mesures de protection des majeurs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4710",
+      "display": "Soins médico-sociaux enfance handicapée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soins médico-soc.enf.hand."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins médico-sociaux enfance handicapée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4720",
+      "display": "Education spéciale enfance handicapée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Education spéc.enf.hand."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Education spéciale enfance handicapée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4730",
+      "display": "Hébergement enfance handicapée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hébergement enfance hand."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hébergement enfance handicapée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4740",
+      "display": "Education adaptée et accompagnement social et médico-social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Educ.adap.acc.soc.médic.soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Education adaptée et accompagnement social et médico-social"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4810",
+      "display": "Garde des enfants",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Garde des enfants"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Garde des enfants"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4820",
+      "display": "Services à la famille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Services à la famille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Services à la famille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4910",
+      "display": "Services medico-sociaux à domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Services medico-soc.dom."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Services medico-sociaux à domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4920",
+      "display": "Recherche et administration domaine social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Recherche admin.dom.soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Recherche et administration domaine social"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4930",
+      "display": "Activité expérimentale dans établissements sociaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Activité exp.étab.soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Activité expérimentale dans établissements sociaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4940",
+      "display": "Activité des centres de ressources",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Activité centres ressources"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Activité des centres de ressources"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

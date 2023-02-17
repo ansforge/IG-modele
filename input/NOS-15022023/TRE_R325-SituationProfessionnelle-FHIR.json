@@ -1,0 +1,94 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R325-SituationProfessionnelle",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R325-SituationProfessionnelle/FHIR/TRE-R325-SituationProfessionnelle",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.80"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R325-SituationProfessionnelle",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise la situation professionnelle de la personne",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Situation Sans Emploi",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Situation Sans Emploi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Situation Sans Emploi"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne est sans emploi"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Situation Avec Emploi",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Situation Avec Emploi"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Situation Avec Emploi"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La personne a un emploi"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

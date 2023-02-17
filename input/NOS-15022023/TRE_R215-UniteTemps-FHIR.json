@@ -1,0 +1,251 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R215-UniteTemps",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-02-04T00:00:00+01:00",
+        "end": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R215-UniteTemps/FHIR/TRE-R215-UniteTemps",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.15"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R215-UniteTemps",
+  "status": "retired",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Unité de temps",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "a",
+      "display": "année",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "a"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "année"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "m",
+      "display": "mois",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "m"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "mois"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "j",
+      "display": "jour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "j"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "jour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "h",
+      "display": "heure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "h"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "heure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "mn",
+      "display": "minute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "mn"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "minute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "s",
+      "display": "seconde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "s"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "seconde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ms",
+      "display": "milliseconde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ms"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "milliseconde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-02-04T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

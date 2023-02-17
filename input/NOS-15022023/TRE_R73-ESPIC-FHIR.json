@@ -1,0 +1,278 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R73-ESPIC",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.45"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R73-ESPIC",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Etablissement de santé privé d'intérêt collectif",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0",
+      "display": "Non concerné",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non concerné"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non concerné"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1994-12-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "display": "Etablissement public de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab public de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement public de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1996-09-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1996-09-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "PSPH par intégration",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PSPH par intégration"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSPH par intégration"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1997-03-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1997-03-03T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "PSPH par concession",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PSPH par concession"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSPH par concession"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1994-12-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1994-12-20T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "PSPH par association",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PSPH par association"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PSPH par association"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1997-03-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1997-03-03T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Assoc 1901 act. Psy",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assoc 1901 act. Psy"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assoc 1901 act. Psy"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1994-12-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1994-12-20T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "Etablissement de santé privé d'intérêt collectif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ESPIC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement de santé privé d'intérêt collectif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "display": "Etab de santé privé non lucratif, non déclar intérêt collect",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "NON ESPIC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement de santé privé non lucratif, non déclaré d'intérêt collectif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "display": "Indéterminé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Indéterminé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Indéterminé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2003-02-05T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2003-02-05T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

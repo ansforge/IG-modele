@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J151-BodySiteBodyTemperature-ENS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS/FHIR/JDV-J151-BodySiteBodyTemperature-ENS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.606"
+    }
+  ],
+  "version": "20210430120000",
+  "name": "JDV_J151-BodySiteBodyTemperature-ENS",
+  "status": "active",
+  "date": "2021-04-30T12:00:00+01:00",
+  "description": "JDV de localisation de la mesure de la température",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA",
+        "concept": [
+          {
+            "code": "14544",
+            "display": "Rectum",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.119"
+              }
+            ]
+          },
+          {
+            "code": "49184",
+            "display": "Bouche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.119"
+              }
+            ]
+          },
+          {
+            "code": "52780",
+            "display": "Oreille",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.119"
+              }
+            ]
+          },
+          {
+            "code": "24864",
+            "display": "Aisselle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.119"
+              }
+            ]
+          },
+          {
+            "code": "46450",
+            "display": "Tempe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.119"
+              }
+            ]
+          },
+          {
+            "code": "63864",
+            "display": "Front",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.119"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

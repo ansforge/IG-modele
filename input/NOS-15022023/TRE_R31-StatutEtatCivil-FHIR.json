@@ -1,0 +1,228 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R31-StatutEtatCivil",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R31-StatutEtatCivil/FHIR/TRE-R31-StatutEtatCivil",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "TRE_R31-StatutEtatCivil",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Status de l'état civil",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "AC",
+      "display": "Demande de certification forcée par le guichet",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demande forcée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demande de certification forcée par le guichet"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AN",
+      "display": "Demande annulée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Annulation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demande annulée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Certifié INSEE",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certifié"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certifié INSEE"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DI",
+      "display": "Demande de certification normale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demande certification"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demande de certification normale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FC",
+      "display": "Certifié par FranceConnect",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certifié FranceConnect"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certifié par FranceConnect"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "FranceConnect est un dispositif qui permet aux internautes de s'identifier sur un service en ligne par l'intermédiaire d'un compte existant (impots.gouv.fr, ameli.fr…). Les données d'état civil récupérées depuis le Répertoire national d'identification des personnes physiques de l'Insee (RNIPP) lors de l'identification par FranceConnect sont certifiées par l'Insee."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "display": "Non certifiable",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non certifiable"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non certifiable"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NCI",
+      "display": "Non certifié INSEE, Immatriculation en cours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non certifié"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non certifié INSEE, Immatriculation en cours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:44+01:00"
+        }
+      ]
+    }
+  ]
+}

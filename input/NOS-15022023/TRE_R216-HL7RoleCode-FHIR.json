@@ -1,0 +1,2242 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R216-HL7RoleCode",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.5.111"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R216-HL7RoleCode",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "HL7 roleCode",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "MTH",
+      "display": "Mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FTH",
+      "display": "Père",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Père"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Père"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NMTH",
+      "display": "Mère biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mère biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mère biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NFTH",
+      "display": "Père biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Père biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Père biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPMTH",
+      "display": "Belle-mère - épouse du père ou de la mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Belle-mère - épouse du père ou de la mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPFTH",
+      "display": "Beau-père - époux du père ou de la mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Beau-père"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Beau-père - époux du père ou de la mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRMTH",
+      "display": "Grand-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Grand-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grand-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRFTH",
+      "display": "Grand-père",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Grand-père"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grand-père"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GGRMTH",
+      "display": "Arrière-grand-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arrière-grand-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arrière-grand-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GGRFTH",
+      "display": "Arrière-grand-père",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arrière-grand-père"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arrière-grand-père"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DAU",
+      "display": "Fille biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fille biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fille biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SON",
+      "display": "Fils biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fils biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fils biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BRO",
+      "display": "Frère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Frère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Frère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SIS",
+      "display": "Soeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HBRO",
+      "display": "Demi-frère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demi-frère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demi-frère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HSIS",
+      "display": "Demi-soeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demi-soeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demi-soeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRNDDAU",
+      "display": "Petite-fille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Petite-fille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petite-fille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRNDSO",
+      "display": "Petit-fils",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Petit-fils"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petit-fils"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "UNCLE",
+      "display": "Oncle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oncle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oncle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUNT",
+      "display": "Tante",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tante"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tante"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NEPHEW",
+      "display": "Neveu",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neveu"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neveu"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NIECE",
+      "display": "Nièce",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nièce"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nièce"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COUSIN",
+      "display": "Cousin(e)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cousin(e)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cousin(e)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HUSB",
+      "display": "Epoux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Epoux"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Epoux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "WIFE",
+      "display": "Epouse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Epouse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Epouse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOMPART",
+      "display": "Concubin(e) ou partenaire PACS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Concubin(e) ou partenaire PACS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Concubin(e) ou partenaire PACS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ROOM",
+      "display": "Personne vivant sous le même toit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Personne vivant sous même toit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne vivant sous le même toit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FRND",
+      "display": "Autre proche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre proche"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre proche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NBOR",
+      "display": "Voisin(e)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Voisin(e)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Voisin(e)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FAMMEMB",
+      "display": "Autre membre de la famille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre membre de la famille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre membre de la famille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXT",
+      "display": "Autre membre de la famille sans lien génétique direct",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre mbre fam sans lien géné"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre membre de la famille sans lien génétique direct"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SPS",
+      "display": "Epoux ou épouse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Epoux ou épouse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Epoux ou épouse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RESPRSN",
+      "display": "Responsable légal non membre de la famille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Resp légal non mbre de la fam"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable légal non membre de la famille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ADOPTF",
+      "display": "Père adoptif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Père adoptif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Père adoptif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ADOPTM",
+      "display": "Mère adoptive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mère adoptive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mère adoptive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ADOPTP",
+      "display": "Parent adoptif, au sens père ou mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Parent adoptif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parent adoptif, au sens père ou mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BROINLAW",
+      "display": "Beau-frère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Beau-frère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Beau-frère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHILD",
+      "display": "Enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHLDADOPT",
+      "display": "Enfant adopté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant adopté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant adopté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHLDFOST",
+      "display": "Enfant placé en famille d'accueil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant en famille d'accueil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant placé en famille d'accueil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CHLDINLAW",
+      "display": "Gendre ou belle-fille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gendre ou belle-fille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gendre ou belle-fille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "COUSN",
+      "display": "Cousin(e)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cousin(e)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cousin(e)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DAUADOPT",
+      "display": "Fille adoptive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fille adoptive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fille adoptive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DAUC",
+      "display": "Fille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DAUFOST",
+      "display": "Fille placée en famille d'accueil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fille en famille d'accueil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fille placée en famille d'accueil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DAUINLAW",
+      "display": "Belle-fille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Belle-fille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Belle-fille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FTHFOST",
+      "display": "Assistant familial - Famille d'accueil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant familial"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant familial - Famille d'accueil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FTHINLAW",
+      "display": "Beau-père",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Beau-père"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Beau-père"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GESTM",
+      "display": "Mère porteuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mère porteuse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mère porteuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GGRPRN",
+      "display": "Arrière-grand-parent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arrière-grand-parent"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arrière-grand-parent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRNDCHILD",
+      "display": "Petit-enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Petit-enfant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Petit-enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "GRPRN",
+      "display": "Grand-parent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Grand-parent"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Grand-parent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "HSIB",
+      "display": "Demi-frère ou demi-soeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Demi-frère ou demi-soeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Demi-frère ou demi-soeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MTHFOST",
+      "display": "Assistante familiale - Famille d'accueil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistante familiale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistante familiale - Famille d'accueil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MTHINLAW",
+      "display": "Belle-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Belle-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NBRO",
+      "display": "Frère biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Frère biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Frère biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NIENEPH",
+      "display": "Neveu ou nièce",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Neveu ou nièce"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neveu ou nièce"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NPRN",
+      "display": "Parent biologique, au sens père ou mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Parent biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parent biologique, au sens père ou mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NSIB",
+      "display": "Frère ou soeur biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Frère ou soeur biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Frère ou soeur biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NSIS",
+      "display": "Soeur biologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soeur biologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soeur biologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRN",
+      "display": "Parent, au sens père ou mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Parent, au sens père ou mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Parent, au sens père ou mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRNINLAW",
+      "display": "Beau-père ou belle-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Beau-père ou belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Beau-père ou belle-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SIB",
+      "display": "Frère ou soeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Frère ou soeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Frère ou soeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SIBINLAW",
+      "display": "Beau-frère ou belle-soeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Beau-frère ou belle-soeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Beau-frère ou belle-soeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SIGOTHR",
+      "display": "Conjoint",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conjoint"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conjoint"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SISINLAW",
+      "display": "Belle-soeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Belle-soeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Belle-soeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SONADOPT",
+      "display": "Fils adoptif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fils adoptif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fils adoptif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SONC",
+      "display": "Fils",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fils"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fils"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SONFOST",
+      "display": "Garçon placé en famille d'accueil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Garçon en famille d'accueil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Garçon placé en famille d'accueil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPBRO",
+      "display": "Fils du beau-père ou de la belle-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fils du beau-père/belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fils du beau-père ou de la belle-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPCHLD",
+      "display": "Enfant du conjoint, issu d'un mariage précédent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant du conjoint"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant du conjoint, issu d'un mariage précédent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPDAU",
+      "display": "Fille du conjoint, issue d'un mariage précédent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fille du conjoint"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fille du conjoint, issue d'un mariage précédent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPPRN",
+      "display": "Beau-père ou belle-mère - époux(se) du père ou de la mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Beau-père ou belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Beau-père ou belle-mère - époux(se) du père ou de la mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPSIB",
+      "display": "Enfant du beau-père ou de la belle-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfant du beau-père/belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Enfant du beau-père ou de la belle-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPSIS",
+      "display": "Fille du beau-père ou de la belle-mère",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fille du beau-père/belle-mère"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fille du beau-père ou de la belle-mère"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "STPSON",
+      "display": "Fils du conjoint, issu d'un mariage précédent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fils du conjoint"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fils du conjoint, issu d'un mariage précédent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TWIN",
+      "display": "Frère jumeau ou soeur jumelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Frère jumeau ou soeur jumelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Frère jumeau ou soeur jumelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TWINBRO",
+      "display": "Frère jumeau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Frère jumeau"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Frère jumeau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "TWINSIS",
+      "display": "Soeur jumelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Soeur jumelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soeur jumelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

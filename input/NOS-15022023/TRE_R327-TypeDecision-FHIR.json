@@ -1,0 +1,196 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R327-TypeDecision",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.82"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "TRE_R327-TypeDecision",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (un individu ou son représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Attribution",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attribution"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attribution"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La CDAPH a décidé d'attribuer un droit ou une prestation à l'usager"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Rejet",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Rejet"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Rejet"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La CDAPH a décidé de rejeter une demande de compensation ou un recours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Sursis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sursis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sursis"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La CDAPH a sursis à sa décision parce qu'elle estime ne pas avoir suffisamment d'éléments pour statuer. L'équipe pluridisciplinaire devra apporter les informations manquantes et/ou faire de nouvelles propositions."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Non attribution supplémentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non attribution supplémentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non attribution supplémentaire"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La CDAPH a pris une décision de \"non attribution supplémentaire\" lorsque, convoquée plusieurs fois pour prendre les décisions répondant à une demande, elle a décidé de ne rien attribuer lors de la dernière séance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Clôture de droit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Clôture de droit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Clôture de droit"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "La CDAPH, déterminant qu'un usager n'est plus éligible à un droit précédemment attribué ou considérant que le droit n'apporte plus une réponse adaptée aux besoins de l'usager, a décidé de mettre fin à ce droit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

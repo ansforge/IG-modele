@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J85-StatutInscription-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J85-StatutInscription-RASS/FHIR/JDV-J85-StatutInscription-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.153"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J85-StatutInscription-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Statut avancement dossier de référencement personne du RASS auprès d'un ordre",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription",
+        "concept": [
+          {
+            "code": "D",
+            "display": "Définitif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.12"
+              }
+            ]
+          },
+          {
+            "code": "N",
+            "display": "Non inscrit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.12"
+              }
+            ]
+          },
+          {
+            "code": "P",
+            "display": "Provisoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.12"
+              }
+            ]
+          },
+          {
+            "code": "T",
+            "display": "Transfert dossier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.12"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

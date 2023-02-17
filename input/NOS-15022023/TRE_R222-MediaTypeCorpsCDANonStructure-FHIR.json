@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R222-MediaTypeCorpsCDANonStructure",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.330"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R222-MediaTypeCorpsCDANonStructure",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Identifiant des modèles de CDA non structurés",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "application/pdf",
+      "display": "Document CDA à corps non structuré en Pdf/A-1",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA corps Pdf/A-1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document CDA à corps non structuré en Pdf/A-1"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "text/plain",
+      "display": "Document CDA à corps non structuré en texte brut",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA corps texte brut"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document CDA à corps non structuré en texte brut"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "text/rtf",
+      "display": "Document CDA à corps non structuré en format rtf",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA corps rtf"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document CDA à corps non structuré en format rtf"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "image/jpeg",
+      "display": "Document CDA à corps non structuré en format jpeg",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA corps jpeg"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document CDA à corps non structuré en format jpeg"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "image/tiff",
+      "display": "Document CDA à corps non structuré en format tiff",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA corps tiff"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document CDA à corps non structuré en format tiff"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

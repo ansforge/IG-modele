@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R89-RegroupementPays",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-03-25T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R89-RegroupementPays/FHIR/TRE-R89-RegroupementPays",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.48"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R89-RegroupementPays",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Regroupement de pays",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "FR",
+      "display": "France",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FR"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "France"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EEE",
+      "display": "Espace Economique Européen et la Suisse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "EEE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Espace Economique Européen et la Suisse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "display": "Hors union européenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AU"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hors union européenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:00+01:00"
+        }
+      ]
+    }
+  ]
+}

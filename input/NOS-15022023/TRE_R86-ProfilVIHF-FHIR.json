@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R86-ProfilVIHF",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-04-14T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R86-ProfilVIHF/FHIR/TRE-R86-ProfilVIHF",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.312"
+    }
+  ],
+  "version": "20211217120000",
+  "name": "TRE_R86-ProfilVIHF",
+  "status": "active",
+  "date": "2021-12-17T12:00:00+01:00",
+  "description": "Profil VIHF d'accès",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "profil_generique",
+      "display": "Contexte non spécifié",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Contexte non spécifié"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Contexte non spécifié"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-04-14T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "profil_dossier_medical",
+      "display": "Accès à un dossier médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accès à un dossier médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accès à un dossier médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-04-14T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "profil_annuaire_PS",
+      "display": "Accès à un annuaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accès à un annuaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accès à un annuaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-04-14T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-04-14T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "profil_referentiel",
+      "display": "Accès à un référentiel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accès à un référentiel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accès à un référentiel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

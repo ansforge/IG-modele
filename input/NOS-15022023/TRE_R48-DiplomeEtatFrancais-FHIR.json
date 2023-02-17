@@ -1,0 +1,844 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R48-DiplomeEtatFrancais",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-12-29T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "TRE_R48-DiplomeEtatFrancais",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Diplôme de l'Etat français",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DE01",
+      "display": "DE Pharmacien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Pharmacien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Pharmacien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-12-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE02",
+      "display": "DE Docteur en pharmacie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Docteur en pharmacie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Docteur en pharmacie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE03",
+      "display": "DE Docteur en chirurgie dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Docteur chirurgie dentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Docteur en chirurgie dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE04",
+      "display": "DE Chirurgien-Dentiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Chirurgien-Dentiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Chirurgien-Dentiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE05",
+      "display": "DE Docteur en médecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Docteur en médecine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Docteur en médecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE06",
+      "display": "DE Sage-Femme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Sage-Femme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Sage-Femme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-12-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE07",
+      "display": "DE Audioprothésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Audioprothésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Audioprothésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-12-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE08",
+      "display": "DE Opticien-Lunetier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Opticien-Lunetier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Opticien-Lunetier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE09",
+      "display": "DE Infirmier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Infirmier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Infirmier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE10",
+      "display": "DE Infirmier psychiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Infirmier psychiatrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Infirmier psychiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE11",
+      "display": "DE Masseur-Kinésithérapeute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Masseur-Kinésithérapeute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Masseur-Kinésithérapeute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE12",
+      "display": "DE Pédicure-Podologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Pédicure-Podologue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Pédicure-Podologue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE13",
+      "display": "DE Orthophoniste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Orthophoniste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Orthophoniste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE14",
+      "display": "DE Orthoptiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Orthoptiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Orthoptiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE15",
+      "display": "DE Psychologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Psychologue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Psychologue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE16",
+      "display": "DE Ergothérapeute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Ergothérapeute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Ergothérapeute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE17",
+      "display": "DE Psychomotricien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Psychomotricien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Psychomotricien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-02-28T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE18",
+      "display": "DE Manipulateur ERM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Manipulateur ERM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Manipulateur ERM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-02-09T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE19",
+      "display": "DE Infirmier de bloc opératoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Infirmier bloc opératoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Infirmier de bloc opératoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE20",
+      "display": "DE Infirmier anesthésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Infirmier anesthésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Infirmier anesthésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE21",
+      "display": "DE Infirmier puériculteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Infirmier puériculteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Infirmier puériculteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE22",
+      "display": "DE Cadre de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Cadre de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Cadre de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE23",
+      "display": "DE IPA pathologies chroniques stabilisées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE IPA path. Chroniq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'Etat d'infirmier en pratique avancée mention pathologies chroniques stabilisées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE24",
+      "display": "DE IPA oncologie et hémato-oncologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE IPA oncologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'Etat d'infirmier en pratique avancée mention oncologie et hémato-oncologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE25",
+      "display": "DE IPA maladie rénale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE IPA maladierénale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'Etat d'infirmier en pratique avancée mention maladie rénale chronique, dialyse et transplantation rénale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE26",
+      "display": "DE IPA santé mentale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE IPA santé mentale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'Etat d'infirmier en pratique avancée mention santé mentale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE27",
+      "display": "DE IPA urgences",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE IPA urgences"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diplôme d'Etat d'infirmier en pratique avancée mention urgences"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Le décret n° 2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers, dans le domaine d'intervention des urgences, publié au Journal officiel ce 26 octobre, précise les modalités de l'exercice en pratique avancée de la profession d'infirmier dans le domaine spécifique d'intervention des urgences."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DE28",
+      "display": "DE Assistant de Service Social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DE Assistant de Service Social"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DE Assistant de Service Social"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP01",
+      "display": "Doctorat d'Etat Biologie humaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Doctorat Etat Biologie humaine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Doctorat d'Etat Biologie humaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:18+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

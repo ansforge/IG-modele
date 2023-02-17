@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R23-ModeExercice",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2007-07-25T15:04:43+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+    }
+  ],
+  "version": "20210827120000",
+  "name": "TRE_R23-ModeExercice",
+  "status": "active",
+  "date": "2021-08-27T12:00:00+01:00",
+  "description": "Mode d'exercice",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "S",
+      "display": "Salarié",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Salarié"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salarié"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Libéral, indépendant, artisan, commerçant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Libéral,indép,artisan,commerç"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Libéral, indépendant, artisan, commerçant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-08-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Bénévole",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bénévole"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bénévole"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2007-07-25T15:04:43+01:00"
+        }
+      ]
+    }
+  ]
+}

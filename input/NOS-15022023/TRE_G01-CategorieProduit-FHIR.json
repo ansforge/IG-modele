@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G01-CategorieProduit",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G01-CategorieProduit/FHIR/TRE-G01-CategorieProduit",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.5"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_G01-CategorieProduit",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Catégorie de produit",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "00",
+      "display": "Carte de Professionnel ou Personnel de Santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPx"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carte de Professionnel ou Personnel de Santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Module de Sécurité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Module de Sécurité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Certificat logiciel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certificat logiciel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80",
+      "display": "Carte de PS ou de Personnel de Santé de TEST",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPx de TEST"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carte de PS ou de Personnel de Santé de TEST"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "82",
+      "display": "Module de Sécurité de TEST",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MS de TEST"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Module de Sécurité de TEST"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83",
+      "display": "Certificat logiciel de TEST",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CL de TEST"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certificat logiciel de TEST"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

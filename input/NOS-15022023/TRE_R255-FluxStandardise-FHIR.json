@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R255-FluxStandardise",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.338"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R255-FluxStandardise",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Liste de flux standardisés",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ITI42-RQ",
+      "display": "Flux du dépôt de document (ITI42-Request)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ITI42-RQ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Flux du dépôt de document (ITI42-Request)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ITI31-A01",
+      "display": "Flux d'admission dans un établissement de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ITI31-A01"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Flux d'admission dans un établissement de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ITI31-A03",
+      "display": "Flux de sortie d'un établissement de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ITI31-A03"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Flux de sortie d'un établissement de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CREATION-NOTE",
+      "display": "Flux de création d'une note pour un patient dans le cahier de liaison",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CREATION-NOTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Flux de création d'une note pour un patient dans le cahier de liaison"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

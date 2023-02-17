@@ -1,0 +1,44 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-A24-ModeExercice-TypeActivite-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": false
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_A24-ModeExercice-TypeActivite-ENREG/FHIR/ASS-A24-ModeExercice-TypeActivite-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.211"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "ASS_A24-ModeExercice-TypeActivite-ENREG",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Table d'association Mode d'exercice / Type d'activité pour permettre la saisie automatique du type d'activité",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
+      "element": [
+        {
+          "code": "L",
+          "target": [
+            {
+              "code": "ACT-LIB-05",
+              "equivalence": "specializes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R282-CNAMAmeliSecteurConventionnement",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-12-14T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.135"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R282-CNAMAmeliSecteurConventionnement",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "nc",
+      "display": "Non conventionné",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non conventionné"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non conventionné"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "c1",
+      "display": "Secteur 1 ou conventionné",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Secteur 1 ou conventionné"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Secteur 1 ou conventionné"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "c2",
+      "display": "Secteur 1 ou conventionné avec droit au dépassement permanent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sect. 1 ou conv. ac dt dépass."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Secteur 1 ou conventionné avec droit au dépassement permanent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "c3",
+      "display": "Secteur 2",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Secteur 2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Secteur 2"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G15-ProfessionSante",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2012-06-18T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.7"
+    }
+  ],
+  "version": "20211217120000",
+  "name": "TRE_G15-ProfessionSante",
+  "status": "active",
+  "date": "2021-12-17T12:00:00+01:00",
+  "description": "Professions de santé définies par le code de la santé publique",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "10",
+      "display": "Médecin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Pharmacien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Audioprothésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Audioprothésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Audioprothésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Opticien-Lunetier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Opticien-Lunetier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Opticien-Lunetier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Assistant dentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant dentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant dentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Physicien médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Physicien médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Physicien médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Aide-soignant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide-soignant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide-soignant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Ambulancier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ambulancier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ambulancier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Auxiliaire de puériculture",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auxiliaire de puériculture"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Auxiliaire de puériculture"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Préparateur en pharmacie hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prép en pharmacie (hôpital)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préparateur en pharmacie hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Préparateur en pharmacie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prép en pharmacie (officine)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préparateur en pharmacie (officine)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-10-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Chirurgien-Dentiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgien-Dentiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgien-Dentiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Sage-Femme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sage-Femme"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sage-Femme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "60",
+      "display": "Infirmier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Infirmier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Infirmier"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "69",
+      "display": "Infirmier psychiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Infirmier psychiatrique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Infirmier psychiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "70",
+      "display": "Masseur-Kinésithérapeute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masseur-Kinésithérapeute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masseur-Kinésithérapeute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80",
+      "display": "Pédicure-Podologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pédicure-Podologue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pédicure-Podologue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "81",
+      "display": "Orthoprothésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orthoprothésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orthoprothésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "82",
+      "display": "Podo-Orthésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Podo-Orthésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Podo-Orthésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83",
+      "display": "Orthopédiste-Orthésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orthopédiste-Orthésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orthopédiste-Orthésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "84",
+      "display": "Oculariste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Oculariste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Oculariste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "85",
+      "display": "Epithésiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Epithésiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Epithésiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-04-08T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "86",
+      "display": "Technicien de labo médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Technicien de labo médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Technicien de laboratoire médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-06-18T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "91",
+      "display": "Orthophoniste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orthophoniste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orthophoniste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "92",
+      "display": "Orthoptiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Orthoptiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Orthoptiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "93",
+      "display": "Psychologue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychologue"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychologue"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Les annonces du Président lors des assises de la santé mentale ont porté sur un remboursement des actes de psychologie en 2022 ; la Cnam a indiqué que ce serait avant le 1er avril 2022. Pour le moment, il n'y a pas beaucoup d'alternative à la délivrance de CPS aux psychologues pour faire de la télétransmission de FSE et de l'avance de frais.  Ce code créé dans la TRE_G15-ProfessionSante a pour but d'être déversé dans la liste de codes DICO, non évolutive (elle ne peut pas intégrer une nouvelle nomenclature). DICO impacte tous les éditeurs et industriels car cette liste de codes est comprise dans la distribution des cryptolibs pour le bon fonctionnement des logiciels sur le terrain. Le code 93 « Psychologue » existe déjà dans la TRE_R95_UsagerTitre et est repris dans toutes les autres applications à travers leurs JDV. La création du code 93 dans la TRE_G15 comme obsolète a pour but de ne pas affecter les applications existantes en veillant bien à ce que leurs JDV ne reprenne pas ce code."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "94",
+      "display": "Ergothérapeute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ergothérapeute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ergothérapeute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "95",
+      "display": "Diététicien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diététicien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diététicien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-06-18T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2012-06-18T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "96",
+      "display": "Psychomotricien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychomotricien"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychomotricien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "98",
+      "display": "Manipulateur ERM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Manipulateur ERM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Manipulateur ERM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

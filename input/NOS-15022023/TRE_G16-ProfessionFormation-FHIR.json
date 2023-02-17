@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G16-ProfessionFormation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2000-12-13T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.8"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_G16-ProfessionFormation",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Professions en formation (carte CPF)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "10",
+      "display": "Médecin en formation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin en formation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin en formation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Pharmacien en formation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacien en formation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacien en formation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Chirurgien-Dentiste en formation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Chirurgien-Dentiste en format"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgien-Dentiste en formation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Sage-Femme en formation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sage-Femme en formation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sage-Femme en formation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2000-12-13T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

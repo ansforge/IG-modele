@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R310-CIM10",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10/FHIR/TRE-R310-CIM10",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.6.3"
+    }
+  ],
+  "version": "20210528120000",
+  "name": "TRE_R310-CIM10",
+  "status": "active",
+  "date": "2021-05-28T12:00:00+01:00",
+  "description": "Classification Internationale des maladies (CIM) International Classification of Diseases revision 10 (ICD 10)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "E10",
+      "display": "Diabète type 1",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diabète type 1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diabète type 1"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "O24.4",
+      "display": "Diabète de grossesse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Diabète de grossesse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Diabète de grossesse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "E14",
+      "display": "Autres types de diabète sucré",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autres types de diabète sucré"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autres types de diabète sucré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

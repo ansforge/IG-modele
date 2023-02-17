@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J176-SituationVieQuotidienne-MDPH",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-09-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J176-SituationVieQuotidienne-MDPH/FHIR/JDV-J176-SituationVieQuotidienne-MDPH",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.11"
+    }
+  ],
+  "version": "20210924120000",
+  "name": "JDV_J176-SituationVieQuotidienne-MDPH",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+01:00",
+  "description": "Caractérise la situation de vie de la personne : vit seule ou avec d'autres",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R317-SituationVieQuotidienne/FHIR/TRE-R317-SituationVieQuotidienne",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Seul",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.72"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Avec les parents",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.72"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Avec les enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.72"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "En couple",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.72"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+        "concept": [
+          {
+            "code": "02",
+            "display": "Autre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

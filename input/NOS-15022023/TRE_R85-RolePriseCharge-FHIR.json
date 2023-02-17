@@ -1,0 +1,1138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R85-RolePriseCharge",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-01-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_R85-RolePriseCharge",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Rôle dans la prise en charge des patients ou des usagers",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "300",
+      "display": "Assistant de service social (PAERPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant service soc (PAERPA)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant de service social (PAERPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "301",
+      "display": "Coordination territoriale d'appui (PAERPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Coord territ d'appui (PAERPA)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Coordination territoriale d'appui (PAERPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "302",
+      "display": "Aide et accompagnement à domicile (PAERPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide, accomp domicile (PAERPA)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide et accompagnement à domicile (PAERPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "303",
+      "display": "Avocat participant aux processus de soins sans consentement (eSSS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Avocat (eSSS)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Avocat participant aux processus de soins sans consentement (eSSS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "304",
+      "display": "Assistant de service social (Expérimentation MAIA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant serv. soc.-exp.MAIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant de service social (Expérimentation MAIA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "305",
+      "display": "Psychologue (Expérimentation MAIA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychologue-exp.MAIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychologue (Expérimentation MAIA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "306",
+      "display": "Psychothérapeute (Expérimentation MAIA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Psychothérapeute-exp.MAIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychothérapeute (Expérimentation MAIA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "307",
+      "display": "Mandataire judiciaire à la protection des majeurs (MJPM)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MJPM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mandataire judiciaire à la protection des majeurs (MJPM)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "308",
+      "display": "Pilote MAIA",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pilote MAIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pilote MAIA"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "309",
+      "display": "Gestionnaire de cas MAIA",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gestionnaire de cas MAIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gestionnaire de cas MAIA"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "310",
+      "display": "Equipe médico-sociale APA",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Equipe médico-sociale APA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Equipe médico-sociale APA"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "311",
+      "display": "Autre acteur mettant en oeuvre la méthode MAIA",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre acteur méthode MAIA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre acteur mettant en oeuvre la méthode MAIA"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "312",
+      "display": "Autre professionnel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre professionnel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre professionnel"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Code destiné aux professionnels sans obligation d'enregistrement dans le RPPS et pour lesquels la situation métier ne correspond à aucun autre code de la TRE."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "313",
+      "display": "Aide-soignant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide-soignant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide-soignant"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CSP Articles L4391-1 à L4391-6 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526a?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "314",
+      "display": "Ambulancier",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ambulancier"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ambulancier"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CSP Articles L4393-1 à L4393-7 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526e?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "315",
+      "display": "Auxiliaire de puériculture",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auxiliaire de puériculture"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Auxiliaire de puériculture"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CSP Articles L4392-1 à L4392-6 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526c?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "316",
+      "display": "Préparateur en pharmacie hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prép en pharmacie (hôpital)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préparateur en pharmacie hospitalière"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526b?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "317",
+      "display": "Préparateur en pharmacie (officine)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prép en pharmacie (officine)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préparateur en pharmacie (officine)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/433d?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "318",
+      "display": "Auxiliaire de vie sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auxiliaire de vie sociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Auxiliaire de vie sociale"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Article D451-92 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/563b?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "319",
+      "display": "Technicien de l'intervention sociale et familiale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Technicien ISF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Technicien de l'intervention sociale et familiale"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526a?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "320",
+      "display": "Conseiller en économie sociale et familiale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conseiller ESF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conseiller en économie sociale et familiale"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-81 à D451-87 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/563b?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "321",
+      "display": "Médiateur familial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médiateur familial"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médiateur familial"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-57-1 à D451-57-2 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "322",
+      "display": "Assistant familial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant familial"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant familial"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles R451-66 à R451-72 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "323",
+      "display": "Aide médico-psychologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AMP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide médico-psychologique (AMP)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-100 à D451-104 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "324",
+      "display": "Moniteur éducateur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Moniteur éducateur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Moniteur éducateur"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Article D451-92 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526d?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "325",
+      "display": "Educateur de jeunes enfants",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Educateur de jeunes enfants"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Educateur de jeunes enfants"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-73 à D451-78 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434e?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "326",
+      "display": "Educateur spécialisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Educateur spécialisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Educateur spécialisé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-47 à D451-47-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434g?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "327",
+      "display": "Educateur technique spécialisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Educateur technique spécialisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Educateur technique spécialisé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-41 à D451-41-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434f?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "328",
+      "display": "Accompagnant éducatif et social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Accompagnant éducatif social"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Accompagnant éducatif et social"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-52 à D451-52-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434f?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "329",
+      "display": "Conseiller en génétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conseiller en génétique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Conseiller en génétique"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CASF Articles D451-88 à D451-93 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/422e?champRecherche=true"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "330",
+      "display": "Coordonnateur de parcours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Coordonnateur de parcours"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Coordonnateur de parcours"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Sous la responsabilité hiérarchique de la direction de la structure, le coordonnateur de parcours organise et gère l'ensemble des liens permettant l'optimisation de la prise en charge sanitaire, sociale et médicosociale d'une personne dans un parcours de soins.  Il répond à une sollicitation de prise en charge en fonction d'une évaluation médico-psycho-sociale adaptée à la situation. Il met en oeuvre les actions répondant aux besoins et attentes de la personne, coordonne les interventions et organise le parcours, en lien avec les professionnels intervenant autour de la situation. Il réalise un étayage immédiat, assure un retour au demandeur et au MT s'il existe, avec l'accord de la personne, assure l'évaluation multidimensionnelle des besoins et attentes de la personne, organise en concertation l'élaboration du Plan Personnalisé de coordination en Santé (PPcS) si nécessaire et sa communication au cercle de soins, s'assure de l'obtention, chaque fois que cela est possible, de l'accord de la personne (ou de son représentant légal), s'assure que les interventions sont bien en cohérence, identifiées, partagées entre les professionnels, mises en oeuvre et adaptées au besoin, réalise son accompagnement en lien avec le MT et les autres professionnels concernés, alimente et transmet le dossier patient partagé et anime le cercle de soins. Cette mission peut s'exercer sur une période plus ou moins longue, parfois discontinue, avec un niveau d'intensité, des types et fréquences d'interventions et un nombre/type d'intervenants variables (exemple : accompagnement renforcé)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "350",
+      "display": "Aide à domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide à domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide à domicile"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "CSP Articles L1132-1 à L1132-7"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "351",
+      "display": "Assistant(e) maternel(le)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Assistant(e) maternel(le)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Assistant(e) maternel(le)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "352",
+      "display": "Autre salarié de la structure sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre salarié struct sociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre salarié de la structure sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "353",
+      "display": "Membre de l'équipe de soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Membre de l'équipe de soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Membre de l'équipe de soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

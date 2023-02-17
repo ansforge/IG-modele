@@ -1,0 +1,121 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J157-MomentGlucose-ENS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.612"
+    }
+  ],
+  "version": "20220429120000",
+  "name": "JDV_J157-MomentGlucose-ENS",
+  "status": "active",
+  "date": "2022-04-29T12:00:00+01:00",
+  "description": "JDV pour caractériser le moment de la mesure de glucose",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+        "concept": [
+          {
+            "code": "16915-1",
+            "display": "Glucose post prandial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "53049-3",
+            "display": "Glucose à jeun",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "88365-2",
+            "display": "Avant repas",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "16915-1",
+            "display": "Glucose post prandial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "LA11865-5",
+            "display": "Après exercice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "LA46-8",
+            "display": "Autre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2",
+        "concept": [
+          {
+            "code": "A05",
+            "display": "Lors d'un malaise",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.139"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

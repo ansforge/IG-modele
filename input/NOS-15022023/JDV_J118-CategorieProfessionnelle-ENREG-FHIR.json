@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J118-CategorieProfessionnelle-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-05-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J118-CategorieProfessionnelle-ENREG/FHIR/JDV-J118-CategorieProfessionnelle-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.189"
+    }
+  ],
+  "version": "20200529120000",
+  "name": "JDV_J118-CategorieProfessionnelle-ENREG",
+  "status": "active",
+  "date": "2020-05-29T12:00:00+01:00",
+  "description": "Catégorie professionnelle pour ENREG",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
+        "concept": [
+          {
+            "code": "C",
+            "display": "Civil",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+              }
+            ]
+          },
+          {
+            "code": "E",
+            "display": "Etudiant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+              }
+            ]
+          },
+          {
+            "code": "F",
+            "display": "Fonctionnaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+              }
+            ]
+          },
+          {
+            "code": "M",
+            "display": "Militaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

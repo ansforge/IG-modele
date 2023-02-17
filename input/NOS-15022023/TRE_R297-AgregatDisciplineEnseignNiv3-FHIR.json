@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R297-AgregatDisciplineEnseignNiv3",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-06-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.197"
+    }
+  ],
+  "version": "20200626120000",
+  "name": "TRE_R297-AgregatDisciplineEnseignNiv3",
+  "status": "active",
+  "date": "2020-06-26T12:00:00+01:00",
+  "description": "Agrégats de disciplines pour l'enseignement niveau 3",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "2210",
+      "display": "Formation des Personnels Sanitaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Formation Personnels Sanit."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Formation des Personnels Sanitaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2220",
+      "display": "Formation des Personnels Sociaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Formation Personnels Soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Formation des Personnels Sociaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2230",
+      "display": "Formation des Personnels Administratifs San. et Soc",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Form.Person.Admin.San.Soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Formation des Personnels Administratifs San. et Soc"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2240",
+      "display": "Formation de cadre de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Formation de cadre de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Formation de cadre de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

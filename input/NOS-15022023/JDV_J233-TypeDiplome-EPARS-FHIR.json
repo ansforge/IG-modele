@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J233-TypeDiplome-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-07-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.244"
+    }
+  ],
+  "version": "20220729120000",
+  "name": "JDV_J233-TypeDiplome-EPARS",
+  "status": "active",
+  "date": "2022-07-29T12:00:00+01:00",
+  "description": "Jeu de valeur intégrant les types de diplômes pour EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+        "concept": [
+          {
+            "code": "DE",
+            "display": "Diplôme d'Etat français",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "AU",
+            "display": "Autre type de diplôme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

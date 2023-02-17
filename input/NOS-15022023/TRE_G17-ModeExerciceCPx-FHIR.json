@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G17-ModeExerciceCPx",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G17-ModeExerciceCPx/FHIR/TRE-G17-ModeExerciceCPx",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.21"
+    }
+  ],
+  "version": "20210827120000",
+  "name": "TRE_G17-ModeExerciceCPx",
+  "status": "active",
+  "date": "2021-08-27T12:00:00+01:00",
+  "description": "Mode d'exercice (CPx)",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "00",
+      "display": "Libéral, indépendant, artisan, commerçant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Libéral,indép,artisan,commerç"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Libéral, indépendant, artisan, commerçant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-08-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "01",
+      "display": "Salarié",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Salarié"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salarié"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Remplaçant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Remplaçant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Remplaçant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Non rétribué",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non rétribué"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non rétribué"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

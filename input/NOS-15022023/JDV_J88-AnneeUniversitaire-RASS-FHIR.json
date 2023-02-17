@@ -1,0 +1,260 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J88-AnneeUniversitaire-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.156"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J88-AnneeUniversitaire-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Années universitaires des professionnels du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire",
+        "concept": [
+          {
+            "code": "AU1011",
+            "display": "2010-2011",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1112",
+            "display": "2011-2012",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1213",
+            "display": "2012-2013",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1314",
+            "display": "2013-2014",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1415",
+            "display": "2014-2015",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1516",
+            "display": "2015-2016",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1617",
+            "display": "2016-2017",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1718",
+            "display": "2017-2018",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1819",
+            "display": "2018-2019",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU1920",
+            "display": "2019-2020",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2021",
+            "display": "2020-2021",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2122",
+            "display": "2021-2022",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2223",
+            "display": "2022-2023",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2324",
+            "display": "2023-2024",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2425",
+            "display": "2024-2025",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2526",
+            "display": "2025-2026",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2627",
+            "display": "2026-2027",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2728",
+            "display": "2027-2028",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          },
+          {
+            "code": "AU2829",
+            "display": "2028-2029",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.117"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

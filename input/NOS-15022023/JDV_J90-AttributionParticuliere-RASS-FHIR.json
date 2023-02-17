@@ -1,0 +1,152 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J90-AttributionParticuliere-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J90-AttributionParticuliere-RASS/FHIR/JDV-J90-AttributionParticuliere-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.158"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J90-AttributionParticuliere-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Attributions particulières obtenues par certains professionnels du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R03-AttributionParticuliere/FHIR/TRE-R03-AttributionParticuliere",
+        "concept": [
+          {
+            "code": "ATTR-01",
+            "display": "Expert auprès des tribunaux (expertise judiciaire)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-02",
+            "display": "Médecine légale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-03",
+            "display": "Médecin agréé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-04",
+            "display": "Expert auprès des assurances",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-05",
+            "display": "Expertises de Sécurité Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-06",
+            "display": "Expertise pour le Ministère des anciens combattants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-07",
+            "display": "Collège des 3G",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-08",
+            "display": "Expert auprès des Comités médicaux et commissions de réforme (CMCR)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-09",
+            "display": "Activité libérale de contrôle d'absentéisme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          },
+          {
+            "code": "ATTR-10",
+            "display": "Médecin de recours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.27"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

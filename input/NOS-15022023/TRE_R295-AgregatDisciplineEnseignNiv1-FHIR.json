@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R295-AgregatDisciplineEnseignNiv1",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-06-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.195"
+    }
+  ],
+  "version": "20200626120000",
+  "name": "TRE_R295-AgregatDisciplineEnseignNiv1",
+  "status": "active",
+  "date": "2020-06-26T12:00:00+01:00",
+  "description": "Agrégats de disciplines pour l'enseignement niveau 1",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "2000",
+      "display": "Disciplines d'enseignement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Disciplines d'enseignement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Disciplines d'enseignement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

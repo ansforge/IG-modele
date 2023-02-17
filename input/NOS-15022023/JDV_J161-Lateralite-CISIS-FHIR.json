@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J161-Lateralite-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J161-Lateralite-CISIS/FHIR/JDV-J161-Lateralite-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.616"
+    }
+  ],
+  "version": "20210430120000",
+  "name": "JDV_J161-Lateralite-CISIS",
+  "status": "active",
+  "date": "2021-04-30T12:00:00+01:00",
+  "description": "JDV pour spécifier la latéralité",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+        "concept": [
+          {
+            "code": "C25228",
+            "display": "Droit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C25229",
+            "display": "Gauche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C13332",
+            "display": "Bilatéral",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R308-TA-ASIP/FHIR/TRE-R308-TA-ASIP",
+        "concept": [
+          {
+            "code": "GEN-242",
+            "display": "Non applicable",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1506 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R74-ModeFixationTarifaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "1999-11-02T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.46"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "TRE_R74-ModeFixationTarifaire",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Mode de fixation tarifaire",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Etablissement Tarif Libre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tarif libre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement Tarif Libre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Autorité Ministérielle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorité Ministre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité Ministérielle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "ARS établissements Publics de santé dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS - DG EPS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS établissements publics de santé dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-09-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "ARS établissements PSPH dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS - DG PSPH"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS établissements PSPH dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-09-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "ARS établissements médico-soc. non financés dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS - Non DG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS établissements médico-sociaux non financés par dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Tarif d'autorité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "AM-Tarif Autorité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tarif d'autorité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-09-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "ARS établissements de santé non financés dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS - san pr non DG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS établissements de santé non financés par dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-09-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Président du Conseil Départemental",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pdt Département"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Président du Conseil départemental"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "ARS PCD mixte (2 arrêtés), habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD mixte HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS PCD mixte (2 arrêtés), habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Autorité Conjointe Préfet ou ARS et PCD (1 arrêté)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Préfet ou ARS-PCD cj"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité conjointe Préfet ou ARS et PCD (1 arrêté)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Tarifs ARS, PCD, hébergt libre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCD mixte nHAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tarifs ARS, PCD, hébergement libre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Organismes Nationaux de Sécurité Sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Organ.Nationaux S.S."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organismes Nationaux de Sécurité Sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "ARS privé hors PSPH sous dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS priv non PSPH DG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS privé hors PSPH sous dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-01-12T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "CRAM homologué préfet de région",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CRAM homol préf rég"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CRAM homologué préfet de région"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2001-12-31T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2002-02-07T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Autorité mixte ARS PCD dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD mixte DG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité mixte ARS PCD dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Autorité mixte ARS PCG Etab long séjour conv tripartite",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCG mixte LS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité mixte ARS PCG établissement long séjour convention tripartite"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-09-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Autorité mixte préfet dpt PCG EHPA conv tripartite",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PD PCG mixte EHPA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité mixte préfet déptartement PCG EHPA convention tripartite"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1999-11-02T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1999-09-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "ARS PCG mixte, Accueil de jour PA, HAS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCG CAJ PA HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS PCG mixte, Accueil de jour PA, HAS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2015-04-24T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-04-24T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "ARS PCD mixte, Accueil de jour PA, HAS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCD CAJ PA HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS PCD mixte, Accueil de jour PA, HAS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Autorité mixte ARS PCD ESLD tripartite DG global",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCD ESLD global"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité mixte ARS PCD ESLD tripartite DG global"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Autorité mixte ARS PCD ESLD tripartite DG partielle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCD ESLD partiel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorité mixte ARS PCD ESLD tripartite DG partielle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCG CAJ PA nHAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2015-01-22T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-01-22T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS-PCD CAJ PA nHAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2001-03-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Logement Foyer convention partielle PAP (conv. EHPAD part.)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "LF conv partiel PAP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Logement Foyer convention partielle PAP (conv EHPAD part)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2011-11-18T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2014-07-07T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2014-07-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "Préfet de région établissements et services sociaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Préfet région soc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préfet de région établissements et services sociaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-12T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Pdt Conseil Départemental-Subvention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PCD-subv"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Président Conseil Départemental-Subvention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-12T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Echelle tarifaire publique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ech tarif publique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echelle tarifaire publique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2011-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-05-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Echelle tarifaire privée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ech tarif privée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Echelle tarifaire privée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2011-05-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-05-13T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "ARS - DG dotation globale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS - DG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS - DG dotation globale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-01-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-01-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Préfet de département Subvention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Préfet départ. subv."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Préfet de département Subvention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Tarifs conventionnels assurance maladie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Conventionnel AM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tarifs conventionnels assurance maladie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-12-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-12-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Régime spécial de prévoyance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Régime spécial"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Régime spécial de prévoyance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "ARS-PCD, Tarif global, habilité aide sociale, recours PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TG HAS PUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif global, habilité aide sociale, recours PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "ARS-PCD, Tarif global, habilité aide sociale sans PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TG HAS nPUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif global, habilité aide sociale sans PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "ARS-PCD, Tarif global, non hab.aide sociale, recours PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TG nHAS PUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif global, non habilité aide sociale, recours PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "ARS-PCD, Tarif global, non habilité aide sociale sans PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TG nHAS nPUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif global, non habilité aide sociale sans PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TP HAS PUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "ARS-PCD, Tarif partiel, habilité aide sociale sans PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TP HAS nPUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif partiel, habilité aide sociale sans PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "ARS-PCD, Tarif partiel, non hab.aide sociale, recours PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TP nHAS PUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif partiel, non habilité aide sociale, recours PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS TP nHAS nPUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "ARS-PCD, EHPA, dot globale de soins, habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD EHPA DGS HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, EHPA, dotation globale de soins, habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "ARS-PCD, EHPA, dot globale soins, non habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD EHPA DGS nAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, EHPA, dotation globale de soins, non habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "ARS-PCD, PUV, forfait soins, habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD PUV FS HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, PUV, forfait soins, habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "ARS-PCD, PUV, forfait soins, non habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD PUV FS nHAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, PUV, forfait soins, non habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "ARS-PCD, LF, forfait soins, habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD LF FS HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, LF, forfait soins, habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "ARS-PCD, LF, forfait soins, non habilité aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD LF FS nHAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, LF, forfait soins, non habilité aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Tarif AM - Services de Soins Infirmiers A Domicile",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tarif AM - SSIAD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tarif AM - Services de Soins Infirmiers A Domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD PUV CD NHAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PCD PUV CD HAS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS/ARS PCD Dot.Glob"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "ARS dotation forfait ou prix de journée globalisé hors CPOM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ARS PJ glob.hors CPOM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "ARS dotation forfait ou prix de journée globalisé hors CPOM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99",
+      "display": "Indéterminé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Indéterminé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Indéterminé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2002-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2002-04-15T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R316-AutreCategorieEtablissement",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-07-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R316-AutreCategorieEtablissement/FHIR/TRE-R316-AutreCategorieEtablissement",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.239"
+    }
+  ],
+  "version": "20220128120000",
+  "name": "TRE_R316-AutreCategorieEtablissement",
+  "status": "active",
+  "date": "2022-01-28T12:00:00+01:00",
+  "description": "Cette table de référence permet d'identifier des catégories d'établissements qui ne sont pas présentes dans la TRE R66 qui est une table de référence ne listant que les catégories d'établissements présentes dans le FINESS",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "801",
+      "display": "Dispositif d'appui à la coordination (DAC)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif d'appui à la coordination (DAC)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Ce code créé en l'absence de code FINESS est devenu obsolète suite à la création du code « 606 » dans la TRE_R66-CategorieEtablissement qui le remplace"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-01-28T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

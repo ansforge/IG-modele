@@ -1,0 +1,4228 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J56-AuthorSpecialty-DMP",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-01-18T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J56-AuthorSpecialty-DMP/FHIR/JDV-J56-AuthorSpecialty-DMP",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.1"
+    }
+  ],
+  "version": "20220729120000",
+  "name": "JDV_J56-AuthorSpecialty-DMP",
+  "status": "active",
+  "date": "2022-07-29T12:00:00+01:00",
+  "description": "Jeu de valeurs pour authorSpecialty",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+        "concept": [
+          {
+            "code": "ALIM_AM",
+            "display": "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          },
+          {
+            "code": "DISPOSITIF",
+            "display": "Dispositif médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          },
+          {
+            "code": "EXP_PATIENT",
+            "display": "Expression personnelle du patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          },
+          {
+            "code": "SECRETARIAT_MEDICAL",
+            "display": "Secrétariat médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          },
+          {
+            "code": "AUTOMATE",
+            "display": "Automate",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
+        "concept": [
+          {
+            "code": "G15_10",
+            "display": "Médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/PAC00",
+            "display": "Médecin - Qualification Praticien adjoint contractuel (PAC)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM01",
+            "display": "Médecin - Anatomie et Cytologie pathologiques (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM02",
+            "display": "Médecin - Anesthésie-réanimation (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM03",
+            "display": "Médecin - Biologie médicale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM04",
+            "display": "Médecin - Cardiologie et maladies vasculaires (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM05",
+            "display": "Médecin - Chirurgie générale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM06",
+            "display": "Médecin - Chirurgie maxillo-faciale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM07",
+            "display": "Médecin - Chirurgie maxillo-faciale et Stomatologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM08",
+            "display": "Médecin - Chirurgie orthopédique et Traumatologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM09",
+            "display": "Médecin - Chirurgie infantile (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM10",
+            "display": "Médecin - Chirurgie plastique reconstruct et esthétique (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM11",
+            "display": "Médecin - Chirurgie thoracique et cardio-vasculaire (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM12",
+            "display": "Médecin - Chirurgie urologique (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM13",
+            "display": "Médecin - Chirurgie vasculaire (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM14",
+            "display": "Médecin - Chirurgie viscérale et digestive (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM15",
+            "display": "Médecin - Dermatologie et Vénéréologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM16",
+            "display": "Médecin - Endocrinologie et métabolisme (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM17",
+            "display": "Médecin - Génétique médicale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM18",
+            "display": "Médecin - Gériatrie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM19",
+            "display": "Médecin - Gynécologie médicale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM20",
+            "display": "Médecin - Gynécologie-obstétrique (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM21",
+            "display": "Médecin - Hématologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM22",
+            "display": "Médecin - Hématologie, opt Maladie du sang (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM23",
+            "display": "Médecin - Hématologie, opt Onco-hématologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM24",
+            "display": "Médecin - Gastro-entérologie et hépatologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM25",
+            "display": "Médecin - Médecine du travail (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM26",
+            "display": "Médecin - Qualifié en Médecine Générale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM27",
+            "display": "Médecin - Médecine interne (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM28",
+            "display": "Médecin - Médecine nucléaire (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM29",
+            "display": "Médecin - Médecine physique et réadaptation (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM30",
+            "display": "Médecin - Néphrologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM31",
+            "display": "Médecin - Neuro-chirurgie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM32",
+            "display": "Médecin - Neurologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM33",
+            "display": "Médecin - Neuro-psychiatrie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM34",
+            "display": "Médecin - ORL et Chirurgie cervico-faciale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM35",
+            "display": "Médecin - Oncologie, opt Onco-hématologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM36",
+            "display": "Médecin - Oncologie, opt médicale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM37",
+            "display": "Médecin - Oncologie, opt radiothérapie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM38",
+            "display": "Médecin - Ophtalmologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM39",
+            "display": "Médecin - Oto-rhino-laryngologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM40",
+            "display": "Médecin - Pédiatrie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM41",
+            "display": "Médecin - Pneumologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM42",
+            "display": "Médecin - Psychiatrie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM43",
+            "display": "Médecin - Psychiatrie, opt enfant et adolescent (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM44",
+            "display": "Médecin - Radio-diagnostic (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM45",
+            "display": "Médecin - Radio-thérapie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM46",
+            "display": "Médecin - Médecine intensive-réanimation (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM47",
+            "display": "Médecin - Recherche médicale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM48",
+            "display": "Médecin - Rhumatologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM49",
+            "display": "Médecin - Santé publique et Médecine sociale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM50",
+            "display": "Médecin - Stomatologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM51",
+            "display": "Médecin - Gynéco-obstétrique et Gynéco méd, opt gyn-obs (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM52",
+            "display": "Médecin - Gynéco-obstétrique et Gynéco méd, opt gyn-méd (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM53",
+            "display": "Médecin - Spécialiste en Médecine Générale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM54",
+            "display": "Médecin - Médecine Générale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM55",
+            "display": "Médecin - Radio-diagnostic et Radio-Thérapie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM56",
+            "display": "Médecin - Chirurgie orale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM57",
+            "display": "Médecin - Allergologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM58",
+            "display": "Médecin - Maladies infectieuses et tropicales (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM59",
+            "display": "Médecin - Médecine d'urgence (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM60",
+            "display": "Médecin - Médecine légale et expertises médicales (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM61",
+            "display": "Médecin - Médecine vasculaire (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM62",
+            "display": "Médecin - Endocrinologie, diabétologie, nutrition (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM63",
+            "display": "Médecin - Biologie médicale option biologie générale (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM64",
+            "display": "Médecin - Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM65",
+            "display": "Médecin - Biologie médicale option hématologie et immunologie (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM66",
+            "display": "Médecin - Biologie médicale option agents infectieux (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM67",
+            "display": "Médecin - Biologie médicale option biologie de la reproduction (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM68",
+            "display": "Médecin - Chirurgie maxillo-faciale (réforme 2017) (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM69",
+            "display": "Médecin - Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM70",
+            "display": "Médecin - Chirurgie pédiatrique option orthopédie pédiatrique (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM71",
+            "display": "Médecin - Hématologie (réforme 2017) (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SM72",
+            "display": "Médecin - Médecine interne et immunologie clinique (SM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CEX22",
+            "display": "Médecin - Gynécologie médicale et obstétrique (CEX)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CEX24",
+            "display": "Médecin - Gynécologie médicale (CEX)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CEX26",
+            "display": "Médecin - Obstétrique (CEX)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CEX64",
+            "display": "Médecin - Urologie (CEX)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH01",
+            "display": "Médecin - Anatomie et cytologie pathologiques (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH02",
+            "display": "Médecin - Anesthésie-réanimation (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH03",
+            "display": "Médecin - Bactériologie-virologie, hygiène hosp (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH04",
+            "display": "Médecin - Biochimie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH05",
+            "display": "Médecin - Biologie cellulaire, histologie, bio du dév (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH06",
+            "display": "Médecin - Biologie médicale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH07",
+            "display": "Médecin - Biophysique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH08",
+            "display": "Médecin - Oncologie médicale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH09",
+            "display": "Médecin - Cardiologie et maladies vasculaires (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH10",
+            "display": "Médecin - Chirurgie générale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH11",
+            "display": "Médecin - Chirurgie viscérale et digestive (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH12",
+            "display": "Médecin - Chirurgie infantile (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH13",
+            "display": "Médecin - Chirurgie maxillo-faciale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH14",
+            "display": "Médecin - Chirurgie orthopédique et Traumatologique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH15",
+            "display": "Médecin - Chirurgie plast reconstruct, esthétique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH16",
+            "display": "Médecin - Chirurgie thoracique et cardio-vasculaire (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH17",
+            "display": "Médecin - Chirurgie urologique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH18",
+            "display": "Médecin - Chirurgie vasculaire (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH19",
+            "display": "Médecin - Dermatologie et Vénéréologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH20",
+            "display": "Médecin - Endocrinologie et Métabolisme (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH21",
+            "display": "Médecin - Santé publique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH22",
+            "display": "Médecin - Explorations fonctionnelles (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH23",
+            "display": "Médecin - Gastro-entérologie et Hépatologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH24",
+            "display": "Médecin - Génétique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH25",
+            "display": "Médecin - Génétique médicale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH26",
+            "display": "Médecin - Gynécologie et Obstétrique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH27",
+            "display": "Médecin - Hématologie biologique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH28",
+            "display": "Médecin - Hématologie clinique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH29",
+            "display": "Médecin - Hémobiologie-transfusion (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH30",
+            "display": "Médecin - Hygiène hospitalière (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH31",
+            "display": "Médecin - Immunologie biologique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH32",
+            "display": "Médecin - Immunologie clinique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH33",
+            "display": "Médecin - Maladies infectieuses, maladies tropicales (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH34",
+            "display": "Médecin - Médecine de la repro et Gynécologie médicale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH35",
+            "display": "Médecin - Médecine du travail (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH36",
+            "display": "Médecin - Médecine d'urgence (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH37",
+            "display": "Médecin - Médecine générale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH38",
+            "display": "Médecin - Gériatrie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH39",
+            "display": "Médecin - Médecine interne (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH40",
+            "display": "Médecin - Médecine légale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH41",
+            "display": "Médecin - Médecine nucléaire (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH42",
+            "display": "Médecin - Médecine physique et de réadaptation (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH43",
+            "display": "Médecin - Néphrologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH44",
+            "display": "Médecin - neuro-chirurgie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH45",
+            "display": "Médecin - Neurologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH46",
+            "display": "Médecin - Odontologie polyvalente (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH47",
+            "display": "Médecin - Ophtalmologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH48",
+            "display": "Médecin - Oto-rhino-laryngologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH49",
+            "display": "Médecin - Parasitologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH50",
+            "display": "Médecin - Pédiatrie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH51",
+            "display": "Médecin - Pharmacie polyvalente et Pharmacie hosp (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH52",
+            "display": "Médecin - Pharmacologie clinique et Toxicologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH53",
+            "display": "Médecin - Pneumologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH54",
+            "display": "Médecin - Psychiatrie polyvalente (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH55",
+            "display": "Médecin - Radiologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH56",
+            "display": "Médecin - Oncologie radiothérapique (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH57",
+            "display": "Médecin - Réanimation médicale (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH58",
+            "display": "Médecin - Rhumatologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH59",
+            "display": "Médecin - Stomatologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/SCH60",
+            "display": "Médecin - Toxicologie et Pharmacologie (SCH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C01",
+            "display": "Médecin - Anatomie et Cytologie pathologiques humaines (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C03",
+            "display": "Médecin - Anesthésie-réanimation (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C05",
+            "display": "Médecin - Médecine appliquée aux sports (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C07",
+            "display": "Médecin - Cardiologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C09",
+            "display": "Médecin - Chirurgie plast reconstruct, esthétique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C10",
+            "display": "Médecin - Chirurgie maxillo-faciale (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C11",
+            "display": "Médecin - Chirurgie thoracique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C12",
+            "display": "Médecin - Chirurgie orthopédique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C13",
+            "display": "Médecin - Urologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C15",
+            "display": "Médecin - Dermato-vénéréologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C20",
+            "display": "Médecin - Hémobiologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C23",
+            "display": "Médecin - Gynécologie médicale et Obstétrique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C25",
+            "display": "Médecin - Gynécologie médicale (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C27",
+            "display": "Médecin - Obstétrique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C29",
+            "display": "Médecin - Maladies de l'appareil digestif (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C30",
+            "display": "Médecin - Néphrologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C31",
+            "display": "Médecin - Médecine exotique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C33",
+            "display": "Médecin - Allergologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C34",
+            "display": "Médecin - Angéiologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C35",
+            "display": "Médecin - Cancérologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C36",
+            "display": "Médecin - Diabétologie-nutrition (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C37",
+            "display": "Médecin - Endocrinologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C38",
+            "display": "Médecin - Maladies du sang (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C39",
+            "display": "Médecin - Réanimation (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C40",
+            "display": "Médecin - Médecine légale (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C41",
+            "display": "Médecin - Médecine du travail (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C43",
+            "display": "Médecin - Neurologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C45",
+            "display": "Médecin - Neuro-chirurgie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C47",
+            "display": "Médecin - Neuro-psychiatrie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C51",
+            "display": "Médecin - Pédiatrie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C52",
+            "display": "Médecin - Phoniatrie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C54",
+            "display": "Médecin - Pneumologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C57",
+            "display": "Médecin - Psychiatrie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C58",
+            "display": "Médecin - Psychiatrie, opt enfant et adolescent (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C60",
+            "display": "Médecin - Médecine physique et réadaptation (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C62",
+            "display": "Médecin - Rhumatologie (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C68",
+            "display": "Médecin - Chirurgie pédiatrique (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C69",
+            "display": "Médecin - Médecine nucléaire (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C71",
+            "display": "Médecin - Médecine thermale (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C72",
+            "display": "Médecin - Génétique médicale (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C75",
+            "display": "Médecin - Endocrinologie et Maladies métaboliques (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C76",
+            "display": "Médecin - Orthopédie dento-maxillo-faciale (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/C83",
+            "display": "Médecin - Chirurgie face et cou (C)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA01",
+            "display": "Médecin - Addictologie clinique (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA02",
+            "display": "Médecin - Aide médicale urgente (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA03",
+            "display": "Médecin - Allergologie (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA04",
+            "display": "Médecin - Angéiologie (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA05",
+            "display": "Médecin - Evaluation et traitement de la douleur (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA06",
+            "display": "Médecin - Gérontologie (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA07",
+            "display": "Médecin - Hydrologie et climatologie médicales (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA08",
+            "display": "Médecin - Médecine aérospatiale (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA09",
+            "display": "Médecin - Médecine de catastrophe (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA10",
+            "display": "Médecin - Médecine et biologie du sport (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA11",
+            "display": "Médecin - Médecine de travail, prév risques prof (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA12",
+            "display": "Médecin - Médecine pénitentiaire (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA13",
+            "display": "Médecin - Médecine tropicale (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA14",
+            "display": "Médecin - Pratiques médico-judiciaires (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA15",
+            "display": "Médecin - Technologie transfusionnelle (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/CAPA16",
+            "display": "Médecin - Toxicomanies et Alcoologies (CAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM200",
+            "display": "Médecin - Addictologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM201",
+            "display": "Médecin - Allergologie et Immunologie clinique (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM202",
+            "display": "Médecin - Andrologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM203",
+            "display": "Médecin - Biochimie hormonale et métabolique (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM204",
+            "display": "Médecin - Biologie des agents infectieux (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM205",
+            "display": "Médecin - Biologie moléculaire (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM206",
+            "display": "Médecin - Cancérologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM207",
+            "display": "Médecin - Chirurgie de la face et du cou (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM208",
+            "display": "Médecin - Chirurgie plastique et reconstructrice (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM209",
+            "display": "Médecin - Chirurgie vasculaire (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM210",
+            "display": "Médecin - Cytogénétique humaine (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM211",
+            "display": "Médecin - Dermatopathologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM212",
+            "display": "Médecin - Foetopathologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM213",
+            "display": "Médecin - Gériatrie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM214",
+            "display": "Médecin - Hématologie biologique (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM215",
+            "display": "Médecin - Hématologie maladies du sang (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM216",
+            "display": "Médecin - Hémobiologie-transfusion (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM217",
+            "display": "Médecin - Immunologie et Immunopathologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM218",
+            "display": "Médecin - Médecine de la reproduction (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM219",
+            "display": "Médecin - Médecine du sport (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM220",
+            "display": "Médecin - Médecine d'urgence (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM221",
+            "display": "Médecin - Médecine légale et Expertises médicales (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM222",
+            "display": "Médecin - Médecine nucléaire (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM223",
+            "display": "Médecin - Médecine vasculaire (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM224",
+            "display": "Médecin - Néonatalogie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM225",
+            "display": "Médecin - Neuropathologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM226",
+            "display": "Médecin - Nutrition (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM227",
+            "display": "Médecin - Orthopédie dento-maxillo-faciale (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM228",
+            "display": "Médecin - Pathologie infect et trop, clin et bio (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM229",
+            "display": "Médecin - Pharmacocinétique et Métabolisme des méd (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM230",
+            "display": "Médecin - Pharmacologie clin et Eval thérapeutiq (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM231",
+            "display": "Médecin - Psychiatrie de l'enfant et de l'ado (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM232",
+            "display": "Médecin - Radiopharmacie et radiobiologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM233",
+            "display": "Médecin - Réanimation médicale (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM234",
+            "display": "Médecin - Toxicologie biologique (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM235",
+            "display": "Médecin - Médecine de la douleur et Méd palliative (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM236",
+            "display": "Médecin - Cancérologie, opt Trait méd des cancers (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM237",
+            "display": "Médecin - Cancérologie, opt Chir cancérologique (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM238",
+            "display": "Médecin - Cancérologie, opt Réseaux cancérologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM239",
+            "display": "Médecin - Cancérologie, opt Biologie cancérologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_10/DSM240",
+            "display": "Médecin - Cancérologie, opt Imagerie cancérologie (DNQ)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21",
+            "display": "Pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/A",
+            "display": "Pharmacien titulaire d'officine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/B",
+            "display": "Pharmacien d'entreprise - industrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/C",
+            "display": "Pharmacien d'entreprise - distribution",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/D",
+            "display": "Pharmacien adjoint, remplaçant ou gérant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/DA",
+            "display": "Pharmacien adjoint",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/DM",
+            "display": "Pharmacien mutualiste ou minier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/E",
+            "display": "Pharmacien d'Outre-Mer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/EA",
+            "display": "Pharmacien titulaire d'officine - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/EB",
+            "display": "Pharmacien d'entreprise - industrie - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/EC",
+            "display": "Pharmacien d'entreprise - distribution - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/ED",
+            "display": "Pharmacien adjoint - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/EG",
+            "display": "Pharmacien biologiste - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/EH",
+            "display": "Pharmacien d'un établissement de santé - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/G",
+            "display": "Pharmacien biologiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/H",
+            "display": "Pharmacien d'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_21/M",
+            "display": "Pharmacien militaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_26",
+            "display": "Audioprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_28",
+            "display": "Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_31",
+            "display": "Assistant dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_32",
+            "display": "Physicien médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_35",
+            "display": "Aide-soignant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_36",
+            "display": "Ambulancier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_37",
+            "display": "Auxiliaire de puériculture",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_38",
+            "display": "Préparateur en pharmacie hospitalière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_39",
+            "display": "Préparateur en pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_40",
+            "display": "Chirurgien-Dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_40/SCD01",
+            "display": "Chirurgien-Dentiste - Orthopédie dento-faciale (SCD)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_40/SCD02",
+            "display": "Chirurgien-Dentiste - Chirurgie orale (SCD)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_40/SCD03",
+            "display": "Chirurgien-Dentiste - Médecine bucco-dentaire (SCD)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_50",
+            "display": "Sage-Femme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_60",
+            "display": "Infirmier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_60/SI01",
+            "display": "Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_60/SI02",
+            "display": "Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_60/SI03",
+            "display": "Infirmier - Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_60/SI04",
+            "display": "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_69",
+            "display": "Infirmier psychiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_70",
+            "display": "Masseur-Kinésithérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_80",
+            "display": "Pédicure-Podologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_81",
+            "display": "Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_82",
+            "display": "Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_83",
+            "display": "Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_84",
+            "display": "Oculariste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_85",
+            "display": "Epithésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_86",
+            "display": "Technicien de labo Médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_91",
+            "display": "Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_92",
+            "display": "Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_94",
+            "display": "Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_95",
+            "display": "Diététicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_96",
+            "display": "Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G15_98",
+            "display": "Manipulateur ERM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G16_10",
+            "display": "Médecin en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G16_21",
+            "display": "Pharmacien en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G16_40",
+            "display": "Chirurgien-Dentiste en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          },
+          {
+            "code": "G16_50",
+            "display": "Sage-Femme en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+        "concept": [
+          {
+            "code": "71",
+            "display": "Ostéopathe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Psychothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "Chiropracteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Psychologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "97",
+            "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+        "concept": [
+          {
+            "code": "41",
+            "display": "Assistant de service social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Auxiliaire de vie sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Technicien de l'intervention sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Conseiller en économie sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Médiateur familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "46",
+            "display": "Assistant familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Aide médico-psychologique (AMP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "Moniteur éducateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "49",
+            "display": "Educateur de jeunes enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Educateur spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Educateur technique spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "Accompagnant éducatif et social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "concept": [
+          {
+            "code": "300",
+            "display": "Assistant de service social (PAERPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "301",
+            "display": "Coordination territoriale d'appui (PAERPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "302",
+            "display": "Aide et accompagnement à domicile (PAERPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "303",
+            "display": "Avocat participant aux processus de soins sans consentement (eSSS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "304",
+            "display": "Assistant de service social (Expérimentation MAIA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "305",
+            "display": "Psychologue (Expérimentation MAIA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "306",
+            "display": "Psychothérapeute (Expérimentation MAIA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "307",
+            "display": "Mandataire judiciaire à la protection des majeurs (MJPM)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "308",
+            "display": "Pilote MAIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "309",
+            "display": "Gestionnaire de cas MAIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "310",
+            "display": "Equipe médico-sociale APA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "311",
+            "display": "Autre acteur mettant en oeuvre la méthode MAIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "312",
+            "display": "Autre professionnel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "313",
+            "display": "Aide-soignant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "314",
+            "display": "Ambulancier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "315",
+            "display": "Auxiliaire de puériculture",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "316",
+            "display": "Préparateur en pharmacie hospitalière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "317",
+            "display": "Préparateur en pharmacie (officine)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "318",
+            "display": "Auxiliaire de vie sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "319",
+            "display": "Technicien de l'intervention sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "320",
+            "display": "Conseiller en économie sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "321",
+            "display": "Médiateur familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "322",
+            "display": "Assistant familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "323",
+            "display": "Aide médico-psychologique (AMP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "324",
+            "display": "Moniteur éducateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "325",
+            "display": "Educateur de jeunes enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "326",
+            "display": "Educateur spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "327",
+            "display": "Educateur technique spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "328",
+            "display": "Accompagnant éducatif et social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "329",
+            "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "350",
+            "display": "Aide à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "351",
+            "display": "Assistant(e) maternel(le)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "352",
+            "display": "Autre salarié de la structure sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

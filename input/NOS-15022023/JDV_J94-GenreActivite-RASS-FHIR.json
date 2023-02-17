@@ -1,0 +1,152 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J94-GenreActivite-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J94-GenreActivite-RASS/FHIR/JDV-J94-GenreActivite-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.162"
+    }
+  ],
+  "version": "20220225120000",
+  "name": "JDV_J94-GenreActivite-RASS",
+  "status": "active",
+  "date": "2022-02-25T12:00:00+01:00",
+  "description": "Activités des professionnels RASS nécessitant des règles de gestion spécifiques",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
+        "concept": [
+          {
+            "code": "GENR01",
+            "display": "Activité de soin et de pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR02",
+            "display": "Activité de soins ou de pharmacien en tant que remplaçant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR03",
+            "display": "Remplacement dans une activité de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR04",
+            "display": "Activité non soignante",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR06",
+            "display": "Délégation de responsabilité pour continuité de service",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR08",
+            "display": "Activité de coordination et d'orientation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR09",
+            "display": "Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR10",
+            "display": "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR11",
+            "display": "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR12",
+            "display": "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

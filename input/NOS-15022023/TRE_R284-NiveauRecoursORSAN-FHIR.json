@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R284-NiveauRecoursORSAN",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-12-14T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R284-NiveauRecoursORSAN/FHIR/TRE-R284-NiveauRecoursORSAN",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.345"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R284-NiveauRecoursORSAN",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Hiérarchisation fonctionnelle des Éts pour accueil patients après le SAMU",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Première ligne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Première ligne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Première ligne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Recours",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Recours"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Recours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Repli",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Repli"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Repli"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Deuxième ligne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Deuxième ligne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Deuxième ligne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

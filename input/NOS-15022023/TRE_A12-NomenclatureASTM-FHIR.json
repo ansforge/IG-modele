@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A12-NomenclatureASTM",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
+  "identifier": [
+    {
+      "value": "urn:oid:ASTM"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_A12-NomenclatureASTM",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Nomenclature identifiée par ASTM",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "E1762",
+      "display": "Full Document",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Full Document"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Full Document"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R69-FinessAgregatStatutJuridiqueNiv2",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "1979-01-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.64"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R69-FinessAgregatStatutJuridiqueNiv2",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Agrégats de statuts juridiques FINESS niveau 2",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1100",
+      "display": "Etat et Collectivités Territoriales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etat & Col.Territ."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etat et Collectivités territoriales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1200",
+      "display": "Etablissement Public",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etablissement Public"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement public"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2100",
+      "display": "Organisme Privé à But non Lucratif",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Org.Privé non Lucr."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organisme privé à but non lucratif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2200",
+      "display": "Organisme Privé à Caractère Commercial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Org. Privé Commer."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Organisme privé à caractère commercial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3100",
+      "display": "Personne Morale de Droit Etranger",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pers.Moral.Etranger"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Personne morale de droit étranger"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

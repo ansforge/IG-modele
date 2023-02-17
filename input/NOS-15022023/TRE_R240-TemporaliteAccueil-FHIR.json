@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R240-TemporaliteAccueil",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R240-TemporaliteAccueil/FHIR/TRE-R240-TemporaliteAccueil",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.31"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R240-TemporaliteAccueil",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Temporalité accueil",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Temporaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Temporaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Temporaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Permanent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Permanent"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Permanent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

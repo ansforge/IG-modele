@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R329-NatureCapacite",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-05-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.212"
+    }
+  ],
+  "version": "20220527120000",
+  "name": "TRE_R329-NatureCapacite",
+  "status": "active",
+  "date": "2022-05-27T12:00:00+01:00",
+  "description": "Permet d'indiquer si la capacité est exprimée en lits ou en places",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Lit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Lit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Place",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Place"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Place"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

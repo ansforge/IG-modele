@@ -1,0 +1,570 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R64-AgregatCategorieEtablissementNiv2",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "1979-01-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.6"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_R64-AgregatCategorieEtablissementNiv2",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Agrégats de catégories d'établissements niveau 2",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "110",
+      "display": "Etablissements d'Administration",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Administration"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements d'administration"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-10-01T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-10-01T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1100",
+      "display": "Etablissements Hospitaliers",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Hospitaliers"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements hospitaliers"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1200",
+      "display": "Autres Etablissements Relevant de la Loi Hospitalière",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autres Etab.Loi Hosp"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autres Etablissements Relevant de la Loi Hospitalière"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2100",
+      "display": "Cabinets Libéraux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cabinets Libéraux"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cabinets libéraux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2200",
+      "display": "Autres Etablissements de Soins et Prévention",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autres Etab.de Soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autres établissements de soins et prévention"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3100",
+      "display": "Laboratoires de Biologie Médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Labo Biolog Médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Laboratoires de biologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3200",
+      "display": "Commerce de Biens à Usage Médicaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Com.Biens Usage Méd."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Commerce de biens à usage médicaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3400",
+      "display": "Autres Etablissements à Caractère Sanitaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autres Etab.Sanit."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autres établissements à caractère sanitaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4100",
+      "display": "Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Enfance & Jeun. Hand"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements et Services pour l'enfance et la jeunesse handicapée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4200",
+      "display": "Etablissements ou Classes d'Enseignement Spécial",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Classe Enseig.Spéc."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements ou Classes d'enseignement spécial"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4300",
+      "display": "Etablissements et Services pour Adultes Handicapés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Adultes Handi."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements et Services pour adultes handicapés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4400",
+      "display": "Etablissements et Services pour Personnes Agées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Personnes Agées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements et Services pour personnes âgées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4500",
+      "display": "Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Protection Enfance"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements et Services sociaux concourant à la protection de l'enfance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4600",
+      "display": "Autres Etab. Accueil, Hébergement, Réadaptation et Services",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autres Etab.Soc & MS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autres établissements d'accueil, d'hébergement, de réadaptation et services"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5100",
+      "display": "Etablissements et Services Sociaux d'Aide à la Famille",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Aide à Famille"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements et services sociaux d'aide à la Famille"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-12-14T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6100",
+      "display": "Etablissements de Formation des Personnels Sanitaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Form.Pers.San."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements de formation des personnels sanitaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6200",
+      "display": "Etablissements de Formation des Personnels Sociaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Form.Sociaux"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements de formation des personnels sociaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6300",
+      "display": "Etablissements de Formation Polyvalente",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Form.Polyval."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements de formation polyvalente"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "1979-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "0110",
+      "display": "Etablissements d'Administration",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Etab.Administration"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissements d'administration"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

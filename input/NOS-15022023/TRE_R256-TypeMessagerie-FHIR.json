@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R256-TypeMessagerie",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.54"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R256-TypeMessagerie",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de messagerie électronique",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "MSSANTE",
+      "display": "MSSANTE",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "MSSANTE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Espace de confiance des messageries sécurisées de santé se conformant aux exigences du contrat opérateur MSSanté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "APICRYPT",
+      "display": "APICRYPT",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "APICRYPT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Système de messagerie sécurisée mise en oeuvre par APICEM"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "OSM",
+      "display": "OSM",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "OSM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Outils de Sécurisation des Messageries homologués par le GIP-CPS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AutreMessagerie",
+      "display": "Messagerie électronique rassemblant des acteurs légitimes à l'utiliser",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "eMessagerie acteurs habilités"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Toute autre messagerie électronique rassemblant des acteurs identifiés et enregistrés selon des règles qui garantissent leur légitimité à l'utiliser"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

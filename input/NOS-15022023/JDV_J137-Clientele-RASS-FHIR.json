@@ -1,0 +1,980 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J137-Clientele-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.223"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "JDV_J137-Clientele-RASS",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Population prise en charge par l'établissement dans le cadre",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+        "concept": [
+          {
+            "code": "010",
+            "display": "Tous Types de Déficiences Pers.Handicap.(sans autre indic.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "011",
+            "display": "Handicap rare",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "040",
+            "display": "Aidants / aidés Personnes âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "041",
+            "display": "Aidants / aidés Maladies chroniques invalidantes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "042",
+            "display": "Aidants / aidés Tous types de handicap",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "043",
+            "display": "Aidants / aidés Troubles du spectre de l'autisme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "117",
+            "display": "Déficience intellectuelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "200",
+            "display": "Difficultés psychologiques avec troubles du comportement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "201",
+            "display": "Déficience Intermittente de la Conscience ycompris épilepsie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "206",
+            "display": "Handicap psychique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "207",
+            "display": "Handicap cognitif spécifique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "318",
+            "display": "Déficience auditive grave",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "324",
+            "display": "Déficience visuelle grave",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "414",
+            "display": "Déficience Motrice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "430",
+            "display": "Personnes nécessitant prise en charge psycho soc et san SAI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "431",
+            "display": "Affection Cardiaque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "432",
+            "display": "Diabète",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "433",
+            "display": "Affection Respiratoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "434",
+            "display": "Hémophilie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "435",
+            "display": "Insuffisance Rénale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "436",
+            "display": "Personnes Alzheimer ou maladies apparentées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "437",
+            "display": "Troubles du spectre de l'autisme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "438",
+            "display": "Cérébro lésés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "439",
+            "display": "VIH VHC",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "440",
+            "display": "MND autres que Maladie Alzheimer et Maladies Apparentées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "500",
+            "display": "Polyhandicap",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "511",
+            "display": "Surdi-Cécité avec ou sans troubles associés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "620",
+            "display": "Epilepsie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "700",
+            "display": "Personnes Agées (Sans Autre Indication)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "701",
+            "display": "Personnes Agées Autonomes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "702",
+            "display": "Personnes Handicapées vieillissantes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "711",
+            "display": "Personnes Agées dépendantes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "800",
+            "display": "Enfants, adolescents et jeunes majeurs ASE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "801",
+            "display": "Enfants ASE (0-6 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "802",
+            "display": "Adolescents ASE (7-17 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "803",
+            "display": "Jeunes Majeurs ASE (18-21 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "804",
+            "display": "Enfants, adolescents et jeunes majeurs PJJ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "805",
+            "display": "Jeunes et familles en risque d'inadaptation sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "806",
+            "display": "Personnes se présentant comme MNA en attente d'évaluation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "807",
+            "display": "Enfants et Adolescents avec difficultés sociales",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "808",
+            "display": "Enfants d'Age Préscolaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "809",
+            "display": "Autres Enfants, Adolescents",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "810",
+            "display": "Adultes en Difficulté d'Insertion Sociale (SAI)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "811",
+            "display": "Jeunes Adultes en Difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "812",
+            "display": "Femmes Seules en Difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "813",
+            "display": "Personnes en difficulté avec l'alcool",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "814",
+            "display": "Personnes consommant des substances psychoactives illicites",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "815",
+            "display": "Sortants d'Etablissement Hospitalier ou médico-social yc psy",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "816",
+            "display": "Prostituées avec ou sans Enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "817",
+            "display": "Vagabonds et ex-Détenus",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "818",
+            "display": "Inculpés sous Contrôle judiciaire et Condamnés Libres",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "819",
+            "display": "Autres Adultes en difficulté d'Insertion Sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "820",
+            "display": "Hommes seuls en difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "821",
+            "display": "Familles en Difficulté ou sans Logement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "822",
+            "display": "Personnes et Familles Rapatriées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "823",
+            "display": "Familles Nomades",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "824",
+            "display": "Personnes seules en Difficulté avec Enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "825",
+            "display": "Travailleurs Migrants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "826",
+            "display": "Jeunes Travailleurs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "827",
+            "display": "Personnes et Familles Réfugiées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "828",
+            "display": "Accompagnants (ou aidants)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "829",
+            "display": "Familles en difficulté et-ou femmes isolées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "830",
+            "display": "Personnes et Familles Demandeurs d'Asile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "831",
+            "display": "Femmes Victimes de Violence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "832",
+            "display": "Personnes avec Problèmes Psychiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "833",
+            "display": "Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "834",
+            "display": "Patients et accompagnants (ou aidants)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "835",
+            "display": "Parents en difficulté avec enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "836",
+            "display": "Personnes victimes de la Traite des Etres Humains (T.E.H.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "840",
+            "display": "Personnes sans Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "850",
+            "display": "Personnes souffrant d'addictions sans substances",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "851",
+            "display": "Personnes mésusant de médicaments",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "852",
+            "display": "Personnes en demande sevrage tabagique ou diminution tabac",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "853",
+            "display": "Personnes souffrant d'addictions (Sans Autre Indication)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "860",
+            "display": "Majeurs Protégés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "861",
+            "display": "Adultes avec difficultés budgétaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "862",
+            "display": "Tuteurs Familiaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "899",
+            "display": "Tous publics en difficulté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          },
+          {
+            "code": "990",
+            "display": "Toute Population",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.132"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4674 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R54-DiplomeUniversiteInterUniversitaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-12-29T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+    }
+  ],
+  "version": "20220729120000",
+  "name": "TRE_R54-DiplomeUniversiteInterUniversitaire",
+  "status": "active",
+  "date": "2022-07-29T12:00:00+01:00",
+  "description": "Diplôme d'Université ou Inter-Universitaire",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DIP02",
+      "display": "Doctorat de 3ème cycle sciences Odontologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Doc 3c sciences Odontologiques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Doctorat de 3ème cycle sciences Odontologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:16+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP38",
+      "display": "DIU Accueil des urgences service pédiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Accueil urgences pédiatriq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Accueil des urgences service pédiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:29+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP39",
+      "display": "DIU Arthroscopie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Arthroscopie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Arthroscopie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:30+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:30+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP40",
+      "display": "DIU Cardiologie interventionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Cardio interventionnelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Cardiologie interventionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:31+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP41",
+      "display": "DIU Acupuncture",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Acupuncture"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Acupuncture"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:31+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:31+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP42",
+      "display": "DIU Médecine manuelle et Ostéopathie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Méd manuelle, Ostéopathie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine manuelle et Ostéopathie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:32+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP43",
+      "display": "DIU Médecine subaquatique et hyperbare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Méd subaqua, hyperbare"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine subaquatique et hyperbare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:33+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP44",
+      "display": "DIU Pathologie neuro-vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Pathologie neuro-vascul"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pathologie neuro-vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:33+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP45",
+      "display": "DIU Phoniatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Phoniatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Phoniatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:34+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:34+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP46",
+      "display": "DIU Réparation juridique du dommage corporel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Répar jurid domm corporel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Réparation juridique du dommage corporel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP47",
+      "display": "DIU Veille et sommeil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Veille et sommeil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Veille et sommeil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP48",
+      "display": "DIU Dermatologie esthétique et Cosmétologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Dermato esthét, Cosmétolog"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Dermatologie esthétique et Cosmétologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:36+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP49",
+      "display": "DIU Pathologie du sommeil et de la vigilance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Patho sommeil, vigilance"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pathologie du sommeil et de la vigilance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:36+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP50",
+      "display": "DIU Pathologie foetale et placentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Patho foeale, placentaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pathologie foetale et placentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:37+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP51",
+      "display": "DIU Soins palliatifs et accompagnement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Soins palliatifs, accompag"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Soins palliatifs et accompagnement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:38+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP52",
+      "display": "DIU Tabacologie et d'Aide au sevrage tabagique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Tabacologie, Aide sevrage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Tabacologie et d'Aide au sevrage tabagique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:38+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP53",
+      "display": "DIU Chirurgie réfractive et Chirurgie de la myopie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chir réfractive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie réfractive et Chirurgie de la myopie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP54",
+      "display": "DIU Chirurgie de la main",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chir de la main"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie de la main"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:42+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:42+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP55",
+      "display": "DIU Proctologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Proctologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Proctologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:43+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:43+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP56",
+      "display": "DIU Echocardiographie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echocardiographie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echocardiographie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP57",
+      "display": "DIU Echographie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echographie générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echographie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:44+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP58",
+      "display": "DIU Echographie gynécologique et obstétricale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echo gynéco, obstétricale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echographie gynécologique et obstétricale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:45+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP59",
+      "display": "DU Adaptation de lentilles de contact",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Adaptat lentilles contact"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Adaptation de lentilles de contact"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:46+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP60",
+      "display": "DU Angiographie et Pathologie rétinienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Angiograp, Patho rétinienne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Angiographie et Pathologie rétinienne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:46+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP61",
+      "display": "DIU Stimulation cardiaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Stimulation cardiaque"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Stimulation cardiaque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP62",
+      "display": "DIU Mésothérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Mésothérapie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Mésothérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:47+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:47+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP63",
+      "display": "DU Réparation juridique du dommage corporel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Répar jurid domm corporel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Réparation juridique du dommage corporel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:48+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP64",
+      "display": "DIU Echographie vasculaire et urinaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echo vasculaire, urinaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echographie vasculaire et urinaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:49+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP65",
+      "display": "DIU Imagerie vasculaire non invasive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Imagerie vasc non invasive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Imagerie vasculaire non invasive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:49+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP66",
+      "display": "DU Etudes de réparation du dommage corporel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Etude répar dommage corpor"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Etudes de réparation du dommage corporel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:50+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP67",
+      "display": "DIU Soins palliatifs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Soins palliatifs"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Soins palliatifs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:50+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2008-03-20T10:49:50+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP68",
+      "display": "DIU Chirurgie endocrinienne et métabolique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chir endocrinienne, métab"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie endocrinienne et métabolique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:51+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP69",
+      "display": "DIU Echographie vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echographie vasculaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echographie vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:52+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP70",
+      "display": "DIU Sommeil et sa pathologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Sommeil et sa pathologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Sommeil et sa pathologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:52+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP71",
+      "display": "DIU Chirurgie cancérologique digestive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chir cancéro digestive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie cancérologique digestive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:53+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP72",
+      "display": "DU ou DIU Médecine foetale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU ou DIU Médecine foetale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU ou DIU Médecine foetale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:54+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP75",
+      "display": "DU Indemnisation du dommage corporel Médecin conseil société d'assurance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Indém domm corp Méd soc ass"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Indemnisation du dommage corporel Médecin conseil société d'assurance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:55+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP76",
+      "display": "DIU Physiopathologie exploration fonctionnel neurosensorielle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Physiopatho expl neurosens"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Physiopathologie exploration fonctionnel neurosensorielle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:56+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP77",
+      "display": "DIU Echographie abdominale et urinaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echo abdominale, urinaire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echographie abdominale et urinaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:57+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP78",
+      "display": "DIU Explorations fonctionnelles digestives",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Explorat fonct digestives"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Explorations fonctionnelles digestives"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:57+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP79",
+      "display": "DIU Chirurgie rétino-vitréenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chir rétino-vitréenne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie rétino-vitréenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:58+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP80",
+      "display": "DIU Echocardiographie et doppler",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echocardiographie, doppler"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echocardiographie et doppler"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:59+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP81",
+      "display": "DIU Médecine et Réanimation néonatales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Méd, Réanimation néonatale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine et Réanimation néonatales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:59+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP82",
+      "display": "DIU Médecine morphologique et anti-âge",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Méd morpho, anti-âge"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine morphologique et anti-âge"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:50:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP83",
+      "display": "DIU Chirurgie du pied et de la cheville",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chir pied et cheville"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie du pied et de la cheville"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:50:01+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP84",
+      "display": "DDCD Diplôme de Chirurgien-Dentiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dip Chirurgien-Dentiste"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DDCD Diplôme de Chirurgien-Dentiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:50:02+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP85",
+      "display": "DIU Angiographie et Pathologie rétinienne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Angiograp Patho rétinienne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Angiographie et Pathologie rétinienne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:11+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP86",
+      "display": "DIU Réparation juridique du dommage corporel expertise médico-légale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Répar jurid domm corporel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Réparation juridique du dommage corporel expertise médico-légale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:12+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP87",
+      "display": "DU Etudes médicales relatives à la réparation du dommage corporel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Etude méd répar domm corpor"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Etudes médicales relatives à la réparation du dommage corporel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:12+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP88",
+      "display": "DIU Droit de l'expertise médico-légale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Droit expertise médico-lég"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Droit de l'expertise médico-légale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:13+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP89",
+      "display": "DIU Echographie, option Echographie de spécialité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echo, opt Echo spécialité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echographie, option Echographie de spécialité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:14+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP90",
+      "display": "DIU Echocardiographie cardiaque et vasculaire Méditerranéen",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echocardiograp, vasc Médit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echocardiographie cardiaque et vasculaire Méditerranéen"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:14+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP91",
+      "display": "DIU Etudes approfondies polyarthrites-maladies",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Etu appr polyarthrites-mal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Etudes approfondies polyarthrites-maladies"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:15+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP92",
+      "display": "DIU Maladies respiratoires et allergiques de l'enfant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Mal respir, allerg enfant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Maladies respiratoires et allergiques de l'enfant"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP93",
+      "display": "DIU Etudes maladies inflammatoires chroniques intestinales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Etu mal inflam chro intest"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Etudes maladies inflammatoires chroniques intestinales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-05-27T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP180",
+      "display": "DIU Dermato-esthétique, laser dermato-cosmétologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Dermato-esthét, laser cosm"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Dermato-esthétique, laser dermato-cosmétologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP181",
+      "display": "DU Echo-cardiographie et écho-doppler cardiovasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Echocardiograp, doppler vas"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Echo-cardiographie et écho-doppler cardiovasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP182",
+      "display": "DU Gériatrie et Gérontologie médico-sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Gériatrie, Gérontol méd-soc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Gériatrie et Gérontologie médico-sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP183",
+      "display": "DIU Physiologie et Pathologie du sommeil",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Physiologie, Patho sommeil"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Physiologie et Pathologie du sommeil"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP184",
+      "display": "DIU, DU ou CU Radiologie oto-neuro-ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU DU CU Radio oto-neuro-opht"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU, DU ou CU Radiologie oto-neuro-ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP185",
+      "display": "DU Gérontologie et Gériatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Gérontologie, Gériatrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Gérontologie et Gériatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP186",
+      "display": "DU, Att Médecine orthopédique et thérapeutiques manuelles",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU, Att Méd orthop, thérap man"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU, Att Médecine orthopédique et thérapeutiques manuelles"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP187",
+      "display": "DIU Sommeil et sa pathologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Sommeil et sa pathologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Sommeil et sa pathologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP188",
+      "display": "DU Repar jurid dommage corporel, module SS et législation du trafic",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Répar jur domm corp, Mod SS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Réparation juridique du dommage corporel, module sécurité sociale et législation du trafic"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP189",
+      "display": "DIU Pathologie chirurgicale rétino-vitréenne",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Patho chir rétinovitréenne"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pathologie chirurgicale rétino-vitréenne"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP190",
+      "display": "DIU Coelio-chirurgie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Coelio-chirurgie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Coelio-chirurgie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2009-02-02T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP191",
+      "display": "DIU Rythmologie et stimulation cardiaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Rythmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Rythmologie et stimulation cardiaque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2009-02-02T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP192",
+      "display": "DIU Proctologie médico-instrumentale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Proctologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Proctologie médico-instrumentale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2009-02-02T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP193",
+      "display": "DU Echographie cardiologique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Echographie cardiologique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Echographie cardiologique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP199",
+      "display": "DIU Enseignement supérieur de Neuroradiologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Enseig sup Neuroradiologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Enseignement supérieur de Neuroradiologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP201",
+      "display": "DU Méthodes ultrasonores en médecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Méthodes ultrason médecine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Méthodes ultrasonores en médecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP206",
+      "display": "DIU Endoscopie digestive interventionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Endoscopie digest interven"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Endoscopie digestive interventionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP207",
+      "display": "DIU Pathologies osseuses médicales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Patho osseuses médicales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pathologies osseuses médicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP210",
+      "display": "DIU Médecine manuelle et orthopédique, Ostéopathie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Méd man, orthop, Ostéopath"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine manuelle et orthopédique, Ostéopathie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP211",
+      "display": "DIU Expertises accidents médicaux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Expertises accid médicaux"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Expertises accidents médicaux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP216",
+      "display": "DIU Epileptologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Epileptologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Epileptologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-04-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP219",
+      "display": "DIU Onco-urologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Onco-urologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Onco-urologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2011-04-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP221",
+      "display": "DIU Echocardiographie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Echocardiographie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echocardiographie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-02-21T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2012-02-21T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP222",
+      "display": "DIU Endocrinologie diabétologie pédiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Endocrinologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Endocrinologie diabétologie pédiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-09-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2012-09-03T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP224",
+      "display": "DIU Appareillage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Appareillage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Appareillage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2014-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2014-01-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP225",
+      "display": "DIU Aptitude à l'expertise médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Aptitude expertise méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Aptitude à l'expertise médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2014-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP226",
+      "display": "DIU Neurophysiologie clinique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Neurophysiologie clinique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Neurophysiologie clinique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2014-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP227",
+      "display": "DIU Approfondissement soins palliatifs et soins d'accompagnement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Approf soins pallia, accom"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Approfondissement soins palliatifs et soins d'accompagnement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP228",
+      "display": "DIU Migraine et céphalées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Migraine et céphalées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Migraine et céphalées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-01-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP229",
+      "display": "DIU Chirurgie du rachis",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Chirurgie du rachis"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Chirurgie du rachis"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-11-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP234",
+      "display": "DIU Analyse du mouvement chez l'enfant et l'adolescent",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Analyse mvt enfant et ado"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Analyse du mouvement chez l'enfant et l'adolescent"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP235",
+      "display": "DIU Biologie du vieillissement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Biologie du vieillissement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Biologie du vieillissement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP236",
+      "display": "DIU Cicatrisation des plaies aiguës et chroniques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Cicatr plaies aiguës, chro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Cicatrisation des plaies aiguës et chroniques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP237",
+      "display": "DIU Dermatologie psychosomatique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Dermatologie psychosomatiq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Dermatologie psychosomatique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP238",
+      "display": "DIU Education du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Education du patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Education du patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP239",
+      "display": "DIU Education pour la santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Education pour la santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Education pour la santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP240",
+      "display": "DIU Ethique des professions de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Ethique des prof de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Ethique des professions de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP241",
+      "display": "DIU Ethique et pratiques médicales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Ethique, pratiques médic"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Ethique et pratiques médicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP242",
+      "display": "DIU Evaluation en santé, accréditation démarche qualité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Eval santé, accré dém qual"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Evaluation en santé, accréditation démarche qualité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP243",
+      "display": "DIU Formation prise en charge douleur par professionnel de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Prise charge doul par PS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Formation prise en charge douleur par professionnel de santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP244",
+      "display": "DIU Nutrition et activité physique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Nutrition, activité physiq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Nutrition et activité physique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP245",
+      "display": "DIU Posturologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Posturologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Posturologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP246",
+      "display": "DIU Posturologie clinique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Posturologie clinique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Posturologie clinique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP247",
+      "display": "DIU Réflexion éthique et philosophique pour les soins",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Réflex éthiq, philo soins"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Réflexion éthique et philosophique pour les soins"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP248",
+      "display": "DU Algologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Algologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Algologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP249",
+      "display": "DU Amélioration de la prise en charge du diabète",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Amélior prise charge diab"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Amélioration de la prise en charge du diabète"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP250",
+      "display": "DU Anatomie chirurgicale et sectionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Anatomie chir, sectionnelle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Anatomie chirurgicale et sectionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP251",
+      "display": "DU Anatomie et Biomécanique de l'appareil locomoteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Anatomie, Bioméca app locom"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Anatomie et Biomécanique de l'appareil locomoteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP252",
+      "display": "DU Biomécanique de l'appareil locomoteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Bioméca app locomoteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Biomécanique de l'appareil locomoteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP253",
+      "display": "DU Biomécanique appareil locomoteur et mouvement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Bioméca app locomoteur, mvt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Biomécanique appareil locomoteur et mouvement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP254",
+      "display": "DU Cicatrisation des plaies brûlures et nécroses",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Cicatr plaies, brûl, nécro"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Cicatrisation des plaies, brûlures et nécroses"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP255",
+      "display": "DU Comprendre, organiser et promouvoir le travail en réseau",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Comp, organ, prom trav rés"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Comprendre, organiser et promouvoir le travail en réseau"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP256",
+      "display": "DU Concept et méthodes en éducation pour la santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Concept, méthode éduc santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Concept et méthodes en éducation pour la santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP257",
+      "display": "DU Education du patient à l'alliance thérapeutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ patient alliance théra"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education du patient à l'alliance thérapeutique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP258",
+      "display": "DU DEA Psy de la cognition : acquisitions, représentations, communication",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Psy cog : acquis représ com"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU DEA Psychologie de la cognition : acquisitions, représentations, communication"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP259",
+      "display": "DU Doctorat sensibilité et motricité podales",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Doct sensibil, motrici podales"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Doctorat sensibilité et motricité podales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP260",
+      "display": "DU Education du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Education du patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education du patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP261",
+      "display": "DU Education thérapeutique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Education thérapeutique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education thérapeutique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP262",
+      "display": "DU Education thérapeutique : expérimenter et formaliser",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ thérap : expérim, form"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education thérapeutique : expérimenter et formaliser"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP263",
+      "display": "DU Education thérapeutique et maladies chroniques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ thérap, mal chroniques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education thérapeutique et maladies chroniques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP264",
+      "display": "DU Education du patient et maladies chroniques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ patient mal chroniques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education du patient et maladies chroniques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP265",
+      "display": "DU Education thérapeutique du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ thérapeutique patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education thérapeutique du patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP266",
+      "display": "DU Education thérapeutique et maladies ostéo-articulaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ thérap, mal ostéo-arti"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education thérapeutique et maladies ostéo-articulaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP267",
+      "display": "DU Education thérapeutique et prévention et maladies",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Educ thérap, prév, maladies"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Education thérapeutique et prévention et maladies"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP268",
+      "display": "DU Effets indésirables des thérapies anticancéreuses",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Eff indés thérap anticancér"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Effets indésirables des thérapies anticancéreuses"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP269",
+      "display": "DU Ethique médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Ethique médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Ethique médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP270",
+      "display": "DU Evaluation qualité des soins et la gestion des risques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Eval qual soins, gest risq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Evaluation qualité des soins et la gestion des risques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP271",
+      "display": "DU Formation paramédicale en diabétologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Form paraméd diabétologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Formation paramédicale en diabétologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP272",
+      "display": "DU Hygiène et Epidémiologie infectieuse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Hygiène, Epidémiolog infect"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Hygiène et Epidémiologie infectieuse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP273",
+      "display": "DU Management des actions de santé publique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Mgt actions santé publique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Management des actions de santé publique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP274",
+      "display": "DU Nutrition appliquée aux activités physiques et sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Nutrit appl act phys, sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Nutrition appliquée aux activités physiques et sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP275",
+      "display": "DU Nutrition et activités physiques et sportives",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Nutrit, act phys, sportives"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Nutrition et activités physiques et sportives"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP276",
+      "display": "DU Perception actions et troubles apprentissages",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Percep act, trouble apprent"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Perception actions et troubles apprentissages"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP277",
+      "display": "DU Physiologie de la posture et du mouvement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Physio posture et mouvement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Physiologie de la posture et du mouvement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP278",
+      "display": "DU Physiologie et physiopathologie du sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Physio physiopatho du sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Physiologie et physiopathologie du sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP279",
+      "display": "DU Pied diabétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Pied diabétique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Pied diabétique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP280",
+      "display": "DU Plaies et cicatrisations",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Plaies et cicatrisations"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Plaies et cicatrisations"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP281",
+      "display": "DU Podologie médicale et du sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Podologie médicale et sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Podologie médicale et du sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP282",
+      "display": "DU Podologie appliquée au sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Podologie appl au sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Podologie appliquée au sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP283",
+      "display": "DU Podologie appliquée aux activités physiques et sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Podolog appl act phys sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Podologie appliquée aux activités physiques et sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP284",
+      "display": "DU Podologie du sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Podologie du sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Podologie du sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP285",
+      "display": "DU Pratique soignante en soins de suite et réadaptation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Pratiq soins suite, réadap"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Pratique soignante en soins de suite et réadaptation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP286",
+      "display": "DU Prise en charge globale du pied diabétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Prise globale pied diab"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Prise en charge globale du pied diabétique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP287",
+      "display": "DU Prise en charge multidisciplinaire du patient diabétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Prise multidis patient diab"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Prise en charge multidisciplinaire du patient diabétique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP288",
+      "display": "DU Problèmes éthiques soulevés par la prise en charge patient âgé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Probl éthiques patient âgé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Problèmes éthiques soulevés par la prise en charge patient âgé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP289",
+      "display": "DU Promotion de la santé et éducation pour la santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Promo santé, éduc santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Promotion de la santé et éducation pour la santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP290",
+      "display": "DU Promotion de la santé pour les activités physiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Promo santé act physiques"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Promotion de la santé pour les activités physiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP291",
+      "display": "DU Psychiatrie à l'usage du non spécialiste",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Psychiatrie usage non spéc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Psychiatrie à l'usage du non spécialiste"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP292",
+      "display": "DU Réharmonisation posturale en Podologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Réharm posturale en Podolog"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Réharmonisation posturale en Podologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP293",
+      "display": "DU Sécurité sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Sécurité sociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Sécurité sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP294",
+      "display": "DU Sport et Nutrition",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Sport et Nutrition"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Sport et Nutrition"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP295",
+      "display": "DU Sport et Podologie approche de la globalité fonctionnelle et posturale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Sport Podo fonct, posturale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Sport et Podologie approche de la globalité fonctionnelle et posturale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP296",
+      "display": "DU Sport et santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Sport et santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Sport et santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP297",
+      "display": "DU Sport et santé, option Podologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Sport santé, opt Podologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Sport et santé, option Podologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP298",
+      "display": "DU Sport et santé avec AU Podologie appliquée au sport",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Sport santé, AU Podol sport"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Sport et santé avec AU Podologie appliquée au sport"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-03T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP299",
+      "display": "Doctorat ès sciences plus option",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Doctorat ès sciences plus opt"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Doctorat ès sciences plus option"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP300",
+      "display": "DIU Soigner les soignants",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Soigner les soignants"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Soigner les soignants"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP301",
+      "display": "DIU d'OCT en ophtalmologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU d'OCT en ophtalmologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU de Tomographie par coherence optique (OCT) en ophtalmologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-23T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP308",
+      "display": "DIU Pratique médicale en station thermale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Pratiq méd therm"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pratique médicale en station thermale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP309",
+      "display": "DU Ostéopathie clinique et fonctionnelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Ostéo clin et fct"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Ostéopathie clinique et fonctionnelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP310",
+      "display": "DIU Pneumologie pédiatrique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Pneumo pédiatriq"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pneumologie pédiatrique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP311",
+      "display": "DIU Médecine du Sommeil Appliquée Gérontologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Méd SommeilGéron"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine du Sommeil Appliquée à la Gérontologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP312",
+      "display": "DIU Laryngo-Phoniatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU LaryngoPhoniatri"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Laryngo-Phoniatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP313",
+      "display": "DIU Echocardiog. et imag. cardiovasc. non invasive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU EchoCardioNonInv"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Echocardiographie et imagerie cardiovasculaire non invasive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-06-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP391",
+      "display": "DU Ostéopathie Médecine Manuelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU Ostéopathie Médecine Manuel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU Ostéopathie Médecine Manuelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP392",
+      "display": "DIU Médecine Manuelle - Ostéopathie Médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Médecine Manuel-Ostéop Méd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Médecine Manuelle - Ostéopathie Médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP393",
+      "display": "DIU Expertise médico-légale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Expertise médico-légale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Expertise médico-légale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP394",
+      "display": "DU ou DIU Phlébologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DU ou DIU Phlébologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DU ou DIU Phlébologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP395",
+      "display": "DIU Pancréatologie médico-chirurgicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Pancréatologie médico-chir"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Pancréatologie médico-chirurgicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP396",
+      "display": "DIU de Pathologie et chirurgie orbito-palpébro-lacrymales (OPL)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Pathologie et chir. OPL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU de Pathologie et chirurgie orbito-palpébro-lacrymales (OPL)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP397",
+      "display": "DIU Techniques avancées en phlébologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DIU Tech avancées phlébologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "DIU Techniques avancées en phlébologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-07-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

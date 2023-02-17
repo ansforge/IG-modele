@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R201-TypeDivisionTerritoriale",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2015-03-25T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R201-TypeDivisionTerritoriale/FHIR/TRE-R201-TypeDivisionTerritoriale",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.2"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R201-TypeDivisionTerritoriale",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de division territoriale",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Région",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Région"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Région"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Département",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Département"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Département"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Commune",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Commune"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Commune"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Territoire de Santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Territoire de Santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Territoire de Santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Pays",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pays"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pays"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "Zone de Défense",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Zone de Défense"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Zone de Défense"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-04-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

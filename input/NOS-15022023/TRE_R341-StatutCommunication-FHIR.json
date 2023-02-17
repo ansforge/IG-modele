@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R341-StatutCommunication",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-05-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R341-StatutCommunication/FHIR/TRE-R341-StatutCommunication",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.226"
+    }
+  ],
+  "version": "20220527120000",
+  "name": "TRE_R341-StatutCommunication",
+  "status": "active",
+  "date": "2022-05-27T12:00:00+01:00",
+  "description": "Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "A synchroniser",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A synchroniser"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "A synchroniser"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R11-CiviliteExercice",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.11"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R11-CiviliteExercice",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Civilité d'exercice",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DR",
+      "display": "Docteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Docteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Docteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "display": "Médecin chef",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin chef"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin chef"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MG",
+      "display": "Médecin général",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Médecin général"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecin général"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PC",
+      "display": "Pharmacien chef",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacien chef"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacien chef"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PG",
+      "display": "Pharmacien général",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Pharmacien général"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pharmacien général"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PR",
+      "display": "Professeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Professeur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T15:04:35+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-03-29T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

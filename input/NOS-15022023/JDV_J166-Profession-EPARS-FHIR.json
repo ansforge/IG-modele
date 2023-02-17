@@ -1,0 +1,319 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J166-Profession-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-06-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.227"
+    }
+  ],
+  "version": "20210625120000",
+  "name": "JDV_J166-Profession-EPARS",
+  "status": "active",
+  "date": "2021-06-25T12:00:00+01:00",
+  "description": "Profession pour EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "26",
+            "display": "Audioprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "31",
+            "display": "Assistant dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+        "concept": [
+          {
+            "code": "41",
+            "display": "Assistant de service social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+        "concept": [
+          {
+            "code": "71",
+            "display": "Ostéopathe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Psychothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "Chiropracteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "81",
+            "display": "Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Oculariste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Epithésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Technicien de laboratoire médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+        "concept": [
+          {
+            "code": "93",
+            "display": "Psychologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "94",
+            "display": "Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Diététicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "96",
+            "display": "Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+        "concept": [
+          {
+            "code": "97",
+            "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "98",
+            "display": "Manipulateur ERM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R272-EquipementMaterielLourd",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-07-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.124"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R272-EquipementMaterielLourd",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Equipements Matériels Lourds",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "05602",
+      "display": "Scanographe à utilisation médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Scanographe"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Scanographe à utilisation médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05701",
+      "display": "Caméra à scintillation sans détecteur d'émission de positons",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gamma Caméra sans détecteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caméra à scintillation sans détecteur d'émission de positons"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05702",
+      "display": "Caméra à scintillation avec détecteur d'émission de positons",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gamma Caméra avec détecteur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caméra à scintillation avec détecteur d'émission de positons"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05705",
+      "display": "Tomographe à émissions",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tomographe à émissions"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tomographe à émissions"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05706",
+      "display": "Caméra à positons",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Caméra à positons"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caméra à positons"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06201",
+      "display": "Appareil d'IRM à utilisation clinique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "IRM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Appareil d'IRM à utilisation clinique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06301",
+      "display": "Cyclotron à utilisation médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cyclotron"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cyclotron à utilisation médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "44901",
+      "display": "Caisson hyperbare",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Caisson hyperbare"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Caisson hyperbare"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

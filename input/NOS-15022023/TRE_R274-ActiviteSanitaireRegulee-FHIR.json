@@ -1,0 +1,1874 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R274-ActiviteSanitaireRegulee",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-07-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R274-ActiviteSanitaireRegulee",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Activités sanitaires soumises à une régulation de la part de l'ARS",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Médecine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "01"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Chirurgie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "02"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Gynécologie, obstétrique, néonatologie, réanimation néonatale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "03"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gynécologie, obstétrique, néonatologie, réanimation néonatale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Psychiatrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "04"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Psychiatrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Soins de longue durée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "07"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de longue durée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Traitement des grands brûlés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "09"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Traitement des grands brulés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Chirurgie cardiaque",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "10"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Chirurgie cardiaque"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Activités interventionnelles sous imagerie méd, voie endovasculaire, cardio",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "11"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Activités interventionnelles sous imagerie médicale, par voie endovasculaire, en cardiologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Neurochirurgie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "12"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Neurochirurgie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "Activités interventionnelles sous imagerie méd, voie endovasculaire, neurorad",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "13"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Activités interventionnelles sous imagerie médicale, par voie endovasculaire, en neuroradiologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Médecine d'urgence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "14"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Médecine d'urgence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Réanimation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "15"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Réanimation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Traitement de l'insuffisance rénale chronique par épuration extrarénale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "16"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Traitement de l'insuffisance rénale chronique par épuration extrarénale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "AMP DPN",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "17"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "AMP DPN"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Traitement du cancer",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "18"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Traitement du cancer"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Exam carac géné d'une pers ou ident d'une pers par empreintes géné fins méd",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "19"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Examen des caractéristiques génétiques d'une personne ou identification d'une personne par empreintes génétiques à des fins médicales"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Soins de suite et de réadaptation non spécialisés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "50"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation non spécialisés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "SSR spécialisés - Affections de l'appareil locomoteur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "51"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections de l'appareil locomoteur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "SSR spécialisés - Affections du système nerveux",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "52"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections du système nerveux"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "SSR spécialisés - Affections cardio-vasculaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "53"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections cardio-vasculaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "SSR spécialisés - Affections respiratoires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "54"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections respiratoires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "SSR spécialisés - Affections systèmes digestif, métabolique et endocrinien",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "55"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections des systèmes digestif, métabolique et endocrinien"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "SSR spécialisés - Affections onco-hématologiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "56"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections onco-hématologiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "SSR spécialisés - Affections des brulés",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "57"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections des brulés"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "SSR spécialisés - Affections liées aux conduites addictives",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "58"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections liées aux conduites addictives"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "display": "SSR spécialisés - Affections pers agée polypathologique, dép ou risque dép",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "59"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation spécialisés - Affections de la personne agée polypathologique, dépendante ou à risque de dépendance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "80",
+      "display": "Greffe de rein",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "80"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe de rein"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "81",
+      "display": "Greffe de pancréas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "81"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe de pancréas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "82",
+      "display": "Greffe rein-pancréas",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "82"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe rein-pancréas"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "83",
+      "display": "Greffe de foie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "83"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe de foie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "84",
+      "display": "Greffe d'intestin",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "84"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe d'intestin"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "85",
+      "display": "Greffe de coeur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "85"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe de coeur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "86",
+      "display": "Greffe de poumon",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "86"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe de poumon"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "87",
+      "display": "Greffe coeur-poumons",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "87"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe coeur-poumons"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "88",
+      "display": "Greffe de cellules hématopoïétiques allogreffe",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "88"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Greffe de cellules hématopoïétiques allogreffe"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A0",
+      "display": "Installation de chirurgie esthétique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A0"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Installation de chirurgie esthétique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A1",
+      "display": "Dépôt de sang",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dépôt de sang"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A2",
+      "display": "Lactarium",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lactarium"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A3",
+      "display": "Lieux de recherches impliquant la personne humaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A3"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Lieux de recherches impliquant la personne humaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-09-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A4",
+      "display": "Prélèvement de cellules hématopoïétiques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A4"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prélèvement de cellules hématopoïétiques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A5",
+      "display": "Prélèvement d'organes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A5"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prélèvement d'organes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A6",
+      "display": "Prélèvement de tissus",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A6"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prélèvement de tissus"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R1",
+      "display": "Addictologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Addictologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R2",
+      "display": "Infections ostéo-articulaires complexes",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Infections ostéo-articulaires complexes"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R3",
+      "display": "Plateau technique hautement spécialisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R3"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Plateau technique hautement spécialisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R4",
+      "display": "Soins palliatifs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R4"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins palliatifs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R5",
+      "display": "Soins intensifs",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R5"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins intensifs"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R6",
+      "display": "Unité Neuro-vasculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R6"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Unité Neuro-vasculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R7",
+      "display": "Surveillance continue",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R7"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Surveillance continue"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-07-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R8",
+      "display": "Centre de maladies rares",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R8"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Centre de maladies rares"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R9",
+      "display": "Etablissement associé cancéro - Traitement dont chimiothérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "R9"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Etablissement associé cancéro - Traitement dont chimiothérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S1",
+      "display": "Prise en charge de la douleur chronique rebelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise en charge de la douleur chronique rebelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S2",
+      "display": "Prise en charge des patients atteints d'obésité sévère ou multi-compliquée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise en charge des patients atteints d'obésité sévère ou multi-compliquée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S3",
+      "display": "Prise en charge des personnes âgées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S3"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise en charge des personnes âgées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S4",
+      "display": "Soins de Rééducation Post-Réanimation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S4"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de Rééducation Post-Réanimation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S5",
+      "display": "Soins de suite et de réadaptation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S5"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Soins de suite et de réadaptation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S6",
+      "display": "Structure spécifique d'hospitalisation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S6"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Structure spécifique d'hospitalisation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S7",
+      "display": "Prise en charge des patients atteints de sclérose en plaques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S7"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise en charge des patients atteints de sclérose en plaques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T0",
+      "display": "SSRS- EVC-EVP (lits Eveil de Coma-Etat Végétatif Persistant)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T0"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS- EVC-EVP (lits Eveil de Coma-Etat Végétatif Persistant)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T1",
+      "display": "SSRS - Affections de la personne âgée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - Affections de la personne âgée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T2",
+      "display": "SSRS - Basse vision",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T2"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - Basse vision"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T3",
+      "display": "SSRS - Etablissement associé en cancéro",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T3"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - Etablissement associé en cancéro"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T4",
+      "display": "SSRS - EVC EPR (Etat Végétatif Chronique Etat Pauci Relationnel)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T4"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - EVC EPR (Etat Végétatif Chronique Etat Pauci Relationnel)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T5",
+      "display": "SSRS - Lymphologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T5"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - Lymphologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T6",
+      "display": "SSRS - Néphrologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T6"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - Néphrologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "T8",
+      "display": "SSRS - Viroses chroniques",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "T8"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SSRS - Viroses chroniques"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-12-13T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

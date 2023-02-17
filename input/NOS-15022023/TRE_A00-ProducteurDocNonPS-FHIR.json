@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A00-ProducteurDocNonPS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_A00-ProducteurDocNonPS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Producteur de document non PS",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ALIM_AM",
+      "display": "Alimentation auto à partir du SI de l'Ass Maladie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Alim auto à partir du SI-AM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DISPOSITIF",
+      "display": "Dispositif médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispositif médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispositif médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXP_PATIENT",
+      "display": "Expression personnelle du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expres perso patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expression personnelle du patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SECRETARIAT_MEDICAL",
+      "display": "Secrétariat médical",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Secrétariat médical"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Secrétariat médical"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUTOMATE",
+      "display": "Automate",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Automate"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Automate"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-04-26T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

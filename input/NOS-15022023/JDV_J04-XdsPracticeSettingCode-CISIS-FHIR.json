@@ -1,0 +1,157 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J04-XdsPracticeSettingCode-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J04-XdsPracticeSettingCode-CISIS/FHIR/JDV-J04-XdsPracticeSettingCode-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.467"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J04-XdsPracticeSettingCode-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "XDS practiceSettingCode CI-SIS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+        "concept": [
+          {
+            "code": "EXP_PATIENT",
+            "display": "Expression personnelle du patient",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
+        "concept": [
+          {
+            "code": "AMBULATOIRE",
+            "display": "Ambulatoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "AMO",
+            "display": "Organisme d'assurance maladie obligatoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "DEPISTAGE",
+            "display": "Dépistage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "ETABLISSEMENT",
+            "display": "Etablissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "HAD",
+            "display": "Hospitalisation à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "MAD",
+            "display": "Maintien à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "PALLIATIF",
+            "display": "Soins palliatifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "SAD",
+            "display": "Soins à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "SAMU_SMUR",
+            "display": "SAMU/SMUR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

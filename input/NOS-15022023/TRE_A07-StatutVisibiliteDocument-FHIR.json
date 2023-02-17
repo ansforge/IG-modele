@@ -1,0 +1,196 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A07-StatutVisibiliteDocument",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-05-19T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A07-StatutVisibiliteDocument/FHIR/TRE-A07-StatutVisibiliteDocument",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.13"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_A07-StatutVisibiliteDocument",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Restriction d'audience applicable aux objets référencés",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "INVISIBLE_PATIENT",
+      "display": "Non visible par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non visible par le patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non visible par le patient"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Y"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "INVISIBLE_REPRESENTANTS_LEGAUX",
+      "display": "Non visible par représentants légaux du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non visible par représ légaux"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non visible par les représentants légaux du patient"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Y"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MASQUE_PS",
+      "display": "Masqué aux professionnels de santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masqué aux profs de santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masqué aux professionnels de santé"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Y"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MASQUE_PSOCIAL",
+      "display": "Masqué aux professionnels du dom social",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masqué aux profs du social"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masqué aux professionnels du domaine social"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "N"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MASQUE_PT",
+      "display": "Masqué aux personnes tierces",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Masqué aux personnes tierces"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Masqué aux personnes tierces"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "N"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

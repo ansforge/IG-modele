@@ -1,0 +1,234 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J73-MetierPharmacien-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-07-05T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.141"
+    }
+  ],
+  "version": "20210528120000",
+  "name": "JDV_J73-MetierPharmacien-RASS",
+  "status": "active",
+  "date": "2021-05-28T12:00:00+01:00",
+  "description": "Ensemble des sections et sous-sections du tableau du CNOP dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP",
+        "concept": [
+          {
+            "code": "A",
+            "display": "Pharmacien titulaire d'officine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          },
+          {
+            "code": "B",
+            "display": "Pharmacien d'entreprise - industrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          },
+          {
+            "code": "C",
+            "display": "Pharmacien d'entreprise - distribution",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          },
+          {
+            "code": "D",
+            "display": "Pharmacien adjoint, remplaçant ou gérant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          },
+          {
+            "code": "E",
+            "display": "Pharmacien d'Outre-Mer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP",
+        "concept": [
+          {
+            "code": "DA",
+            "display": "Pharmacien adjoint",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "DM",
+            "display": "Pharmacien mutualiste ou minier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "EA",
+            "display": "Pharmacien titulaire d'officine - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "EB",
+            "display": "Pharmacien d'entreprise - industrie - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "EC",
+            "display": "Pharmacien d'entreprise - distribution - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "ED",
+            "display": "Pharmacien adjoint - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "EG",
+            "display": "Pharmacien biologiste - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          },
+          {
+            "code": "EH",
+            "display": "Pharmacien d'établissement de santé - OM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP",
+        "concept": [
+          {
+            "code": "G",
+            "display": "Pharmacien biologiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          },
+          {
+            "code": "H",
+            "display": "Pharmacien d'établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          },
+          {
+            "code": "M",
+            "display": "Pharmacien militaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.37"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J171-TypeAutorisation-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-06-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.232"
+    }
+  ],
+  "version": "20211029120000",
+  "name": "JDV_J171-TypeAutorisation-EPARS",
+  "status": "active",
+  "date": "2021-10-29T12:00:00+01:00",
+  "description": "Types d'autorisation d'exercice pour EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+        "concept": [
+          {
+            "code": "AM18",
+            "display": "Autorisation de l'Agence régionale de santé (ARS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM20",
+            "display": "Autorisation Dir régionale économie, emploi, travail et solidarités (DREETS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM21",
+            "display": "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

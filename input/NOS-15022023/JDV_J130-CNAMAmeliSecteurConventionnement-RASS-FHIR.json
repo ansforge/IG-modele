@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J130-CNAMAmeliSecteurConventionnement-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J130-CNAMAmeliSecteurConventionnement-RASS/FHIR/JDV-J130-CNAMAmeliSecteurConventionnement-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.216"
+    }
+  ],
+  "version": "20201127120000",
+  "name": "JDV_J130-CNAMAmeliSecteurConventionnement-RASS",
+  "status": "active",
+  "date": "2020-11-27T12:00:00+01:00",
+  "description": "Secteur de conventionnement du professionnel libéral ",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement",
+        "concept": [
+          {
+            "code": "nc",
+            "display": "Non conventionné",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.135"
+              }
+            ]
+          },
+          {
+            "code": "c1",
+            "display": "Secteur 1 ou conventionné",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.135"
+              }
+            ]
+          },
+          {
+            "code": "c2",
+            "display": "Secteur 1 ou conventionné avec droit au dépassement permanent",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.135"
+              }
+            ]
+          },
+          {
+            "code": "c3",
+            "display": "Secteur 2",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.135"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

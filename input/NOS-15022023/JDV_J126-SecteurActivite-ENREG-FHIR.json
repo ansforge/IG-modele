@@ -1,0 +1,392 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J126-SecteurActivite-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J126-SecteurActivite-ENREG/FHIR/JDV-J126-SecteurActivite-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.212"
+    }
+  ],
+  "version": "20221028120000",
+  "name": "JDV_J126-SecteurActivite-ENREG",
+  "status": "active",
+  "date": "2022-10-28T12:00:00+01:00",
+  "description": "Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+        "concept": [
+          {
+            "code": "SA09",
+            "display": "Exercice en société",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA10",
+            "display": "Transporteur sanitaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA13",
+            "display": "Prévention et soins en entreprise",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA14",
+            "display": "Etablissements scolaires, universitaires et de formation hors champ FINESS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA19",
+            "display": "Etablissements FINESS de formation aux professions sanitaires et sociales",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA22",
+            "display": "Recherche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA23",
+            "display": "Assurance privée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA24",
+            "display": "Organisme de sécurité sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA26",
+            "display": "Ministère ou Service déconcentré",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA27",
+            "display": "Collectivité territoriale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA28",
+            "display": "Association ou organisme humanitaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA31",
+            "display": "Répartition et Distribution de médicaments et dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA32",
+            "display": "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA35",
+            "display": "Para-pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA42",
+            "display": "Appareillage médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA43",
+            "display": "Secteur non défini",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA44",
+            "display": "Recrutement ou Gestion RH",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA45",
+            "display": "Communication, Marketing, Consulting, Média",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA46",
+            "display": "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA47",
+            "display": "Incendie et secours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA48",
+            "display": "Entreprise industrielle et tertiaire hors industrie pharmaceutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA49",
+            "display": "Entité Outre-Mer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA50",
+            "display": "Structure d'urgence hors établissement hospitalier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA51",
+            "display": "Structure de coopération avec autorisation de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA52",
+            "display": "Maison de santé ou Pôle de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA53",
+            "display": "Siège administratif d'un établissement de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA54",
+            "display": "Centre de dépistage et de prévention",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA57",
+            "display": "Structure de coopération avec mission de coordination de soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA58",
+            "display": "Entreprise de taxis",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA62",
+            "display": "Ordre professionnel de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

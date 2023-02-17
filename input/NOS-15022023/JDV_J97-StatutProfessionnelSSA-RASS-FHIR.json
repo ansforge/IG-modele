@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J97-StatutProfessionnelSSA-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J97-StatutProfessionnelSSA-RASS/FHIR/JDV-J97-StatutProfessionnelSSA-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.165"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J97-StatutProfessionnelSSA-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Statuts des professionnels du Service de Santé des Armées dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA",
+        "concept": [
+          {
+            "code": "STA-SSA-01",
+            "display": "Praticien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.23"
+              }
+            ]
+          },
+          {
+            "code": "STA-SSA-02",
+            "display": "Praticien confirmé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.23"
+              }
+            ]
+          },
+          {
+            "code": "STA-SSA-03",
+            "display": "Praticien certifié",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.23"
+              }
+            ]
+          },
+          {
+            "code": "STA-SSA-04",
+            "display": "Praticien agrégé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.23"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

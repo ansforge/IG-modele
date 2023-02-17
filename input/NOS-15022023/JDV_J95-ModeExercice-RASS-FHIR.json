@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J95-ModeExercice-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.163"
+    }
+  ],
+  "version": "20210827120000",
+  "name": "JDV_J95-ModeExercice-RASS",
+  "status": "active",
+  "date": "2021-08-27T12:00:00+01:00",
+  "description": "Modes d'exercice du professionnel du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+        "concept": [
+          {
+            "code": "S",
+            "display": "Salarié",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+              }
+            ]
+          },
+          {
+            "code": "L",
+            "display": "Libéral, indépendant, artisan, commerçant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+              }
+            ]
+          },
+          {
+            "code": "B",
+            "display": "Bénévole",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.18"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

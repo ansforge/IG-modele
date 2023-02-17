@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J116-GenreActivite-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-05-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J116-GenreActivite-ENREG/FHIR/JDV-J116-GenreActivite-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.187"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "JDV_J116-GenreActivite-ENREG",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "Genre d'activité pour ENREG",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
+        "concept": [
+          {
+            "code": "GENR01",
+            "display": "Activité de soin et de pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR08",
+            "display": "Coordination et orientation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR09",
+            "display": "Administratif ou appui à l'organisation de l'accompagnement social/médico-social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR10",
+            "display": "Accompagnement social/médico-social à la vie sociale, professionnelle, éducative",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR11",
+            "display": "Accompagnement social/médico-social au soin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR12",
+            "display": "Encadrement et organisation de l'accompagnement social/médico-social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

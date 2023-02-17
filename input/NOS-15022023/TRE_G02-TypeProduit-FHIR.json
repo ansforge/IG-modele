@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G02-TypeProduit",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2012-04-12T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G02-TypeProduit/FHIR/TRE-G02-TypeProduit",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.2"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_G02-TypeProduit",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de produit",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "00",
+      "display": "Carte de Professionnel de Santé (CPS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carte de Professionnel de Santé (CPS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "01",
+      "display": "Carte de Professionnel de Santé en Formation (CPF)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CPF"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carte de Professionnel de Santé en Formation (CPF)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Carte de Personnel d'Etablissement de santé (CDE/CPE)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDE/CPE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carte de Personnel d'Etablissement de santé (CDE/CPE)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Carte de Personnel Autorisé (CDA/CPA)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CDA/CPA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Carte de Personnel Autorisé (CDA/CPA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2012-04-12T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

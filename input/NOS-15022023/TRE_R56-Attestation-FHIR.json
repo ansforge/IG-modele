@@ -1,0 +1,396 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R56-Attestation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2007-07-25T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.27"
+    }
+  ],
+  "version": "20200731120000",
+  "name": "TRE_R56-Attestation",
+  "status": "active",
+  "date": "2020-07-31T12:00:00+01:00",
+  "description": "Attestation",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "DIP24",
+      "display": "Attestation études Léprologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att étu Léprologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation études Léprologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:21+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP25",
+      "display": "Attestation études Electroencéphalographie clinique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att étu Electroencéphalograph"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation études Electroencéphalographie clinique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:22+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP26",
+      "display": "Attestation études Endoscopie digestive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att étu Endoscopie digestive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation études Endoscopie digestive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:22+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP27",
+      "display": "Attestation EU Réparation juridique du dommage corporel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att EU Répar jur domm corporel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation EU Réparation juridique du dommage corporel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:17+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP28",
+      "display": "Attestation études Exploration fonctionnelle neuromusculaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att étu Explor fonct neuromusc"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation études Exploration fonctionnelle neuromusculaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:23+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP29",
+      "display": "Attestation EU Vertébrothérapie et Médecine manuelle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att EU Vertébrothérap, Méd man"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation EU Vertébrothérapie et Médecine manuelle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T10:49:24+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP194",
+      "display": "Attestation EU Echographie générale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att EU Echographie générale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation EU Echographie générale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP200",
+      "display": "Attestation études supérieures de Proctologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att étu sup Proctologie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation études supérieures de Proctologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP202",
+      "display": "Attestation études Thérapeutiques manuelles et Médecine physique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att étu Thérap man, Méd phys"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation études Thérapeutiques manuelles et Médecine physique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP205",
+      "display": "Attestation formation à l'Ostéodensitométrie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att form Ostéodensitométrie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation formation à l'Ostéodensitométrie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP208",
+      "display": "Attestation étude complémentaire Echographie hépato-gastro-entérologie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att EC Echograph hép-gast-enté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation étude complémentaire Echographie hépato-gastro-entérologie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP217",
+      "display": "Attestation étude complémentaire Echographie, option Echotomographie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Att EC Echograph Echotomograph"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation étude complémentaire Echographie, option Echotomographie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2008-03-20T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DIP307",
+      "display": "Attestation de 5ième année de médecine validée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attest5ièmeannéeméd"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation de 5ième année de médecine validée"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Attestation de 5ième année de médecine validée (cette voie d'accès à la profession d'infirmier n'est plus aujourd'hui possible mais l'a été)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-07-31T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A08-HL7Confidentiality",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-05-19T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A08-HL7Confidentiality/FHIR/TRE-A08-HL7Confidentiality",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.5.25"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_A08-HL7Confidentiality",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "HL7 confidentiality",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "N",
+      "display": "Normal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Normal"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Normal"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Y"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Restreint",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Restreint"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Restreint"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Y"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "display": "Très restreint",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Très restreint"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Très restreint"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Y"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

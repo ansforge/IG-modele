@@ -1,0 +1,200 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J81-TypeDiplome-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J81-TypeDiplome-RASS/FHIR/JDV-J81-TypeDiplome-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.149"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J81-TypeDiplome-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Types de diplôme du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+        "concept": [
+          {
+            "code": "ATT",
+            "display": "Attestation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "AU",
+            "display": "Autre type de diplôme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "CAPA",
+            "display": "Capacité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "CES",
+            "display": "Certficat d'études spéciales",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "CQ",
+            "display": "Commission de qualification",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "D2C",
+            "display": "Diplôme de 2ième cycle non qualifiant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DAU",
+            "display": "Diplôme d'un pays hors UE et hors EEE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DE",
+            "display": "Diplôme d'Etat français",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DEEE",
+            "display": "Diplôme d'un pays de l'UE ou de l'EEE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DEES",
+            "display": "Diplôme européen d'études spécialisées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DES",
+            "display": "Diplôme d'études spécialisées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DESC1",
+            "display": "Diplôme d'études spécialisées complémentaire groupe 1",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DESC2",
+            "display": "Diplôme d'études spécialisées complémentaire groupe 2",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DU",
+            "display": "Diplôme d'université (DU) ou inter-universitaire (DIU)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J78-Civilite-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J78-Civilite-RASS/FHIR/JDV-J78-Civilite-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.146"
+    }
+  ],
+  "version": "20221216120000",
+  "name": "JDV_J78-Civilite-RASS",
+  "status": "active",
+  "date": "2022-12-16T12:00:00+01:00",
+  "description": "Civilités des personnes physiques du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
+        "concept": [
+          {
+            "code": "M",
+            "display": "Monsieur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.69"
+              }
+            ]
+          },
+          {
+            "code": "MME",
+            "display": "Madame",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.69"
+              }
+            ]
+          },
+          {
+            "code": "MLLE",
+            "display": "Mademoiselle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.69"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

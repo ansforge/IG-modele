@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R342-XdsTypesIdentifiantsReferenceId",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-06-24T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.347"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "TRE_R342-XdsTypesIdentifiantsReferenceId",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure.",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "urn:ihe:iti:xds:2013:uniqueId",
+      "display": "uniqueId",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "uniqueId"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "uniqueId, identifiant unique issu des métadonnées XDS de la fiche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds:2013:accession",
+      "display": "accession",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "accession"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "accession : identifiant de l'objet contenant le numéro Accession Number et l'autorité d'affectation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds:2013:referral",
+      "display": "referral",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "referral"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "referral contenant le numéro de référence Referral Number et l'autorité d'affecttation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds:2013:order",
+      "display": "order",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "order"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "order contenant le numéro de demande Order Number et l'autorité d'affectation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xdw:2013:workflowInstanceId",
+      "display": "workflowInstanceId",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "workflowInstanceId"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "workflowInstanceId utilisé lorsque l'identifiant est un XDW workflow identifier ; doit être un OID"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds:2016:studyInstanceUID",
+      "display": "studyInstanceUID",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "studyInstanceUID"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "studyInstanceUID utilisé lorsque l'identifiant est un DICOM Study Instance UID ; doit contenir la valeur du Study Instance UID"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:ihe:iti:xds:2015:encounterId",
+      "display": "encounterId",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "encounterId"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "encounterId contenant l'identifiant de la rencontre encounterId et l'autorité d'affectation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

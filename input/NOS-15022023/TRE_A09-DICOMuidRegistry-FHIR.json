@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A09-DICOMuidRegistry",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.840.10008.2.6.1"
+    }
+  ],
+  "version": "20220624120000",
+  "name": "TRE_A09-DICOMuidRegistry",
+  "status": "active",
+  "date": "2022-06-24T12:00:00+01:00",
+  "description": "DICOM UID Registry",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "urn:ihe:rad:1.2.840.10008.5.1.4.1.1.88.59",
+      "display": "Format des références d'objets d'imagerie selon profil IHE RAD XDS-I",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Format profil IHE RAD XDS-I"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Format des références d'objets d'imagerie selon profil IHE RAD XDS-I"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.59",
+      "display": "Document de Référence d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ref Imagerie IHE RAD XDS-I"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document de Référence d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

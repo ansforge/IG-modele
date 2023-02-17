@@ -1,0 +1,2570 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-A23-ASR-ActiviteModaliteForme",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-07-31T12:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": true
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_A23-ASR-ActiviteModaliteForme/FHIR/ASS-A23-ASR-ActiviteModaliteForme",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.207"
+    }
+  ],
+  "version": "20220325120000",
+  "name": "ASS_A23-ASR-ActiviteModaliteForme",
+  "status": "active",
+  "date": "2022-03-25T12:00:00+01:00",
+  "description": "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite",
+      "element": [
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "44"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "B4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "B4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "03"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "B4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "B4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "B4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "41"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "C6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "P6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "P6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "P6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "P6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "P6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "P7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "B1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "B1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "B1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "B1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "B1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "B2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "D3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "D3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "E9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "E9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "H9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "H9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "V9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "V9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "V9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "V9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "V9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "01",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "02",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "02",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "03",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "04",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "B8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "C5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "06",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "07",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "D2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "target": [
+            {
+              "code": "E7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "target": [
+            {
+              "code": "W5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "target": [
+            {
+              "code": "W6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "14",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "target": [
+            {
+              "code": "B7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "target": [
+            {
+              "code": "B9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "D6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "D7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "D8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "D9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "E1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "E2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "E3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "U9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "V7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "D4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "D5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1",
+          "target": [
+            {
+              "code": "N0",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "B5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "C4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "C9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "E4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "P8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "target": [
+            {
+              "code": "V8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "E8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "N1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "N2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "N3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "N2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "03"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "N4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "W2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "W2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "03"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "W3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "target": [
+            {
+              "code": "W3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "03"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "30",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "F8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "G1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "G3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "G5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "G6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "G9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "H1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "H4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "H5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "N5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "target": [
+            {
+              "code": "N6",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R6",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R6",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "03"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R6",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R6",
+          "target": [
+            {
+              "code": "G8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R6",
+          "target": [
+            {
+              "code": "W4",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "N7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "N8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "N9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "P0",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "P1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "target": [
+            {
+              "code": "P3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R8",
+          "target": [
+            {
+              "code": "P9",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R9",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R9",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "02"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R9",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R9",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R9",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "02"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R9",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S1",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S1",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S1",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S1",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S2",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S2",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S3",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S3",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S3",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "42"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S3",
+          "target": [
+            {
+              "code": "W1",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S4",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S4",
+          "target": [
+            {
+              "code": "C8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S4",
+          "target": [
+            {
+              "code": "U0",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S5",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S5",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S5",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S5",
+          "target": [
+            {
+              "code": "H8",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "03"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S6",
+          "target": [
+            {
+              "code": "B3",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "S7",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T0",
+          "target": [
+            {
+              "code": "00",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T1",
+          "target": [
+            {
+              "code": "E5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T2",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T3",
+          "target": [
+            {
+              "code": "C2",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T3",
+          "target": [
+            {
+              "code": "C7",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T3",
+          "target": [
+            {
+              "code": "P5",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T4",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T5",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T6",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T6",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T8",
+          "target": [
+            {
+              "code": "09",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T8",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

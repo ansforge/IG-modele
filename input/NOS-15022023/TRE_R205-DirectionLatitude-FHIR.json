@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R205-DirectionLatitude",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-02-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R205-DirectionLatitude/FHIR/TRE-R205-DirectionLatitude",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.6"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R205-DirectionLatitude",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Direction latitude",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "N",
+      "display": "Nord (ou +)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "N ou +"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nord (ou +)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Sud (ou -)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S ou -"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sud (ou -)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2015-03-25T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J77-TypeIdentifiantPersonne-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J77-TypeIdentifiantPersonne-RASS/FHIR/JDV-J77-TypeIdentifiantPersonne-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.145"
+    }
+  ],
+  "version": "20200529120000",
+  "name": "JDV_J77-TypeIdentifiantPersonne-RASS",
+  "status": "active",
+  "date": "2020-05-29T12:00:00+01:00",
+  "description": "Type d'identifiant national de personne physique du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
+        "concept": [
+          {
+            "code": "0",
+            "display": "N° ADELI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "1",
+            "display": "Id Cabinet ADELI / N° de registre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "3",
+            "display": "FINESS / N° de registre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "4",
+            "display": "SIREN / N° de registre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "5",
+            "display": "SIRET / N° de registre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "6",
+            "display": "Id Cabinet RPPS / N° de registre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "8",
+            "display": "N° RPPS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Adresse MSSante",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.15"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

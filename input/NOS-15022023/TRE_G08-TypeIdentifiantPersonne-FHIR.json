@@ -1,0 +1,326 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G08-TypeIdentifiantPersonne",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.15"
+    }
+  ],
+  "version": "20200529120000",
+  "name": "TRE_G08-TypeIdentifiantPersonne",
+  "status": "active",
+  "date": "2020-05-29T12:00:00+01:00",
+  "description": "Type d'identifiant de personne",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0",
+      "display": "N° ADELI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "N° ADELI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "N° ADELI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "display": "Id Cabinet ADELI / N° de registre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Id Cabinet ADELI / N° registre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Id Cabinet ADELI / N° de registre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "N° DRASS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "N° DRASS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "N° DRASS"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Identifiant des internes dans l'ancien système de gestion des internes SIRIUS, géré par les ARS (anciennement DRASS); il était utilisé pour fabriquer des cartes (CPF)  à la demande ; désormais tous les internes sont enregistrés au RPPS et disposent automatiquement d'une carte CPF avec un identifiant RPPS ; les dernières cartes avec un id SIRIUS encore actives arrivent à expiration en juillet 2020 et ne seront pas renouvelées."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "FINESS / N° de registre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FINESS / N° de registre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "FINESS / N° de registre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "SIREN / N° de registre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SIREN / N° de registre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SIREN / N° de registre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "SIRET / N° de registre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SIRET / N° de registre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SIRET / N° de registre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "Id Cabinet RPPS / N° de registre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Id Cabinet RPPS / N° registre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Id Cabinet RPPS / N° de registre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "display": "N° RPPS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "N° RPPS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "N° RPPS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "display": "N° Etudiant",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "N° Etudiant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "N° Etudiant"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Numéro fourni par l'ordre des pharmaciens pour identifier les étudiants autorisés à exercer par l'ordre comme remplaçants ou adjoints. Ce n° était utilisé dans le SI de l'ordre et dans les demandes de CPF.  Depuis mars 2020 tous les étudiants autorisés à exercer sont dans le RPPS ; aucune carte n'est plus produite avec ce type d'identifiant ; toutefois les remplaçants qui avaient une carte « ordinale » et un certificat de remplacement valide, conservent leur carte ; celle-ci n'est pas renouvelable. La fin de validité des dernières cartes ordinales est en 2022, mais une partie d'entre elles sera opposée avant (personnes inscrites à l'ordre, certificats de remplacement expirés et non renouvelés)."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Adresse MSSante",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Adresse MSSante"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Adresse MSSante"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-07-22T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2013-07-22T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

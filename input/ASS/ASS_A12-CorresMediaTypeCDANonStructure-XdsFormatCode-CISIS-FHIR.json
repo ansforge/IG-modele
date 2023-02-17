@@ -1,0 +1,80 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-09-01T00:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": true
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS/FHIR/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.332"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "ASS_A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Correspondance entre formats de doc CDA non structuré et XDS formatCode - CISIS",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
+      "element": [
+        {
+          "code": "application/pdf",
+          "target": [
+            {
+              "code": "urn:ihe:iti:xds-sd:pdf:2008",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "text/plain",
+          "target": [
+            {
+              "code": "urn:ihe:iti:xds-sd:text:2008",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "text/rtf",
+          "target": [
+            {
+              "code": "urn:ihe:iti-fr:xds-sd:rtf:2010",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "image/jpeg",
+          "target": [
+            {
+              "code": "urn:ihe:iti-fr:xds-sd:jpeg:2010",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "image/tiff",
+          "target": [
+            {
+              "code": "urn:ihe:iti-fr:xds-sd:tiff:2010",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

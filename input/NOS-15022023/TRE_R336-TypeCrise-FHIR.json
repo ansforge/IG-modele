@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R336-TypeCrise",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-05-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R336-TypeCrise/FHIR/TRE-R336-TypeCrise",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.219"
+    }
+  ],
+  "version": "20220527120000",
+  "name": "TRE_R336-TypeCrise",
+  "status": "active",
+  "date": "2022-05-27T12:00:00+01:00",
+  "description": "Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "PMIE 1",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PMIE 1"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "PMIE 1"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Situation sanitaire Exceptionnelle (SSE) (Plan blanc)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SSE (Plan blanc)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Situation sanitaire Exceptionnelle (SSE) (Plan blanc)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

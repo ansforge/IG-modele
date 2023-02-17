@@ -1,0 +1,712 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R17-TypeAutorisation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+    }
+  ],
+  "version": "20211029120000",
+  "name": "TRE_R17-TypeAutorisation",
+  "status": "active",
+  "date": "2021-10-29T12:00:00+01:00",
+  "description": "Type d'autorisation",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "AM00",
+      "display": "Autre type d'autorisation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre type d'autorisation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre type d'autorisation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM01",
+      "display": "Autorisation ministérielle de plein exercice",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auto ministér plein exercice"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation ministérielle de plein exercice"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM02",
+      "display": "Autorisation ministérielle d'exercice en qualité de PAC",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auto ministérielle PAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation ministérielle d'exercice en qualité de PAC"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM03",
+      "display": "Autorisation d'exercice limité à un seul hôpital",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auto exerc limité à un hôpital"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation d'exercice limité à un seul hôpital"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM04",
+      "display": "Autorisation Propharmacie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisation Propharmacie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation Propharmacie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM05",
+      "display": "Directeur de laboratoire (scientifique, médecin, pharmacien)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Directeur de laboratoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Directeur de laboratoire (scientifique, médecin, pharmacien)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM06",
+      "display": "Autorisation préfectorale de Guyane art L4131-5",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auto préf Guyane"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation préfectorale de Guyane art L4131-5"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Autorisation d'exercice des médecins telle que prévue à l'article L4131-5 du Code de la Santé Publique en vigueur du 28/01/2005 au 26/07/2020."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM07",
+      "display": "Autorisation préfectorale de Saint-Pierre-et-Miquelon art L4131-5",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Auto préf St-Pierre-Miquelon"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation préfectorale de Saint-Pierre-et-Miquelon art L4131-5"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Autorisation d'exercice des médecins telle que prévue à l'article L4131-5 du Code de la Santé Publique en vigueur du 22/06/2000 au 26/07/2020."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T17:43:20+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM08",
+      "display": "Pays avec convention inter-état",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Convention inter-état"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Pays avec convention inter-état"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM09",
+      "display": "Code de la santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Code de la santé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Code de la santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM10",
+      "display": "Traité de Rome",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Traité de Rome"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Traité de Rome"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM11",
+      "display": "Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Nombre par arrête"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM12",
+      "display": "Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Loi HPST du 21-07-2009"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM13",
+      "display": "Hôpital Américain exclusivement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Hôp Américain exclusivement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Hôpital Américain exclusivement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM14",
+      "display": "Arrangement France-Québec (art L 4111-3-1 CSP)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arrangement France-Québec"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arrangement France-Québec (art L 4111-3-1 CSP)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM15",
+      "display": "Article L 4131-1-1 du CSP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Article L 4131-1-1 du CSP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Article L 4131-1-1 du CSP"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM16",
+      "display": "Arabie Saoudite décret n°2012-1123 du 03-10-2012",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Arabie Saoud décret 2012-1123"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Arabie Saoudite décret n°2012-1123 du 03-10-2012"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-03-08T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM17",
+      "display": "Emirats Arabes Unis décret n°2012-863 du 5-07-2012",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Emirats Arabes décret 2012-863"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Emirats Arabes Unis décret n°2012-863 du 5-07-2012"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2012-07-05T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM18",
+      "display": "Autorisation de l'Agence régionale de santé (ARS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisation de l'ARS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation de l'Agence régionale de santé (ARS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM19",
+      "display": "Autorisation Dir régionale jeunesse, sports et cohésion sociale (DR-D-JSCS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisation de la DR-D-JSCS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation de la Direction régionale (et départementale) de la jeunesse, des sports et de la cohésion sociale (DR-D-JSCS)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Suite au Décret n°2020-1545 du 9 décembre 2020, les DR-D-JSCS n'existent plus depuis le 1er avril 2021. Les missions de certification des professions sociales et de santé non médicales sont reprises par les DREETS."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM20",
+      "display": "Autorisation Dir régionale économie, emploi, travail et solidarités (DREETS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisation de la DREETS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation de la Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Depuis le 1er avril 2021, les DREETS sont en charge de la certification dans le domaine des professions sociales et des professions de santé non médicales. Ces directions ont en effet repris certaines missions des anciennes DR-D-JSCS, suite au Décret n°2020-1545 du 9 décembre 2020."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AM21",
+      "display": "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aut ARS DROM/PréfSPM"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Autorisation d'exercice des médecins, sages-femmes et chirurgiens-dentistes telle que prévue aux articles L4131-5 du Code de la Santé Publique en vigueur depuis le 26/07/2020 et des pharmaciens telle que prévue à l'article L4221-14-3 en vigueur depuis le 27/07/2019."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AMGP",
+      "display": "En cours de validation au Guichet principal",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "En cours de validation GP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "En cours de validation au Guichet principal"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

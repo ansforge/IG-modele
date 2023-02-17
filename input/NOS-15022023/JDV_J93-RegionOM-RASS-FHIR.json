@@ -1,0 +1,356 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J93-RegionOM-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J93-RegionOM-RASS/FHIR/JDV-J93-RegionOM-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.161"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J93-RegionOM-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Régions (outre-mer et Monaco inclus) dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Guadeloupe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Martinique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Guyane",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "La Réunion",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "06",
+            "display": "Mayotte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Ile-de-france",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "Centre-Val-de-Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "27",
+            "display": "Bourgogne-Franche-Comté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Normandie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "32",
+            "display": "Hauts-de-France",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Grand-Est",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Pays de la Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "Bretagne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "75",
+            "display": "Nouvelle-Aquitaine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "76",
+            "display": "Occitanie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Auvergne-Rhône-Alpes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Provence-Alpes-Côte d'Azur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Corse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "975",
+            "display": "Saint-Pierre-et-Miquelon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "977",
+            "display": "Saint-Barthélemy",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "978",
+            "display": "Saint-Martin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "984",
+            "display": "Terres australes françaises",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "986",
+            "display": "Wallis-et-Futuna",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "987",
+            "display": "Polynésie française",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "988",
+            "display": "Nouvelle-Calédonie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "989",
+            "display": "Ile de Clipperton",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          },
+          {
+            "code": "99138",
+            "display": "Monaco",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.25"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

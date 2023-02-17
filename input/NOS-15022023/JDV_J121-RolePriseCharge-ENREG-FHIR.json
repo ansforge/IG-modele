@@ -1,0 +1,248 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J121-RolePriseCharge-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-06-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.200"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "JDV_J121-RolePriseCharge-ENREG",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Code des rôles et fonctions pour l'application ENREG",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "concept": [
+          {
+            "code": "312",
+            "display": "Autre professionnel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "313",
+            "display": "Aide-soignant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "314",
+            "display": "Ambulancier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "315",
+            "display": "Auxiliaire de puériculture",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "316",
+            "display": "Préparateur en pharmacie hospitalière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "317",
+            "display": "Préparateur en pharmacie (officine)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "318",
+            "display": "Auxiliaire de vie sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "319",
+            "display": "Technicien de l'intervention sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "320",
+            "display": "Conseiller en économie sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "321",
+            "display": "Médiateur familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "322",
+            "display": "Assistant familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "323",
+            "display": "Aide médico-psychologique (AMP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "324",
+            "display": "Moniteur éducateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "325",
+            "display": "Educateur de jeunes enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "326",
+            "display": "Educateur spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "327",
+            "display": "Educateur technique spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "328",
+            "display": "Accompagnant éducatif et social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "329",
+            "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

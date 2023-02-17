@@ -1,0 +1,212 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J87-NiveauFormAcquis-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J87-NiveauFormAcquis-RASS/FHIR/JDV-J87-NiveauFormAcquis-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.155"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J87-NiveauFormAcquis-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Niveau de formation acquis dans le cycle de formation des professionnels du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis",
+        "concept": [
+          {
+            "code": "A06",
+            "display": "6ième année validée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "A07",
+            "display": "7ième année validée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "A08",
+            "display": "8ième année validée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "A09",
+            "display": "9ième année validée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "C02",
+            "display": "2ième cycle validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S01",
+            "display": "1er semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S02",
+            "display": "2ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S03",
+            "display": "3ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S04",
+            "display": "4ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S05",
+            "display": "5ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S06",
+            "display": "6ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S07",
+            "display": "7ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S08",
+            "display": "8ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S09",
+            "display": "9ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          },
+          {
+            "code": "S10",
+            "display": "10ième semestre internat validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

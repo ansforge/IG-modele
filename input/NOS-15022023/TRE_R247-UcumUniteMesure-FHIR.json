@@ -1,0 +1,418 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R247-UcumUniteMesure",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-10-13T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R247-UcumUniteMesure/FHIR/TRE-R247-UcumUniteMesure",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.6.8"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_R247-UcumUniteMesure",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "UCUM - Unité de mesure",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "a",
+      "display": "année",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "année"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "année"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "mo",
+      "display": "mois",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "mois"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "mois"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "wk",
+      "display": "semaine",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "semaine"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "semaine"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "d",
+      "display": "jour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "jour"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "jour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "h",
+      "display": "heure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "heure"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "heure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "min",
+      "display": "minute",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "minute"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "minute"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "s",
+      "display": "seconde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "seconde"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "seconde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ms",
+      "display": "milliseconde",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "milliseconde"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "milliseconde"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "m",
+      "display": "mètre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "mètre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "mètre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "mg/dL",
+      "display": "milligramme par décilitre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "milligramme par décilitre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "milligramme par décilitre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "%",
+      "display": "pourcentage",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "pourcentage"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "pourcentage"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "g/L",
+      "display": "gramme par litre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "gramme par litre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "gramme par litre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-06-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "cm",
+      "display": "centimètre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "cm"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "centimètre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "kg",
+      "display": "kilogramme",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "kg"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "kilogramme"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

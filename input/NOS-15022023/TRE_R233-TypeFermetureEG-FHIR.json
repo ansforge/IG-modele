@@ -1,0 +1,187 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R233-TypeFermetureEG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-07-07T10:00:00+01:00",
+        "end": "2019-01-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R233-TypeFermetureEG/FHIR/TRE-R233-TypeFermetureEG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.121"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R233-TypeFermetureEG",
+  "status": "retired",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Type de fermeture de l'entité géographique FINESS",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "CHP",
+      "display": "Sortie du champ FINESS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Sortie du champ FINESS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Sortie du champ FINESS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DEF",
+      "display": "Définitive",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Définitive"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Définitive"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EML",
+      "display": "Ancienne autorisation fonctionnement EML",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Anc autor fonct EML"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ancienne autorisation fonctionnement EML"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ERR",
+      "display": "Erreur",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Erreur"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Erreur"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRO",
+      "display": "Provisoire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Provisoire"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Provisoire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-07-07T10:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-01-25T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

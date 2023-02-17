@@ -1,0 +1,71 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-A13-TypeEvenement-FluxStandardise",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": false
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_A13-TypeEvenement-FluxStandardise/FHIR/ASS-A13-TypeEvenement-FluxStandardise",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.339"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "ASS_A13-TypeEvenement-FluxStandardise",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Correspondance entre un type d'évènement et le flux standardisé correspondant",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement/FHIR/TRE-R254-TypeEvenement",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise",
+      "element": [
+        {
+          "code": "DOC",
+          "target": [
+            {
+              "code": "ITI42-RQ",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ADM",
+          "target": [
+            {
+              "code": "ITI31-A01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SOR",
+          "target": [
+            {
+              "code": "ITI31-A03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "NOT",
+          "target": [
+            {
+              "code": "CREATION-NOTE",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

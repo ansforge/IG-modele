@@ -1,0 +1,502 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R307-NCIT",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+  "identifier": [
+    {
+      "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+    }
+  ],
+  "version": "20210528120000",
+  "name": "TRE_R307-NCIT",
+  "status": "active",
+  "date": "2021-05-28T12:00:00+01:00",
+  "description": "National Cancer Institute (NCI) Thesaurus",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "C81261",
+      "display": "Mètre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Mètre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Mètre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C138178",
+      "display": "Toise",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Toise"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Toise"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C49676",
+      "display": "Estimation sans matériel (prise du pouls)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Estimation sans matériel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Estimation sans matériel (prise du pouls)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C153216",
+      "display": "Objet connecté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Objet connecté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Objet connecté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-05-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C69319",
+      "display": "Tensiomètre automatique avec brassard adapté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tensiomètre automatique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tensiomètre automatique avec brassard adapté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C69318",
+      "display": "Tensiomètre manuel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Tensiomètre manuel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Tensiomètre manuel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C17610",
+      "display": "Prise de sang",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prise de sang"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prise de sang"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C159776",
+      "display": "Capteur de glucose",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Capteur de glucose"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Capteur de glucose"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C88165",
+      "display": "Podomètre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Podomètre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Podomètre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C156877",
+      "display": "Application smartphone",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Application smartphone"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Application smartphone"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C21082",
+      "display": "Échelle numérique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Échelle numérique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Échelle numérique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C121547",
+      "display": "Échelle visuelle analogique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Échelle visuelle analogique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Échelle visuelle analogique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C21133",
+      "display": "Échelle verbale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Échelle verbale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Échelle verbale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C25228",
+      "display": "Droit",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Droit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Droit"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C25229",
+      "display": "Gauche",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gauche"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gauche"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C13332",
+      "display": "Bilatéral",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Bilatéral"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Bilatéral"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-04-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MED-969",
+      "display": "Glucose interstitiel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Glucose interstitiel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Glucose interstitiel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-05-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-05-28T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

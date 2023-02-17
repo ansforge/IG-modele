@@ -1,0 +1,140 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J169-MotifFinActivite-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-06-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J169-MotifFinActivite-EPARS/FHIR/JDV-J169-MotifFinActivite-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.230"
+    }
+  ],
+  "version": "20210625120000",
+  "name": "JDV_J169-MotifFinActivite-EPARS",
+  "status": "active",
+  "date": "2021-06-25T12:00:00+01:00",
+  "description": "Motifs de fin d'activités pour EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+        "concept": [
+          {
+            "code": "AUT",
+            "display": "Autre motif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "CHA",
+            "display": "Changement d'activité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "CHL",
+            "display": "Changement de lieu d'exercice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "CHP",
+            "display": "Changement de profession",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "DCD",
+            "display": "Décès",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "ETR",
+            "display": "Départ à l'étranger",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "RH",
+            "display": "Retraite hospitalière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "RL",
+            "display": "Retraite libérale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          },
+          {
+            "code": "RS",
+            "display": "Retraite salariée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R269-AvailabilityStatusProvenanceOasis",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-06-29T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.341"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R269-AvailabilityStatusProvenanceOasis",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Statut de l'objet provenant de la norme Oasis",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
+      "display": "Version à jour",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Approuvé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Version à jour"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated",
+      "display": "Version obsolète",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Obsolète"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Version obsolète"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-06-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

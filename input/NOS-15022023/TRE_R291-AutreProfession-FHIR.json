@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R291-AutreProfession",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-07-05T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.140"
+    }
+  ],
+  "version": "20200529120000",
+  "name": "TRE_R291-AutreProfession",
+  "status": "active",
+  "date": "2020-05-29T12:00:00+01:00",
+  "description": "Liste de professionnels non membres d'une profession réglementée",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "950",
+      "display": "Acteur caractérisé par son rôle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Acteur caractérisé par rôle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Acteur caractérisé par son rôle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "99",
+      "display": "Acteur caractérisé par son rôle",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Acteur caractérisé par rôle"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Acteur caractérisé par son rôle"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2019-07-05T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-05-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

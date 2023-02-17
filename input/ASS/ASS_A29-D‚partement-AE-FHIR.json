@@ -1,0 +1,962 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-A29-Département-AE",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-02-25T12:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": false
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_A29-Département-AE/FHIR/ASS-A29-Département-AE",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.242"
+    }
+  ],
+  "version": "20220225120000",
+  "name": "ASS_A29-Département-AE",
+  "status": "active",
+  "date": "2022-02-25T12:00:00+01:00",
+  "description": "Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
+      "element": [
+        {
+          "code": "01",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "target": [
+            {
+              "code": "ARS-32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "ARS-93",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "05",
+          "target": [
+            {
+              "code": "ARS-93",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "06",
+          "target": [
+            {
+              "code": "ARS-93",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "08",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "09",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "12",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "13",
+          "target": [
+            {
+              "code": "ARS-93",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "14",
+          "target": [
+            {
+              "code": "ARS-28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "16",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "17",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "target": [
+            {
+              "code": "ARS-24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "19",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "2A",
+          "target": [
+            {
+              "code": "ARS-94",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "2B",
+          "target": [
+            {
+              "code": "ARS-94",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "21",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "22",
+          "target": [
+            {
+              "code": "ARS-53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "23",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "24",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "25",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "26",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "27",
+          "target": [
+            {
+              "code": "ARS-28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "28",
+          "target": [
+            {
+              "code": "ARS-24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "29",
+          "target": [
+            {
+              "code": "ARS-53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "30",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "31",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "32",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "33",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "34",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "35",
+          "target": [
+            {
+              "code": "ARS-53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "36",
+          "target": [
+            {
+              "code": "ARS-24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "37",
+          "target": [
+            {
+              "code": "ARS-24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "38",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "39",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "40",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "41",
+          "target": [
+            {
+              "code": "ARS-24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "42",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "43",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "44",
+          "target": [
+            {
+              "code": "ARS-52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "45",
+          "target": [
+            {
+              "code": "ARS-24",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "46",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "47",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "48",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "49",
+          "target": [
+            {
+              "code": "ARS-52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "50",
+          "target": [
+            {
+              "code": "ARS-28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "51",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "52",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "53",
+          "target": [
+            {
+              "code": "ARS-52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "54",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "55",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "56",
+          "target": [
+            {
+              "code": "ARS-53",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "57",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "58",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "59",
+          "target": [
+            {
+              "code": "ARS-32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "60",
+          "target": [
+            {
+              "code": "ARS-32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "61",
+          "target": [
+            {
+              "code": "ARS-28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "62",
+          "target": [
+            {
+              "code": "ARS-32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "63",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "64",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "65",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "66",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "67",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "68",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "69",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "70",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "71",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "72",
+          "target": [
+            {
+              "code": "ARS-52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "73",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "74",
+          "target": [
+            {
+              "code": "ARS-84",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "75",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "76",
+          "target": [
+            {
+              "code": "ARS-28",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "77",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "78",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "79",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "80",
+          "target": [
+            {
+              "code": "ARS-32",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "81",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "82",
+          "target": [
+            {
+              "code": "ARS-76",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "83",
+          "target": [
+            {
+              "code": "ARS-93",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "84",
+          "target": [
+            {
+              "code": "ARS-93",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "85",
+          "target": [
+            {
+              "code": "ARS-52",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "86",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "87",
+          "target": [
+            {
+              "code": "ARS-75",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "88",
+          "target": [
+            {
+              "code": "ARS-41",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "89",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90",
+          "target": [
+            {
+              "code": "ARS-27",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "92",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "93",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "94",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "95",
+          "target": [
+            {
+              "code": "ARS-11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "971",
+          "target": [
+            {
+              "code": "ARS-01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "972",
+          "target": [
+            {
+              "code": "ARS-02",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "973",
+          "target": [
+            {
+              "code": "ARS-03",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "974",
+          "target": [
+            {
+              "code": "ARS-04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "976",
+          "target": [
+            {
+              "code": "ARS-04",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "977",
+          "target": [
+            {
+              "code": "ARS-01",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "978",
+          "target": [
+            {
+              "code": "ARS-01",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

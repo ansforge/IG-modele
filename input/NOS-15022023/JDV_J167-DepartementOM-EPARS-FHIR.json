@@ -1,0 +1,1352 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J167-DepartementOM-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-06-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J167-DepartementOM-EPARS/FHIR/JDV-J167-DepartementOM-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.228"
+    }
+  ],
+  "version": "20220225120000",
+  "name": "JDV_J167-DepartementOM-EPARS",
+  "status": "active",
+  "date": "2022-02-25T12:00:00+01:00",
+  "description": "Département pour saisie dans EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Ain",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Aisne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Allier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Alpes-de-Haute-Provence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Hautes-Alpes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "06",
+            "display": "Alpes-Maritimes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "07",
+            "display": "Ardèche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "08",
+            "display": "Ardennes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "09",
+            "display": "Ariège",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Aube",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Aude",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Aveyron",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Bouches-du-Rhône",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "Calvados",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "15",
+            "display": "Cantal",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "16",
+            "display": "Charente",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "17",
+            "display": "Charente-Maritime",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "18",
+            "display": "Cher",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "19",
+            "display": "Corrèze",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "2A",
+            "display": "Corse-du-Sud",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "2B",
+            "display": "Haute-Corse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Côte-d'Or",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "Côtes-d'Armor",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "23",
+            "display": "Creuse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "Dordogne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "25",
+            "display": "Doubs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Drôme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "27",
+            "display": "Eure",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Eure-et-Loir",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "29",
+            "display": "Finistère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "30",
+            "display": "Gard",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "31",
+            "display": "Haute-Garonne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "32",
+            "display": "Gers",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "33",
+            "display": "Gironde",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "34",
+            "display": "Hérault",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "35",
+            "display": "Ille-et-Vilaine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "36",
+            "display": "Indre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "37",
+            "display": "Indre-et-Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "38",
+            "display": "Isère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "39",
+            "display": "Jura",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Landes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "41",
+            "display": "Loir-et-Cher",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Haute-Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Loire-Atlantique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Loiret",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "46",
+            "display": "Lot",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Lot-et-Garonne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "Lozère",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "49",
+            "display": "Maine-et-Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Manche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Marne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Haute-Marne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "Mayenne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "54",
+            "display": "Meurthe-et-Moselle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "55",
+            "display": "Meuse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "56",
+            "display": "Morbihan",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "57",
+            "display": "Moselle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "58",
+            "display": "Nièvre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "59",
+            "display": "Nord",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Oise",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "61",
+            "display": "Orne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "62",
+            "display": "Pas-de-Calais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "63",
+            "display": "Puy-de-Dôme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "64",
+            "display": "Pyrénées-Atlantiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "65",
+            "display": "Hautes-Pyrénées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "66",
+            "display": "Pyrénées-Orientales",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "67",
+            "display": "Bas-Rhin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "68",
+            "display": "Haut-Rhin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "69",
+            "display": "Rhône",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Haute-Saône",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "71",
+            "display": "Saône-et-Loire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Sarthe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "Savoie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "74",
+            "display": "Haute-Savoie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "75",
+            "display": "Paris",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "76",
+            "display": "Seine-Maritime",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "77",
+            "display": "Seine-et-Marne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "78",
+            "display": "Yvelines",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "79",
+            "display": "Deux-Sèvres",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Somme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Tarn",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Tarn-et-Garonne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Var",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Vaucluse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Vendée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Vienne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "87",
+            "display": "Haute-Vienne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "88",
+            "display": "Vosges",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "89",
+            "display": "Yonne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "90",
+            "display": "Territoire de Belfort",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Essonne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Hauts-de-Seine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Seine-Saint-Denis",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Val-de-Marne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Val d'Oise",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "971",
+            "display": "Guadeloupe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "972",
+            "display": "Martinique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "973",
+            "display": "Guyane",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "974",
+            "display": "Réunion",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "975",
+            "display": "Saint Pierre et Miquelon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "976",
+            "display": "Mayotte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "977",
+            "display": "Saint-Barthélemy",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "978",
+            "display": "Saint-Martin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "984",
+            "display": "Terres australes françaises",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "986",
+            "display": "Wallis-et-Futuna",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "987",
+            "display": "Polynésie française",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "988",
+            "display": "Nouvelle-Calédonie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "989",
+            "display": "Ile de Clipperton",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          },
+          {
+            "code": "99138",
+            "display": "Monaco",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.16"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

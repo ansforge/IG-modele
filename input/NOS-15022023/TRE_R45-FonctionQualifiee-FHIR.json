@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R45-FonctionQualifiee",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R45-FonctionQualifiee/FHIR/TRE-R45-FonctionQualifiee",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.35"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R45-FonctionQualifiee",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Fonction qualifiée",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "FQ01",
+      "display": "Expérience pratique art R.5124-16 du CSP Fabricant (FQ)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expér prat R.5124-16 Fabricant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expérience pratique art R.5124-16 du CSP Fabricant (FQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FQ02",
+      "display": "Expérience pratique art R.5124-16 du CSP Exploitant (FQ)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expér prat R.5124-16 Exploit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expérience pratique art R.5124-16 du CSP Exploitant (FQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FQ03",
+      "display": "Expérience pratique art R.5124-16 du CSP Thérapie cellulaire (FQ)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expér prat R.5124-16 Thér cel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expérience pratique art R.5124-16 du CSP Thérapie cellulaire (FQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FQ04",
+      "display": "Expérience pratique art R.5124-18 du CSP Pharmacie (FQ)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expér prat R.5124-18 Pharmacie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expérience pratique art R.5124-18 du CSP Pharmacie (FQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FQ05",
+      "display": "Expérience pratique art R.5141-129 du CSP Autovaccins (FQ)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Expér prat R.5141-129 Autovac"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Expérience pratique art R.5141-129 du CSP Autovaccins (FQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-07-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R261-AutreSalarieStructureSante",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2018-03-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R261-AutreSalarieStructureSante/FHIR/TRE-R261-AutreSalarieStructureSante",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.122"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R261-AutreSalarieStructureSante",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Autre salariés d'une structure de santé",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "900",
+      "display": "Autre salarie de la structure sociale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre salarie structSociale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre salarie de la structure sociale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "901",
+      "display": "Autre salarie de la structure du domaine sanitaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre salarie structDomSanit"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre salarie de la structure du domaine sanitaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-03-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2019-03-29T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

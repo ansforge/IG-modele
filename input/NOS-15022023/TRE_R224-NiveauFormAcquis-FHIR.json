@@ -1,0 +1,446 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R224-NiveauFormAcquis",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2017-03-22T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.116"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R224-NiveauFormAcquis",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Niveaux de formation acquis dans le cycle de formation des étudiants",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "A06",
+      "display": "6ième année validée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A06 validée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "6ième année validée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A07",
+      "display": "7ième année validée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A07 validée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "7ième année validée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A08",
+      "display": "8ième année validée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A08 validée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "8ième année validée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "A09",
+      "display": "9ième année validée",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "A09 validée"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "9ième année validée"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "display": "2ième cycle validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cycle 2 validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "2ième cycle validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S01",
+      "display": "1er semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S01 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "1er semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S02",
+      "display": "2ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S02 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "2ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S03",
+      "display": "3ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S03 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "3ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S04",
+      "display": "4ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S04 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "4ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S05",
+      "display": "5ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S05 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "5ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S06",
+      "display": "6ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S06 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "6ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S07",
+      "display": "7ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S07 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "7ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S08",
+      "display": "8ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S08 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "8ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S09",
+      "display": "9ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S09 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "9ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "S10",
+      "display": "10ième semestre internat validé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "S10 internat validé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "10ième semestre internat validé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-03-22T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

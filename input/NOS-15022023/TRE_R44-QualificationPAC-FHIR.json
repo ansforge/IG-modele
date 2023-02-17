@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R44-QualificationPAC",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2013-06-28T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.2.34"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "TRE_R44-QualificationPAC",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Qualification de praticien adjoint contractuel",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "PAC00",
+      "display": "Qualification Praticien adjoint contractuel (PAC)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Qualification PAC"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Qualification Praticien adjoint contractuel (PAC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2007-09-26T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

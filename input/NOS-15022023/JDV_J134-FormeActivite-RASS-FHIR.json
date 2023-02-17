@@ -1,0 +1,488 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J134-FormeActivite-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J134-FormeActivite-RASS/FHIR/JDV-J134-FormeActivite-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.220"
+    }
+  ],
+  "version": "20201127120000",
+  "name": "JDV_J134-FormeActivite-RASS",
+  "status": "active",
+  "date": "2020-11-27T12:00:00+01:00",
+  "description": "Type d'organisation de prise en charge du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+        "concept": [
+          {
+            "code": "00",
+            "display": "Pas de forme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "01",
+            "display": "Hospitalisation complète (24 heures consécutives ou plus)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Hospitalisation à temps partiel de jour ou de nuit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Hospitalisation à temps partiel de jour",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Hospitalisation à temps partiel de nuit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Hospitalisation à domicile (au domicile du patient)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "06",
+            "display": "Anesthésie ambulatoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "07",
+            "display": "Chirurgie ambulatoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "08",
+            "display": "Consultation extérieure indifférenciée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "09",
+            "display": "Placement familial thérapeutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Appartement thérapeutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Saisonnier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "Non saisonnier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "15",
+            "display": "Forme non précisée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "20",
+            "display": "Personne décédée présentant un arrêt cardiaque et respiratoire persistant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Personne décédée assist par ventil mécanique avec une fonct hémodynamique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "Personne vivante",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "Centre correspondant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "25",
+            "display": "Centre de référence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "27",
+            "display": "Consultations gériatriques avancées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Equipe mobile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "30",
+            "display": "Centre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "31",
+            "display": "Centre ressources",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "32",
+            "display": "Centre spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "33",
+            "display": "CMP",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "34",
+            "display": "Consultations",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "35",
+            "display": "Consultations mémoire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "36",
+            "display": "Equipe de liaison",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "37",
+            "display": "H.A.D.",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "38",
+            "display": "Ligne d'astreinte PDSES Nuit totale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "39",
+            "display": "Ligne d'astreinte PDSES Première partie de nuit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Ligne de garde PDSES Nuit totale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "41",
+            "display": "Pôle d'évaluation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Unité d'hébergement renforcée (UHR)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Consultations d'évaluation pluri professionnelles post AVC",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Ligne de garde PDSES première partie de nuit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "Ligne d'astreinte PDSES Week-end et jours fériés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "49",
+            "display": "Ligne d'astreinte PDSES Première partie de nuit en semaine (Lundi au vendredi)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

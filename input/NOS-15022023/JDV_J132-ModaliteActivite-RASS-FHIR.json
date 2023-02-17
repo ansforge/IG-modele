@@ -1,0 +1,2180 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J132-ModaliteActivite-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.218"
+    }
+  ],
+  "version": "20220325120000",
+  "name": "JDV_J132-ModaliteActivite-RASS",
+  "status": "active",
+  "date": "2022-03-25T12:00:00+01:00",
+  "description": "Mode d'application ou type de soins encadrant une activité dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite",
+        "concept": [
+          {
+            "code": "00",
+            "display": "Pas de modalité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "01",
+            "display": "Gynécologie obstétrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Néonatologie sans soins intensifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Néonatologie avec soins intensifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Réanimation néonatale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Centre périnatal de proximité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "06",
+            "display": "Générale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "07",
+            "display": "Infanto-juvénile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "08",
+            "display": "En milieu pénitentiaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "09",
+            "display": "Adulte (age >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Poumon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Foie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Rein",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "SAMU Service d'aide médicale urgente",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "23",
+            "display": "SU Structure des urgences",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "SUP Structure des urgences pédiatriques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "SMUR Structure mobile d'urgence et de réanimation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "27",
+            "display": "SMURP Structure mobile d'urgence et de réanimation pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "29",
+            "display": "SMUR Antenne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "30",
+            "display": "USI Pneumologie Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "31",
+            "display": "Multi-organes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Hémodialyse en centre pour adultes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "41",
+            "display": "Hémodialyse en centre pour enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Hémodialyse en unité médicalisée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Hémodialyse en unité d'auto dialyse simple",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Hémodialyse en unité d'auto dialyse assistée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Hémodialyse à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "46",
+            "display": "Dialyse péritonéale à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "AMP clinique : prélèvement d'ovocytes en vue d'une AMP",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "AMP clinique : prélèvement d'ovocytes en vue d'un don",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "49",
+            "display": "AMP clinique : prélèvement de spermatozoïdes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "AMP clinique : transfert des embryons en vue de leur implantation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Bio : préparation et conservation du sperme pour insémination artificielle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "54",
+            "display": "AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "59",
+            "display": "AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "62",
+            "display": "DPN : Les examens en vue du diagnostic de maladies infectieuses",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "67",
+            "display": "Chimiothérapie ou autres traitements médicaux spécifiques du cancer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "68",
+            "display": "Radiothérapie externe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "69",
+            "display": "Chirurgie des cancers hors soumis à seuil",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Curiethérapie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "71",
+            "display": "Utilisation thérapeutique de radioéléments en sources non scellées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Unité de dialyse saisonnière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "AMP Clinique : mise en oeuvre de l'accueil des embryons",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "74",
+            "display": "AMP Bio : conservation des embryons en vue d'un projet parental",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "75",
+            "display": "AMP Bio : conservation à usage autologue des gamètes et tissus germinaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "76",
+            "display": "Adulte et pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "77",
+            "display": "Enfant (< de 6 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "78",
+            "display": "Juvénile (age >= 6 ans et < 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "79",
+            "display": "Pédiatrie - âges non différenciés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "AMP Bio : activité relative à la FIV avec ou sans micromanipulation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Actes électrophysio de rythmologie intervent, stimul multi sites et défibril",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Actes portant sur les autres cardiopathies de l'adulte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Analyses cytogénétique, y compris les analyses cytogénétique moléculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Analyses de génétique moléculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "87",
+            "display": "Fonctionnelle cérébrale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "88",
+            "display": "Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "89",
+            "display": "Radiothérapie externe dérogatoire éloignement géographique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "90",
+            "display": "Chirurgie des cancers : digestif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Chirurgie des cancers : sein",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Chirurgie des cancers : urologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Chirurgie des cancers : thorax",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Chirurgie des cancers : gynécologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Chirurgie des cancers : ORL et maxillo-faciale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "97",
+            "display": "Adulte (age >=18 ans) dérogatoire éloignement géographique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "98",
+            "display": "Pédiatrique spécialisée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "99",
+            "display": "Sans autre indication",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "AL",
+            "display": "DPN : Les examens de biochimie portant sur les marqueurs sériques maternels",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "AM",
+            "display": "DPN : Les examens de biochimie foetale à visée diagnostique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "AN",
+            "display": "DPN : Les examens de génétique moléculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "AP",
+            "display": "DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "AQ",
+            "display": "1ère administration à l'homme d'un médicament",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "AR",
+            "display": "1ère administration à l'homme autre que médicament",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B1",
+            "display": "Chirurgie orthopédique et traumatologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B2",
+            "display": "Chirurgie pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B3",
+            "display": "Clinique ouverte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B4",
+            "display": "Gériatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B5",
+            "display": "Grands brûlés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B7",
+            "display": "Grands brûlés - Adulte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B8",
+            "display": "Orthogénie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "B9",
+            "display": "Grands brûlés - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C2",
+            "display": "Adulte (âge >=18 ans) - Traitement dont chimiothérapie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C4",
+            "display": "Neurovasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C5",
+            "display": "Obstétrique - Anesthésie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C6",
+            "display": "Odontologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C7",
+            "display": "Pédiatrique - Traitement dont chimiothérapie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C8",
+            "display": "Pneumologie - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "C9",
+            "display": "Polytraumatismes graves et complexes multiples",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D2",
+            "display": "Réhabilitation et réinsertion psycho-sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D3",
+            "display": "S.O.S. mains",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D4",
+            "display": "Structure de sevrage niveau 2",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D5",
+            "display": "Structure de sevrage niveau 3",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D6",
+            "display": "Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D7",
+            "display": "Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D8",
+            "display": "Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge >= 18 ans )",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "D9",
+            "display": "Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E1",
+            "display": "Traitements médicaux - Autres traitements spécifiques - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E2",
+            "display": "Traitements médicaux - Autres traitements spécifiques - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E3",
+            "display": "Traitements médicaux - Endoscopies digestives interventionnelles - Adulte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E4",
+            "display": "Traumatismes cranio-cérébraux et médullaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E5",
+            "display": "Unité Cognitivo-Comportementale - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E7",
+            "display": "Unité d'Hébergement Renforcée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E8",
+            "display": "Unités de soins palliatifs à vocation régionale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "E9",
+            "display": "Urologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F1",
+            "display": "USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F2",
+            "display": "USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F3",
+            "display": "USI Dermato - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F5",
+            "display": "USI Hémato - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F6",
+            "display": "USI Hémato - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F7",
+            "display": "USI Hématologie avec système de traitement de l'air",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "F8",
+            "display": "USI hépato-gastro-entérologie - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "G1",
+            "display": "USI Maladie infectieuse - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "G3",
+            "display": "USI Néphrologie - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "G5",
+            "display": "USI Neuro - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "G6",
+            "display": "USI Neuro - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "G8",
+            "display": "Lit de Soins Intensifs - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "G9",
+            "display": "USI Oncologie - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "H1",
+            "display": "USI Oncologie- Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "H4",
+            "display": "USI Pneumologie - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "H5",
+            "display": "USI Urologie - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "H8",
+            "display": "Prise en charge Covid long",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "H9",
+            "display": "Vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M0",
+            "display": "Dépôt d'urgence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M1",
+            "display": "Dépôt de délivrance",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M2",
+            "display": "Dépôt relais",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M3",
+            "display": "A usage intérieur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M4",
+            "display": "A usage intérieur et extérieur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M5",
+            "display": "CSH moelle osseuse allogéniques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M6",
+            "display": "CSH moelle osseuse autologues",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M7",
+            "display": "CSH sang périphérique allogéniques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M8",
+            "display": "CSH sang périphérique autologues",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "M9",
+            "display": "CSH sang de cordon ou sang placentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N0",
+            "display": "Structure de sevrage niveau 2 ou 3",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N1",
+            "display": "Unité de soins palliatifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N2",
+            "display": "Lits identifiés (Médecine) - adulte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N3",
+            "display": "Lits identifiés (Médecine) - pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N4",
+            "display": "Equipe mobile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N5",
+            "display": "Unité de soins intensifs (hors cardiologie)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N6",
+            "display": "Unité de soins intensifs en cardiologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N7",
+            "display": "USC polyvalente - adulte (adossée à une unité de réanimation)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N8",
+            "display": "USC polyvalente - adulte (non adossée à une unité de réanimation)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "N9",
+            "display": "USC polyvalente - pédiatrique (adossée à une unité de réanimation)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P0",
+            "display": "USC polyvalente - pédiatrique (non adossée à une unité de réanimation)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P1",
+            "display": "USC spécialisée cancérologie- pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P2",
+            "display": "USC spécialisée transplantation d'organes - pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P3",
+            "display": "USC chirurgicale individualisée - pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P4",
+            "display": "A l'occasion d'un prélèvement multi-organes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P5",
+            "display": "Adulte (âge >=18 ans) - Traitement sans chimiothérapie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P6",
+            "display": "Anesthésie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P7",
+            "display": "Cardiologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P8",
+            "display": "Cardiologie interventionnelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "P9",
+            "display": "Centre de référence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U0",
+            "display": "Neurologie - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U1",
+            "display": "Chambre stérile en hématologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U2",
+            "display": "Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U3",
+            "display": "Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U4",
+            "display": "Chimiothérapie - Tumeurs solides - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U5",
+            "display": "Chirurgie cancer - Os et tissus mous - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U6",
+            "display": "Chirurgie cancer - Autres traitements spécifiques - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U8",
+            "display": "Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "U9",
+            "display": "Chirurgie cancer - Cancer Thyroïde - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V1",
+            "display": "Chirurgie cancer - Cancers cutanés - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V2",
+            "display": "Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V3",
+            "display": "Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V4",
+            "display": "Chirurgie cancer - Pathologies orthopédiques - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V5",
+            "display": "Chirurgie cancer - Pathologies viscérales - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V6",
+            "display": "Chirurgie cancer - Système nerveux central - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V7",
+            "display": "Chirurgie cancer - Système nerveux central - Adulte (âge >= 18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V8",
+            "display": "Chirurgie complexe de la main",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "V9",
+            "display": "Chirurgie digestive et viscérale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "W1",
+            "display": "Unité péri-opératoire gériatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "W2",
+            "display": "Lits identifiés (SSR) - adulte",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "W3",
+            "display": "Lits identifiés (SSR) - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "W4",
+            "display": "Lit de Soins Intensifs - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "W5",
+            "display": "USPC - Adulte (âge >=18 ans)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          },
+          {
+            "code": "W6",
+            "display": "USPC - Pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.127"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

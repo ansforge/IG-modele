@@ -1,0 +1,524 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J76-DisciplineAutorisation-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J76-DisciplineAutorisation-RASS/FHIR/JDV-J76-DisciplineAutorisation-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.144"
+    }
+  ],
+  "version": "20200424120000",
+  "name": "JDV_J76-DisciplineAutorisation-RASS",
+  "status": "active",
+  "date": "2020-04-24T12:00:00+01:00",
+  "description": "Discipline à laquelle l'autorisation d'exercice est restreinte dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R18-DisciplineAutorisation/FHIR/TRE-R18-DisciplineAutorisation",
+        "concept": [
+          {
+            "code": "DAUT01",
+            "display": "Biologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT02",
+            "display": "Chirurgie générale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT03",
+            "display": "Chirurgie infantile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT04",
+            "display": "Chirurgie maxillo-faciale et Stomatologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT05",
+            "display": "Chirurgie orthopédique et Traumatologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT06",
+            "display": "Chirurgie plastique, reconstructrice et esthétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT07",
+            "display": "Chirurgie thoracique et cardio-vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT08",
+            "display": "Chirurgie urologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT09",
+            "display": "Chirurgie vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT10",
+            "display": "Chirurgie viscérale et digestive",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT11",
+            "display": "Gynécologie-obstétrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT12",
+            "display": "Neurochirurgie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT13",
+            "display": "Ophtalmologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT14",
+            "display": "Oto-rhino-laryngologie et Chirurgie cervico-faciale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT15",
+            "display": "Anatomie et Cytologie pathologiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT16",
+            "display": "Anesthésie et Réanimation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT17",
+            "display": "Cardiologie et Maladies vasculaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT18",
+            "display": "Dermatologie et Vénéréologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT19",
+            "display": "Endocrinologie et Métabolisme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT20",
+            "display": "Gastro-entérologie et Hépatologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT21",
+            "display": "Génétique médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT22",
+            "display": "Gériatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT23",
+            "display": "Gynécologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT24",
+            "display": "Hématologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT25",
+            "display": "Médecine d'urgence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT26",
+            "display": "Médecine générale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT27",
+            "display": "Médecine interne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT28",
+            "display": "Médecine nucléaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT29",
+            "display": "Médecine physique et de réadaptation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT30",
+            "display": "Néphrologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT31",
+            "display": "Neurologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT32",
+            "display": "Oncologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT33",
+            "display": "Pédiatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT34",
+            "display": "Pneumologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT35",
+            "display": "Psychiatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT36",
+            "display": "Radiodiagnostic et Imagerie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT37",
+            "display": "Réanimation médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT38",
+            "display": "Rhumatologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT39",
+            "display": "Santé publique et Médecine sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT40",
+            "display": "Médecine du travail",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          },
+          {
+            "code": "DAUT41",
+            "display": "Stomatologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.67"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

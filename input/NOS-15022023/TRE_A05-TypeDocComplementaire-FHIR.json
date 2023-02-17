@@ -1,0 +1,1068 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-A05-TypeDocComplementaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2016-05-19T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+    }
+  ],
+  "version": "20230127120000",
+  "name": "TRE_A05-TypeDocComplementaire",
+  "status": "active",
+  "date": "2023-01-27T12:00:00+01:00",
+  "description": "Type de document en complément des nomenclatures internationales",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ATTEST-ASS-COMPL",
+      "display": "Attestation assurance complémentaire",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation assurance compl."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation assurance complémentaire"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTEST-HEBGT",
+      "display": "Attestation d'hébergement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation d'hébergement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation d'hébergement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTEST-RESID",
+      "display": "Attestation de résidence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation de résidence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation de résidence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ATTEST-VITALE",
+      "display": "Attestation de carte vitale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Attestation de carte vitale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Attestation de carte vitale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "AUTORIS-SOINS",
+      "display": "Autorisation de soins et actes non usuels sanitaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisation soins/actes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation de soins et actes non usuels sanitaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "BIL_AUTO",
+      "display": "CR de bilan d'évaluation de la perte d'autonomie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR bilan éval perte auto"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de bilan d'évaluation de la perte d'autonomie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Document réalisé par un médecin ou par certains auxiliaires médicaux décrivant la perte d'autonomie dans la vie quotidienne d'un patient, suivant différents axes."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CERT_DECL",
+      "display": "Certificat, déclaration",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certificat, déclaration"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certificat, déclaration"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Certificat : Document médical justificatif attestant de J48 de santé d'un patient et remis à celui-ci, à sa demande, par un médecin dans son domaine de compétence. Déclaration : Document à visée épidémiologique ou de prévention, établi à l'intention de l'autorité sanitaire et rédigé par tout médecin ayant fait le diagnostic d'une maladie à déclaration obligatoire listée au Code de la Santé Publique."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CONTACTS-URGENCE",
+      "display": "Fiche contacts d'urgence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Fiche contacts d'urgence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fiche contacts d'urgence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DISP_AUT",
+      "display": "Dispensation (autre)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Dispensation (autre)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Dispensation (autre)"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Document listant les produits, autres que des médicaments, ou les dispositifs dispensés au patient."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPPAT_1",
+      "display": "Volontés et droits du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Volontés droits patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Volontés et droits du patient"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Personnes à prévenir en cas d'urgence, personne de confiance, directives anticipées, don d'organe, don du corps, accès au dossier du patient par ses ayants droit."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPPAT_2",
+      "display": "Autre document du patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autre document du patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autre document du patient"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Informations personnelles saisies dans un éditeur de texte"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPPAT_3",
+      "display": "Directives anticipées",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Directives anticipées"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Directives anticipées"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2018-02-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "IMG-KOS",
+      "display": "Reference d'objets d'un examen d'imagerie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Reference d'objets d'un examen d'imagerie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Reference d'objets d'un examen d'imagerie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-03-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "INSCR_RCP",
+      "display": "Données d'inscription en RCP",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Données d'inscrip RCP"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Données d'inscription en RCP"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2017-10-13T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PROT_ALD",
+      "display": "Protocole de soins ALD",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Protocole de soins ALD"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Protocole de soins ALD"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Document établi par le médecin traitant pour une demande de prise en charge à 100 % concernant les soins et les traitements d'un patient, liés à une affection de longue durée (A.L.D.) exonérante. Le caractère exonérant nécessite un suivi de la maladie et des soins prolongés de plus de six mois et des traitements coûteux."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "REMB",
+      "display": "Données de remboursement",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Données de remboursement"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Données de remboursement"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SYNTH",
+      "display": "Synthèse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Synthèse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Synthèse"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Document réalisé par un professionnel de santé, résumant et mettant en évidence les éléments essentiels de l'état de santé et de la prise en charge médicale d'un patient, à un instant donné. Il peut s'agir d'une synthèse globale ou d'une synthèse centrée sur une pathologie."
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-05-19T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT01",
+      "display": "Synthèse déposée par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Synthèse dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Synthèse déposée par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT02",
+      "display": "Traitement ou document de soins déposé par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Trait / soins dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Traitement ou document de soins déposé par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT03",
+      "display": "CR déposé par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR déposé par le patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR déposé par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT04",
+      "display": "Imagerie déposée par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Imagerie dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Imagerie déposée par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT05",
+      "display": "CR de biologie déposé par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR bio dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de biologie déposé par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT06",
+      "display": "CR de prévention déposé par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "CR prévention dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "CR de prévention déposé par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT07",
+      "display": "Certificat déposé par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certif dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certificat déposé par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2020-12-17T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT08",
+      "display": "Profil médical Mon espace santé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Profil médical Mon espace sant"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Profil médical Mon espace santé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-09-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT09",
+      "display": "Document administratif déposé par le patient",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Doc. admin. dép. par patient"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document administratif déposé par le patient"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-10-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "DOCPAT10",
+      "display": "Autorisation de soins et actes non usuels sanitaires",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisation soins/actes"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisation de soins et actes non usuels sanitaires"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2022-04-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2022-06-24T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PIECE-IDENTITE",
+      "display": "Copie pièce d'identité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Copie pièce d'identité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Copie pièce d'identité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-01-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRESC-BIO",
+      "display": "Prescription d'actes de biologie médicale",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription biologie médicale"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription d'actes de biologie médicale"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription d'actes de biologie médicale"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRESC-KINE",
+      "display": "Prescription d'actes de kinésithérapie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription kinésithérapie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription d'actes de kinésithérapie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription d'actes de kinésithérapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRESC-INF",
+      "display": "Prescription d'actes infirmiers",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription actes infirmiers"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription d'actes infirmiers"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription d'actes infirmiers"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRESC-PEDI",
+      "display": "Prescription d'actes de pédicurie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription pédicurie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription d'actes de pédicurie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription d'actes de pédicurie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRESC-ORTHOPHO",
+      "display": "Prescription d'actes d'orthophonie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription orthophonie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription d'actes d'orthophonie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription d'actes d'orthophonie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PRESC-ORTHOPTIE",
+      "display": "Prescription d'actes d'orthoptie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription orthoptie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription d'actes d'orthoptie"
+        },
+        {
+          "use": {
+            "code": "DescriptionMetier"
+          },
+          "value": "Prescription d'actes d'orthoptie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2021-07-30T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

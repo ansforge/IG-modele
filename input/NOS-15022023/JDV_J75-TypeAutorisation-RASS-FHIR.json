@@ -1,0 +1,272 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J75-TypeAutorisation-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2019-08-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.143"
+    }
+  ],
+  "version": "20211029120000",
+  "name": "JDV_J75-TypeAutorisation-RASS",
+  "status": "active",
+  "date": "2021-10-29T12:00:00+01:00",
+  "description": "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+        "concept": [
+          {
+            "code": "AM00",
+            "display": "Autre type d'autorisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM01",
+            "display": "Autorisation ministérielle de plein exercice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM02",
+            "display": "Autorisation ministérielle d'exercice en qualité de PAC",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM03",
+            "display": "Autorisation d'exercice limité à un seul hôpital",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM04",
+            "display": "Autorisation Propharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM05",
+            "display": "Directeur de laboratoire (scientifique, médecin, pharmacien)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM08",
+            "display": "Pays avec convention inter-état",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM09",
+            "display": "Code de la santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM10",
+            "display": "Traité de Rome",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM11",
+            "display": "Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM12",
+            "display": "Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM13",
+            "display": "Hôpital Américain exclusivement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM14",
+            "display": "Arrangement France-Québec (art L 4111-3-1 CSP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM15",
+            "display": "Article L 4131-1-1 du CSP",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM16",
+            "display": "Arabie Saoudite décret n°2012-1123 du 03-10-2012",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM17",
+            "display": "Emirats Arabes Unis décret n°2012-863 du 5-07-2012",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AMGP",
+            "display": "En cours de validation au Guichet principal",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM18",
+            "display": "Autorisation de l'Agence régionale de santé (ARS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM20",
+            "display": "Autorisation de la Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM21",
+            "display": "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

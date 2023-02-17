@@ -1,0 +1,1925 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ASS-X13-AgregatClientele",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-06-26T12:00:00+01:00"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean": false
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.194"
+    }
+  ],
+  "version": "20211126120000",
+  "name": "ASS_X13-AgregatClientele",
+  "status": "active",
+  "date": "2021-11-26T12:00:00+01:00",
+  "description": "Association d'agrégats de clientèle",
+  "group": [
+    {
+      "source": "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2",
+      "target": "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3",
+      "element": [
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "010"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "011"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "020"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "030"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "437"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "438"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "999"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "110"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "113"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "114"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "115"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "116"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "118"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "121"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "125"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "128"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "200"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "201"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "202"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "203"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "204"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "205"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "206"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "207"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1500",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "410"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1500",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "411"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1500",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "412"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1500",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "413"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1500",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "414"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1500",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "420"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1600",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1600",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "501"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1600",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "502"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1600",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "503"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1600",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "506"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1700",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "310"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1700",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "311"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1700",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "312"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1700",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "313"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1700",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "317"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1700",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "318"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1800",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "320"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1800",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "321"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1800",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "322"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1800",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "323"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1800",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1800",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "327"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1900",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "510"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1900",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "511"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1900",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "512"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "701"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "702"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "703"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "704"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "707"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "710"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2000",
+          "target": [
+            {
+              "code": "2100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "711"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "800"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "801"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "802"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "803"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "804"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "805"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3000",
+          "target": [
+            {
+              "code": "3100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "806"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "4000",
+          "target": [
+            {
+              "code": "4100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "808"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "4000",
+          "target": [
+            {
+              "code": "4100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "809"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "810"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "811"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "812"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "815"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "816"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "817"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "818"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "819"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "820"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "831"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "832"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "836"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "840"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "899"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "821"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "822"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "824"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "829"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "830"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "835"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "807"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "860"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "861"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5000",
+          "target": [
+            {
+              "code": "5300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "862"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "823"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "825"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "826"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "828"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "833"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "834"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "040"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "041"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "042"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6000",
+          "target": [
+            {
+              "code": "6200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "043"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "7000",
+          "target": [
+            {
+              "code": "7100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "990"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "601"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "602"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8200",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "620"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "431"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "432"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "433"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "434"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "435"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "436"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "439"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8300",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "440"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8400",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "813"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8400",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "814"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8400",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "850"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8400",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "851"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8400",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "852"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8000",
+          "target": [
+            {
+              "code": "8400",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "853"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

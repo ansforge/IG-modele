@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J125-MotifRejet-ENREG",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J125-MotifRejet-ENREG/FHIR/JDV-J125-MotifRejet-ENREG",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.210"
+    }
+  ],
+  "version": "20201127120000",
+  "name": "JDV_J125-MotifRejet-ENREG",
+  "status": "active",
+  "date": "2020-11-27T12:00:00+01:00",
+  "description": "Code des motifs de refus d'une demande d'enregistrement pour l'application ENREG",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+        "concept": [
+          {
+            "code": "AUT",
+            "display": "Autre motif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.70"
+              }
+            ]
+          },
+          {
+            "code": "CHA",
+            "display": "Changement d'activité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.70"
+              }
+            ]
+          },
+          {
+            "code": "def",
+            "display": "Rejet par votre gestionnaire d'autorité d'enregistrement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

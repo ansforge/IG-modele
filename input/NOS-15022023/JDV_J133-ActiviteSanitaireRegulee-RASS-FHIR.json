@@ -1,0 +1,824 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J133-ActiviteSanitaireRegulee-RASS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-11-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.219"
+    }
+  ],
+  "version": "20201127120000",
+  "name": "JDV_J133-ActiviteSanitaireRegulee-RASS",
+  "status": "active",
+  "date": "2020-11-27T12:00:00+01:00",
+  "description": "Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Médecine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Chirurgie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Gynécologie, obstétrique, néonatologie, réanimation néonatale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Psychiatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "07",
+            "display": "Soins de longue durée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "09",
+            "display": "Traitement des grands brûlés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Chirurgie cardiaque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Activités interventionnelles sous imagerie méd, voie endovasculaire, cardio",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Neurochirurgie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Activités interventionnelles sous imagerie méd, voie endovasculaire, neurorad",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "Médecine d'urgence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "15",
+            "display": "Réanimation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "16",
+            "display": "Traitement de l'insuffisance rénale chronique par épuration extrarénale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "17",
+            "display": "AMP DPN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "18",
+            "display": "Traitement du cancer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "19",
+            "display": "Exam carac géné d'une pers ou ident d'une pers par empreintes géné fins méd",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Soins de suite et de réadaptation non spécialisés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "SSR spécialisés - Affections de l'appareil locomoteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "SSR spécialisés - Affections du système nerveux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "SSR spécialisés - Affections cardio-vasculaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "54",
+            "display": "SSR spécialisés - Affections respiratoires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "55",
+            "display": "SSR spécialisés - Affections systèmes digestif, métabolique et endocrinien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "56",
+            "display": "SSR spécialisés - Affections onco-hématologiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "57",
+            "display": "SSR spécialisés - Affections des brulés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "58",
+            "display": "SSR spécialisés - Affections liées aux conduites addictives",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "59",
+            "display": "SSR spécialisés - Affections pers agée polypathologique, dép ou risque dép",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Greffe de rein",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Greffe de pancréas",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Greffe rein-pancréas",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Greffe de foie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Greffe d'intestin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Greffe de coeur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Greffe de poumon",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "87",
+            "display": "Greffe coeur-poumons",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "88",
+            "display": "Greffe de cellules hématopoïétiques allogreffe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A0",
+            "display": "Installation de chirurgie esthétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A1",
+            "display": "Dépôt de sang",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A2",
+            "display": "Lactarium",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A3",
+            "display": "Lieux de recherches impliquant la personne humaine",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A4",
+            "display": "Prélèvement de cellules hématopoïétiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A5",
+            "display": "Prélèvement d'organes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "A6",
+            "display": "Prélèvement de tissus",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R1",
+            "display": "Addictologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R2",
+            "display": "Infections ostéo-articulaires complexes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R3",
+            "display": "Plateau technique hautement spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R4",
+            "display": "Soins palliatifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R5",
+            "display": "Soins intensifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R6",
+            "display": "Unité Neuro-vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R7",
+            "display": "Surveillance continue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R8",
+            "display": "Centre de maladies rares",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "R9",
+            "display": "Etablissement associé cancéro - Traitement dont chimiothérapie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S1",
+            "display": "Prise en charge de la douleur chronique rebelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S2",
+            "display": "Prise en charge des patients atteints d'obésité sévère ou multi-compliquée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S3",
+            "display": "Prise en charge des personnes âgées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S4",
+            "display": "Soins de Rééducation Post-Réanimation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S5",
+            "display": "Soins de suite et de réadaptation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S6",
+            "display": "Structure spécifique d'hospitalisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "S7",
+            "display": "Prise en charge des patients atteints de sclérose en plaques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T0",
+            "display": "SSRS- EVC-EVP (lits Eveil de Coma-Etat Végétatif Persistant)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T1",
+            "display": "SSRS - Affections de la personne âgée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T2",
+            "display": "SSRS - Basse vision",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T3",
+            "display": "SSRS - Etablissement associé en cancéro",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T4",
+            "display": "SSRS - EVC EPR (Etat Végétatif Chronique Etat Pauci Relationnel)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T5",
+            "display": "SSRS - Lymphologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T6",
+            "display": "SSRS - Néphrologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          },
+          {
+            "code": "T8",
+            "display": "SSRS - Viroses chroniques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.126"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
