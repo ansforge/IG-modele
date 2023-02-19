@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="38e50213-f052-474c-adc2-fd69b283b02d"/>
+  <meta>
+    <lastUpdated value="2023-02-19T13:33:38.279+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS"/>
+    <resource>
+      <ValueSet>
+        <id value="TypeCarteVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-type-carte-code-system.html">Type de carte v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPA"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Personnel Autorisé</td>
+                <td>
+                  <div>
+                    <p>La carte d'un personnel autorisé (CDA/CPA)</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPE"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Personnel d'Etablissement</td>
+                <td>
+                  <div>
+                    <p>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPF"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Professionnel de Santé en Formation</td>
+                <td>
+                  <div>
+                    <p>La Carte de Professionnel de Santé en Formation (CPF).</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPS"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Professionnel de Santé</td>
+                <td>
+                  <div>
+                    <p>La Carte de Professionnel de Santé (CPS).</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS"/>
+        <version value="0.1.0"/>
+        <name value="TypeCarteVS"/>
+        <title value="Type Carte Value Set"/>
+        <status value="active"/>
+        <date value="2023-02-19T13:33:38+00:00"/>
+        <publisher value="ANS"/>
+        <contact>
+          <name value="ANS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://esante.gouv.fr"/>
+          </telecom>
+        </contact>
+        <description value="Type Carte Value Set."/>
+        <expansion>
+          <identifier value="urn:uuid:ba69c63c-3609-4a75-804b-10659c5099d3"/>
+          <timestamp value="2023-02-19T13:33:51+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPA"/>
+            <display value="Carte de Personnel Autorisé"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPE"/>
+            <display value="Carte de Personnel d'Etablissement"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPF"/>
+            <display value="Carte de Professionnel de Santé en Formation"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPS"/>
+            <display value="Carte de Professionnel de Santé"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender"/>
+    <resource>
+      <ValueSet>
+        <id value="ModifiedAdministrativeGender"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">AdministrativeGender v4.0.1 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-male"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Male</td>
+                <td>
+                  <div>
+                    <p>Male.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-female"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Female</td>
+                <td>
+                  <div>
+                    <p>Female.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-other"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Other</td>
+                <td>
+                  <div>
+                    <p>Other.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender"/>
+        <version value="0.1.0"/>
+        <name value="ModifiedAdministrativeGender"/>
+        <title value="ModifiedAdministrativeGender"/>
+        <status value="active"/>
+        <date value="2023-02-19T13:33:38+00:00"/>
+        <publisher value="ANS"/>
+        <contact>
+          <name value="ANS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://esante.gouv.fr"/>
+          </telecom>
+        </contact>
+        <description value="AdministrativeGender without unknown code"/>
+        <expansion>
+          <identifier value="urn:uuid:30c17c83-680a-4975-a262-0897b6832660"/>
+          <timestamp value="2023-02-19T13:33:51+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS"/>
+    <resource>
+      <ValueSet>
+        <id value="MeltingPotVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-type-carte-code-system.html">Type de carte v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>SNOMED CT International edition 31-Jul 2022</li>
+                <li>
+                  <a href="CodeSystem-competence-code-system.html">Compétences CodeSystem v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-405738005"> </a>  
+                  <a href="http://snomed.info/id/405738005">405738005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Blue color (qualifier value)</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-371254008"> </a>  
+                  <a href="http://snomed.info/id/371254008">371254008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brown color (qualifier value)</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-competence-code-system-C01"> </a>  
+                  <a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system</td>
+                <td>Anatomie et Cytologie pathologiques humaines</td>
+                <td>
+                  <div>
+                    <p>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPA"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Personnel Autorisé</td>
+                <td>
+                  <div>
+                    <p>La carte d'un personnel autorisé (CDA/CPA)</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPE"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Personnel d'Etablissement</td>
+                <td>
+                  <div>
+                    <p>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPF"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Professionnel de Santé en Formation</td>
+                <td>
+                  <div>
+                    <p>La Carte de Professionnel de Santé en Formation (CPF).</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPS"> </a>  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
+                </td>
+                <td>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td>
+                <td>Carte de Professionnel de Santé</td>
+                <td>
+                  <div>
+                    <p>La Carte de Professionnel de Santé (CPS).</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS"/>
+        <version value="0.1.0"/>
+        <name value="MeltingPotVS"/>
+        <title value="Melting Pot Value Set"/>
+        <status value="active"/>
+        <date value="2023-02-19T13:33:38+00:00"/>
+        <publisher value="ANS"/>
+        <contact>
+          <name value="ANS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://esante.gouv.fr"/>
+          </telecom>
+        </contact>
+        <description value="Melting Pot Value Set."/>
+        <expansion>
+          <identifier value="urn:uuid:ffd70d14-32c0-48cb-b3a4-35f767031d23"/>
+          <timestamp value="2023-02-19T13:33:53+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="405738005"/>
+            <display value="Blue color (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371254008"/>
+            <display value="Brown color (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system"/>
+            <code value="C01"/>
+            <display value="Anatomie et Cytologie pathologiques humaines"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPA"/>
+            <display value="Carte de Personnel Autorisé"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPE"/>
+            <display value="Carte de Personnel d'Etablissement"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPF"/>
+            <display value="Carte de Professionnel de Santé en Formation"/>
+          </contains>
+          <contains>
+            <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+            <code value="CPS"/>
+            <display value="Carte de Professionnel de Santé"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS"/>
+    <resource>
+      <ValueSet>
+        <id value="EyeColorVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-405738005"> </a>  
+                  <a href="http://snomed.info/id/405738005">405738005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Blue color</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-371254008"> </a>  
+                  <a href="http://snomed.info/id/371254008">371254008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brown color</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-54662009"> </a>  
+                  <a href="http://snomed.info/id/54662009">54662009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Green color</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS"/>
+        <version value="0.1.0"/>
+        <name value="EyeColorVS"/>
+        <title value="EyeColor Value Set"/>
+        <status value="active"/>
+        <date value="2023-02-19T13:33:38+00:00"/>
+        <publisher value="ANS"/>
+        <contact>
+          <name value="ANS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://esante.gouv.fr"/>
+          </telecom>
+        </contact>
+        <description value="Different eye colors."/>
+        <expansion>
+          <identifier value="urn:uuid:a63ff7fe-b556-4a87-a0c4-6a4088258046"/>
+          <timestamp value="2023-02-19T13:33:53+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="405738005"/>
+            <display value="Blue color"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371254008"/>
+            <display value="Brown color"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="54662009"/>
+            <display value="Green color"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

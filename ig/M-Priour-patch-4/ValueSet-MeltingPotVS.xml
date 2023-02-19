@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="MeltingPotVS"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/405738005">405738005</a></td><td>Blue color (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/371254008">371254008</a></td><td>Brown color (qualifier value)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-competence-code-system.html"><code>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a></td><td>Anatomie et Cytologie pathologiques humaines</td><td>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</td></tr></table></li><li>Include all codes defined in <a href="CodeSystem-type-carte-code-system.html"><code>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code></a></li></ul></div>
+  </text>
+  <url value="http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS"/>
+  <version value="0.1.0"/>
+  <name value="MeltingPotVS"/>
+  <title value="Melting Pot Value Set"/>
+  <status value="active"/>
+  <date value="2023-02-19T13:33:38+00:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Melting Pot Value Set."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="405738005"/>
+        <display value="Blue color (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371254008"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system"/>
+      <concept>
+        <code value="C01"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+    </include>
+  </compose>
+</ValueSet>

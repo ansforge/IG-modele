@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="type-carte-code-system"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">CPA<a name="type-carte-code-system-CPA"> </a></td><td>Carte de Personnel Autorisé</td><td>La carte d'un personnel autorisé (CDA/CPA)</td></tr><tr><td style="white-space:nowrap">CPE<a name="type-carte-code-system-CPE"> </a></td><td>Carte de Personnel d'Etablissement</td><td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td></tr><tr><td style="white-space:nowrap">CPF<a name="type-carte-code-system-CPF"> </a></td><td>Carte de Professionnel de Santé en Formation</td><td>La Carte de Professionnel de Santé en Formation (CPF).</td></tr><tr><td style="white-space:nowrap">CPS<a name="type-carte-code-system-CPS"> </a></td><td>Carte de Professionnel de Santé</td><td>La Carte de Professionnel de Santé (CPS).</td></tr></table></div>
+  </text>
+  <url value="http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"/>
+  <version value="0.1.0"/>
+  <name value="TypeCarteCS"/>
+  <title value="Type de carte"/>
+  <status value="active"/>
+  <date value="2023-02-19T13:33:38+00:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Type de carte professionnelle et personnelle."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="CPA"/>
+    <display value="Carte de Personnel Autorisé"/>
+    <definition value="La carte d'un personnel autorisé (CDA/CPA)"/>
+  </concept>
+  <concept>
+    <code value="CPE"/>
+    <display value="Carte de Personnel d'Etablissement"/>
+    <definition value="La Carte de Personnel d'Etablissement de santé (CDE/CPE)."/>
+  </concept>
+  <concept>
+    <code value="CPF"/>
+    <display value="Carte de Professionnel de Santé en Formation"/>
+    <definition value="La Carte de Professionnel de Santé en Formation (CPF)."/>
+  </concept>
+  <concept>
+    <code value="CPS"/>
+    <display value="Carte de Professionnel de Santé"/>
+    <definition value="La Carte de Professionnel de Santé (CPS)."/>
+  </concept>
+</CodeSystem>
