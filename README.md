@@ -14,5 +14,6 @@ FIG : FHIR Implementation Guide
 
 ## Notes
 Ce sample IG a été créé à partir du sample-ig fhir : https://github.com/FHIR/sample-ig.
+
 [A COMPLETER: notes supplémentaires pour le lecteur de la spec]
 Un commentaire ? Une remarque ? L'onglet [issue](https://docs.github.com/fr/issues) permet d'indiquer vos remarques
