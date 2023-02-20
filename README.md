@@ -8,15 +8,15 @@ Ceci est exemple d'ImplementationGuide très simplifié qui servira de base pour
 ## Contexte technique du projet
 [A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
 
+# Notes
+Ce sample IG a été créé à partir du sample-ig fhir : https://github.com/FHIR/sample-ig.
+
+[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
+Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) permet d'indiquer vos remarques.
+
 ## Acronymes
 IG : Implementation Guide
 FHIR : Fast Healthcare Interoperability Resources
 FIG : FHIR Implementation Guide
 HL7 : Health Level Seven
 [A COMPLETER: acronymes utilisés dans le cadre de ce projet]
-
-## Notes
-Ce sample IG a été créé à partir du sample-ig fhir : https://github.com/FHIR/sample-ig.
-
-[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
-Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) permet d'indiquer vos remarques.
