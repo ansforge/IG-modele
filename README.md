@@ -15,8 +15,10 @@ Ce sample IG a été créé à partir du sample-ig fhir : https://github.com/FHI
 Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) permet d'indiquer vos remarques.
 
 ## Acronymes
-IG : Implementation Guide
-FHIR : Fast Healthcare Interoperability Resources
-FIG : FHIR Implementation Guide
-HL7 : Health Level Seven
+
+* IG : Implementation Guide
+* FHIR : Fast Healthcare Interoperability Resources
+* FIG : FHIR Implementation Guide
+* HL7 : Health Level Seven
+
 [A COMPLETER: acronymes utilisés dans le cadre de ce projet]
