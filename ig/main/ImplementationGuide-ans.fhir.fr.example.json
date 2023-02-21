@@ -3,14 +3,14 @@
   "id" : "ans.fhir.fr.example",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/fr/example/ImplementationGuide/ans.fhir.fr.example</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example</pre></div>"
   },
-  "url" : "http://hl7.org/fhir/fr/example/ImplementationGuide/ans.fhir.fr.example",
+  "url" : "http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example",
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2023-02-13T15:18:20+00:00",
+  "date" : "2023-02-21T09:43:54+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -63,17 +63,6 @@
       {
         "url" : "value",
         "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/fr/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -151,6 +140,17 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://interop.esante.gouv.fr/ig/fhir/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,17 +344,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/fr/example/history.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "autoload-resources"
       },
       {
@@ -426,6 +415,17 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://interop.esante.gouv.fr/ig/fhir/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -625,10 +625,58 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/MeltingPotVS"
+      },
+      "name" : "Melting Pot Value Set",
+      "description" : "Melting Pot Value Set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/ModifiedAdministrativeGender"
       },
       "name" : "ModifiedAdministrativeGender",
       "description" : "AdministrativeGender without unknown code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TypeCarteVS"
+      },
+      "name" : "Type Carte Value Set",
+      "description" : "Type Carte Value Set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/competence-code-system"
+      },
+      "name" : "Compétences CodeSystem",
+      "description" : "Compétences des professionnels de santé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/type-carte-code-system"
+      },
+      "name" : "Type de carte",
+      "description" : "Type de carte professionnelle et personnelle.",
       "exampleBoolean" : false
     },
     {
@@ -641,7 +689,7 @@
       },
       "name" : "frpatient-exemple",
       "description" : "Exemple d'un patient français",
-      "exampleCanonical" : "http://hl7.org/fhir/fr/example/StructureDefinition/fr-patient"
+      "exampleCanonical" : "http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient"
     }],
     "page" : {
       "extension" : [{

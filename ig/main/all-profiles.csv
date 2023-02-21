@@ -1,4 +1,25 @@
 "Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"EyeColor","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Extension","Eye color extension","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+",""
+"EyeColor","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"EyeColor","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"EyeColor","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/EyeColor""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"EyeColor","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"","type:$this}
+","",,"closed","Extension.value[x]",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"EyeColor","Extension.value[x]:valueCodeableConcept","Extension.value[x]","valueCodeableConcept","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,"required","","http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS","",,,,"Extension.value[x]",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
 "fr-patient","Patient","Patient","","SubjectOfCare Client Resident
 ","",0,*,"","","","null {[]} {[]}
 ","Information about an individual or animal receiving health care services","Demographics and other administrative information about an individual or animal receiving care or other health-related services.","","","","","","","","","",,,,,"",,,,"Patient",0,*,"",""
@@ -30,7 +51,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"fr-patient","Patient.extension:eyecolor","Patient.extension","eyecolor","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/fr/example/StructureDefinition/EyeColor]]} {[]}
+"fr-patient","Patient.extension:eyecolor","Patient.extension","eyecolor","","",0,1,"Y","","","Extension {[CanonicalType[http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/EyeColor]]} {[]}
 ","Eye color of the patient","Eye color extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -103,7 +124,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 cpt-2:A system is required if a value is provided. {value.empty() or system.exists()}"
 "fr-patient","Patient.gender","Patient.gender","","","",0,1,"","","Y","code {[]} {[]}
-","male | female | other","Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.","The gender might not match the biological sex as determined by genetics or the individual's preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female.  Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.)  However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice.  Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects.  For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a ""hard"" error.  See the Patient Gender and Sex section for additional information about communicating patient gender and sex.","Needed for identification of the individual, in combination with (at least) name and birth date.","","","","","","","",,"required","","http://hl7.org/fhir/fr/example/ValueSet/ModifiedAdministrativeGender","",,,,"Patient.gender",0,1,"ele-1
+","male | female | other","Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.","The gender might not match the biological sex as determined by genetics or the individual's preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female.  Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.)  However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice.  Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects.  For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a ""hard"" error.  See the Patient Gender and Sex section for additional information about communicating patient gender and sex.","Needed for identification of the individual, in combination with (at least) name and birth date.","","","","","","","",,"required","","http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender","",,,,"Patient.gender",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-patient","Patient.birthDate","Patient.birthDate","","","",0,1,"","","Y","date {[]} {[]}
@@ -249,26 +270,5 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))}"
 "fr-patient","Patient.link.type","Patient.link.type","","","",1,1,"","","Y","code {[]} {[]}
 ","replaced-by | replaces | refer | seealso","The type of link between this patient resource and another patient resource.","Note that FHIR strings SHALL NOT exceed 1MB in size","","","","","","","","",,"required","The type of link between this patient resource and another patient resource.","http://hl7.org/fhir/ValueSet/link-type|4.0.1","",,,,"Patient.link.type",1,1,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
-"EyeColor","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
-","Extension","Eye color extension","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
-",""
-"EyeColor","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
-","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"EyeColor","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"EyeColor","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
-","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/fr/example/StructureDefinition/EyeColor""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
-"EyeColor","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"","type:$this}
-","",,"closed","Extension.value[x]",0,1,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
-"EyeColor","Extension.value[x]:valueCodeableConcept","Extension.value[x]","valueCodeableConcept","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,"required","","http://hl7.org/fhir/fr/example/ValueSet/EyeColorVS","",,,,"Extension.value[x]",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

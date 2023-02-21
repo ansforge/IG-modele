@@ -3,14 +3,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ans.fhir.fr.example"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/fr/example/ImplementationGuide/ans.fhir.fr.example</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example</pre></div>
   </text>
-  <url value="http://hl7.org/fhir/fr/example/ImplementationGuide/ans.fhir.fr.example"/>
+  <url value="http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example"/>
   <version value="0.1.0"/>
   <name value="ExampleIG"/>
   <title value="ANS IG Example"/>
   <status value="draft"/>
-  <date value="2023-02-13T15:18:20+00:00"/>
+  <date value="2023-02-21T09:43:54+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -53,14 +53,6 @@
       </extension>
       <extension url="value">
         <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/fr/example/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -117,6 +109,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://interop.esante.gouv.fr/ig/fhir/example/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -257,14 +257,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/fr/example/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -317,6 +309,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://interop.esante.gouv.fr/ig/fhir/example/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -469,10 +469,54 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/MeltingPotVS"/>
+      </reference>
+      <name value="Melting Pot Value Set"/>
+      <description value="Melting Pot Value Set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/ModifiedAdministrativeGender"/>
       </reference>
       <name value="ModifiedAdministrativeGender"/>
       <description value="AdministrativeGender without unknown code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TypeCarteVS"/>
+      </reference>
+      <name value="Type Carte Value Set"/>
+      <description value="Type Carte Value Set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/competence-code-system"/>
+      </reference>
+      <name value="Compétences CodeSystem"/>
+      <description value="Compétences des professionnels de santé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/type-carte-code-system"/>
+      </reference>
+      <name value="Type de carte"/>
+      <description value="Type de carte professionnelle et personnelle."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -484,7 +528,7 @@
       </reference>
       <name value="frpatient-exemple"/>
       <description value="Exemple d'un patient français"/>
-      <exampleCanonical value="http://hl7.org/fhir/fr/example/StructureDefinition/fr-patient"/>
+      <exampleCanonical value="http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

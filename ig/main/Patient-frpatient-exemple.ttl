@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/fr/example/Patient/frpatient-exemple> a fhir:Patient;
+<http://interop.esante.gouv.fr/ig/fhir/example/Patient/frpatient-exemple> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "frpatient-exemple"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/fr/example/StructureDefinition/fr-patient";
+       fhir:value "http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/fr/example/StructureDefinition/fr-patient>
+       fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient>
      ]
   ]; # 
   fhir:DomainResource.text [
@@ -37,9 +37,8 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/fr/example/Patient/frpatient-exemple.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/fr/example/Patient/frpatient-exemple.ttl> .
+<http://interop.esante.gouv.fr/ig/fhir/example/Patient/frpatient-exemple.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 
