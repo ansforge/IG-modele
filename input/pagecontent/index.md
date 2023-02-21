@@ -17,4 +17,4 @@ Les principales sections de l'IG  sont :
 
 | Role  | Nom | Organisation | Contact |
 | --- | --- | --- | --- |
-| **Primary Editor** | Nicolas Riss | Agence du Numérique en Santé | nicolas.riss@esante.gouv.fr |
+| **Primary Editor** | Prenom Nom | Agence du Numérique en Santé | prenom.nom@address.email |

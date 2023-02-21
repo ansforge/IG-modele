@@ -1,22 +1,25 @@
-# Description
-Ceci est exemple d'ImplementationGuide très simplifié qui servira de template pour les prochains développement d'IGs. Pour créer un nouvel IG, il suffit de forker ce document, puis de faire les modifications :
+Cet exemple d'Implementation Guide (IG) très simplifié sert de base pour le développement de nouveaux guides d'implémentation. La démarche d'élaboration d'un nouvel IG est expliquée dans le [wiki de ce repo](https://github.com/ansforge/FIG_ans-ig-sample/wiki). 
+Le README ci-dessous constitue un template à adapter et compléter pour chaque projet.
 
-1. Lors de la phase de mise en place :
-* sushi-config.yaml
-* package-list.json
-* ig.ini
+# Contexte
 
-2. Lors de la phase de documentation :
-* input/fsh (liste des profils, instances, extensions, ... générés avec la [grammaire FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/))
-* input/pagecontent (liste des pages contenant la docummentation narrative au format markdown.
+## Contexte métier du projet
+[A COMPLETER : doit contenir la description fonctionnelle du projet destinée à un profil non technique]
 
+## Contexte technique du projet
+[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
+
+# Notes
 Ce sample IG a été créé à partir du sample-ig fhir : https://github.com/FHIR/sample-ig.
 
-# IG publisher
-
-Après avoir créé les profil et mis à jour sushi-config, il y a une démarche à suivre pour générer la page web de l'IG. Celle-ci est à suivre dans le [wiki de ce repo](https://github.com/ansforge/FIG_ans-ig-sample/wiki).
-
-
+[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
+Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) pour indiquer vos propositions d'amélioration et de correction.
 
 ## Acronymes
-FIG : FHIR Implementation Guide
+
+* IG : Implementation Guide
+* FHIR : Fast Healthcare Interoperability Resources
+* FIG : FHIR Implementation Guide
+* HL7 : Health Level Seven
+
+[A COMPLETER : acronymes utilisés dans le cadre de ce projet]
