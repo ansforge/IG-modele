@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "type-carte-code-system"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CPA<a name=\"type-carte-code-system-CPA\"> </a></td><td>Carte de Personnel Autorisé</td><td>La carte d'un personnel autorisé (CDA/CPA)</td></tr><tr><td style=\"white-space:nowrap\">CPE<a name=\"type-carte-code-system-CPE\"> </a></td><td>Carte de Personnel d'Etablissement</td><td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td></tr><tr><td style=\"white-space:nowrap\">CPF<a name=\"type-carte-code-system-CPF\"> </a></td><td>Carte de Professionnel de Santé en Formation</td><td>La Carte de Professionnel de Santé en Formation (CPF).</td></tr><tr><td style=\"white-space:nowrap\">CPS<a name=\"type-carte-code-system-CPS\"> </a></td><td>Carte de Professionnel de Santé</td><td>La Carte de Professionnel de Santé (CPS).</td></tr></table></div>"
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"]; # 
+  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
+  fhir:CodeSystem.name [ fhir:value "TypeCarteCS"]; # 
+  fhir:CodeSystem.title [ fhir:value "Type de carte"]; # 
+  fhir:CodeSystem.status [ fhir:value "active"]; # 
+  fhir:CodeSystem.date [ fhir:value "2023-02-22T09:31:43+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.publisher [ fhir:value "ANS"]; # 
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "ANS" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ]
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "Type de carte professionnelle et personnelle."]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger]; # 
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "CPA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Carte de Personnel Autorisé" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "La carte d'un personnel autorisé (CDA/CPA)" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "CPE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Carte de Personnel d'Etablissement" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "La Carte de Personnel d'Etablissement de santé (CDE/CPE)." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "CPF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Carte de Professionnel de Santé en Formation" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "La Carte de Professionnel de Santé en Formation (CPF)." ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "CPS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Carte de Professionnel de Santé" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "La Carte de Professionnel de Santé (CPS)." ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

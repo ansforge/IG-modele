@@ -1,0 +1,265 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "d42f3449-384a-44a2-94b8-3bda41ea3e92",
+  "meta" : {
+    "lastUpdated" : "2023-02-22T09:31:43.574+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "TypeCarteVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-type-carte-code-system.html\">Type de carte v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPA\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA\">CPA</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Personnel Autorisé</td><td><div><p>La carte d'un personnel autorisé (CDA/CPA)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPE\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE\">CPE</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Personnel d'Etablissement</td><td><div><p>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPF\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF\">CPF</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Professionnel de Santé en Formation</td><td><div><p>La Carte de Professionnel de Santé en Formation (CPF).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPS\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS\">CPS</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Professionnel de Santé</td><td><div><p>La Carte de Professionnel de Santé (CPS).</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS",
+      "version" : "0.1.0",
+      "name" : "TypeCarteVS",
+      "title" : "Type Carte Value Set",
+      "status" : "active",
+      "date" : "2023-02-22T09:31:43+00:00",
+      "publisher" : "ANS",
+      "contact" : [{
+        "name" : "ANS",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }]
+      }],
+      "description" : "Type Carte Value Set.",
+      "expansion" : {
+        "identifier" : "urn:uuid:edc7e7cd-6418-42ae-938a-7200e46c0369",
+        "timestamp" : "2023-02-22T09:31:59+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPA",
+          "display" : "Carte de Personnel Autorisé"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPE",
+          "display" : "Carte de Personnel d'Etablissement"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPF",
+          "display" : "Carte de Professionnel de Santé en Formation"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPS",
+          "display" : "Carte de Professionnel de Santé"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ModifiedAdministrativeGender",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender v4.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-male\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Male</td><td><div><p>Male.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-female\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Female</td><td><div><p>Female.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-other\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Other</td><td><div><p>Other.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender",
+      "version" : "0.1.0",
+      "name" : "ModifiedAdministrativeGender",
+      "title" : "ModifiedAdministrativeGender",
+      "status" : "active",
+      "date" : "2023-02-22T09:31:43+00:00",
+      "publisher" : "ANS",
+      "contact" : [{
+        "name" : "ANS",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }]
+      }],
+      "description" : "AdministrativeGender without unknown code",
+      "expansion" : {
+        "identifier" : "urn:uuid:7722408b-1577-470c-bcf1-d36ba44500bb",
+        "timestamp" : "2023-02-22T09:31:59+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "MeltingPotVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-type-carte-code-system.html\">Type de carte v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-competence-code-system.html\">Compétences CodeSystem v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jul 2022</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-405738005\"> </a>  <a href=\"http://snomed.info/id/405738005\">405738005</a></td><td>http://snomed.info/sct</td><td>Blue color (qualifier value)</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371254008\"> </a>  <a href=\"http://snomed.info/id/371254008\">371254008</a></td><td>http://snomed.info/sct</td><td>Brown color (qualifier value)</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-competence-code-system-C01\"> </a>  <a href=\"CodeSystem-competence-code-system.html#competence-code-system-C01\">C01</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system</td><td>Anatomie et Cytologie pathologiques humaines</td><td><div><p>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPA\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA\">CPA</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Personnel Autorisé</td><td><div><p>La carte d'un personnel autorisé (CDA/CPA)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPE\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE\">CPE</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Personnel d'Etablissement</td><td><div><p>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPF\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF\">CPF</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Professionnel de Santé en Formation</td><td><div><p>La Carte de Professionnel de Santé en Formation (CPF).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---interop.esante.gouv.fr-ig-fhir-example-CodeSystem-type-carte-code-system-CPS\"> </a>  <a href=\"CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS\">CPS</a></td><td>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</td><td>Carte de Professionnel de Santé</td><td><div><p>La Carte de Professionnel de Santé (CPS).</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS",
+      "version" : "0.1.0",
+      "name" : "MeltingPotVS",
+      "title" : "Melting Pot Value Set",
+      "status" : "active",
+      "date" : "2023-02-22T09:31:43+00:00",
+      "publisher" : "ANS",
+      "contact" : [{
+        "name" : "ANS",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }]
+      }],
+      "description" : "Melting Pot Value Set.",
+      "expansion" : {
+        "identifier" : "urn:uuid:13794ecd-63f8-4667-ba6f-13b18bdac478",
+        "timestamp" : "2023-02-22T09:32:01+00:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system|0.1.0"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "405738005",
+          "display" : "Blue color (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "371254008",
+          "display" : "Brown color (qualifier value)"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system",
+          "code" : "C01",
+          "display" : "Anatomie et Cytologie pathologiques humaines"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPA",
+          "display" : "Carte de Personnel Autorisé"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPE",
+          "display" : "Carte de Personnel d'Etablissement"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPF",
+          "display" : "Carte de Professionnel de Santé en Formation"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+          "code" : "CPS",
+          "display" : "Carte de Professionnel de Santé"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "EyeColorVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-405738005\"> </a>  <a href=\"http://snomed.info/id/405738005\">405738005</a></td><td>http://snomed.info/sct</td><td>Blue color</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371254008\"> </a>  <a href=\"http://snomed.info/id/371254008\">371254008</a></td><td>http://snomed.info/sct</td><td>Brown color</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-54662009\"> </a>  <a href=\"http://snomed.info/id/54662009\">54662009</a></td><td>http://snomed.info/sct</td><td>Green color</td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS",
+      "version" : "0.1.0",
+      "name" : "EyeColorVS",
+      "title" : "EyeColor Value Set",
+      "status" : "active",
+      "date" : "2023-02-22T09:31:43+00:00",
+      "publisher" : "ANS",
+      "contact" : [{
+        "name" : "ANS",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }]
+      }],
+      "description" : "Different eye colors.",
+      "expansion" : {
+        "identifier" : "urn:uuid:495538d1-5c57-45dd-9aa9-614eb566747d",
+        "timestamp" : "2023-02-22T09:32:01+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "405738005",
+          "display" : "Blue color"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "371254008",
+          "display" : "Brown color"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "54662009",
+          "display" : "Green color"
+        }]
+      }
+    }
+  }]
+}

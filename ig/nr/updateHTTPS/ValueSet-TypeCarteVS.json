@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "TypeCarteVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-type-carte-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code></a></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS",
+  "version" : "0.1.0",
+  "name" : "TypeCarteVS",
+  "title" : "Type Carte Value Set",
+  "status" : "active",
+  "date" : "2023-02-22T09:31:43+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type Carte Value Set.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"
+    }]
+  }
+}
