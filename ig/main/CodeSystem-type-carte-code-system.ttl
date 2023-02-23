@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system> a fhir:CodeSystem;
+<https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "type-carte-code-system"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CPA<a name=\"type-carte-code-system-CPA\"> </a></td><td>Carte de Personnel Autorisé</td><td>La carte d'un personnel autorisé (CDA/CPA)</td></tr><tr><td style=\"white-space:nowrap\">CPE<a name=\"type-carte-code-system-CPE\"> </a></td><td>Carte de Personnel d'Etablissement</td><td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td></tr><tr><td style=\"white-space:nowrap\">CPF<a name=\"type-carte-code-system-CPF\"> </a></td><td>Carte de Professionnel de Santé en Formation</td><td>La Carte de Professionnel de Santé en Formation (CPF).</td></tr><tr><td style=\"white-space:nowrap\">CPS<a name=\"type-carte-code-system-CPS\"> </a></td><td>Carte de Professionnel de Santé</td><td>La Carte de Professionnel de Santé (CPS).</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CPA<a name=\"type-carte-code-system-CPA\"> </a></td><td>Carte de Personnel Autorisé</td><td>La carte d'un personnel autorisé (CDA/CPA)</td></tr><tr><td style=\"white-space:nowrap\">CPE<a name=\"type-carte-code-system-CPE\"> </a></td><td>Carte de Personnel d'Etablissement</td><td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td></tr><tr><td style=\"white-space:nowrap\">CPF<a name=\"type-carte-code-system-CPF\"> </a></td><td>Carte de Professionnel de Santé en Formation</td><td>La Carte de Professionnel de Santé en Formation (CPF).</td></tr><tr><td style=\"white-space:nowrap\">CPS<a name=\"type-carte-code-system-CPS\"> </a></td><td>Carte de Professionnel de Santé</td><td>La Carte de Professionnel de Santé (CPS).</td></tr></table></div>"
   ]; # 
-  fhir:CodeSystem.url [ fhir:value "http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"]; # 
+  fhir:CodeSystem.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"]; # 
   fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
   fhir:CodeSystem.name [ fhir:value "TypeCarteCS"]; # 
   fhir:CodeSystem.title [ fhir:value "Type de carte"]; # 
   fhir:CodeSystem.status [ fhir:value "active"]; # 
-  fhir:CodeSystem.date [ fhir:value "2023-02-21T09:45:20+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.date [ fhir:value "2023-02-23T14:52:39+00:00"^^xsd:dateTime]; # 
   fhir:CodeSystem.publisher [ fhir:value "ANS"]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -55,7 +55,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system.ttl> a owl:Ontology;
+<https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

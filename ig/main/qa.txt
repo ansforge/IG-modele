@@ -3,7 +3,7 @@
 
 err = 0, warn = 13, info = 4
 IG Publisher Version: 1.2.37
-Generated Tue Feb 21 09:45:49 UTC 2023. FHIR version 4.0.1 for ans.fhir.fr.example#0.1.0 (canonical = http://interop.esante.gouv.fr/ig/fhir/example)
+Generated Thu Feb 23 14:53:06 UTC 2023. FHIR version 4.0.1 for ans.fhir.fr.example#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/example)
  Build Errors : 24 / 4 / 0
  /home/runner/work/FIG_ans-ig-sample/FIG_ans-ig-sample/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/FIG_ans-ig-sample/FIG_ans-ig-sample/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
@@ -56,7 +56,7 @@ WARNING: CodeSystem/type-carte-code-system: CodeSystem: The ShareableCodeSystem 
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.example.json ==
 == fsh-generated/resources/Patient-frpatient-exemple.json ==
 == fsh-generated/resources/StructureDefinition-EyeColor.json ==
-WARNING: StructureDefinition.where(url = 'http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/EyeColor'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/EyeColor'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-patient.json ==
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[18].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[40].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

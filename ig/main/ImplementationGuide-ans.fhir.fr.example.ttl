@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example> a fhir:ImplementationGuide;
+<https://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "ans.fhir.fr.example"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example</pre></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example</pre></div>"
   ]; # 
-  fhir:ImplementationGuide.url [ fhir:value "http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example"]; # 
+  fhir:ImplementationGuide.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example"]; # 
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"]; # 
   fhir:ImplementationGuide.name [ fhir:value "ExampleIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "ANS IG Example"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-02-21T09:45:20+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-02-23T14:52:39+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "ANS"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -179,7 +179,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://interop.esante.gouv.fr/ig/fhir/example/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/example/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -479,7 +479,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://interop.esante.gouv.fr/ig/fhir/example/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/example/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -659,7 +659,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient français" ];
@@ -673,7 +673,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/EyeColor>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/EyeColor>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/EyeColor" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "EyeColor" ];
@@ -687,7 +687,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/EyeColorVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/EyeColorVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "EyeColor Value Set" ];
@@ -701,7 +701,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/MeltingPotVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/MeltingPotVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Melting Pot Value Set" ];
@@ -715,7 +715,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/ModifiedAdministrativeGender>;
          fhir:Reference.reference [ fhir:value "ValueSet/ModifiedAdministrativeGender" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ModifiedAdministrativeGender" ];
@@ -729,7 +729,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/ValueSet/TypeCarteVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/TypeCarteVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Type Carte Value Set" ];
@@ -743,7 +743,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system>;
          fhir:Reference.reference [ fhir:value "CodeSystem/competence-code-system" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Compétences CodeSystem" ];
@@ -757,7 +757,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system>;
          fhir:Reference.reference [ fhir:value "CodeSystem/type-carte-code-system" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Type de carte" ];
@@ -771,14 +771,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/Patient/frpatient-exemple>;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/Patient/frpatient-exemple>;
          fhir:Reference.reference [ fhir:value "Patient/frpatient-exemple" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "frpatient-exemple" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple d'un patient français" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient";
-         fhir:link <http://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient>
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient";
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -959,7 +959,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example.ttl> a owl:Ontology;
+<https://interop.esante.gouv.fr/ig/fhir/example/ImplementationGuide/ans.fhir.fr.example.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
