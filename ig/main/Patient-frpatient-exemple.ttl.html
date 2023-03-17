@@ -241,38 +241,28 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:Patient;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;frpatient-exemple&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">fhir:Resource.meta</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient&quot;;
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient&gt;     ]
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;JEANNE MARIE DARK &lt;/b&gt; female, DoB: 1939-08-13 ( id: 239088815400243)&lt;/p&gt;&lt;hr/&gt;&lt;/div&gt;&quot;
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:Patient.identifier</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:oid:1.2.250.1.213.1.4.8&quot; ];
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;239088815400243&quot; ]
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.name">fhir:Patient.name</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:HumanName.family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;DARK&quot; ];
-     <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:HumanName.given</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;JEANNE MARIE&quot;;
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0     ]
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">fhir:Patient.gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;female&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">fhir:Patient.birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:value</a> &quot;1939-08-13&quot;^^xsd:date]. # 
-
-# - ontology header ------------------------------------------------------------
-
- a owl:Ontology;
-  owl:imports fhir:fhir.ttl.
+ a fhir:Patient ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;frpatient-exemple&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;JEANNE MARIE DARK &lt;/b&gt; female, DoB: 1939-08-13 ( id: 239088815400243)&lt;/p&gt;&lt;hr/&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:1.2.250.1.213.1.4.8&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;239088815400243&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DARK&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JEANNE MARIE&quot; ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">fhir:gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;female&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">fhir:birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;1939-08-13&quot;^^xsd:date] . # 
 
 </code></pre>
 
@@ -327,12 +317,12 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Feb 23, 2023 15:32+0000">2023-02-23</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 17, 2023 16:29+0000">2023-03-17</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
-                  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new">New Issue</a>
+                  | <a style="color: #81BEF7" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/example/history.html">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new">New Issue</a>
                 
 
           </span>
