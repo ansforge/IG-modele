@@ -1,0 +1,33 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/fr/example/Patient/frpatient-exemple> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "frpatient-exemple"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/fr/example/StructureDefinition/fr-patient"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/fr/example/StructureDefinition/fr-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>JEANNE MARIE DARK </b> female, DoB: 1939-08-13 ( id: 239088815400243)</p><hr/></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:oid:1.2.250.1.213.1.4.8"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "239088815400243" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "DARK" ] ;
+     fhir:given ( [ fhir:v "JEANNE MARIE" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1939-08-13"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

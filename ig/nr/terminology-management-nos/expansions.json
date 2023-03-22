@@ -1,0 +1,120 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "6ce95178-8b76-486e-ade0-a29ca94360e5",
+  "meta" : {
+    "lastUpdated" : "2023-03-22T08:08:22.405+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.org/fhir/fr/example/ValueSet/EyeColorVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "EyeColorVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-405738005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/405738005\">405738005</a></td><td>http://snomed.info/sct</td><td>Blue color</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371254008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/371254008\">371254008</a></td><td>http://snomed.info/sct</td><td>Brown color</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-54662009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/54662009\">54662009</a></td><td>http://snomed.info/sct</td><td>Green color</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/fr/example/ValueSet/EyeColorVS",
+      "version" : "0.1.0",
+      "name" : "EyeColorVS",
+      "title" : "EyeColor Value Set",
+      "status" : "active",
+      "date" : "2023-03-22T08:08:22+00:00",
+      "publisher" : "ANS",
+      "contact" : [{
+        "name" : "ANS",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }]
+      }],
+      "description" : "Different eye colors.",
+      "expansion" : {
+        "identifier" : "urn:uuid:09fa2385-2a90-40c7-9c7c-0ef7b4af8aa0",
+        "timestamp" : "2023-03-22T08:08:35+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "405738005",
+          "display" : "Blue color"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "371254008",
+          "display" : "Brown color"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "54662009",
+          "display" : "Green color"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/fr/example/ValueSet/ModifiedAdministrativeGender",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ModifiedAdministrativeGender",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender v4.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-male\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Male</td><td><div><p>Male.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-female\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Female</td><td><div><p>Female.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-other\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Other</td><td><div><p>Other.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/fr/example/ValueSet/ModifiedAdministrativeGender",
+      "version" : "0.1.0",
+      "name" : "ModifiedAdministrativeGender",
+      "title" : "ModifiedAdministrativeGender",
+      "status" : "active",
+      "date" : "2023-03-22T08:08:22+00:00",
+      "publisher" : "ANS",
+      "contact" : [{
+        "name" : "ANS",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }]
+      }],
+      "description" : "AdministrativeGender without unknown code",
+      "expansion" : {
+        "identifier" : "urn:uuid:cf0a39ae-cc50-4d13-ae47-160ee2d27af4",
+        "timestamp" : "2023-03-22T08:08:36+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        }]
+      }
+    }
+  }]
+}
