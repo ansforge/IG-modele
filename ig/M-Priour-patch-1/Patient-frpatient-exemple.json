@@ -1,0 +1,21 @@
+{
+  "resourceType" : "Patient",
+  "id" : "frpatient-exemple",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/example/StructureDefinition/fr-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>JEANNE MARIE DARK </b> female, DoB: 1939-08-13 ( id:\u00a0239088815400243)</p><hr/></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:oid:1.2.250.1.213.1.4.8",
+    "value" : "239088815400243"
+  }],
+  "name" : [{
+    "family" : "DARK",
+    "given" : ["JEANNE MARIE"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1939-08-13"
+}

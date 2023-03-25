@@ -1,0 +1,206 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "competence-code-system"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">C01<a name=\"competence-code-system-C01\"> </a></td><td>Anatomie et Cytologie pathologiques humaines</td><td>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</td></tr><tr><td style=\"white-space:nowrap\">C03<a name=\"competence-code-system-C03\"> </a></td><td>Anesthésie-réanimation</td><td>Anesthésie-réanim;Anesthésie-réanimation</td></tr><tr><td style=\"white-space:nowrap\">C05<a name=\"competence-code-system-C05\"> </a></td><td>Médecine appliquée aux sports</td><td>Méd appliquée sports;Médecine appliquée aux sports</td></tr><tr><td style=\"white-space:nowrap\">C07<a name=\"competence-code-system-C07\"> </a></td><td>Cardiologie</td><td>Cardiologie;Cardiologie</td></tr><tr><td style=\"white-space:nowrap\">C09<a name=\"competence-code-system-C09\"> </a></td><td>Chirurgie plastique, reconstructrice et esthétique</td><td>Chir plast reco esth;Chirurgie plastique, reconstructrice et esthétique</td></tr><tr><td style=\"white-space:nowrap\">C10<a name=\"competence-code-system-C10\"> </a></td><td>Chirurgie maxillo-faciale;Chirurgie maxillo-faciale;Chirurgie maxillo-faciale</td><td/></tr><tr><td style=\"white-space:nowrap\">C11<a name=\"competence-code-system-C11\"> </a></td><td>Chirurgie thoracique</td><td>Chirurgie thoracique;Chirurgie thoracique</td></tr><tr><td style=\"white-space:nowrap\">C12<a name=\"competence-code-system-C12\"> </a></td><td>Chirurgie orthopédique</td><td>Chirurgie orthopédique;Chirurgie orthopédique</td></tr><tr><td style=\"white-space:nowrap\">C13<a name=\"competence-code-system-C13\"> </a></td><td>Urologie</td><td>Urologie;Urologie</td></tr><tr><td style=\"white-space:nowrap\">C15<a name=\"competence-code-system-C15\"> </a></td><td>Dermato-vénéréologie</td><td>Dermato-vénéréologie;Dermato-vénéréologie</td></tr><tr><td style=\"white-space:nowrap\">C20<a name=\"competence-code-system-C20\"> </a></td><td>Hémobiologie</td><td>Hémobiologie;Hémobiologie</td></tr><tr><td style=\"white-space:nowrap\">C23<a name=\"competence-code-system-C23\"> </a></td><td>Gynécologie médicale et Obstétrique</td><td>Gynéco-médicale, Obstétrique;Gynécologie médicale et Obstétrique</td></tr><tr><td style=\"white-space:nowrap\">C25<a name=\"competence-code-system-C25\"> </a></td><td>Gynécologie médicale</td><td>Gynécologie médicale;Gynécologie médicale</td></tr><tr><td style=\"white-space:nowrap\">C27<a name=\"competence-code-system-C27\"> </a></td><td>Obstétrique</td><td>Obstétrique;Obstétrique</td></tr><tr><td style=\"white-space:nowrap\">C29<a name=\"competence-code-system-C29\"> </a></td><td>Maladies de l'appareil digestif</td><td>Maladies appareil digestif;Maladies de l'appareil digestif</td></tr><tr><td style=\"white-space:nowrap\">C30<a name=\"competence-code-system-C30\"> </a></td><td>Néphrologie</td><td>Néphrologie;Néphrologie</td></tr><tr><td style=\"white-space:nowrap\">C31<a name=\"competence-code-system-C31\"> </a></td><td>Médecine exotique</td><td>Médecine exotique;Médecine exotique</td></tr><tr><td style=\"white-space:nowrap\">C33<a name=\"competence-code-system-C33\"> </a></td><td>Allergologie</td><td>Allergologie;Allergologie</td></tr><tr><td style=\"white-space:nowrap\">C34<a name=\"competence-code-system-C34\"> </a></td><td>Angéiologie</td><td>Angéiologie;Angéiologie</td></tr><tr><td style=\"white-space:nowrap\">C35<a name=\"competence-code-system-C35\"> </a></td><td>Cancérologie</td><td>Cancérologie;Cancérologie</td></tr><tr><td style=\"white-space:nowrap\">C36<a name=\"competence-code-system-C36\"> </a></td><td>Diabétologie-nutrition</td><td>Diabéto-nutrition;Diabétologie-nutrition</td></tr><tr><td style=\"white-space:nowrap\">C37<a name=\"competence-code-system-C37\"> </a></td><td>Endocrinologie</td><td>Endocrinologie;Endocrinologie</td></tr><tr><td style=\"white-space:nowrap\">C38<a name=\"competence-code-system-C38\"> </a></td><td>Maladies du sang</td><td>Maladies du sang;Maladies du sang</td></tr><tr><td style=\"white-space:nowrap\">C39<a name=\"competence-code-system-C39\"> </a></td><td>Réanimation</td><td>Réanimation;Réanimation</td></tr><tr><td style=\"white-space:nowrap\">C40<a name=\"competence-code-system-C40\"> </a></td><td>Médecine légale</td><td>Médecine légale;Médecine légale</td></tr><tr><td style=\"white-space:nowrap\">C41<a name=\"competence-code-system-C41\"> </a></td><td>Médecine du travail</td><td>Médecine du travail;Médecine du travail</td></tr><tr><td style=\"white-space:nowrap\">C43<a name=\"competence-code-system-C43\"> </a></td><td>Neurologie</td><td>Neurologie;Neurologie</td></tr><tr><td style=\"white-space:nowrap\">C45<a name=\"competence-code-system-C45\"> </a></td><td>Neuro-chirurgie</td><td>Neuro-chirurgie;Neuro-chirurgie</td></tr><tr><td style=\"white-space:nowrap\">C47<a name=\"competence-code-system-C47\"> </a></td><td>Neuro-psychiatrie</td><td>Neuro-psychiatrie;Neuro-psychiatrie</td></tr><tr><td style=\"white-space:nowrap\">C51<a name=\"competence-code-system-C51\"> </a></td><td>Pédiatrie</td><td>Pédiatrie;Pédiatrie</td></tr><tr><td style=\"white-space:nowrap\">C52<a name=\"competence-code-system-C52\"> </a></td><td>Phoniatrie</td><td>Phoniatrie;Phoniatrie</td></tr><tr><td style=\"white-space:nowrap\">C54<a name=\"competence-code-system-C54\"> </a></td><td>Pneumologie</td><td>Pneumologie;Pneumologie</td></tr><tr><td style=\"white-space:nowrap\">C57<a name=\"competence-code-system-C57\"> </a></td><td>Psychiatrie</td><td>Psychiatrie;Psychiatrie</td></tr><tr><td style=\"white-space:nowrap\">C58<a name=\"competence-code-system-C58\"> </a></td><td>Psychiatrie, option enfant et adolescent</td><td>Psychiatrie, opt enfant et ado;Psychiatrie, option enfant et adolescent</td></tr><tr><td style=\"white-space:nowrap\">C60<a name=\"competence-code-system-C60\"> </a></td><td>Médecine physique et de réadaptation</td><td>Médecine physique, réadapt;Médecine physique et de réadaptation</td></tr><tr><td style=\"white-space:nowrap\">C62<a name=\"competence-code-system-C62\"> </a></td><td>Rhumatologie</td><td>Rhumatologie;Rhumatologie</td></tr><tr><td style=\"white-space:nowrap\">C68<a name=\"competence-code-system-C68\"> </a></td><td>Chirurgie pédiatrique</td><td>Chirurgie pédiatrique;Chirurgie pédiatrique</td></tr><tr><td style=\"white-space:nowrap\">C69<a name=\"competence-code-system-C69\"> </a></td><td>Médecine nucléaire</td><td>Médecine nucléaire;Médecine nucléaire</td></tr><tr><td style=\"white-space:nowrap\">C71<a name=\"competence-code-system-C71\"> </a></td><td>Médecine thermale</td><td>Médecine thermale;Médecine thermale</td></tr><tr><td style=\"white-space:nowrap\">C72<a name=\"competence-code-system-C72\"> </a></td><td>Génétique médicale</td><td>Génétique médicale;Génétique médicale</td></tr><tr><td style=\"white-space:nowrap\">C75<a name=\"competence-code-system-C75\"> </a></td><td>Endocrinologie et Maladies métaboliques</td><td>Endocrin, Maladies métaboliq;Endocrinologie et Maladies métaboliques</td></tr><tr><td style=\"white-space:nowrap\">C76<a name=\"competence-code-system-C76\"> </a></td><td>Orthopédie dento-maxillo-faciale</td><td>Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale</td></tr><tr><td style=\"white-space:nowrap\">C83<a name=\"competence-code-system-C83\"> </a></td><td>Chirurgie de la face et du cou</td><td>Chirurgie face et cou;Chirurgie de la face et du cou</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/competence-code-system"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CompetenceCS"] ; # 
+  fhir:title [ fhir:v "Compétences CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-25T14:37:21+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Compétences des professionnels de santé."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "43"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "C01" ] ;
+     fhir:display [ fhir:v "Anatomie et Cytologie pathologiques humaines" ] ;
+     fhir:definition [ fhir:v "Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines" ]
+  ] [
+     fhir:code [ fhir:v "C03" ] ;
+     fhir:display [ fhir:v "Anesthésie-réanimation" ] ;
+     fhir:definition [ fhir:v "Anesthésie-réanim;Anesthésie-réanimation" ]
+  ] [
+     fhir:code [ fhir:v "C05" ] ;
+     fhir:display [ fhir:v "Médecine appliquée aux sports" ] ;
+     fhir:definition [ fhir:v "Méd appliquée sports;Médecine appliquée aux sports" ]
+  ] [
+     fhir:code [ fhir:v "C07" ] ;
+     fhir:display [ fhir:v "Cardiologie" ] ;
+     fhir:definition [ fhir:v "Cardiologie;Cardiologie" ]
+  ] [
+     fhir:code [ fhir:v "C09" ] ;
+     fhir:display [ fhir:v "Chirurgie plastique, reconstructrice et esthétique" ] ;
+     fhir:definition [ fhir:v "Chir plast reco esth;Chirurgie plastique, reconstructrice et esthétique" ]
+  ] [
+     fhir:code [ fhir:v "C10" ] ;
+     fhir:display [ fhir:v "Chirurgie maxillo-faciale;Chirurgie maxillo-faciale;Chirurgie maxillo-faciale" ]
+  ] [
+     fhir:code [ fhir:v "C11" ] ;
+     fhir:display [ fhir:v "Chirurgie thoracique" ] ;
+     fhir:definition [ fhir:v "Chirurgie thoracique;Chirurgie thoracique" ]
+  ] [
+     fhir:code [ fhir:v "C12" ] ;
+     fhir:display [ fhir:v "Chirurgie orthopédique" ] ;
+     fhir:definition [ fhir:v "Chirurgie orthopédique;Chirurgie orthopédique" ]
+  ] [
+     fhir:code [ fhir:v "C13" ] ;
+     fhir:display [ fhir:v "Urologie" ] ;
+     fhir:definition [ fhir:v "Urologie;Urologie" ]
+  ] [
+     fhir:code [ fhir:v "C15" ] ;
+     fhir:display [ fhir:v "Dermato-vénéréologie" ] ;
+     fhir:definition [ fhir:v "Dermato-vénéréologie;Dermato-vénéréologie" ]
+  ] [
+     fhir:code [ fhir:v "C20" ] ;
+     fhir:display [ fhir:v "Hémobiologie" ] ;
+     fhir:definition [ fhir:v "Hémobiologie;Hémobiologie" ]
+  ] [
+     fhir:code [ fhir:v "C23" ] ;
+     fhir:display [ fhir:v "Gynécologie médicale et Obstétrique" ] ;
+     fhir:definition [ fhir:v "Gynéco-médicale, Obstétrique;Gynécologie médicale et Obstétrique" ]
+  ] [
+     fhir:code [ fhir:v "C25" ] ;
+     fhir:display [ fhir:v "Gynécologie médicale" ] ;
+     fhir:definition [ fhir:v "Gynécologie médicale;Gynécologie médicale" ]
+  ] [
+     fhir:code [ fhir:v "C27" ] ;
+     fhir:display [ fhir:v "Obstétrique" ] ;
+     fhir:definition [ fhir:v "Obstétrique;Obstétrique" ]
+  ] [
+     fhir:code [ fhir:v "C29" ] ;
+     fhir:display [ fhir:v "Maladies de l'appareil digestif" ] ;
+     fhir:definition [ fhir:v "Maladies appareil digestif;Maladies de l'appareil digestif" ]
+  ] [
+     fhir:code [ fhir:v "C30" ] ;
+     fhir:display [ fhir:v "Néphrologie" ] ;
+     fhir:definition [ fhir:v "Néphrologie;Néphrologie" ]
+  ] [
+     fhir:code [ fhir:v "C31" ] ;
+     fhir:display [ fhir:v "Médecine exotique" ] ;
+     fhir:definition [ fhir:v "Médecine exotique;Médecine exotique" ]
+  ] [
+     fhir:code [ fhir:v "C33" ] ;
+     fhir:display [ fhir:v "Allergologie" ] ;
+     fhir:definition [ fhir:v "Allergologie;Allergologie" ]
+  ] [
+     fhir:code [ fhir:v "C34" ] ;
+     fhir:display [ fhir:v "Angéiologie" ] ;
+     fhir:definition [ fhir:v "Angéiologie;Angéiologie" ]
+  ] [
+     fhir:code [ fhir:v "C35" ] ;
+     fhir:display [ fhir:v "Cancérologie" ] ;
+     fhir:definition [ fhir:v "Cancérologie;Cancérologie" ]
+  ] [
+     fhir:code [ fhir:v "C36" ] ;
+     fhir:display [ fhir:v "Diabétologie-nutrition" ] ;
+     fhir:definition [ fhir:v "Diabéto-nutrition;Diabétologie-nutrition" ]
+  ] [
+     fhir:code [ fhir:v "C37" ] ;
+     fhir:display [ fhir:v "Endocrinologie" ] ;
+     fhir:definition [ fhir:v "Endocrinologie;Endocrinologie" ]
+  ] [
+     fhir:code [ fhir:v "C38" ] ;
+     fhir:display [ fhir:v "Maladies du sang" ] ;
+     fhir:definition [ fhir:v "Maladies du sang;Maladies du sang" ]
+  ] [
+     fhir:code [ fhir:v "C39" ] ;
+     fhir:display [ fhir:v "Réanimation" ] ;
+     fhir:definition [ fhir:v "Réanimation;Réanimation" ]
+  ] [
+     fhir:code [ fhir:v "C40" ] ;
+     fhir:display [ fhir:v "Médecine légale" ] ;
+     fhir:definition [ fhir:v "Médecine légale;Médecine légale" ]
+  ] [
+     fhir:code [ fhir:v "C41" ] ;
+     fhir:display [ fhir:v "Médecine du travail" ] ;
+     fhir:definition [ fhir:v "Médecine du travail;Médecine du travail" ]
+  ] [
+     fhir:code [ fhir:v "C43" ] ;
+     fhir:display [ fhir:v "Neurologie" ] ;
+     fhir:definition [ fhir:v "Neurologie;Neurologie" ]
+  ] [
+     fhir:code [ fhir:v "C45" ] ;
+     fhir:display [ fhir:v "Neuro-chirurgie" ] ;
+     fhir:definition [ fhir:v "Neuro-chirurgie;Neuro-chirurgie" ]
+  ] [
+     fhir:code [ fhir:v "C47" ] ;
+     fhir:display [ fhir:v "Neuro-psychiatrie" ] ;
+     fhir:definition [ fhir:v "Neuro-psychiatrie;Neuro-psychiatrie" ]
+  ] [
+     fhir:code [ fhir:v "C51" ] ;
+     fhir:display [ fhir:v "Pédiatrie" ] ;
+     fhir:definition [ fhir:v "Pédiatrie;Pédiatrie" ]
+  ] [
+     fhir:code [ fhir:v "C52" ] ;
+     fhir:display [ fhir:v "Phoniatrie" ] ;
+     fhir:definition [ fhir:v "Phoniatrie;Phoniatrie" ]
+  ] [
+     fhir:code [ fhir:v "C54" ] ;
+     fhir:display [ fhir:v "Pneumologie" ] ;
+     fhir:definition [ fhir:v "Pneumologie;Pneumologie" ]
+  ] [
+     fhir:code [ fhir:v "C57" ] ;
+     fhir:display [ fhir:v "Psychiatrie" ] ;
+     fhir:definition [ fhir:v "Psychiatrie;Psychiatrie" ]
+  ] [
+     fhir:code [ fhir:v "C58" ] ;
+     fhir:display [ fhir:v "Psychiatrie, option enfant et adolescent" ] ;
+     fhir:definition [ fhir:v "Psychiatrie, opt enfant et ado;Psychiatrie, option enfant et adolescent" ]
+  ] [
+     fhir:code [ fhir:v "C60" ] ;
+     fhir:display [ fhir:v "Médecine physique et de réadaptation" ] ;
+     fhir:definition [ fhir:v "Médecine physique, réadapt;Médecine physique et de réadaptation" ]
+  ] [
+     fhir:code [ fhir:v "C62" ] ;
+     fhir:display [ fhir:v "Rhumatologie" ] ;
+     fhir:definition [ fhir:v "Rhumatologie;Rhumatologie" ]
+  ] [
+     fhir:code [ fhir:v "C68" ] ;
+     fhir:display [ fhir:v "Chirurgie pédiatrique" ] ;
+     fhir:definition [ fhir:v "Chirurgie pédiatrique;Chirurgie pédiatrique" ]
+  ] [
+     fhir:code [ fhir:v "C69" ] ;
+     fhir:display [ fhir:v "Médecine nucléaire" ] ;
+     fhir:definition [ fhir:v "Médecine nucléaire;Médecine nucléaire" ]
+  ] [
+     fhir:code [ fhir:v "C71" ] ;
+     fhir:display [ fhir:v "Médecine thermale" ] ;
+     fhir:definition [ fhir:v "Médecine thermale;Médecine thermale" ]
+  ] [
+     fhir:code [ fhir:v "C72" ] ;
+     fhir:display [ fhir:v "Génétique médicale" ] ;
+     fhir:definition [ fhir:v "Génétique médicale;Génétique médicale" ]
+  ] [
+     fhir:code [ fhir:v "C75" ] ;
+     fhir:display [ fhir:v "Endocrinologie et Maladies métaboliques" ] ;
+     fhir:definition [ fhir:v "Endocrin, Maladies métaboliq;Endocrinologie et Maladies métaboliques" ]
+  ] [
+     fhir:code [ fhir:v "C76" ] ;
+     fhir:display [ fhir:v "Orthopédie dento-maxillo-faciale" ] ;
+     fhir:definition [ fhir:v "Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale" ]
+  ] [
+     fhir:code [ fhir:v "C83" ] ;
+     fhir:display [ fhir:v "Chirurgie de la face et du cou" ] ;
+     fhir:definition [ fhir:v "Chirurgie face et cou;Chirurgie de la face et du cou" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

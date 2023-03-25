@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "type-carte-code-system"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CPA<a name=\"type-carte-code-system-CPA\"> </a></td><td>Carte de Personnel Autorisé</td><td>La carte d'un personnel autorisé (CDA/CPA)</td></tr><tr><td style=\"white-space:nowrap\">CPE<a name=\"type-carte-code-system-CPE\"> </a></td><td>Carte de Personnel d'Etablissement</td><td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td></tr><tr><td style=\"white-space:nowrap\">CPF<a name=\"type-carte-code-system-CPF\"> </a></td><td>Carte de Professionnel de Santé en Formation</td><td>La Carte de Professionnel de Santé en Formation (CPF).</td></tr><tr><td style=\"white-space:nowrap\">CPS<a name=\"type-carte-code-system-CPS\"> </a></td><td>Carte de Professionnel de Santé</td><td>La Carte de Professionnel de Santé (CPS).</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TypeCarteCS"] ; # 
+  fhir:title [ fhir:v "Type de carte"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-25T14:37:21+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type de carte professionnelle et personnelle."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CPA" ] ;
+     fhir:display [ fhir:v "Carte de Personnel Autorisé" ] ;
+     fhir:definition [ fhir:v "La carte d'un personnel autorisé (CDA/CPA)" ]
+  ] [
+     fhir:code [ fhir:v "CPE" ] ;
+     fhir:display [ fhir:v "Carte de Personnel d'Etablissement" ] ;
+     fhir:definition [ fhir:v "La Carte de Personnel d'Etablissement de santé (CDE/CPE)." ]
+  ] [
+     fhir:code [ fhir:v "CPF" ] ;
+     fhir:display [ fhir:v "Carte de Professionnel de Santé en Formation" ] ;
+     fhir:definition [ fhir:v "La Carte de Professionnel de Santé en Formation (CPF)." ]
+  ] [
+     fhir:code [ fhir:v "CPS" ] ;
+     fhir:display [ fhir:v "Carte de Professionnel de Santé" ] ;
+     fhir:definition [ fhir:v "La Carte de Professionnel de Santé (CPS)." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

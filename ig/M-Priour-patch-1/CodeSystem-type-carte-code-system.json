@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "type-carte-code-system",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CPA<a name=\"type-carte-code-system-CPA\"> </a></td><td>Carte de Personnel Autorisé</td><td>La carte d'un personnel autorisé (CDA/CPA)</td></tr><tr><td style=\"white-space:nowrap\">CPE<a name=\"type-carte-code-system-CPE\"> </a></td><td>Carte de Personnel d'Etablissement</td><td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td></tr><tr><td style=\"white-space:nowrap\">CPF<a name=\"type-carte-code-system-CPF\"> </a></td><td>Carte de Professionnel de Santé en Formation</td><td>La Carte de Professionnel de Santé en Formation (CPF).</td></tr><tr><td style=\"white-space:nowrap\">CPS<a name=\"type-carte-code-system-CPS\"> </a></td><td>Carte de Professionnel de Santé</td><td>La Carte de Professionnel de Santé (CPS).</td></tr></table></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/example/CodeSystem/type-carte-code-system",
+  "version" : "0.1.0",
+  "name" : "TypeCarteCS",
+  "title" : "Type de carte",
+  "status" : "active",
+  "date" : "2023-03-25T14:37:21+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type de carte professionnelle et personnelle.",
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "CPA",
+    "display" : "Carte de Personnel Autorisé",
+    "definition" : "La carte d'un personnel autorisé (CDA/CPA)"
+  },
+  {
+    "code" : "CPE",
+    "display" : "Carte de Personnel d'Etablissement",
+    "definition" : "La Carte de Personnel d'Etablissement de santé (CDE/CPE)."
+  },
+  {
+    "code" : "CPF",
+    "display" : "Carte de Professionnel de Santé en Formation",
+    "definition" : "La Carte de Professionnel de Santé en Formation (CPF)."
+  },
+  {
+    "code" : "CPS",
+    "display" : "Carte de Professionnel de Santé",
+    "definition" : "La Carte de Professionnel de Santé (CPS)."
+  }]
+}
