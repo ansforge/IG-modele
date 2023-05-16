@@ -8,9 +8,13 @@ Selon la documentation officielle, cette page d'accueil de l'IG doit contenir :
 
 
 Les principales sections de l'IG  sont :
-* Le contexte de l'IG et les points dont les implémenteurs doivent être familier avant dans s'avoir plus sur l'IG
+* Le contexte de l'IG, quelle problématique il résout
 * Ce que les Implémenteurs doivent mettre en place
-* Un onglet "télécharger"
+* Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs
+
+### Project scope
+
+Définir en quelques lignes en anglais quel est le périmètre du projet
 
 
 ### Auteurs et contributeurs
