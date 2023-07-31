@@ -30,5 +30,5 @@ Description:    "Description du patient français"
 Extension: EyeColor
 Description: "Eye color extension"
 * value[x] only CodeableConcept
-* valueCodeableConcept from EyeColorVS (required)
+* valueCodeableConcept from https://mos.esante.gouv.fr/NOS/JDV_J145-MethodBodyWeight-ENS/FHIR/JDV-J145-MethodBodyWeight-ENS (required)
 
