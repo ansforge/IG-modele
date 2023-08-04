@@ -31,4 +31,3 @@ Extension: EyeColor
 Description: "Eye color extension"
 * value[x] only CodeableConcept
 * valueCodeableConcept from EyeColorVS (required)
-
