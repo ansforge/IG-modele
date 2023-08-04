@@ -16,7 +16,7 @@ Une fois validé et publié sur le [FHIR Registry](https://registry.fhir.org/), 
 
 L'onglet de [téléchargement](downloads.html) vous permettra de télécharger :
 
-* le package qui contient toutes les ressources de conformance (StructureDefinition, SearchParameter, ...)
+* le package qui contient toutes les ressources de conformité (StructureDefinition, SearchParameter, ...)
 * L'ensemble de cette documentation pour consultation hors ligne.
 
 Liens utiles :
