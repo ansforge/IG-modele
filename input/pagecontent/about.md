@@ -2,7 +2,7 @@ Cet Implementation Guide a été généré avec l'outil HL7 publisher développ�
 
 * La documentation narrative se trouve dans les différentes pages de cette spécification naviguable à travers les boutons "prev", "bottom", "next" présents en haut et bas de page ou avec la barre de navigation.
 
-* Une représentation graphique des profils spécifiés sous forme de [table logique](http://hl7.org/fhir/R4/formats.html#table) se trouve dans l'onglet [ressources de conformité](artifacts.html).
+* Une représentation sous forme de [table logique](http://hl7.org/fhir/R4/formats.html#table) se trouve dans l'onglet [ressources de conformité](artifacts.html).
 
 Cette nouvelle proposition de diffusion de spécifications se base sur les tendances internationales d'HL7 et utilise les outils open source [FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/) et [IG Publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation).
 Exemples d'usage :
