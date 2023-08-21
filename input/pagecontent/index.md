@@ -1,3 +1,9 @@
+<p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
+<b>Brief description of this Implementation Guide</b><br>
+[Add a brief description of this IG in English]
+</p>
+
+
 ### Introduction
 
 Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
