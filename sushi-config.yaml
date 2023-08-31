@@ -34,11 +34,6 @@ pages:
         downloads.md:
             title: Téléchargements et usages
 
-    tests.md:
-        title: Tests      
-    about.md:
-        title: A propos de ce guide
-
 menu:
     Accueil: index.html
     Description des flux:
@@ -46,11 +41,9 @@ menu:
         Flux 01: st_flux1.html
         Flux 02: st_flux2.html
     Ressources de conformité: artifacts.html
-    Tests:   tests.html
     Autres ressources:
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
-        "Documentation sur les IG": new-tab https://interop.esante.gouv.fr/ig/documentation/
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
-    A propos de ce guide: about.html
+    Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
