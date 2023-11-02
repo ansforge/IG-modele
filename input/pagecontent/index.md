@@ -3,6 +3,11 @@
 [Add a brief description of this IG in English]
 </p>
 
+<!--  A décommenter si CI-SIS
+<div class="figure">
+    <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
+</div>
+-->
 
 ### Introduction
 
