@@ -8,7 +8,7 @@
 <div style="width: 65%">
     <blockquote class="stu-note">
     <p>
-    <b>Attention !</b> Cet Implementation Guide n'est pas la version courante. La version courante sera accessible via l'URL canonique après la prochaine release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
+    <b>Attention !</b> Cet Implementation Guide n'est pas en version courante. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
     </p>
     </blockquote>
 </div>
