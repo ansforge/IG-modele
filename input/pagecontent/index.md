@@ -3,6 +3,18 @@
 [Add a brief description of this IG in English]
 </p>
 
+<!--  A décommenter lors de la publication -->
+
+<div style="width: 65%">
+    <blockquote class="stu-note">
+    <p>
+    <b>Attention !</b> Cet Implementation Guide n'est pas la version courante. La version courante sera accessible via l'URL canonique après la prochaine release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
+    </p>
+    </blockquote>
+</div>
+
+
+
 <!--  A décommenter si CI-SIS
 <div class="figure">
     <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
