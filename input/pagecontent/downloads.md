@@ -23,7 +23,7 @@ Ensemble des ressources téléchargeables :
 
 ### Usage
 
-Ce guide d'implémentation définit des profils qui définissent la structure des instances FHIR, c'est à dire les données exposées par le serveur.
+Ce guide d'implémentation contient les profils qui définissent la structure des instances FHIR attendues.
 
 Les serveurs ainsi que les clients qui envoient de la donnée aux serveurs devront s'assurer de la conformité des ressources envoyées par rapport aux profils indiqués dans le guide ainsi qu'à la spécification FHIR de base. Pour cela, il est possible d'utiliser le validateur officiel [FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator) qui est également accessible [en ligne](https://validator.fhir.org/).
 
