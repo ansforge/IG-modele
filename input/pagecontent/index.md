@@ -46,3 +46,7 @@ Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohé
 ### Dépendances
 
 {% include dependency-table.xhtml %}
+
+### Propriété intellectuelle
+
+{% include ip-statements.xhtml %}
