@@ -3,8 +3,7 @@
 [Add a brief description of this IG in English]
 </p>
 
-<!--  A décommenter lors de la publication -->
-
+{% if site.data.info.releaselabel == 'ci-build' %}
 <div style="width: 65%">
     <blockquote class="stu-note">
     <p>
@@ -12,8 +11,7 @@
     </p>
     </blockquote>
 </div>
-
-
+{% endif %}
 
 <!--  A décommenter si CI-SIS
 <div class="figure">
@@ -46,3 +44,7 @@ Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohé
 ### Dépendances
 
 {% include dependency-table.xhtml %}
+
+### Propriété intellectuelle
+
+{% include ip-statements.xhtml %}
