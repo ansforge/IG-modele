@@ -1,0 +1,52 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CompetenceCS",
+      "title" : "Compétences CodeSystem",
+      "description" : "Compétences des professionnels de santé.",
+      "uses" : {
+      },
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TypeCarteCS",
+      "title" : "Type de carte",
+      "description" : "Type de carte professionnelle et personnelle.",
+      "uses" : {
+      },
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
+      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set"
+    }
+  ]
+}
