@@ -11,6 +11,20 @@
 </div>
 {% endif %}
 
+
+{% if site.data.info.releaselabel == 'public-comment' %}
+<div style="width: 65%">
+<blockquote class="stu-note">
+<p>
+  <b>Attention !</b>
+  <br>
+ Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
+</p>
+</blockquote>
+</div>
+{% endif %}
+
+
 <!--  A décommenter si CI-SIS
 <div class="figure">
     <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
