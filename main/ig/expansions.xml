@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9947e124-0f09-4fcf-a5d4-becf545111b7"/>
+  <id value="f51b9a69-7b79-43e2-bd1f-055fa8f871e8"/>
   <meta>
-    <lastUpdated value="2025-08-01T06:41:23.611+00:00"/>
+    <lastUpdated value="2025-08-21T09:53:18.615+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -25,7 +25,7 @@
                   <b>Système</b>
                 </td>
                 <td>
-                  <b>Display (fr-FR)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Inactif</b>
@@ -66,7 +66,7 @@
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2025-08-01T06:40:58+00:00"/>
+        <date value="2025-08-21T09:52:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -75,14 +75,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5c301005-9c05-4c92-a5ae-f3b8deeca722"/>
-          <timestamp value="2025-08-01T06:41:34+00:00"/>
+          <identifier value="urn:uuid:0811b3c7-554a-4a3b-8ee9-f8228f17ff94"/>
+          <timestamp value="2025-08-21T09:53:30+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="fr-FR"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -157,7 +153,7 @@
                   <b>Système</b>
                 </td>
                 <td>
-                  <b>Display (fr-FR)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Définition</b>
@@ -187,7 +183,7 @@
                   <a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system</td>
-                <td/>
+                <td>Anatomie et Cytologie pathologiques humaines</td>
                 <td>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</td>
               </tr>
               <tr>
@@ -196,7 +192,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Personnel Autorisé</td>
                 <td>La carte d'un personnel autorisé (CDA/CPA)</td>
               </tr>
               <tr>
@@ -205,7 +201,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Personnel d'Etablissement</td>
                 <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
               </tr>
               <tr>
@@ -214,7 +210,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Professionnel de Santé en Formation</td>
                 <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
               </tr>
               <tr>
@@ -223,7 +219,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Professionnel de Santé</td>
                 <td>La Carte de Professionnel de Santé (CPS).</td>
               </tr>
             </table>
@@ -234,7 +230,7 @@
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2025-08-01T06:40:58+00:00"/>
+        <date value="2025-08-21T09:52:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -243,14 +239,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2374d5a4-206c-40f1-a2e0-c5448fd8e5ac"/>
-          <timestamp value="2025-08-01T06:41:34+00:00"/>
+          <identifier value="urn:uuid:b4de33e1-b38b-4a62-a1e4-74a957697bf4"/>
+          <timestamp value="2025-08-21T09:53:30+00:00"/>
           <total value="7"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="fr-FR"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -296,22 +288,27 @@
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system"/>
             <code value="C01"/>
+            <display value="Anatomie et Cytologie pathologiques humaines"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPA"/>
+            <display value="Carte de Personnel Autorisé"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPE"/>
+            <display value="Carte de Personnel d'Etablissement"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPF"/>
+            <display value="Carte de Professionnel de Santé en Formation"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPS"/>
+            <display value="Carte de Professionnel de Santé"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -338,7 +335,7 @@
                   <b>Système</b>
                 </td>
                 <td>
-                  <b>Display (fr-FR)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Définition</b>
@@ -350,7 +347,7 @@
                   <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
                 </td>
                 <td>http://hl7.org/fhir/administrative-gender</td>
-                <td/>
+                <td>Male</td>
                 <td>Male.</td>
               </tr>
               <tr>
@@ -359,7 +356,7 @@
                   <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
                 </td>
                 <td>http://hl7.org/fhir/administrative-gender</td>
-                <td/>
+                <td>Female</td>
                 <td>Female.</td>
               </tr>
               <tr>
@@ -368,7 +365,7 @@
                   <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
                 </td>
                 <td>http://hl7.org/fhir/administrative-gender</td>
-                <td/>
+                <td>Other</td>
                 <td>Other.</td>
               </tr>
             </table>
@@ -379,7 +376,7 @@
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2025-08-01T06:40:58+00:00"/>
+        <date value="2025-08-21T09:52:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -388,14 +385,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c30a0c7e-0c4f-4bce-8032-6040b3af5156"/>
-          <timestamp value="2025-08-01T06:41:35+00:00"/>
+          <identifier value="urn:uuid:5f5bfaf9-c3be-42f2-af05-b47864e509c3"/>
+          <timestamp value="2025-08-21T09:53:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="fr-FR"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -415,14 +408,17 @@
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
             <code value="male"/>
+            <display value="Male"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
             <code value="female"/>
+            <display value="Female"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
             <code value="other"/>
+            <display value="Other"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -449,7 +445,7 @@
                   <b>Système</b>
                 </td>
                 <td>
-                  <b>Display (fr-FR)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Définition</b>
@@ -461,7 +457,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Personnel Autorisé</td>
                 <td>La carte d'un personnel autorisé (CDA/CPA)</td>
               </tr>
               <tr>
@@ -470,7 +466,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Personnel d'Etablissement</td>
                 <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
               </tr>
               <tr>
@@ -479,7 +475,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Professionnel de Santé en Formation</td>
                 <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
               </tr>
               <tr>
@@ -488,7 +484,7 @@
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</td>
-                <td/>
+                <td>Carte de Professionnel de Santé</td>
                 <td>La Carte de Professionnel de Santé (CPS).</td>
               </tr>
             </table>
@@ -499,7 +495,7 @@
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2025-08-01T06:40:58+00:00"/>
+        <date value="2025-08-21T09:52:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -508,14 +504,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c79c97ee-962a-493d-b1b4-8e71a9009e9a"/>
-          <timestamp value="2025-08-01T06:41:35+00:00"/>
+          <identifier value="urn:uuid:db9c03c0-8b96-47c1-ac6c-85dd348faa7f"/>
+          <timestamp value="2025-08-21T09:53:31+00:00"/>
           <total value="4"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="fr-FR"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -535,18 +527,22 @@
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPA"/>
+            <display value="Carte de Personnel Autorisé"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPE"/>
+            <display value="Carte de Personnel d'Etablissement"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPF"/>
+            <display value="Carte de Professionnel de Santé en Formation"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
             <code value="CPS"/>
+            <display value="Carte de Professionnel de Santé"/>
           </contains>
         </expansion>
       </ValueSet>

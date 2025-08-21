@@ -14,7 +14,7 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/Patient-frpatient-exemple.json: line 11, col 46, Warning - No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8' (INVALID)
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EyeColor.json: line 0, col 0, Warning - Review the extension type for EyeColor: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EyeColor.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
-/home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient.json: line 1, col 28369, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot is deprecated with the note Use additionalBinding extension or element instead (BUSINESSRULE)
+/home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient.json: line 1, col 28369, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient.json: line 1, col 93787, Info - The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing) (BUSINESSRULE)
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient.json: line 1, col 35531, Info - The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing) (BUSINESSRULE)
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-EyeColorVS.json: line 1, col 1581, Warning - The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://snomed.info/sct does not support batch validation (tx version Not Known), so the codes have not been validated (NOTSUPPORTED)
@@ -26,4 +26,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-TypeCarteVS.json: line 1, col 1184, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
 err = 2, warn = 15, info = 6
-IG Publisher Version: 2.0.12
+IG Publisher Version: 2.0.13
