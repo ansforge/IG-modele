@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style-ans.css"/>
     <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
     <!-- Placeholder for child template CSS declarations -->
@@ -46,6 +47,7 @@
     h3,h4,h5,h6{--heading-prefix:"6.5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
     <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
@@ -176,9 +178,8 @@
       <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
-
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">ANS IG Example - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/[code]/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">ANS IG Example - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/[code]/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   
 
 
@@ -246,7 +247,7 @@
         
           Draft
           
-            as of 2025-11-14
+            as of 2025-12-03
           
         
       </td>
@@ -284,16 +285,16 @@
   <a name="definition"> </a>
 
 <!-- Content Logical Definition heading in the fragment -->
-  <h3>Logical Definition (CLD)</h3>
+  <h3>Définition logique (CLD)</h3>
 <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="ModifiedAdministrativeGender"> </a><a name="hcModifiedAdministrativeGender"> </a><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p>
-<ul><li>Inclut tous les codes définis dans <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><span title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references"> version &#x1F4E6;4.0.1</span></li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p>
-<ul><li>Exclude ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><span title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references"> version &#x1F4E6;4.0.1</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a></td><td style="color: #cccccc">Unknown</td><td>Unknown.</td></tr></table></li></ul></div>
+<ul><li>Inclut tous les codes définis dans <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><span title="La version nest pas explicitement indiquée, ce qui signifie quelle est fixée à 4.0.1, la version trouvée via les références de package"> version &#x1F4E6;4.0.1</span></li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p>
+<ul><li>Exclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><span title="La version nest pas explicitement indiquée, ce qui signifie quelle est fixée à 4.0.1, la version trouvée via les références de package"> version &#x1F4E6;4.0.1</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a></td><td style="color: #cccccc">Unknown</td><td>Unknown.</td></tr></table></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class="copy-text-inline"><button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Click to Copy URL" class="btn-copy"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class="codes" data-fhir="generated"><tr><td><b>Système</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-http://hl7.org/fhir/administrative-gender-male"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a></td><td/><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-http://hl7.org/fhir/administrative-gender-female"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a></td><td/><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-http://hl7.org/fhir/administrative-gender-other"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a></td><td/><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class="copy-text-inline"><button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Cliquer pour copier lURL" class="btn-copy"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class="codes" data-fhir="generated"><tr><td><b>Système</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-http://hl7.org/fhir/administrative-gender-male"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a></td><td/><td>Male.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-http://hl7.org/fhir/administrative-gender-female"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a></td><td/><td>Female.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-http://hl7.org/fhir/administrative-gender-other"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a></td><td/><td>Other.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button></span></td></tr></table></div>
 
   <hr/>
   <p>
@@ -374,7 +375,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.[code]#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 14, 2025 15:31+0000">2025-11-14</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.[code]#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 3, 2025 08:52+0000">2025-12-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |

@@ -10,8 +10,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
-      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender",
-      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender",
+      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender"
     },
     {
       "url" : "http://hl7.org/fhir/identifier-use",
@@ -118,20 +118,8 @@
       "description" : "Type de carte professionnelle et personnelle.",
       "uses" : {
       },
-      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set",
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
-    },
-    {
-      "url" : "urn:ietf:bcp:47",
-      "version" : "2.0.1",
-      "status" : "active",
-      "name" : "Ietf3066",
-      "title" : "Tags for the Identification of Languages",
-      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
-      "oids" : ["2.16.840.1.113883.6.121"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
+      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set"
     }
   ]
 }

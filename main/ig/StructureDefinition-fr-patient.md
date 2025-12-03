@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient | *Version*:0.1.0 |
-| Draft as of 2025-11-14 | *Computable Name*:FrPatient |
+| Draft as of 2025-12-03 | *Computable Name*:FrPatient |
 
  
 Description du patient français 
 
-**Usages:**
+**Utilisations:**
 
-* Examples for this Profile: [Patient/frpatient-exemple](Patient-frpatient-exemple.md)
+* Exemples pour ce Profil: [Patient/frpatient-exemple](Patient-frpatient-exemple.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.[code]|current/StructureDefinition/fr-patient)
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
   "name" : "FrPatient",
   "title" : "Patient français",
   "status" : "draft",
-  "date" : "2025-11-14T15:31:38+00:00",
+  "date" : "2025-12-03T08:52:56+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

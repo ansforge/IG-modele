@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender | *Version*:0.1.0 |
-| Draft as of 2025-11-14 | *Computable Name*:ModifiedAdministrativeGender |
+| Draft as of 2025-12-03 | *Computable Name*:ModifiedAdministrativeGender |
 
  
 AdministrativeGender without unknown code 
@@ -18,7 +18,7 @@ AdministrativeGender without unknown code
 
 * [Patient français](StructureDefinition-fr-patient.md)
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -26,11 +26,15 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :
 
-* Exclude ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://hl7.org/fhir/administrative-gender`](http://hl7.org/fhir/R4/codesystem-administrative-gender.html)version 📦4.0.1
+* Exclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://hl7.org/fhir/administrative-gender`](http://hl7.org/fhir/R4/codesystem-administrative-gender.html)version 📦4.0.1
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem AdministrativeGender v4.0.1 (CodeSystem)](http://hl7.org/fhir/R4/codesystem-administrative-gender.html)
+
+Ce jeu de valeur (ValueSet) contient 3 concepts
 
 -------
 
@@ -58,7 +62,7 @@ Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :
   "name" : "ModifiedAdministrativeGender",
   "title" : "ModifiedAdministrativeGender",
   "status" : "draft",
-  "date" : "2025-11-14T15:31:38+00:00",
+  "date" : "2025-12-03T08:52:56+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

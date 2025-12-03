@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system | *Version*:0.1.0 |
-| Draft as of 2025-11-14 | *Computable Name*:TypeCarteCS |
+| Draft as of 2025-12-03 | *Computable Name*:TypeCarteCS |
 
  
 Type de carte professionnelle et personnelle. 
@@ -32,7 +32,7 @@ Type de carte professionnelle et personnelle.
   "name" : "TypeCarteCS",
   "title" : "Type de carte",
   "status" : "draft",
-  "date" : "2025-11-14T15:31:38+00:00",
+  "date" : "2025-12-03T08:52:56+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

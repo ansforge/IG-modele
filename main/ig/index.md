@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code] | *Version*:0.1.0 |
-| Draft as of 2025-11-14 | *Computable Name*:ExampleIG |
+| Draft as of 2025-12-03 | *Computable Name*:ExampleIG |
 
  **Brief description of this Implementation Guide**
  [Add a brief description of this IG in English] 
@@ -31,7 +31,7 @@ Définir en quelques lignes en anglais quel est le périmètre du projet
 
 Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
 
-### Auteurs et contributeurs
+### Auteurs et contributeurs (optionnel)
 
 | | | | |
 | :--- | :--- | :--- | :--- |
@@ -44,11 +44,6 @@ Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohé
 ### Propriété intellectuelle
 
 Certaines ressources sémantiques de ce guide sont protégées par des droits de propriété intellectuelle couverte par les déclarations ci-dessous. L’utilisation de ces ressources est soumise à l’acceptation et au respect des conditions précisées dans la licence d’utilisation de chacune d’entre elle.
-
-* ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
-
-* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.5.0/CodeSystem-ISO3166Part1.html): [CompetenceCS](CodeSystem-competence-code-system.md), [ExampleIG](index.md)...Show 7 more,[EyeColor](StructureDefinition-EyeColor.md),[EyeColorVS](ValueSet-EyeColorVS.md),[FrPatient](StructureDefinition-fr-patient.md),[MeltingPotVS](ValueSet-MeltingPotVS.md),[ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md),[TypeCarteCS](CodeSystem-type-carte-code-system.md)and[TypeCarteVS](ValueSet-TypeCarteVS.md)
-
 
 * This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
 
@@ -68,7 +63,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2025-11-14T15:31:38+00:00",
+  "date" : "2025-12-03T08:52:56+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -106,7 +101,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "6.5.0"
+      "version" : "7.0.0"
     },
     {
       "id" : "hl7ext",

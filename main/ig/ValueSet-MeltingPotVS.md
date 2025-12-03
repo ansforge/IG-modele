@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/MeltingPotVS | *Version*:0.1.0 |
-| Draft as of 2025-11-14 | *Computable Name*:MeltingPotVS |
+| Draft as of 2025-12-03 | *Computable Name*:MeltingPotVS |
 
  
 Melting Pot Value Set. 
@@ -18,11 +18,11 @@ Melting Pot Value Set.
 
 Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server)
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://snomed.info/sct`](http://www.snomed.org/)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system`](CodeSystem-competence-code-system.md)version 📦0.1.0 
 * Inclut tous les codes définis dans [`https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system`](CodeSystem-type-carte-code-system.md)version 📦0.1.0
 
@@ -30,9 +30,9 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on:
+Expansion de smt.esante.gouv.fr basée sur :
 
-* SNOMED CT 11000315107 edition 21-Jun 2025
+* SNOMED CT édition 11000315107 21-Jun 2025
 * [codesystem Compétences CodeSystem v0.1.0 (CodeSystem)](CodeSystem-competence-code-system.md)
 * [codesystem Type de carte v0.1.0 (CodeSystem)](CodeSystem-type-carte-code-system.md)
 
@@ -64,7 +64,7 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
   "name" : "MeltingPotVS",
   "title" : "Melting Pot Value Set",
   "status" : "draft",
-  "date" : "2025-11-14T15:31:38+00:00",
+  "date" : "2025-12-03T08:52:56+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
