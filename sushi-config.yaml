@@ -17,6 +17,9 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'
     path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
+        i18n-default-lang: fr-FR # Default language
+    #i18n-lang: Second language
+    #  - en
 
 
 
