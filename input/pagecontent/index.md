@@ -47,7 +47,7 @@ Définir en quelques lignes en anglais quel est le périmètre du projet
 
 Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
 
-### Auteurs et contributeurs
+### Auteurs et contributeurs (optionnel)
 
 | Role  | Nom | Organisation | Contact |
 | --- | --- | --- | --- |
@@ -55,8 +55,8 @@ Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohé
 
 ### Dépendances
 
-{% include dependency-table.xhtml %}
+{% lang-fragment dependency-table.xhtml %}
 
 ### Propriété intellectuelle
 
-{% include ip-statements.xhtml %}
+{% lang-fragment ip-statements.xhtml %}
