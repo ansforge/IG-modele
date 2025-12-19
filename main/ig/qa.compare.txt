@@ -1,54 +1,142 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 3, warn = 14, info = 8
+err = 3, warn = 14, info = 95
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.[code]#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
- Build Errors : 0 / 3 / 0
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code] : 3 / 0 / 1
+ Build Errors : 1 / 3 / 0
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 3
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 3
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code] : 3 / 0 / 3
  /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/Patient-frpatient-exemple : 0 / 1 / 1
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 1
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 0 / 4
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 0 / 1 / 2
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 0 / 1 / 3
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender : 0 / 1 / 1
- /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 1 / 1
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 10
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 0 / 74
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 0 / 1 / 3
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 0 / 1 / 4
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender : 0 / 1 / 2
+ /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 1 / 2
 </table>
 == n/a ==
+ERROR: searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img at Line 57, column 3: The image source 'assets/images/fra.svg' cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-competence-code-system.json ==
+INFORMATION: CodeSystem/competence-code-system: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: CodeSystem/competence-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-type-carte-code-system.json ==
+INFORMATION: CodeSystem/type-carte-code-system: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: CodeSystem/type-carte-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code].json ==
+INFORMATION: ImplementationGuide.definition.resource[3].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient to 0.1.0
 ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.id: Invalid Resource id: Invalid Characters ('ans.fhir.fr.[code]')
+INFORMATION: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.packageId: id value 'ans.fhir.fr.[code]' is not valid
-ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.definition.extension[27].url: No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
+ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.definition.extension[29].url: No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
 == fsh-generated/resources/Patient-frpatient-exemple.json ==
 WARNING: Patient/frpatient-exemple: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 == fsh-generated/resources/StructureDefinition-EyeColor.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/EyeColorVS to 0.1.0
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/EyeColorVS to 0.1.0
+INFORMATION: StructureDefinition/EyeColor: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 WARNING: StructureDefinition/EyeColor: StructureDefinition.context[0]: Review the extension type for EyeColor: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-patient.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Patient to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].binding.extension[0].value[x]: Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[23].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Patient to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[45].binding.extension[0].value[x]: Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor to 0.1.0
+INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender to 0.1.0
+INFORMATION: StructureDefinition/fr-patient: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[10].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 == fsh-generated/resources/ValueSet-EyeColorVS.json ==
+INFORMATION: ValueSet/EyeColorVS: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: ValueSet/EyeColorVS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/EyeColorVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-MeltingPotVS.json ==
+INFORMATION: ValueSet/MeltingPotVS: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: ValueSet/MeltingPotVS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/MeltingPotVS: ValueSet.compose.include[1].concept[0]: Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system|0.1.0
 WARNING: ValueSet/MeltingPotVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json ==
+INFORMATION: ValueSet/ModifiedAdministrativeGender: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 WARNING: ValueSet/ModifiedAdministrativeGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-TypeCarteVS.json ==
+INFORMATION: ValueSet/TypeCarteVS: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 WARNING: ValueSet/TypeCarteVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

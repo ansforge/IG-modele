@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient | *Version*:0.1.0 |
-| Draft as of 2025-12-03 | *Computable Name*:FrPatient |
+| Draft as of 2025-12-19 | *Computable Name*:FrPatient |
 
  
 Description du patient français 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
   "name" : "FrPatient",
   "title" : "Patient français",
   "status" : "draft",
-  "date" : "2025-12-03T08:52:56+00:00",
+  "date" : "2025-12-19T08:24:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -97,7 +97,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Patient",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Patient|4.0.1",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -130,7 +130,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
           {
             "code" : "Extension",
             "profile" : [
-              "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor"
+              "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor|0.1.0"
             ]
           }
         ],
@@ -172,7 +172,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
         "short" : "male | female | other",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender|0.1.0"
         }
       }
     ]

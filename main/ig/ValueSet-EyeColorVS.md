@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/EyeColorVS | *Version*:0.1.0 |
-| Draft as of 2025-12-03 | *Computable Name*:EyeColorVS |
+| Draft as of 2025-12-19 | *Computable Name*:EyeColorVS |
 
  
 Different eye colors. 
@@ -20,15 +20,9 @@ Different eye colors.
 
 ### Définition logique (CLD)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://snomed.info/sct`](http://www.snomed.org/)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
-
-Expansion de smt.esante.gouv.fr basée sur SNOMED CT édition 11000315107 21-Jun 2025
-
-Ce jeu de valeur (ValueSet) contient 3 concepts
 
 -------
 
@@ -56,7 +50,7 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "name" : "EyeColorVS",
   "title" : "EyeColor Value Set",
   "status" : "draft",
-  "date" : "2025-12-03T08:52:56+00:00",
+  "date" : "2025-12-19T08:24:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

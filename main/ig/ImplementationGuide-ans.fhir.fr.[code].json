@@ -3,14 +3,14 @@
   "id" : "ans.fhir.fr.[code]",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre><div><p>Description du projet</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]",
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2025-12-03T08:52:56+00:00",
+  "date" : "2025-12-19T08:24:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -19,6 +19,7 @@
       "value" : "https://esante.gouv.fr"
     }]
   }],
+  "description" : "Description du projet",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -37,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.0"
+    "version" : "7.0.1"
   },
   {
     "id" : "hl7ext",
@@ -91,6 +92,28 @@
       {
         "url" : "value",
         "valueString" : "../../expansion-params.json"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "fr-FR"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "pin-canonicals"
+      },
+      {
+        "url" : "value",
+        "valueString" : "pin-all"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -355,7 +378,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
     },
     {
       "extension" : [{
@@ -398,6 +421,28 @@
       {
         "url" : "value",
         "valueString" : "../../expansion-params.json"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "fr-FR"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "pin-canonicals"
+      },
+      {
+        "url" : "value",
+        "valueString" : "pin-all"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -700,7 +745,7 @@
       },
       "name" : "frpatient-exemple",
       "description" : "Exemple d'un patient français",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient|0.1.0"
     },
     {
       "extension" : [{

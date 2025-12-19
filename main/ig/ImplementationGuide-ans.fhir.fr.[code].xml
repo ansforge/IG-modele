@@ -3,14 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ans.fhir.fr.[code]"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name="ans.fhir.fr.[code]"> </a><a name="hcans.fhir.fr.[code]"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name="ans.fhir.fr.[code]"> </a><a name="hcans.fhir.fr.[code]"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre><div><p>Description du projet</p>
+</div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]"/>
   <version value="0.1.0"/>
   <name value="ExampleIG"/>
   <title value="ANS IG Example"/>
   <status value="draft"/>
-  <date value="2025-12-03T08:52:56+00:00"/>
+  <date value="2025-12-19T08:24:59+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -19,6 +20,7 @@
       <value value="https://esante.gouv.fr"/>
     </telecom>
   </contact>
+  <description value="Description du projet"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -35,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.0.0"/>
+    <version value="7.0.1"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -76,6 +78,22 @@
       </extension>
       <extension url="value">
         <valueString value="../../expansion-params.json"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="i18n-default-lang"/>
+      </extension>
+      <extension url="value">
+        <valueString value="fr-FR"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="pin-canonicals"/>
+      </extension>
+      <extension url="value">
+        <valueString value="pin-all"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -268,7 +286,7 @@
       </valueReference>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -300,6 +318,22 @@
       </extension>
       <extension url="value">
         <valueString value="../../expansion-params.json"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="i18n-default-lang"/>
+      </extension>
+      <extension url="value">
+        <valueString value="fr-FR"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="pin-canonicals"/>
+      </extension>
+      <extension url="value">
+        <valueString value="pin-all"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -528,7 +562,7 @@
       </reference>
       <name value="frpatient-exemple"/>
       <description value="Exemple d'un patient français"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient|0.1.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
