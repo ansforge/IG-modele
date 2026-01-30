@@ -34,33 +34,38 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 pages:
     index.md:
         title: Accueil
-    specifications_fonctionnelles.md:
-        sf1.md:
+    spec-fonctionnelle-intro.md:
+        title: Vue d'ensemble
+        spec-fonctionnelle-alimentation.md:
+            title: Alimentation
+    spec-technique-intro.md:
+        title: Introduction
+        spec-technique-vue-ensemble.md:
             title: Vue d'ensemble
-    specifications_techniques.md:
-        construction_des_flux.md:
-            title: Vue d'ensemble
-        st_flux1.md:
-            title: Flux 01
-        st_flux2.md:
-            title: Flux 02
+        spec-technique-flux-alimentation.md:
+            title: Flux d'alimentation
+        spec-technique-flux-consommation.md:
+            title: Flux de consommation
     change-log.md:
         title: Historique des versions
     autres_ressources.md:
         title: Autres Ressources
-        securite.md:
+        annexe-securite.md:
             title: Sécurité
-        downloads.md:
+        annexe-downloads.md:
             title: Téléchargements et usages
 
 menu:
     Accueil: index.html
-    Volume 1 - Etude fonctionnelle: sf1.html
-    Volume 2 - Détail des transactions:
-        Construction des flux: construction_des_flux.html
-        Flux 01: st_flux1.html
-        Flux 02: st_flux2.html
-    Volume 3 - Annexes:
+    Vol. 1 - Etude fonctionnelle: 
+        Introduction: spec-fonctionnelle-intro.html
+        Alimentation: spec-fonctionnelle-alimentation.html
+    Vol. 2 - Détail des transactions: 
+        Introduction: spec-technique-intro.html
+        Vue d'ensemble: spec-technique-vue-ensemble.html
+        Flux d'alimentation: spec-technique-flux-alimentation.html
+        Flux de consommation: spec-technique-flux-consommation.html
+    Vol. 3 - Annexes:
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
