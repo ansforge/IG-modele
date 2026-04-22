@@ -3,14 +3,14 @@
   "id" : "ans.fhir.fr.[code]",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre><div><p>Description du projet</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>ExampleIG</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre><div><p>Description du projet</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]",
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2026-01-23T13:18:01+00:00",
+  "date" : "2026-04-22T13:48:02+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -24,7 +24,7 @@
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "packageId" : "ans.fhir.fr.[code]",
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7ext",
@@ -433,7 +433,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.2"
     },
     {
       "extension" : [{
@@ -937,54 +937,54 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "specifications_fonctionnelles.html"
+          "valueUrl" : "spec-fonctionnelle-intro.html"
         }],
-        "nameUrl" : "specifications_fonctionnelles.html",
-        "title" : "Specifications Fonctionnelles",
+        "nameUrl" : "spec-fonctionnelle-intro.html",
+        "title" : "Vue d'ensemble",
         "generation" : "markdown",
         "page" : [{
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "sf1.html"
+            "valueUrl" : "spec-fonctionnelle-alimentation.html"
           }],
-          "nameUrl" : "sf1.html",
-          "title" : "Vue d'ensemble",
+          "nameUrl" : "spec-fonctionnelle-alimentation.html",
+          "title" : "Alimentation",
           "generation" : "markdown"
         }]
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "specifications_techniques.html"
+          "valueUrl" : "spec-technique-intro.html"
         }],
-        "nameUrl" : "specifications_techniques.html",
-        "title" : "Specifications Techniques",
+        "nameUrl" : "spec-technique-intro.html",
+        "title" : "Introduction",
         "generation" : "markdown",
         "page" : [{
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "construction_des_flux.html"
+            "valueUrl" : "spec-technique-vue-ensemble.html"
           }],
-          "nameUrl" : "construction_des_flux.html",
+          "nameUrl" : "spec-technique-vue-ensemble.html",
           "title" : "Vue d'ensemble",
           "generation" : "markdown"
         },
         {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "st_flux1.html"
+            "valueUrl" : "spec-technique-flux-alimentation.html"
           }],
-          "nameUrl" : "st_flux1.html",
-          "title" : "Flux 01",
+          "nameUrl" : "spec-technique-flux-alimentation.html",
+          "title" : "Flux d'alimentation",
           "generation" : "markdown"
         },
         {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "st_flux2.html"
+            "valueUrl" : "spec-technique-flux-consommation.html"
           }],
-          "nameUrl" : "st_flux2.html",
-          "title" : "Flux 02",
+          "nameUrl" : "spec-technique-flux-consommation.html",
+          "title" : "Flux de consommation",
           "generation" : "markdown"
         }]
       },
@@ -1008,18 +1008,18 @@
         "page" : [{
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "securite.html"
+            "valueUrl" : "annexe-securite.html"
           }],
-          "nameUrl" : "securite.html",
+          "nameUrl" : "annexe-securite.html",
           "title" : "Sécurité",
           "generation" : "markdown"
         },
         {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "downloads.html"
+            "valueUrl" : "annexe-downloads.html"
           }],
-          "nameUrl" : "downloads.html",
+          "nameUrl" : "annexe-downloads.html",
           "title" : "Téléchargements et usages",
           "generation" : "markdown"
         }]

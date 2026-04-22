@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender | *Version*:0.1.0 |
-| Draft as of 2026-01-23 | *Computable Name*:ModifiedAdministrativeGender |
+| Draft as of 2026-04-22 | *Computable Name*:ModifiedAdministrativeGender |
 
  
 AdministrativeGender without unknown code 
@@ -50,47 +50,35 @@ AdministrativeGender without unknown code
   "name" : "ModifiedAdministrativeGender",
   "title" : "ModifiedAdministrativeGender",
   "status" : "draft",
-  "date" : "2026-01-23T13:18:01+00:00",
+  "date" : "2026-04-22T13:48:02+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "contact" : [
-    {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
   "description" : "AdministrativeGender without unknown code",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/administrative-gender"
-      }
-    ],
-    "exclude" : [
-      {
-        "system" : "http://hl7.org/fhir/administrative-gender",
-        "concept" : [
-          {
-            "code" : "unknown"
-          }
-        ]
-      }
-    ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1"
+    }],
+    "exclude" : [{
+      "system" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "concept" : [{
+        "code" : "unknown"
+      }]
+    }]
   }
 }
 

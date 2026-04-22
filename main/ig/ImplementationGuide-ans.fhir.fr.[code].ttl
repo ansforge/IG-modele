@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "ans.fhir.fr.[code]"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre><div><p>Description du projet</p>\n</div></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>ExampleIG</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre><div><p>Description du projet</p>\n</div></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]"^^xsd:anyURI ;
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "ExampleIG"] ; # 
   fhir:title [ fhir:v "ANS IG Example"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-01-23T13:18:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-22T13:48:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -38,7 +38,7 @@
          fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "FR" ] ;
-       fhir:display [ fhir:v "FRANCE" ]
+       fhir:display [ fhir:v "France (la)" ]
      ] )
   ] ) ; # 
   fhir:packageId [ fhir:v "ans.fhir.fr.[code]"] ; # 
@@ -61,7 +61,7 @@
        fhir:l <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "7.0.1" ]
+     fhir:version [ fhir:v "7.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -915,7 +915,7 @@
        ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.9.0"
+         fhir:v "hl7.fhir.uv.tools.r4#1.1.2"
        ]
      ] [
        fhir:extension ( [
@@ -1971,16 +1971,16 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "specifications_fonctionnelles.html"^^xsd:anyURI ;
-             fhir:l fhir:specifications_fonctionnelles.html
+             fhir:v "spec-fonctionnelle-intro.html"^^xsd:anyURI ;
+             fhir:l fhir:spec-fonctionnelle-intro.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "specifications_fonctionnelles.html"^^xsd:anyURI ;
-           fhir:l fhir:specifications_fonctionnelles.html
+           fhir:v "spec-fonctionnelle-intro.html"^^xsd:anyURI ;
+           fhir:l fhir:spec-fonctionnelle-intro.html
          ] ;
-         fhir:title [ fhir:v "Specifications Fonctionnelles" ] ;
+         fhir:title [ fhir:v "Vue d'ensemble" ] ;
          fhir:generation [ fhir:v "markdown" ] ;
          fhir:page ( [
            fhir:extension ( [
@@ -1990,16 +1990,16 @@
              ] ;
              fhir:value [
                a fhir:Url ;
-               fhir:v "sf1.html"^^xsd:anyURI ;
-               fhir:l fhir:sf1.html
+               fhir:v "spec-fonctionnelle-alimentation.html"^^xsd:anyURI ;
+               fhir:l fhir:spec-fonctionnelle-alimentation.html
              ]
            ] ) ;
            fhir:name [
              a fhir:Url ;
-             fhir:v "sf1.html"^^xsd:anyURI ;
-             fhir:l fhir:sf1.html
+             fhir:v "spec-fonctionnelle-alimentation.html"^^xsd:anyURI ;
+             fhir:l fhir:spec-fonctionnelle-alimentation.html
            ] ;
-           fhir:title [ fhir:v "Vue d'ensemble" ] ;
+           fhir:title [ fhir:v "Alimentation" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] )
        ] [
@@ -2010,16 +2010,16 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "specifications_techniques.html"^^xsd:anyURI ;
-             fhir:l fhir:specifications_techniques.html
+             fhir:v "spec-technique-intro.html"^^xsd:anyURI ;
+             fhir:l fhir:spec-technique-intro.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "specifications_techniques.html"^^xsd:anyURI ;
-           fhir:l fhir:specifications_techniques.html
+           fhir:v "spec-technique-intro.html"^^xsd:anyURI ;
+           fhir:l fhir:spec-technique-intro.html
          ] ;
-         fhir:title [ fhir:v "Specifications Techniques" ] ;
+         fhir:title [ fhir:v "Introduction" ] ;
          fhir:generation [ fhir:v "markdown" ] ;
          fhir:page ( [
            fhir:extension ( [
@@ -2029,14 +2029,14 @@
              ] ;
              fhir:value [
                a fhir:Url ;
-               fhir:v "construction_des_flux.html"^^xsd:anyURI ;
-               fhir:l fhir:construction_des_flux.html
+               fhir:v "spec-technique-vue-ensemble.html"^^xsd:anyURI ;
+               fhir:l fhir:spec-technique-vue-ensemble.html
              ]
            ] ) ;
            fhir:name [
              a fhir:Url ;
-             fhir:v "construction_des_flux.html"^^xsd:anyURI ;
-             fhir:l fhir:construction_des_flux.html
+             fhir:v "spec-technique-vue-ensemble.html"^^xsd:anyURI ;
+             fhir:l fhir:spec-technique-vue-ensemble.html
            ] ;
            fhir:title [ fhir:v "Vue d'ensemble" ] ;
            fhir:generation [ fhir:v "markdown" ]
@@ -2048,16 +2048,16 @@
              ] ;
              fhir:value [
                a fhir:Url ;
-               fhir:v "st_flux1.html"^^xsd:anyURI ;
-               fhir:l fhir:st_flux1.html
+               fhir:v "spec-technique-flux-alimentation.html"^^xsd:anyURI ;
+               fhir:l fhir:spec-technique-flux-alimentation.html
              ]
            ] ) ;
            fhir:name [
              a fhir:Url ;
-             fhir:v "st_flux1.html"^^xsd:anyURI ;
-             fhir:l fhir:st_flux1.html
+             fhir:v "spec-technique-flux-alimentation.html"^^xsd:anyURI ;
+             fhir:l fhir:spec-technique-flux-alimentation.html
            ] ;
-           fhir:title [ fhir:v "Flux 01" ] ;
+           fhir:title [ fhir:v "Flux d'alimentation" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] [
            fhir:extension ( [
@@ -2067,16 +2067,16 @@
              ] ;
              fhir:value [
                a fhir:Url ;
-               fhir:v "st_flux2.html"^^xsd:anyURI ;
-               fhir:l fhir:st_flux2.html
+               fhir:v "spec-technique-flux-consommation.html"^^xsd:anyURI ;
+               fhir:l fhir:spec-technique-flux-consommation.html
              ]
            ] ) ;
            fhir:name [
              a fhir:Url ;
-             fhir:v "st_flux2.html"^^xsd:anyURI ;
-             fhir:l fhir:st_flux2.html
+             fhir:v "spec-technique-flux-consommation.html"^^xsd:anyURI ;
+             fhir:l fhir:spec-technique-flux-consommation.html
            ] ;
-           fhir:title [ fhir:v "Flux 02" ] ;
+           fhir:title [ fhir:v "Flux de consommation" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] )
        ] [
@@ -2125,14 +2125,14 @@
              ] ;
              fhir:value [
                a fhir:Url ;
-               fhir:v "securite.html"^^xsd:anyURI ;
-               fhir:l fhir:securite.html
+               fhir:v "annexe-securite.html"^^xsd:anyURI ;
+               fhir:l fhir:annexe-securite.html
              ]
            ] ) ;
            fhir:name [
              a fhir:Url ;
-             fhir:v "securite.html"^^xsd:anyURI ;
-             fhir:l fhir:securite.html
+             fhir:v "annexe-securite.html"^^xsd:anyURI ;
+             fhir:l fhir:annexe-securite.html
            ] ;
            fhir:title [ fhir:v "Sécurité" ] ;
            fhir:generation [ fhir:v "markdown" ]
@@ -2144,14 +2144,14 @@
              ] ;
              fhir:value [
                a fhir:Url ;
-               fhir:v "downloads.html"^^xsd:anyURI ;
-               fhir:l fhir:downloads.html
+               fhir:v "annexe-downloads.html"^^xsd:anyURI ;
+               fhir:l fhir:annexe-downloads.html
              ]
            ] ) ;
            fhir:name [
              a fhir:Url ;
-             fhir:v "downloads.html"^^xsd:anyURI ;
-             fhir:l fhir:downloads.html
+             fhir:v "annexe-downloads.html"^^xsd:anyURI ;
+             fhir:l fhir:annexe-downloads.html
            ] ;
            fhir:title [ fhir:v "Téléchargements et usages" ] ;
            fhir:generation [ fhir:v "markdown" ]
