@@ -6,7 +6,7 @@ curl -sSf tx.fhir.org > /dev/null
 
 if [ $? -eq 0 ]; then
 	echo "Online"
-	txoption="-resetTx -tx https://r4.ontoserver.csiro.au/fhir"
+	txoption=""
 else
 	echo "Offline"
 	txoption="-tx n/a"
