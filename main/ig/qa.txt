@@ -2,9 +2,9 @@ ExampleIG : Validation Results
 =========================================
 
 err = 2, warn = 14, info = 91
-IG Publisher Version: 2.2.7 Out of date - current version is null
-Generated Thu May 07 08:59:48 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.[code]#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
- Build Errors : 143 / 3 / 0
+IG Publisher Version: 2.2.8
+Generated Fri May 29 12:15:58 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.[code]#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
+ Build Errors : 145 / 3 / 0
  /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
  /home/runner/work/IG-modele/IG-modele/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code] : 2 / 0 / 2
@@ -160,6 +160,8 @@ ERROR: spec-technique-vue-ensemble.html#/html/body/div/div/nav/div/div/ul/li/ul/
 ERROR: spec-technique-vue-ensemble.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 10: The link 'downloads.html' for "Téléchargements et usage" cannot be resolved
 ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'securite.html' for "Sécurité" cannot be resolved
 ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 10: The link 'downloads.html' for "Téléchargements et usage" cannot be resolved
+ERROR: translationinfo.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'securite.html' for "Sécurité" cannot be resolved
+ERROR: translationinfo.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 10: The link 'downloads.html' for "Téléchargements et usage" cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
@@ -258,7 +260,7 @@ INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender to 0.1.0
-INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[10].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 == fsh-generated/resources/ValueSet-EyeColorVS.json ==

@@ -9,8 +9,8 @@
     "oids" : ["2.16.840.1.113883.4.642.4.2"],
     "uses" : {
     },
-    "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender",
-    "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+    "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender",
+    "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender"
   },
   {
     "url" : "http://hl7.org/fhir/identifier-use",
@@ -46,16 +46,16 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-    "ValueSet-EyeColorVS.html" : "EyeColor Value Set"
+    "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
+    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
-    "version" : "3.0.0",
+    "version" : "2.9",
     "status" : "active",
-    "name" : "ContactRole2",
-    "title" : "contactRole2",
-    "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+    "name" : "v2.0131",
+    "title" : "v2 Contact Role",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)",
     "oids" : ["2.16.840.1.113883.18.58"],
     "uses" : {
     },
@@ -63,11 +63,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-    "version" : "5.0.0",
+    "version" : "2.9",
     "status" : "active",
-    "name" : "IdentifierType",
-    "title" : "identifierType",
-    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+    "name" : "v2.0203",
+    "title" : "v2 Identifier Type",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0203 ( Identifier Type)",
     "oids" : ["2.16.840.1.113883.18.108"],
     "uses" : {
     },
@@ -75,11 +75,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "MaritalStatus",
-    "title" : "MaritalStatus",
-    "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+    "name" : "v3.MaritalStatus",
+    "title" : "v3 Code System MaritalStatus",
+    "description" : " * * * No description supplied * * *  Open Issue:\r\nThe specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.",
     "oids" : ["2.16.840.1.113883.5.2"],
     "uses" : {
     },
@@ -87,11 +87,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "NullFlavor",
-    "title" : "NullFlavor",
-    "description" : "A collection of codes specifying why a valid value is not present.",
+    "name" : "v3.NullFlavor",
+    "title" : "v3 Code System NullFlavor",
+    "description" : " A collection of codes specifying why a valid value is not present.",
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
@@ -117,7 +117,7 @@
     "description" : "Type de carte professionnelle et personnelle.",
     "uses" : {
     },
-    "ValueSet-TypeCarteVS.html" : "Type Carte Value Set",
-    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
+    "ValueSet-TypeCarteVS.html" : "Type Carte Value Set"
   }]
 }
