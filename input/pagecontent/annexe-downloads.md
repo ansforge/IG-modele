@@ -6,20 +6,20 @@ Pour cela, il suffit de télécharger le [package.tgz](package.tgz) et l'importe
 
 Ensemble des ressources téléchargeables :
 
-* [L'ensemble de la specification (zip)](full-ig.zip)
-* [Package (tgz)](package.tgz)
+* [L'ensemble de la specification (zip)](../full-ig.zip)
+* [Package (tgz)](../package.tgz)
 
 #### Définitions
 
-* [Définitions JSON (zip)](definitions.json.zip)
-* [Définitions XML (zip)](definitions.xml.zip)
-* [Définitions Turtle (zip)](definitions.ttl.zip)
+* [Définitions JSON (zip)](../definitions.json.zip)
+* [Définitions XML (zip)](../definitions.xml.zip)
+* [Définitions Turtle (zip)](../definitions.ttl.zip)
 
 #### Exemples
 
-* [Exemples XML (zip)](examples.xml.zip)
-* [Exemples JSON (zip)](examples.json.zip)
-* [Exemples Turtle (zip)](examples.ttl.zip)
+* [Exemples XML (zip)](../examples.xml.zip)
+* [Exemples JSON (zip)](../examples.json.zip)
+* [Exemples Turtle (zip)](../examples.ttl.zip)
 
 ### Usage
 
