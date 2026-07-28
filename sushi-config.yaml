@@ -22,6 +22,7 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
     shownav: 'true'
     path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
     pin-canonicals: pin-all
+    path-suppressed-warnings: input/ignoreWarnings.txt
     apply-contact: true
     show-inherited-invariants: true
     logging:
