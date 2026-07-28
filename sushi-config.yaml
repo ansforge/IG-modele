@@ -8,11 +8,13 @@ description: Description du projet
 publisher:
   name: Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
   url: https://esante.gouv.fr
-status: draft
+status: draft # draft | active | retired | unknown
 version: 0.1.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: ci-build # le release label doit être conforme au cycle de vie de la doctrine du ci-sis. Cf. https://interop.esante.gouv.fr/ig/documentation/mod_bonnes_pratiques.html#release-dun-ig-fhir colonne "label de publication"
+releaseLabel: ci-build 
+# le release label doit être conforme au cycle de vie de la doctrine du ci-sis. Cf. https://interop.esante.gouv.fr/ig/documentation/mod_bonnes_pratiques.html#release-dun-ig-fhir colonne "label de publication"
+# ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
 jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
 
@@ -21,6 +23,7 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
     path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
     pin-canonicals: pin-all
     apply-contact: true
+    show-inherited-invariants: true
     logging:
       - tx #tx: Messages describing the use of the terminology server (for debugging)
       - html #html: Log when validating an html page (troubleshooting only - leave off)
