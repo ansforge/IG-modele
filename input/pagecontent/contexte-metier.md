@@ -2,7 +2,7 @@
 
 ### Cas d'usages
 
-*Détailler les cas d'usage à travers des exemples illustrés via des diagrammes de séquences.*
+*Détailler les cas d'usage à travers des exemples illustrés accompagnés de diagrammes de séquences.*
 
 <figure style="text-align:center">
 {% include spe-sequence.svg %}

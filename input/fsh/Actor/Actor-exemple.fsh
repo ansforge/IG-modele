@@ -1,6 +1,6 @@
-Instance : EX-Actor
+Instance : ex-actor
 InstanceOf: ActorDefinition
-Title: "EX Actor"
+Title: "EX actor"
 Usage: #definition
 
 Description: """
@@ -12,9 +12,10 @@ L'acteur est un exemple.
 - Dossier patient informatisé
 """
 
-* name = "EX_Actor"
-* title = "EX Actor"
+* name = "EXActor"
 * status = #active
 * experimental = false
 * type = #system
 * capabilities = Canonical(nom-du-capability-statement)
+
+
