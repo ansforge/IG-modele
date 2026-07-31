@@ -1,0 +1,13 @@
+@startuml
+!theme carbon-gray
+object "[[StructureDefinition-ex-contact.html EXContact]]" as EXContact {
+  role : Coding [1]
+}
+
+object "[[https://ansforge.github.io/IG-modele-objets-sante/main/ig/StructureDefinition-Contact.html Contact]]" as Contact #LightGreen
+Contact <|-- EXContact
+
+object "[[StructureDefinition-ex-concept-metier.html EXConceptMetier]]" as EXConceptMetier
+EXContact "1" -- "1" EXConceptMetier
+
+@enduml

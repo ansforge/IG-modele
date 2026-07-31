@@ -1,30 +1,29 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-id: ans.fhir.fr.[code]
-canonical: https://interop.esante.gouv.fr/ig/fhir/[code] # the last part of canonical and id must be the same
+id: ans.fhir.fr.modele
+canonical: https://interop.esante.gouv.fr/ig/fhir/modele # the last part of canonical and id must be the same
 name: ExampleIG # Should be an acronym
 title: ANS IG Example
 description: Description du projet
 publisher:
   name: Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
   url: https://esante.gouv.fr
-status: draft # draft | active | retired | unknown
+status: draft
 version: 0.1.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: ci-build 
-# le release label doit être conforme au cycle de vie de la doctrine du ci-sis. Cf. https://interop.esante.gouv.fr/ig/documentation/mod_bonnes_pratiques.html#release-dun-ig-fhir colonne "label de publication"
-# Valeurs permises : ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ci-build # le release label doit être conforme au cycle de vie de la doctrine du ci-sis. Cf. https://interop.esante.gouv.fr/ig/documentation/mod_bonnes_pratiques.html#release-dun-ig-fhir colonne "label de publication"
 
 jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
+
+dependencies:
+  ans.fr.mos: 0.1.0-ballot
 
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'
     path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
     pin-canonicals: pin-all
-    path-suppressed-warnings: input/ignoreWarnings.txt
     apply-contact: true
-    show-inherited-invariants: true
     logging:
       - tx #tx: Messages describing the use of the terminology server (for debugging)
       - html #html: Log when validating an html page (troubleshooting only - leave off)
@@ -42,44 +41,36 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 pages:
     index.md:
         title: Accueil
-    spec-fonctionnelle-intro.md:
-        title: Vue d'ensemble
-        spec-fonctionnelle-alimentation.md:
-            title: Alimentation
-    spec-technique-intro.md:
-        title: Introduction
-        spec-technique-vue-ensemble.md:
-            title: Vue d'ensemble
-        spec-technique-flux-alimentation.md:
-            title: Flux d'alimentation
-        spec-technique-flux-consommation.md:
-            title: Flux de consommation
-    change-log.md:
-        title: Historique des versions
-    autres_ressources.md:
-        title: Autres Ressources
+    specifications.md:
+        spe-synthese.md:
+            title: Synthèse
+        spe-processus-collab-1.md:
+            title: Processus collaboratif 1
+    tests.md: 
+        title: Tests
+    annexes.md:
+        title: Annexes
         annexe-securite.md:
             title: Sécurité
+        translationinfo.md:
+            title: Informations sur la traduction
         annexe-downloads.md:
             title: Téléchargements et usages
-    translationinfo.md:
-        title: Informations sur la traduction
+    change-log.md:
+        title: Historique des versions
 
 menu:
     Accueil: index.html
-    Vol. 1 - Etude fonctionnelle: 
-        Introduction: spec-fonctionnelle-intro.html
-        Alimentation: spec-fonctionnelle-alimentation.html
-    Vol. 2 - Détail des transactions: 
-        Introduction: spec-technique-intro.html
-        Vue d'ensemble: spec-technique-vue-ensemble.html
-        Flux d'alimentation: spec-technique-flux-alimentation.html
-        Flux de consommation: spec-technique-flux-consommation.html
-    Vol. 3 - Annexes:
-        Sécurité: securite.html
-        Téléchargements et usage: downloads.html
+    Specifications:
+        Synthèse: spe-synthese.html
+        Processus collaboratif 1 : spe-processus-collab-1.html
+    Ressources de conformité: artifacts.html
+    Tests: tests.html
+    Annexes:
+        Sécurité: annexe-securite.html
+        Informations sur la traduction: translationinfo.html
+        Téléchargements et usage: annexe-downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
-    Ressources de conformité: artifacts.html
     Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
     Historique: change-log.html
