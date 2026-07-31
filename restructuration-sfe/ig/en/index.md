@@ -26,7 +26,7 @@ Il est à noter que les contraintes de sécurité concernant les flux échangés
 
 ### Cas d'usages
 
-**Détailler les cas d'usage à travers des exemples illustrés via des diagrammes de séquences.**
+**Détailler les cas d'usage à travers des exemples illustrés accompagnés de diagrammes de séquences.**
 
 diagramme de séquence du cas d'usage
 ### Définitions et cadre juridique
@@ -50,7 +50,7 @@ Organisation du contexte métier du volet traité
 | | | |
 | :--- | :--- | :--- |
 | Acteur | Description | Exemples |
-| [EX Actor](ActorDefinition-EX-Actor.md) | L'acteur est un exemple. | * Dossier patient informatisé
+| [EX actor](ActorDefinition-ex-actor.md) | L'acteur est un exemple. | * Dossier patient informatisé
  |
 
 ### Auteurs et contributeurs (optionnel)
@@ -72,7 +72,7 @@ This publication includes IP covered under the following statements.
 
 * ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
 
-* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.4.0/CodeSystem-ISO3166Part1.html): [CompetenceCS](CodeSystem-competence-code-system.md), [EXContact](StructureDefinition-EXContact.md)... Show 10 more, [EX_Actor](ActorDefinition-EX-Actor.md), [ExampleIG](index.md), [EyeColor](StructureDefinition-EyeColor.md), [EyeColorVS](ValueSet-EyeColorVS.md), [FrPatient](StructureDefinition-fr-patient.md), [MeltingPotVS](ValueSet-MeltingPotVS.md), [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md), [NomDuCapabilityStatement](CapabilityStatement-nom-du-capability-statement.md), [TypeCarteCS](CodeSystem-type-carte-code-system.md) and [TypeCarteVS](ValueSet-TypeCarteVS.md)
+* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.4.0/CodeSystem-ISO3166Part1.html): [CompetenceCS](CodeSystem-competence-code-system.md), [EXActor](ActorDefinition-ex-actor.md)... Show 11 more, [EXConceptMetier](StructureDefinition-EXConceptMetier.md), [EXContact](StructureDefinition-EXContact.md), [ExampleIG](index.md), [EyeColor](StructureDefinition-EyeColor.md), [EyeColorVS](ValueSet-EyeColorVS.md), [FrPatient](StructureDefinition-fr-patient.md), [MeltingPotVS](ValueSet-MeltingPotVS.md), [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md), [NomDuCapabilityStatement](CapabilityStatement-nom-du-capability-statement.md), [TypeCarteCS](CodeSystem-type-carte-code-system.md) and [TypeCarteVS](ValueSet-TypeCarteVS.md)
 
 
 * This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).

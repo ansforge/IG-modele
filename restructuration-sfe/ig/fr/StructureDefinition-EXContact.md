@@ -5,6 +5,17 @@
  
 Exemple concept métier contact 
 
+Le flag Must Support est ici utilisé sur les modèles logiques afin d'indiquer les attributs effectivement utilisés dans le cadre du cas d'usage du présent volet.
+
+## Vue logique du concept
+
+🔍+
+🔍−
+↻
+⛶
+
+  
+
 **Utilisations:**
 
 * Ce Modèle logique n'est utilisé par aucun autre profil dans ce guide d'implémentation
@@ -61,7 +72,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-EXContact.csv),
   "name" : "EXContact",
   "title" : "EX Contact",
   "status" : "draft",
-  "date" : "2026-07-31T07:50:12+00:00",
+  "date" : "2026-07-31T12:42:16+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

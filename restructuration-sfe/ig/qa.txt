@@ -1,16 +1,17 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 52, warn = 30, info = 15
+err = 59, warn = 30, info = 16
 IG Publisher Version: 2.2.11
-Generated Fri Jul 31 07:51:52 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.modele#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/modele)
- Build Errors : 59 / 4 / 0
- /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/ActorDefinition-EX-Actor : 0 / 0 / 4
+Generated Fri Jul 31 12:43:53 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.modele#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/modele)
+ Build Errors : 62 / 4 / 0
+ /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/ActorDefinition-ex-actor : 0 / 0 / 4
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/CapabilityStatement-nom-du-capability-statement : 1 / 0 / 2
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 3 / 2
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 3 / 2
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.modele : 0 / 0 / 3
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/Patient-frpatient-exemple : 0 / 1 / 1
+ /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EXConceptMetier : 0 / 0 / 3
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EXContact : 0 / 9 / 4
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 10
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 0 / 74
@@ -20,14 +21,21 @@ Generated Fri Jul 31 07:51:52 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.model
  /__w/IG-modele/IG-modele/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 2 / 2
 </table>
 == n/a ==
-ERROR: ToC: The ToC contains the page ActorDefinition-EX-Actor.xml.html more than once
-ERROR: ToC: The ToC contains the page ActorDefinition-EX-Actor.json.html more than once
-ERROR: ToC: The ToC contains the page ActorDefinition-EX-Actor.ttl.html more than once
-ERROR: ToC: The ToC contains the page ActorDefinition-EX-Actor-testing.html more than once
+ERROR: ToC: The ToC contains the page ActorDefinition-ex-actor.xml.html more than once
+ERROR: ToC: The ToC contains the page ActorDefinition-ex-actor.json.html more than once
+ERROR: ToC: The ToC contains the page ActorDefinition-ex-actor.ttl.html more than once
+ERROR: ToC: The ToC contains the page ActorDefinition-ex-actor-testing.html more than once
 ERROR: ToC: The ToC contains the page CapabilityStatement-nom-du-capability-statement.xml.html more than once
 ERROR: ToC: The ToC contains the page CapabilityStatement-nom-du-capability-statement.json.html more than once
 ERROR: ToC: The ToC contains the page CapabilityStatement-nom-du-capability-statement.ttl.html more than once
 ERROR: ToC: The ToC contains the page CapabilityStatement-nom-du-capability-statement-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-EXConceptMetier.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-EXConceptMetier.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-EXConceptMetier.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-EXConceptMetier-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-EXConceptMetier-testing.html more than once
+ERROR: ToC: Attempt to register a page file 'intro' more than once for the page StructureDefinition-EXContact.html. New Value 'StructureDefinition-EXContact-intro.md', existing value 'StructureDefinition-EXContact-intro.md'
+ERROR: ToC: Attempt to register a page file 'intro-type' more than once for the page StructureDefinition-EXContact.html. New Value 'md', existing value 'md'
 ERROR: ToC: The ToC contains the page StructureDefinition-EXContact.profile.xml.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-EXContact.profile.json.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-EXContact.profile.ttl.html more than once
@@ -71,21 +79,17 @@ ERROR: ToC: The ToC contains the page CodeSystem-type-carte-code-system-testing.
 ERROR: ToC: The ToC contains the page Patient-frpatient-exemple.xml.html more than once
 ERROR: ToC: The ToC contains the page Patient-frpatient-exemple.json.html more than once
 ERROR: ToC: The ToC contains the page Patient-frpatient-exemple.ttl.html more than once
+WARNING: /__w/IG-modele/IG-modele/igSource/output/en/StructureDefinition-EXContact.html#/html/body/div/div/div/div/div/div/script at Line 518, column 2: The <script> containing the javascript '(function() {   // A'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 5 other files)
 ERROR: en/annexe-downloads.html#/html/body/div/div/div/div/div/p/a at Line 249, column 48: The link 'package.tgz' for "téléchargeable ici" cannot be resolved
 ERROR: en/annexe-downloads.html#/html/body/div/div/div/div/div/p/a at Line 251, column 44: The link 'package.tgz' for "package.tgz" cannot be resolved
-WARNING: /__w/IG-modele/IG-modele/igSource/output/en/index.html#/html/body/div/div/div/div/div/script at Line 618, column 2: The <script> containing the javascript '(function() {   // A'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 3 other files)
-ERROR: en/spe-processus-collab-1.html#/html/body/div/div/div/div/div/figure/p/svg/g/g/a at Line 458, column 471: The link 'StructureDefinition-ex-concept-metier.html' for "EXConceptMetier" cannot be resolved
-ERROR: en/spe-processus-collab-1.html#/html/body/div/div/div/div/div/figure/p/svg/g/g/a at Line 458, column 1109: The link 'StructureDefinition-ex-contact.html' for "EXContact" cannot be resolved
 ERROR: fr/annexe-downloads.html#/html/body/div/div/div/div/div/p/a at Line 242, column 48: The link 'package.tgz' for "téléchargeable ici" cannot be resolved
 ERROR: fr/annexe-downloads.html#/html/body/div/div/div/div/div/p/a at Line 244, column 44: The link 'package.tgz' for "package.tgz" cannot be resolved
-ERROR: fr/spe-processus-collab-1.html#/html/body/div/div/div/div/div/figure/p/svg/g/g/a at Line 451, column 471: The link 'StructureDefinition-ex-concept-metier.html' for "EXConceptMetier" cannot be resolved
-ERROR: fr/spe-processus-collab-1.html#/html/body/div/div/div/div/div/figure/p/svg/g/g/a at Line 451, column 1109: The link 'StructureDefinition-ex-contact.html' for "EXContact" cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: An HTML fragment from the set [globals-table.xhtml, globals-table.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 5: An HTML fragment from the set [expansion-params.xhtml, expansion-params.xhtml] is not included anywhere in the produced implementation guide
-== fsh-generated/resources/ActorDefinition-EX-Actor.json ==
-INFORMATION: ActorDefinition/EX-Actor: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
-INFORMATION: Resource: The resource ActorDefinition/EX-Actor could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ActorDefinition-ex-actor.json ==
+INFORMATION: ActorDefinition/ex-actor: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+INFORMATION: Resource: The resource ActorDefinition/ex-actor could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CapabilityStatement-nom-du-capability-statement.json ==
 ERROR: CapabilityStatement/nom-du-capability-statement: CapabilityStatement: Constraint failed: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element. (rest.exists() or messaging.exists() or document.exists())'
 INFORMATION: Resource: The resource CapabilityStatement/nom-du-capability-statement could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -103,6 +107,8 @@ WARNING: Resource: The resource CodeSystem/type-carte-code-system should have an
 INFORMATION: Resource: The resource ImplementationGuide/ans.fhir.fr.modele could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Patient-frpatient-exemple.json ==
 WARNING: Patient/frpatient-exemple: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
+== fsh-generated/resources/StructureDefinition-EXConceptMetier.json ==
+INFORMATION: Resource: The resource StructureDefinition/EXConceptMetier could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-EXContact.json ==
 WARNING: StructureDefinition/EXContact: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
 WARNING: StructureDefinition/EXContact: StructureDefinition.snapshot.element[4].binding.valueSet: A definition could not be found for Canonical URL 'https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact?vs'
