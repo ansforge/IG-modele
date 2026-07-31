@@ -1,0 +1,18 @@
+@startuml
+
+hide stereotype
+
+skinparam component {
+  BorderColor black
+  BackgroundColor #SkyBlue
+  FontStyle bold
+}
+
+package "Domaine" #Seashell   {
+    package "Groupe de Processus" #Azure {
+        [Processus collaboratif 1] [[spe-processus-collab-1.html]]
+        [Processus collaboratif non traité] #LightGrey
+        }
+}
+
+@enduml 

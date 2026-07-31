@@ -1,0 +1,28 @@
+<style>
+body {
+  counter-reset: figures;
+}
+
+/* On incrémente seulement les figures qui ont une légende */
+figure:has(figcaption) {
+  counter-increment: figures;
+  margin: 1.5em 0;
+}
+
+/* Légende */
+
+figure figcaption {
+  text-align: center;
+  margin-top: 0.6em;
+  font-style: italic;
+  color: #555;
+  font-size: 0.95em;
+}
+
+figure figcaption:before {
+  content: 'Figure ' counter(figures) ' : ';
+  font-weight: bold;
+  font-style: normal;
+  color: #222;
+}
+</style>
