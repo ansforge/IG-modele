@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "TypeCarteVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs TypeCarteVS</b></p><a name=\"TypeCarteVS\"> </a><a name=\"hcTypeCarteVS\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-type-carte-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/modele/CodeSystem/type-carte-code-system</code></a><span title=\"La version est explicitement indiquée comme étant 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TypeCarteVS</b></p><a name=\"en-TypeCarteVS\"> </a><a name=\"en-hcTypeCarteVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-type-carte-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/modele/CodeSystem/type-carte-code-system</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/modele/ValueSet/TypeCarteVS",
+  "version" : "0.1.0",
+  "name" : "TypeCarteVS",
+  "title" : "Type Carte Value Set",
+  "status" : "draft",
+  "date" : "2026-07-31T07:50:12+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type Carte Value Set.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/modele/CodeSystem/type-carte-code-system",
+      "version" : "0.1.0"
+    }]
+  }
+}

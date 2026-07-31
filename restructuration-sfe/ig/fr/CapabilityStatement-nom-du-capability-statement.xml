@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="nom-du-capability-statement"/>
+  <language value="fr"/>
+  <text>
+    <status value="extensions"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CapabilityStatement nom-du-capability-statement</b></p><a name="nom-du-capability-statement"> </a><a name="hcnom-du-capability-statement"> </a><h2 id="title">Nom du Capability statement</h2><ul><li>Version du guide d'implémentation : 0.1.0 </li><li>Version de FHIR : 4.0.1 </li><li>Formats supportés : <code>json</code>, <code>xml</code></li><li>Publié sur : 2026-07-20 </li><li>Publié par : Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris </li></ul><blockquote class="impl-note"><p><strong>Note aux implémenteurs : capacités FHIR</strong></p><p>Toute capacité FHIR peut être 'autorisée' par le système sauf si elle est explicitement marquée comme 'SHALL NOT'. Quelques éléments sont marqués comme MAY dans le guide d'implémentation pour souligner leur pertinence potentielle pour le cas d'usage.</p></blockquote></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/modele/CapabilityStatement/nom-du-capability-statement"/>
+  <version value="0.1.0"/>
+  <name value="NomDuCapabilityStatement"/>
+  <title value="Nom du Capability statement"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-20"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Description du capability statement."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="json"/>
+  <format value="xml"/>
+</CapabilityStatement>

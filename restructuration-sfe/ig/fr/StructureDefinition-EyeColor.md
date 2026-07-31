@@ -1,0 +1,136 @@
+# EyeColor - ANS IG Example v0.1.0
+
+## Extension: 
+
+Eye color extension
+
+**Context of Use**
+
+**Usage info**
+
+**Utilisations:**
+
+* Utilise ce/t/te Extension: [Patient français](StructureDefinition-fr-patient.md)
+
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.modele|current/StructureDefinition/EyeColor)
+
+### Vues formelles du contenu de l'extension
+
+ [Description des profils, des différentiels, des instantanés et de leurs représentations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+*  [Tableau différentiel (differential)](#tabs-diff) 
+*  [Tableau récapitulatif (snapshot)](#tabs-snap) 
+*  [Statistiques/Références](#tabs-summ) 
+*  [Tous](#tabs-all) 
+
+Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+#### Bindings terminologiques (différentiel)
+
+#### Bindings terminologiques
+
+#### Contraintes
+
+Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+** Résumé **
+
+Extension simple avec le type CodeableConcept : Eye color extension
+
+ **Vue différentielleDifferential View** 
+
+Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+#### Bindings terminologiques (différentiel)
+
+ **Vue d'ensemble** 
+
+#### Bindings terminologiques
+
+#### Contraintes
+
+Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+** Résumé **
+
+Extension simple avec le type CodeableConcept : Eye color extension
+
+ 
+
+Autres représentations du profil : [CSV](../StructureDefinition-EyeColor.csv), [Excel](../StructureDefinition-EyeColor.xlsx), [Schematron](../StructureDefinition-EyeColor.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "EyeColor",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/modele/StructureDefinition/EyeColor",
+  "version" : "0.1.0",
+  "name" : "EyeColor",
+  "status" : "draft",
+  "date" : "2026-07-31T07:50:12+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Eye color extension",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "Element"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "definition" : "Eye color extension"
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/modele/StructureDefinition/EyeColor"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/modele/ValueSet/EyeColorVS|0.1.0"
+      }
+    }]
+  }
+}
+
+```

@@ -1,0 +1,41 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"EXContact","EXContact","","","",0,*,"","","","null {[]} {[]}
+","EX Contact","Exemple concept métier contact","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"EXContact.IdContact","EXContact.IdContact","","","",0,1,"","","","Identifier {[]} {[]}
+","Identifiant du contact.","Identifiant du contact.","","","","","","","","","",,,,,"",,,,"Contact.IdContact",0,1,"",""
+"EXContact.nom","EXContact.nom","","","",0,1,"","","","string {[]} {[]}
+","Un nom de la personne ou du service à contacter.","Un nom de la personne ou du service à contacter.","","","","","","","","","",,,,,"",,,,"Contact.nom",0,1,"",""
+"EXContact.fonction","EXContact.fonction","","","",0,1,"","","","string {[]} {[]}
+","Un titre, une position ou une fonction de la personne assurant le contact au sein de son organisation (directeur, secrétaire, etc.).","Un titre, une position ou une fonction de la personne assurant le contact au sein de son organisation (directeur, secrétaire, etc.).","","","","","","","","","",,,,,"",,,,"Contact.fonction",0,1,"",""
+"EXContact.fonctionContact","EXContact.fonctionContact","","","",0,1,"","","","Coding {[]} {[]}
+","Code du titre, de la position ou de la fonction de la personne assurant le contact au sein de son organisation (directeur, secrétaire, etc.).","Code du titre, de la position ou de la fonction de la personne assurant le contact au sein de son organisation (directeur, secrétaire, etc.).","","","","","","","","","",,"preferred","","https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact?vs","",,,,"Contact.fonctionContact",0,1,"",""
+"EXContact.natureContact","EXContact.natureContact","","","",0,1,"","","","Coding {[]} {[]}
+","Un service ou un guichet assurant le contact au sein de l'organisation (accueil, admission, etc.).","Un service ou un guichet assurant le contact au sein de l'organisation (accueil, admission, etc.).","","","","","","","","","",,"preferred","","https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact?vs","",,,,"Contact.natureContact",0,1,"",""
+"EXContact.description","EXContact.description","","","",0,1,"","","","string {[]} {[]}
+","Une description du contact.","Une description du contact.","","","","","","","","","",,,,,"",,,,"Contact.description",0,1,"",""
+"EXContact.type","EXContact.type","","","",0,1,"","","","Coding {[]} {[]}
+","Type du point de contact, c'est à dire un téléservice, un point de contact physique (une personne), un contact téléphonique, etc.","Type du point de contact, c'est à dire un téléservice, un point de contact physique (une personne), un contact téléphonique, etc.","","","","","","","","","",,"preferred","","https://mos.esante.gouv.fr/NOS/TRE_R206-TypeContact/FHIR/TRE-R206-TypeContact?vs","",,,,"Contact.type",0,1,"",""
+"EXContact.personne","EXContact.personne","","","",0,1,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/PersonnePhysique {[]} {[]}
+","Informations détaillées de la personne point de contact.","Informations détaillées de la personne point de contact.","","","","","","","","","",,,,,"",,,,"Contact.personne",0,1,"",""
+"EXContact.role","EXContact.role","","","",0,1,"Y","","","Coding {[]} {[]}
+","Rôle de la personne point de contact auprès d'une autre personne. Exemple dans le cas d'un patient, ce rôle indique si le point de contact est la personne à prévenir en cas d'urgence, la personne de confiance, etc.","Rôle de la personne point de contact auprès d'une autre personne. Exemple dans le cas d'un patient, ce rôle indique si le point de contact est la personne à prévenir en cas d'urgence, la personne de confiance, etc.","","","","","","","","","",,"preferred","","https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass?vs","",,,,"Contact.role",0,1,"",""
+"EXContact.relation","EXContact.relation","","","",0,1,"","","","Coding {[]} {[]}
+","Lien de la personne point de contact auprès d'une autre personne. Exemple dans le cas d'un patient, ce lien indique si le point de contact est son enfant, son frère, etc.","Lien de la personne point de contact auprès d'une autre personne. Exemple dans le cas d'un patient, ce lien indique si le point de contact est son enfant, son frère, etc.","","","","","","","","","",,"preferred","","https://interop.esante.gouv.fr/ig/mos/ValueSet/relation-vs|0.1.0-ballot","",,,,"Contact.relation",0,1,"",""
+"EXContact.dateDebut","EXContact.dateDebut","","","",0,1,"","","","dateTime {[]} {[]}
+","Date/heure à partir de laquelle le contact est effectif.","Date/heure à partir de laquelle le contact est effectif.","","","","","","","","","",,,,,"",,,,"Contact.dateDebut",0,1,"",""
+"EXContact.dateFin","EXContact.dateFin","","","",0,1,"","","","dateTime {[]} {[]}
+","Date/heure à partir de laquelle le contact n'est plus effectif.","Date/heure à partir de laquelle le contact n'est plus effectif.","","","","","","","","","",,,,,"",,,,"Contact.dateFin",0,1,"",""
+"EXContact.niveauConfidentialite","EXContact.niveauConfidentialite","","","",0,1,"","","","Coding {[]} {[]}
+","Le niveau de confidentialité permet de définir le niveau de restriction de l'accès aux attributs de la classe Contact.","Le niveau de confidentialité permet de définir le niveau de restriction de l'accès aux attributs de la classe Contact.","","","","","","","","","",,"preferred","","https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite?vs","",,,,"Contact.niveauConfidentialite",0,1,"",""
+"EXContact.adresse","EXContact.adresse","","","",0,1,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/Adresse {[]} {[]}
+","Adresse géopostale du point de contact.","Adresse géopostale du point de contact.","","","","","","","","","",,,,,"",,,,"Contact.adresse",0,1,"",""
+"EXContact.lieu","EXContact.lieu","","","",0,*,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/Lieu {[]} {[]}
+","Lieu(x) rattaché(s) au contact.","Lieu(x) rattaché(s) au contact.","","","","","","","","","",,,,,"",,,,"Contact.lieu",0,*,"",""
+"EXContact.telecommunication","EXContact.telecommunication","","","",0,*,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/Telecommunication {[]} {[]}
+","Adresse(s) de télécommunication du contact (numéro de téléphone, adresse email, URL, etc.).","Adresse(s) de télécommunication du contact (numéro de téléphone, adresse email, URL, etc.).","","","","","","","","","",,,,,"",,,,"Contact.telecommunication",0,*,"",""
+"EXContact.NoteLiaison","EXContact.NoteLiaison","","","",0,*,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/NoteLiaison {[]} {[]}
+","Lien vers la classe NoteLiaison","Lien vers la classe NoteLiaison","","","","","","","","","",,,,,"",,,,"Contact.NoteLiaison",0,*,"",""
+"EXContact.Agenda","EXContact.Agenda","","","",0,*,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/Agenda {[]} {[]}
+","Lien vers la classe Agenda","Lien vers la classe Agenda","","","","","","","","","",,,,,"",,,,"Contact.Agenda",0,*,"",""
+"EXContact.RendezVous","EXContact.RendezVous","","","",0,*,"","","","https://interop.esante.gouv.fr/ig/mos/StructureDefinition/RendezVous {[]} {[]}
+","Lien vers la classe RendezVous","Lien vers la classe RendezVous","","","","","","","","","",,,,,"",,,,"Contact.RendezVous",0,*,"",""

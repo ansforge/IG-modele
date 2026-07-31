@@ -1,0 +1,25 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/modele/CodeSystem/competence-code-system",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "CompetenceCS",
+    "title" : "Compétences CodeSystem",
+    "description" : "Compétences des professionnels de santé.",
+    "uses" : {
+    },
+    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/modele/CodeSystem/type-carte-code-system",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TypeCarteCS",
+    "title" : "Type de carte",
+    "description" : "Type de carte professionnelle et personnelle.",
+    "uses" : {
+    },
+    "ValueSet-TypeCarteVS.html" : "Type Carte Value Set",
+    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+  }]
+}
