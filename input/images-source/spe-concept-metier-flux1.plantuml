@@ -1,0 +1,25 @@
+@startuml 
+!theme carbon-gray
+skinparam classAttributeIconSize 0
+skinparam classAttributeFontSize 10
+skinparam padding 2
+skinparam noteFontSize 11
+
+skinparam ranksep 50
+skinparam nodesep 50
+
+rectangle "[[StructureDefinition-EXConceptMetier.html EXConceptMetier]]" as 1 #Pink
+rectangle "[[StructureDefinition-EXContact.html EXContact]]" as 2 #PeachPuff 
+
+'' Relations''
+1  "1" -- "1" 2
+
+
+legend right
+|= Légende|= Correspondance MOS |
+|<#Pink>| extension |
+|<#PeachPuff>| restriction |
+|<#Lavender>| équivalence |
+endlegend
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+
+hide footbox
+
+skinparam backgroundColor #FFFFFF
+skinparam sequence {
+    ArrowThickness 1
+    LifeLineBorderColor #Black
+    LifeLineBackgroundColor #White
+    ParticipantBorderColor #Black
+    ParticipantFontStyle bold
+}
+
+participant "Acteur 1" as 1 #SkyBlue
+participant "Acteur 2" as 2 #SkyBlue
+
+1 -> 2 : Action 1
+activate 1
+2 --> 1 : Action 2
+deactivate 1 
+
+@enduml

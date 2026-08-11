@@ -1,0 +1,10 @@
+@startuml
+
+hide footbox
+
+participant "Acteur 1" as 1 
+participant "Acteur 2" as 2
+
+1 -> 2 : flux 1
+
+@enduml

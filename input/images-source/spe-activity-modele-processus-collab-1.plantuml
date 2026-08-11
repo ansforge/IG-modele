@@ -1,0 +1,17 @@
+@startuml
+
+skinparam backgroundColor #fcf6eb
+skinparam activityBackgroundColor #efd9fc
+skinparam activityBorderColor #000000
+skinparam shadowing false
+skinparam defaultFontSize 12
+
+|Acteur 1|
+start
+:         Action 1          ;
+:         Action 2          ;
+-[dashed]-> flux 1 - **Exemple Flux**;
+|Acteur 2|
+:         Action 3          ;
+stop 
+@enduml
