@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/ansforge/fhir-ig-builder:latest
+    # Sérialise les écritures sur gh-pages avec fhir-workflows.yml (même groupe, scopé au repo entier).
+    concurrency:
+      group: gh-pages-${{ github.repository }}
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v3
         with:      
