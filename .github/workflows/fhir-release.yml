@@ -9,6 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/ansforge/fhir-ig-builder:latest
+    # Sérialise les écritures sur gh-pages avec fhir-workflows.yml (même groupe, scopé au repo
+    # entier) — depuis le passage au squash (1 commit orphelin par run, cf.
+    # ansforge/interop-IG-workflows), deux runs concurrents pourraient sinon s'écraser l'un
+    # l'autre silencieusement. Pas de cancel-in-progress : chaque run légitime attend son tour.
+    concurrency:
+      group: gh-pages-${{ github.repository }}
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v3
         with:      
